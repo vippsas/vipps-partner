@@ -45,7 +45,6 @@ If you’ve developed a proprietary platform with more than 20 active merchants,
 
 An example of how the API is used optimally, by our [partner 24Nettbutikk](https://support.24nettbutikk.no/nb/articles/2332760-vipps)
 
-To understand some of the aspects of the Signup-API, you need to understand our pricing and kick-back model: (Link til avsnittet om dette i Fase 3)
 All our Github API-pages have extensive Frequently Asked Questions-sections (FAQs). As we receive a high number of emails every day, we urge you to check the FAQs before contacting us. If you still can’t find what you're looking for, you can contact us [using this mail format](https://github.com/vippsas/vipps-developers/blob/master/contact.md#what-to-include-in-the-email)
 
 
