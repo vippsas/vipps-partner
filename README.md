@@ -55,6 +55,8 @@ In addition, as a partner you are required to complete the following:
 - [ ] As a partner you accept the [Partner terms and conditions](https://github.com/vippsas/vipps-developers/blob/master/partners/partnerterms.md)
 - [ ] Technical documentation for merchants
      - [ ] Documentation for merchants regarding how to apply for Vipps products
+     - [ ] Documentation for merchants regarding how to configure and use the module
+     - [ ] FAQ for merchants 
 - [ ] Find a pilot customer to verify the integration in production environment
 
 When the integration checklist is completed and verified by Vipps Integration team, the partner receives an email from Vipps saying that the implementation is OK.
