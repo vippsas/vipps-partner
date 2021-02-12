@@ -54,7 +54,7 @@ All our Github API-pages have extensive Frequently Asked Questions-sections (FAQ
 An integration is considered finished when all the elements of the [integration checklist are done](https://github.com/vippsas/vipps-ecom-api/blob/master/vipps-ecom-api-checklist.md#checklist). 
 
 In addition, as a partner you are required to complete the following:
-- [ ] As a partner you accept the [Partner terms and conditions](https://github.com/vippsas/vipps-developers/blob/master/partners/partnerterms.md)
+- [ ] As a partner you accept the [Partner terms and conditions](https://github.com/vippsas/vipps-partner/blob/main/partnerterms.md)
 - [ ] Technical documentation for merchants
      - [ ] Documentation for merchants regarding how to apply for Vipps products
      - [ ] Documentation for merchants regarding how to configure and use the module
