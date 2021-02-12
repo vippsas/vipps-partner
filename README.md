@@ -23,7 +23,9 @@ However, since you're reading this text on a Github-page you’re probably past 
 ## Phase 2: Technical integration
 
 In this phase you will integrate one or more of Vipps' eCom APIs in your own system (typically proprietary platform partners) or in your customers systems (typically integration partners). After you register your interest in becoming a [Vipps partner at vipps.no]( https://vipps.no/developer/bli-partner/), you will receive a test account and access to our Merchant Test Environment. 
-We strive to provide access within 48 hours. 
+We strive to provide access within 5 working days.
+
+Note that even with access to test environment, there will be a KYC process before any sale units can be added to production. The setup and payment flow must follow Vipps terms and conditions and Norwegian law. 
 
 The development and integration with Vipps can now start.
 
