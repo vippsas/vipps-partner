@@ -33,7 +33,7 @@ The development and integration with Vipps can now start.
 
 * [Starting point for developers](https://github.com/vippsas/vipps-developers#vipps-developers)
 * [Vipps eCom API](https://github.com/vippsas/vipps-ecom-api#vipps-ecommerce-api-version-2) (Single payments and Express Checkout)
-* [Vipps Login API](https://github.com/vippsas/vipps-ecom-api#vipps-ecommerce-api-version-2)
+* [Vipps Login API](https://github.com/vippsas/vipps-login-api#vipps-login-api)
 * [Vipps Recurring API](https://github.com/vippsas/vipps-recurring-api#vipps-recurring-api)
 
 ### Plugins
