@@ -8,7 +8,7 @@
 * Velger [Partner] som partner i nedtrekksmenyen med tilhørende pris
 * Fyller ut skjema
 * Sender avtalen på side 3 til signering fra person med signaturrett i selskapet. Signaturkontroll blir gjort mot opplysninger i Brønnøysundregistrene.
-** *Dersom flere personer i selskapet har signaturrett i fellesskap (f.eks. styreleder og ett styremedlem i fellesskap), er det personen høyest opp i hierarkiet som må signere. Det er ikke mulig at flere signerer avtalen*
+  * *Dersom flere personer i selskapet har signaturrett i fellesskap (f.eks. styreleder og ett styremedlem i fellesskap), er det personen høyest opp i hierarkiet som må signere. Det er ikke mulig at flere signerer avtalen*
 * Søknaden om Vipps på Nett går nå til kontroll/gjennomgang (KYC og AML) hos brukerstedsservice.
 
 **Det kan skje at søknader stopper opp, så det kan være greit å ha kontroll på hva som eventuelt kan forårsake dette:**
@@ -22,7 +22,7 @@ https://www.forbrukertilsynet.no/lov-og-rett/veiledninger-og-retningslinjer/stan
 Søknaden godkjennes når alt er på plass, og salgsenhet legges opp
 
 * Gitt at Partner bruker supermerchant-nøkler, blir Merchant Serial Number (MSN) for salgsstedet sendt på epost til Partner (fra partnerbestilling@vipps.no).
-** Uten bruk av supermerchant-nøkler: API-nøkler sendes enten via callback (krever integrasjon av Signup API), alternativt hentes nøkler ut av merchant sin administrator fra https://portal.vipps.no.
+  * Uten bruk av supermerchant-nøkler: API-nøkler sendes enten via callback (krever integrasjon av Signup API), alternativt hentes nøkler ut av kunden sin administrator fra https://portal.vipps.no.
 * Partner fullfører integrasjonen for kunden
 
 ### 2-	Om Brukerstedet har en Vipps på nett avtale:
