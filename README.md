@@ -61,7 +61,8 @@ In addition, as a partner you are required to complete the following:
      - [ ] FAQ for merchants 
 - [ ] Find a pilot customer to verify the integration in production environment
 
-When the integration checklist is completed and verified by Vipps Integration team, the partner receives an email from Vipps saying that the implementation is OK.
+When the integration checklist is completed, send a notification to integration@vipps.no. 
+Vipps Integration team will verify the implemented solution, the partner receives an email from Vipps saying that the implementation is OK.
 
 Vipps adds the partner to vipps.no, including the signup forms for merchants.
 
