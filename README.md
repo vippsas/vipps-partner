@@ -2,7 +2,7 @@
 
 💥 Work in progress! 💥
 
-Document version: 0.11.0
+Document version: 0.12.0
 
 Vipps wants to make payment and identification liberatingly easy - together with our partners. We believe in the magic that arises through collaboration. 
 
@@ -28,6 +28,29 @@ We strive to provide access within 5 working days.
 Note that even with access to test environment, there will be a KYC process before any sale units can be added to production. The setup and payment flow must follow Vipps terms and conditions and Norwegian law. 
 
 The development and integration with Vipps can now start.
+
+### Partner keys
+
+As a partner you can manage transactions on behalf of other Vipps merchants.
+Vipps will provide you withpartner keys, which allowsd you to use your own API credentials to
+make API calls on behalf of your merchants (only for the sale units that are linked to you as a partner, though).
+
+With the partner keys you authenticate in the normal way, and then send
+the required `Merchant-Serial-Number` header to identify which of your merchants you are
+acting on behalf of.
+
+The same set of partner keys can be used for all your merchants' sale units, for both the
+[Vipps eCom API](https://github.com/vippsas/vipps-ecom-api)
+and the
+[Vipps Recurring API](https://github.com/vippsas/vipps-recurring-api),
+including the
+[Userinfo](#use-userinfo)
+endpoints for both.
+
+See:
+[Partner keys for eCom](https://github.com/vippsas/vipps-ecom-api/blob/master/vipps-ecom-api.md#partner-keys)
+and
+[Partner keys for Recurring](https://github.com/vippsas/vipps-recurring-api/blob/master/vipps-recurring-api.md#partner-keys)
 
 ### Relevant links
 
