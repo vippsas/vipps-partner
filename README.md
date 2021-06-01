@@ -32,7 +32,7 @@ The development and integration with Vipps can now start.
 ### Partner keys
 
 As a partner you can manage transactions on behalf of other Vipps merchants.
-Vipps will provide you withpartner keys, which allowsd you to use your own API credentials to
+Vipps will provide you with _partner keys_, which allows you to use your own API credentials to
 make API calls on behalf of your merchants (only for the sale units that are linked to you as a partner, though).
 
 With the partner keys you authenticate in the normal way, and then send
