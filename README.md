@@ -52,6 +52,11 @@ See:
 and
 [Partner keys for Recurring](https://github.com/vippsas/vipps-recurring-api/blob/master/vipps-recurring-api.md#partner-keys)
 
+**Please note:** Vipps payments can only be made to merchants that have a customer relationship with Vipps,
+and that have gone through the required compliance checks, etc. It is not possible to pay the partner
+instead of the merchant. See also:
+[Can I create a marketplace with multiple merchants?](https://github.com/vippsas/vipps-ecom-api/blob/master/vipps-ecom-api-faq.md#can-i-create-a-marketplace-with-multiple-merchants)
+
 ### Relevant links
 
 * [Starting point for developers](https://github.com/vippsas/vipps-developers#vipps-developers)
