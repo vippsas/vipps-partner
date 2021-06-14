@@ -110,21 +110,6 @@ Underneath we will give an overview of the most important information you’ll n
 2. Vipps completes customer control (KYC, PEP, AML, etc).
 3. Merchant keys are available for the merchant on [portal.vipps.no](https://portal.vipps.no), or sent directly to partner if [signup API](https://github.com/vippsas/vipps-signup-api) is implemented.
 
-
-## Partner keys
-
-**Note: This is new functionality currently being rolled out.**
-
-A partner may get API keys that also work for all the partner's merchants.
-This means that the partner does noe have to manage the API keys for
-every merchant: It is sufficient to use the partner's own API keys.
-
-The partner's API keys only work for merchants that are registered in Vipps as customers of that partner.
-
-Please note that partner keys are currently only available for eCom API. 
-
-
-
 ## Questions?
 
 We're always happy to help with code or other questions you might have!
