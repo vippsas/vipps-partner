@@ -8,15 +8,28 @@ Vipps wants to make payment and identification liberatingly easy - together with
 
 If you and your merchants have a good volume and great potential, we would like to have you on the team as a partner. The goal of the partner program is to find areas where we can work closely together and experience good growth - together. The collaboration will give you good exposure and opportunities for even better solutions for our customers.
 
-## How to become a Vipps partner
+# Table of Contents
 
-### Apply on vipps.no
+* [How to become a Vipps partner](#how-to-become-a-vipps-partner)
+  + [Apply on vipps.no](#apply-on-vippsno)
+  + [Integrate with the Vipps APIs](#integrate-with-the-vipps-apis)
+  + [Finishing the integration and going live](#finishing-the-integration-and-going-live)
+- [Technical information for partners](#technical-information-for-partners)
+* [Partner keys](#partner-keys)
+* [Merchant Management API](#merchant-management-api)
+* [Plugin development](#plugin-development)
+- [How to sign up new merchants](#how-to-sign-up-new-merchants)
+- [Questions?](#questions-)
+
+# How to become a Vipps partner
+
+## Apply on vipps.no
 
 Please visit our
 [partner page at Vipps.no]( https://vipps.no/developer/bli-partner/),
 read through our FAQ, and fill out the form.
 
-### Integrate with the Vipps APIs
+## Integrate with the Vipps APIs
 
 You will receive an email with detail about access to our
 [test environment](https://github.com/vippsas/vipps-developers/blob/master/vipps-test-environment.md).
@@ -28,7 +41,7 @@ All developer resources are available on
 checks required by law, and for most partners this is not relevant, as
 it is the partner's _merchants_ that will need production access.
 
-### Finishing the integration and going live
+## Finishing the integration and going live
 
 An integration is considered finished when all the elements of the
 relevant APIs checklist are done (see the checklists for the
