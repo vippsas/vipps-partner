@@ -2,34 +2,56 @@
 
 💥 Work in progress! 💥
 
-Document version: 0.12.0
+Document version: 0.13.0
 
-Vipps wants to make payment and identification liberatingly easy - together with our partners. We believe in the magic that arises through collaboration. 
+Vipps wants to make payment and identification liberatingly easy - together with our partners. We believe in the magic that arises through collaboration.
 
 If you and your merchants have a good volume and great potential, we would like to have you on the team as a partner. The goal of the partner program is to find areas where we can work closely together and experience good growth - together. The collaboration will give you good exposure and opportunities for even better solutions for our customers.
 
+## How to become a Vipps partner
 
-## Phase 1: 
+### Apply on vipps.no
 
-Potential Vipps partners are curious about the partner program.
+Please visit our
+[partner page at Vipps.no]( https://vipps.no/developer/bli-partner/),
+read through our FAQ, and fill out the form.
 
-In this phase potential partners are curious about the Vipps partner program and what it entails. 
-We ask our potential partners to visit our [partner page at Vipps.no]( https://vipps.no/developer/bli-partner/), scroll down and read through our FAQ. 
-When that is done, we ask you to register yourselves through our form on the same page. 
+### Integrate with the Vipps APIs
 
-By becoming a Vipps-partner you accept these [terms and conditions]( https://github.com/vippsas/vipps-partner/blob/main/partnerterms.md). 
-However, since you're reading this text on a Github-page you’re probably past this stage.
+You will receive an email with detail about access to our
+[test environment](https://github.com/vippsas/vipps-developers/blob/master/vipps-test-environment.md).
 
-## Phase 2: Technical integration
+All developer resources are available on
+[GitHub](https://github.com/vippsas/vipps-developers).
 
-In this phase you will integrate one or more of Vipps' eCom APIs in your own system (typically proprietary platform partners) or in your customers systems (typically integration partners). After you register your interest in becoming a [Vipps partner at vipps.no]( https://vipps.no/developer/bli-partner/), you will receive a test account and access to our Merchant Test Environment. 
-We strive to provide access within 5 working days.
+**Please note:** Access to the production environment requires thorough
+checks required by law, and for most partners this is not relevant, as
+it is the partner's _merchants_ that will need production access.
 
-Note that even with access to test environment, there will be a KYC process before any sale units can be added to production. The setup and payment flow must follow Vipps terms and conditions and Norwegian law. 
+### Finishing the integration and going live
 
-The development and integration with Vipps can now start.
+An integration is considered finished when all the elements of the
+relevant APIs checklist are done (see the checklists for the
+[eCom API](https://github.com/vippsas/vipps-ecom-api/blob/master/vipps-ecom-api-checklist.md)
+and the
+[Recurring API](https://github.com/vippsas/vipps-recurring-api/blob/master/vipps-recurring-api-checklist.md)).
 
-### Partner keys
+In addition, all partners are required to complete the following:
+- [ ] As a partner you accept the [Partner terms and conditions](https://github.com/vippsas/vipps-partner/blob/main/partnerterms.md)
+- [ ] Technical documentation for merchants
+     - [ ] Documentation for merchants regarding how to apply for Vipps products
+     - [ ] Documentation for merchants regarding how to configure and use the module
+     - [ ] FAQ for merchants
+- [ ] Provide one pilot customer to verify the integration in production environment
+
+When the integration checklist is completed, send a notification to integration@vipps.no.
+Vipps Integration team will verify the implemented solution, the partner receives an email from Vipps saying that the implementation is OK.
+
+Vipps adds the partner to vipps.no, including the signup forms for merchants.
+
+# Technical information for partners
+
+## Partner keys
 
 As a partner you can manage transactions on behalf of other Vipps merchants.
 Vipps will provide you with _partner keys_, which allows you to use your own API credentials to
@@ -53,64 +75,48 @@ and
 [Partner keys for Recurring](https://github.com/vippsas/vipps-recurring-api/blob/master/vipps-recurring-api.md#partner-keys)
 
 **Please note:** Vipps payments can only be made to merchants that have a customer relationship with Vipps,
-and that have gone through the required compliance checks, etc. It is not possible to pay the partner
-instead of the merchant. See also:
+and that have gone through the required compliance checks, etc after ordering Vipps on
+[portal.vipps.no](https://portal.vipps.no).
+It is not possible to pay the partner instead of the merchant. See also:
 [Can I create a marketplace with multiple merchants?](https://github.com/vippsas/vipps-ecom-api/blob/master/vipps-ecom-api-faq.md#can-i-create-a-marketplace-with-multiple-merchants)
 
-### Relevant links
+## Merchant Management API
 
-* [Starting point for developers](https://github.com/vippsas/vipps-developers#vipps-developers)
-* [Vipps eCom API](https://github.com/vippsas/vipps-ecom-api#vipps-ecommerce-api-version-2) (Single payments and Express Checkout)
-* [Vipps Login API](https://github.com/vippsas/vipps-login-api#vipps-login-api)
-* [Vipps Recurring API](https://github.com/vippsas/vipps-recurring-api#vipps-recurring-api)
+An early version of the Vipps Merchant Management API is available on GitHub:
+https://github.com/vippsas/vipps-merchant-management-api
 
-### Plugins
+The Vipps Merchant Management API will let partners, banks and large corporations
+manage their merchants and sale units. See the GitHub repository for
+background and priorities.
 
-If you’re an integration partner we have a number of plugins for different open-source plattforms you can (and should) use to integrate Vipps.
-[See our plugin section](https://github.com/vippsas/vipps-plugins). 
+## Plugin development
 
-### Signup-API
+If you’re an integration partner we have a number of plugins for different open
+source plattforms you can (and should) use to integrate Vipps.
+[See our plugin section](https://github.com/vippsas/vipps-plugins).
 
-If you’ve developed a proprietary platform with more than 20 active merchants, we would recommend that you integrate our Signup-API. This API automates part of the onboarding process and makes it easier for your customers to register as a Vipps eCom-customer. Go to [Signup API documentation](https://github.com/vippsas/vipps-signup-api)
+# How to sign up new merchants
 
-An example of how the API is used optimally, by our [partner 24Nettbutikk](https://support.24nettbutikk.no/nb/articles/2332760-vipps)
-
-All our Github API-pages have extensive Frequently Asked Questions-sections (FAQs). As we receive a high number of emails every day, we urge you to check the FAQs before contacting us. If you still can’t find what you're looking for, you can contact us [using this mail format](https://github.com/vippsas/vipps-developers/blob/master/contact.md#what-to-include-in-the-email)
-
-
-### Finishing the integration and going live
-An integration is considered finished when all the elements of the [integration checklist are done](https://github.com/vippsas/vipps-ecom-api/blob/master/vipps-ecom-api-checklist.md#checklist). 
-
-In addition, as a partner you are required to complete the following:
-- [ ] As a partner you accept the [Partner terms and conditions](https://github.com/vippsas/vipps-partner/blob/main/partnerterms.md)
-- [ ] Technical documentation for merchants
-     - [ ] Documentation for merchants regarding how to apply for Vipps products
-     - [ ] Documentation for merchants regarding how to configure and use the module
-     - [ ] FAQ for merchants 
-- [ ] Find a pilot customer to verify the integration in production environment
-
-When the integration checklist is completed, send a notification to integration@vipps.no. 
-Vipps Integration team will verify the implemented solution, the partner receives an email from Vipps saying that the implementation is OK.
-
-Vipps adds the partner to vipps.no, including the signup forms for merchants.
-
-
-
-## Phase 3 The partner is live and offering Vipps to its customers
-
-Congratulations, you’re officially a Vipps partner and you and your customers can start to reap the benefits of the partnership. The best Vipps partners spend some time familiarizing themselves with our products, how our onboarding process works, our brand, the important elements of our pricing and kick-back models, before diving head first into the partnership. 
-Underneath we will give an overview of the most important information you’ll need to help your customers enjoy the benefits of using vipps.
-
-
-### The partner are now able to activate merchants
-
-1. The merchant signs up from either
-   A: Vipps.no, [Vipps på Nett](https://www.vipps.no/produkter-og-tjenester/bedrift/ta-betalt-paa-nett/ta-betalt-paa-nett/) and selects the partner in the form.
-   B: From the partner signup form connected to the [signup API](https://github.com/vippsas/vipps-signup-api) 
+1. The merchant applies for Vipps on
+   [portal.vipps.no](https://portal.vipps.no)
+   and selects the correct product and partner.
 2. Vipps completes customer control (KYC, PEP, AML, etc).
-3. Merchant keys are available for the merchant on [portal.vipps.no](https://portal.vipps.no), or sent directly to partner if [signup API](https://github.com/vippsas/vipps-signup-api) is implemented.
+3. The merchant is notified that their application is approved and can use Vipps.
 
-## Questions?
+The merchant can check the status of their application on
+[portal.vipps.no](https://portal.vipps.no)
+at any time.
+
+The partner can check if a merchant is active by attempting to initiate a
+payment (without completing it). Until the merchant is approved, there will be
+an error:
+[Merchant not available or deactivated or blocked](https://github.com/vippsas/vipps-ecom-api/blob/master/vipps-ecom-api-faq.md#why-do-i-get-errorcode-37-merchant-not-available-or-deactivated-or-blocked).
+
+The legacy [Signup API](https://github.com/vippsas/vipps-signup-api)
+is still available for partners that have started using it, but new partners
+should use partner keys and the Merchant Management API when available.
+
+# Questions?
 
 We're always happy to help with code or other questions you might have!
 Please create an [issue](https://github.com/vippsas/vipps-developers/issues),
