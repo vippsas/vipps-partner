@@ -10,14 +10,14 @@ If you and your merchants have a good volume and great potential, we would like 
 
 # Table of Contents
 
-* [How to become a Vipps partner](#how-to-become-a-vipps-partner)
-  + [Apply on vipps.no](#apply-on-vippsno)
-  + [Integrate with the Vipps APIs](#integrate-with-the-vipps-apis)
-  + [Finishing the integration and going live](#finishing-the-integration-and-going-live)
+- [How to become a Vipps partner](#how-to-become-a-vipps-partner)
+  * [Apply on vipps.no](#apply-on-vippsno)
+  * [Integrate with the Vipps APIs](#integrate-with-the-vipps-apis)
+  * [Finishing the integration and going live](#finishing-the-integration-and-going-live)
 - [Technical information for partners](#technical-information-for-partners)
-* [Partner keys](#partner-keys)
-* [Merchant Management API](#merchant-management-api)
-* [Plugin development](#plugin-development)
+  * [Partner keys](#partner-keys)
+  * [Merchant Management API](#merchant-management-api)
+  * [Plugin development](#plugin-development)
 - [How to sign up new merchants](#how-to-sign-up-new-merchants)
 - [Questions?](#questions-)
 
