@@ -4,9 +4,11 @@
 
 Document version: 0.13.0
 
-Vipps wants to make payment and identification liberatingly easy - together with our partners. We believe in the magic that arises through collaboration.
-
-If you and your merchants have a good volume and great potential, we would like to have you on the team as a partner. The goal of the partner program is to find areas where we can work closely together and experience good growth - together. The collaboration will give you good exposure and opportunities for even better solutions for our customers.
+If you and your merchants have a good volume and great potential, we would like
+to have you on the team as a partner. The goal of the partner program is to
+find areas where we can work closely together and experience good growth - together.
+The collaboration will give you good exposure and opportunities for even better
+solutions for our customers.
 
 # Table of Contents
 
