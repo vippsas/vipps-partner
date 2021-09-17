@@ -1,5 +1,3 @@
-💥 Work in progress! 💥
-
 ## Selverklæring for Partnere 
 
 Vilkårene regulerer forpliktelser i forbindelse med Partners distribusjon, klargjøring, installering og integrering for bruk av Selskapets («Vipps») tjenester («Tjenestene») til relevante målgrupper og potensielle Brukersteder.   
