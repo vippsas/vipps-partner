@@ -123,8 +123,9 @@ The merchant can check the status of their application on
 [portal.vipps.no](https://portal.vipps.no)
 at any time.
 
-Until Merchant Management API (MMAPI, see above) is available, the merchant needs to notify the partner
-that the Vipps application is processed and the merchant can use Vipps.
+Until Merchant Management API (MMAPI, see above) is available, **the merchant needs to notify the partner
+that the Vipps application is processed, provide the new MSN**. The partner uses partner keys and the
+new MSN to make Vipps payments.
 
 The legacy [Signup API](https://github.com/vippsas/vipps-signup-api)
 is still available for partners that have started using it, but new partners
