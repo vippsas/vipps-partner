@@ -2,7 +2,7 @@
 
 💥 Work in progress! 💥
 
-Document version: 0.14.0
+Document version: 0.14.1
 
 If you and your merchants have a good volume and great potential, we would like
 to have you on the team as a partner. The goal of the partner program is to
@@ -97,8 +97,9 @@ It is not possible to pay the partner instead of the merchant. See also:
 
 ## Merchant Management API
 
-An early version of the Vipps Merchant Management API is available on GitHub:
-https://github.com/vippsas/vipps-merchant-management-api
+An early version of the
+[Vipps Merchant Management API](https://github.com/vippsas/vipps-merchant-management-api)
+is available on GitHub.
 
 The Vipps Merchant Management API will let partners, banks and large corporations
 manage their merchants and sale units. See the GitHub repository for
