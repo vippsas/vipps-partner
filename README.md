@@ -2,7 +2,7 @@
 
 💥 Work in progress! 💥
 
-Document version: 0.14.1
+Document version: 0.14.2.
 
 If you and your merchants have a good volume and great potential, we would like
 to have you on the team as a partner. The goal of the partner program is to
@@ -123,9 +123,10 @@ The merchant can check the status of their application on
 [portal.vipps.no](https://portal.vipps.no)
 at any time.
 
-Until Merchant Management API (MMAPI, see above) is available, **the merchant needs to notify the partner
-that the Vipps application is processed, provide the new MSN**. The partner uses partner keys and the
-new MSN to make Vipps payments.
+**Important: The merchant must notify the partner when
+the Vipps application is processed, and provide the MSN to the partner**. 
+
+The partner uses their partner keys and the new MSN to make Vipps payments.
 
 The legacy [Signup API](https://github.com/vippsas/vipps-signup-api)
 is still available for partners that have started using it, but new partners
