@@ -2,7 +2,7 @@
 
 💥 Work in progress! 💥
 
-Document version: 0.13.0
+Document version: 0.14.0
 
 If you and your merchants have a good volume and great potential, we would like
 to have you on the team as a partner. The goal of the partner program is to
@@ -122,14 +122,12 @@ The merchant can check the status of their application on
 [portal.vipps.no](https://portal.vipps.no)
 at any time.
 
-The partner can check if a merchant is active by attempting to initiate a
-payment (without completing it). Until the merchant is approved, there will be
-an error:
-[Merchant not available or deactivated or blocked](https://github.com/vippsas/vipps-ecom-api/blob/master/vipps-ecom-api-faq.md#why-do-i-get-errorcode-37-merchant-not-available-or-deactivated-or-blocked).
+Until Merchant Management API (MMAPI, see above) is available, the merchant needs to notify the partner
+that the Vipps application is processed and the merchant can use Vipps.
 
 The legacy [Signup API](https://github.com/vippsas/vipps-signup-api)
 is still available for partners that have started using it, but new partners
-should use partner keys and the Merchant Management API when available.
+should use partner keys and MMAPI when available.
 
 # Questions?
 
