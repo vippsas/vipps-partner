@@ -2,7 +2,7 @@
 
 💥 Work in progress! 💥
 
-Document version: 0.14.5.
+Document version: 0.14.6.
 
 If you and your merchants have a good volume and great potential, we would like
 to have you on the team as a partner. The goal of the partner program is to
@@ -116,7 +116,7 @@ source plattforms you can (and should) use to integrate Vipps.
 1. The merchant applies for Vipps on
    [portal.vipps.no](https://portal.vipps.no)
    and selects the correct product and partner.
-2. Vipps completes customer control (KYC, PEP, AML, etc).
+2. Vipps processes the application and does customer control (KYC, PEP, AML, etc).
 3. The merchant is notified by Vipps that their application is approved and can use Vipps.
 4. The merchant notifies the partner that the application is approved and also sends the new MSN to the partner.
 
@@ -148,7 +148,7 @@ The Vipps Signup API in short:
 1. Partners sendt some basic info about a new merchant to Vipps.
 2. The merchant got a link to a form with a few pre-filled fields.
 3. The merchant completed the form and signed with BankID.
-4. Vipps processed the order.
+4. Vipps processes the application and does customer control (KYC, PEP, AML, etc).
 5. Vipps made a callback to the partner's API with the merchant's new API keys.
 
 We are phasing out the Vipps Signup API because:
