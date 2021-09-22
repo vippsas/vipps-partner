@@ -4,12 +4,6 @@
 
 Document version: 0.14.6.
 
-If you and your merchants have a good volume and great potential, we would like
-to have you on the team as a partner. The goal of the partner program is to
-find areas where we can work closely together and experience good growth - together.
-The collaboration will give you good exposure and opportunities for even better
-solutions for our customers.
-
 # Table of Contents
 
 - [How to become a Vipps partner](#how-to-become-a-vipps-partner)
@@ -25,6 +19,12 @@ solutions for our customers.
 - [Questions?](#questions-)
 
 # How to become a Vipps partner
+
+If you and your merchants have a good volume and great potential, we would like
+to have you on the team as a partner. The goal of the partner program is to
+find areas where we can work closely together and experience good growth - together.
+The collaboration will give you good exposure and opportunities for even better
+solutions for our customers.
 
 ## Apply on vipps.no
 
