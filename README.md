@@ -1,8 +1,8 @@
 # Vipps Partners
 
-💥 Work in progress! 💥
+💥 Work in progress! We will update this page frequently. "Star" it to get notifications. 💥
 
-Document version: 0.14.2.
+Document version: 0.14.3.
 
 If you and your merchants have a good volume and great potential, we would like
 to have you on the team as a partner. The goal of the partner program is to
@@ -117,7 +117,8 @@ source plattforms you can (and should) use to integrate Vipps.
    [portal.vipps.no](https://portal.vipps.no)
    and selects the correct product and partner.
 2. Vipps completes customer control (KYC, PEP, AML, etc).
-3. The merchant is notified that their application is approved and can use Vipps.
+3. The merchant is notified by Vipps that their application is approved and can use Vipps.
+4. The merchant notifies the partner that the application is approved and also sends the new MSN to the partner.
 
 The merchant can check the status of their application on
 [portal.vipps.no](https://portal.vipps.no)
@@ -128,8 +129,11 @@ the Vipps application is processed, and provide the MSN to the partner**.
 
 The partner uses their partner keys and the new MSN to make Vipps payments.
 
+We are working on the Merchant Management API (MMAPI, see above), which will improve the
+process above. Please bear with us in the meantime.
+
 The legacy [Signup API](https://github.com/vippsas/vipps-signup-api)
-is still available for partners that have started using it, but new partners
+is still available for partners that have already started using it, but new partners
 should use partner keys and MMAPI when available.
 
 # Questions?
