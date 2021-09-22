@@ -1,8 +1,8 @@
 # Vipps Partners
 
-💥 Work in progress! We will update this page frequently. "Star" it to get notifications. 💥
+💥 Work in progress! 💥
 
-Document version: 0.14.3.
+Document version: 0.14.5.
 
 If you and your merchants have a good volume and great potential, we would like
 to have you on the team as a partner. The goal of the partner program is to
@@ -21,6 +21,7 @@ solutions for our customers.
   * [Merchant Management API](#merchant-management-api)
   * [Plugin development](#plugin-development)
 - [How to sign up new merchants](#how-to-sign-up-new-merchants)
+  * [The Vipps Signup API](#the-vipps-signup-api)
 - [Questions?](#questions-)
 
 # How to become a Vipps partner
@@ -97,9 +98,8 @@ It is not possible to pay the partner instead of the merchant. See also:
 
 ## Merchant Management API
 
-An early version of the
-[Vipps Merchant Management API](https://github.com/vippsas/vipps-merchant-management-api)
-is available on GitHub.
+An early version of the Vipps Merchant Management API is available on GitHub:
+https://github.com/vippsas/vipps-merchant-management-api
 
 The Vipps Merchant Management API will let partners, banks and large corporations
 manage their merchants and sale units. See the GitHub repository for
@@ -125,16 +125,37 @@ The merchant can check the status of their application on
 at any time.
 
 **Important: The merchant must notify the partner when
-the Vipps application is processed, and provide the MSN to the partner**. 
+the Vipps application is processed, and provide the MSN to the partner**.
 
 The partner uses their partner keys and the new MSN to make Vipps payments.
 
-We are working on the Merchant Management API (MMAPI, see above), which will improve the
+We are working on the
+[Merchant Management API](#merchant-management-api),
+which will improve the
 process above. Please bear with us in the meantime.
 
-The legacy [Signup API](https://github.com/vippsas/vipps-signup-api)
+## The Vipps Signup API
+
+The legacy
+[Vipps Signup API](https://github.com/vippsas/vipps-signup-api),
+also called "partial signup",
 is still available for partners that have already started using it, but new partners
-should use partner keys and MMAPI when available.
+should use partner keys and
+[Merchant Management API](#merchant-management-api)
+when available.
+
+The Vipps Signup API in short:
+1. Partners sendt some basic info about a new merchant to Vipps.
+2. The merchant got a link to a form with a few pre-filled fields.
+3. The merchant completed the form and signed with BankID.
+4. Vipps processed the order.
+5. Vipps made a callback to the partner's API with the merchant's new API keys.
+
+We are phasing out the Vipps Signup API because:
+* The signup process is improved and is now on
+  [portal.vipps.no](https://portal.vipps.no)
+  (not the old form used in step 2 and 3 above).
+* [Partner keys](#partner-keys) eliminate the need for merchant-specific API keys, so step 5 is no longer needed.
 
 # Questions?
 
