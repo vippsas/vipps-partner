@@ -2,7 +2,7 @@
 
 💥 Work in progress! 💥
 
-Document version: 0.14.6.
+Document version: 0.14.7.
 
 # Table of Contents
 
@@ -28,26 +28,27 @@ solutions for our customers.
 
 ## Apply on vipps.no
 
-Please visit our
+Please visit the
 [partner page at Vipps.no]( https://vipps.no/developer/bli-partner/),
 read through our FAQ, and fill out the form.
 
 ## Integrate with the Vipps APIs
 
-You will receive an email with detail about access to our
+You will receive an email with details about access to the
 [test environment](https://github.com/vippsas/vipps-developers/blob/master/vipps-test-environment.md).
 
 All developer resources are available on
 [GitHub](https://github.com/vippsas/vipps-developers).
 
 **Please note:** Access to the production environment requires thorough
-checks required by law, and for most partners this is not relevant, as
+checks required by law. For most partners this is not relevant, as
 it is the partner's _merchants_ that will need production access.
+The partner only needs access to the test environment to complete an integration.
 
 ## Finishing the integration and going live
 
 An integration is considered finished when all the elements of the
-relevant APIs checklist are done (see the checklists for the
+relevant API's checklist are done (see the checklists for the
 [eCom API](https://github.com/vippsas/vipps-ecom-api/blob/master/vipps-ecom-api-checklist.md)
 and the
 [Recurring API](https://github.com/vippsas/vipps-recurring-api/blob/master/vipps-recurring-api-checklist.md)).
@@ -60,10 +61,12 @@ In addition, all partners are required to complete the following:
      - [ ] FAQ for merchants
 - [ ] Provide one pilot customer to verify the integration in production environment
 
-When the integration checklist is completed, send a notification to integration@vipps.no.
-Vipps Integration team will verify the implemented solution, the partner receives an email from Vipps saying that the implementation is OK.
+When the integration checklist is completed, send an email to Vipps as described in the checklist.
+The Vipps Integration team will verify the integration, and reply to the email.
 
-Vipps adds the partner to vipps.no, including the signup forms for merchants.
+Vipps then adds the partner to vipps.no, including the signup forms on
+[portal.vipps.no](https://portal.vipps.no)
+where the merchants can sign up and select the partner as their partner.
 
 # Technical information for partners
 
@@ -98,7 +101,7 @@ It is not possible to pay the partner instead of the merchant. See also:
 
 ## Merchant Management API
 
-An early version of the Vipps Merchant Management API is available on GitHub:
+An early draft of the Vipps Merchant Management API is available on GitHub:
 https://github.com/vippsas/vipps-merchant-management-api
 
 The Vipps Merchant Management API will let partners, banks and large corporations
@@ -115,14 +118,14 @@ source plattforms you can (and should) use to integrate Vipps.
 
 1. The merchant applies for Vipps on
    [portal.vipps.no](https://portal.vipps.no)
-   and selects the correct product and partner.
+   and selects the correct product and partner - and price package (typically Small, Medium or Large).
 2. Vipps processes the application and does customer control (KYC, PEP, AML, etc).
-3. The merchant is notified by Vipps that their application is approved and can use Vipps.
-4. The merchant notifies the partner that the application is approved and also sends the new MSN to the partner.
-
-The merchant can check the status of their application on
-[portal.vipps.no](https://portal.vipps.no)
-at any time.
+3. Vipps notifies the merchant that their application is approved and can use Vipps.
+   The merchant can also check the status of the application on
+   [portal.vipps.no](https://portal.vipps.no)
+   at any time.
+5. The merchant notifies the partner that the application is approved,
+   _and also sends the new MSN to the partner_.
 
 **Important: The merchant must notify the partner when
 the Vipps application is processed, and provide the MSN to the partner**.
@@ -136,20 +139,20 @@ process above. Please bear with us in the meantime.
 
 ## The Vipps Signup API
 
-The legacy
+The soon-to-be-deprecated legacy
 [Vipps Signup API](https://github.com/vippsas/vipps-signup-api),
 also called "partial signup",
 is still available for partners that have already started using it, but new partners
-should use partner keys and
+should use partner keys - and
 [Merchant Management API](#merchant-management-api)
 when available.
 
 The Vipps Signup API in short:
 1. Partners sendt some basic info about a new merchant to Vipps.
-2. The merchant got a link to a form with a few pre-filled fields.
-3. The merchant completed the form and signed with BankID.
+2. The merchant get a URL to a form with a few pre-filled fields.
+3. The merchant completes the form and signs with BankID.
 4. Vipps processes the application and does customer control (KYC, PEP, AML, etc).
-5. Vipps made a callback to the partner's API with the merchant's new API keys.
+5. Vipps make a callback to the partner's API with the merchant's new API keys.
 
 We are phasing out the Vipps Signup API because:
 * The signup process is improved and is now on
