@@ -120,7 +120,7 @@ source plattforms you can (and should) use to integrate Vipps.
    [portal.vipps.no](https://portal.vipps.no)
    and selects the correct product and partner - and price package (typically Small, Medium or Large).
 2. Vipps processes the application and does customer control (KYC, PEP, AML, etc).
-3. The merchant can also check the status of the application on
+3. The merchant can check the status of the application on
    [portal.vipps.no](https://portal.vipps.no)
    at any time.
 4. Vipps notifies the merchant **and the partner** that their application is approved,
