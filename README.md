@@ -2,7 +2,7 @@
 
 💥 Work in progress! 💥
 
-Document version: 0.14.7.
+Document version: 0.14.8.
 
 # Table of Contents
 
@@ -125,9 +125,6 @@ source plattforms you can (and should) use to integrate Vipps.
    at any time.
 4. Vipps notifies the merchant **and the partner** that their application is approved,
    with thew new MSN, and that the merchant can use Vipps.
-
-**Important: The merchant must notify the partner when
-the Vipps application is processed, and provide the MSN to the partner**.
 
 The partner uses their partner keys and the new MSN to make Vipps payments.
 
