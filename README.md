@@ -123,7 +123,7 @@ source plattforms you can (and should) use to integrate Vipps.
 3. The merchant can check the status of the application on
    [portal.vipps.no](https://portal.vipps.no)
    at any time.
-4. Vipps notifies the merchant **and the partner** that their application is approved,
+4. Vipps notifies the merchant **and the partner** by email that their application is approved,
    with thew new MSN, and that the merchant can use Vipps.
 
 The partner uses their partner keys and the new MSN to make Vipps payments.
