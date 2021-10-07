@@ -1,8 +1,8 @@
 # Vipps Partners
 
-💥 Work in progress! 💥
+💥 Work in progress! "Star" this repository to get updates. 💥
 
-Document version: 0.14.8.
+Document version: 0.14.9.
 
 # Table of Contents
 
