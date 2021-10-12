@@ -2,7 +2,7 @@
 
 💥 Continuous improvements going on! "Star" this repository to get updates. 💥
 
-Document version: 1.0.8.
+Document version: 1.0.9.
 
 # Table of Contents
 
@@ -102,9 +102,16 @@ It is not possible to pay the partner instead of the merchant. See also:
 
 ## Plugin development
 
-If you’re an integration partner we have a number of plugins for different open
-source plattforms you can (and should) use to integrate Vipps.
-[See our plugin section](https://github.com/vippsas/vipps-plugins).
+All official plugins are open source, free to use, and available in our
+[plugin section](https://github.com/vippsas/vipps-plugins), as well as on
+the platforms they are designed for.
+
+We encourage submitting issues and PRs to improve the plugins.
+
+If you have developed, or plan to develop, a plugin for Vipps, and you think
+it may be a candidate forbecoming an official plugin: See
+[How to become a Vipps partner](#how-to-become-a-vipps-partner)
+and let us know what your plans are.
 
 ## Merchant Management API
 
