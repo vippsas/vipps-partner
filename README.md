@@ -2,7 +2,7 @@
 
 💥 Continuous improvements going on! "Star" this repository to get updates. 💥
 
-Document version: 1.0.0.
+Document version: 1.0.1.
 
 # Table of Contents
 
@@ -153,6 +153,7 @@ There are still some common problems:
 * The merchant's website does not have the required terms and conditions.
 * The merchant's website does not have the organization number clearly visible.
 * Vipps has sent an email requesting additional information, but has not received a reply.
+* The application has been declined. Vipps only informs the merchant about this, not the partner.
 
 ## The Vipps Signup API
 
