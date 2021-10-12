@@ -2,7 +2,7 @@
 
 💥 Continuous improvements going on! "Star" this repository to get updates. 💥
 
-Document version: 1.0.5.
+Document version: 1.0.6.
 
 # Table of Contents
 
@@ -157,11 +157,16 @@ contains a lot of help and tips, as well as links to more information.
 There are still some common problems:
 
 * The application is not signed by a person that has signatory rights.
+  Merchants can check this at
+  [Brønnøysundregistrene](https://www.brreg.no).
 * The merchant's website does not have the
   [legally required terms and conditions](https://www.forbrukertilsynet.no/lov-og-rett/veiledninger-og-retningslinjer/standard-salgsbetingelser-for-forbrukerkjop-av-varer-over-internett).
 * The merchant's website does not have the organization number clearly visible.
 * Vipps has sent an email requesting additional information, but has not received a reply.
+  Merchants should check their "spam" and try to search their email for "vipps".
 * The application has been declined. Vipps only informs the merchant about this, not the partner.
+
+Partners should always check with the merchant for an updated status before contacting Vipps.
 
 ## The Vipps Signup API
 
