@@ -2,7 +2,7 @@
 
 💥 Continuous improvements going on! "Star" this repository to get updates. 💥
 
-Document version: 1.0.2.
+Document version: 1.0.3.
 
 # Table of Contents
 
@@ -134,6 +134,7 @@ to apply for a new product (sale unit) to use with a new partner.
 3. The merchant can check the status of the application on
    [portal.vipps.no](https://portal.vipps.no)
    at any time.
+   Vipps does not have the capacity to answer emails with status inquiries.
 4. Vipps notifies the merchant **and the partner** by email that their application is approved,
    with thew new MSN, and that the merchant can use Vipps.
 
