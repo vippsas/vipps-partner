@@ -2,7 +2,7 @@
 
 💥 Continuous improvements going on! "Star" this repository to get updates. 💥
 
-Document version: 1.0.7.
+Document version: 1.0.8.
 
 # Table of Contents
 
@@ -176,9 +176,9 @@ also called "partial signup",
 is still available for partners that have already started using it, but new partners
 should use the more efficient
 [partner keys](#partner-keys)
-- and
+(and
 [Merchant Management API](#merchant-management-api)
-when available.
+when available).
 
 The Vipps Signup API in short:
 1. Partners sendt some basic info about a new merchant to Vipps.
