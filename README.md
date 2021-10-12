@@ -2,7 +2,7 @@
 
 💥 Continuous improvements going on! "Star" this repository to get updates. 💥
 
-Document version: 1.0.1.
+Document version: 1.0.2.
 
 # Table of Contents
 
@@ -125,7 +125,10 @@ to apply for a new product (sale unit) to use with a new partner.
 
 1. The merchant applies for Vipps on
    [portal.vipps.no](https://portal.vipps.no)
-   and selects the correct product and partner - and price package (typically "Small", "Medium" or "Large").
+   and selects:
+   a. The correct product
+   b. The partner
+   c. The price package, typically "Small", "Medium" or "Large"
 2. Vipps processes the application and does customer control (KYC, PEP, AML, etc).
    This may take a few days, depending on the information provided and the workload.
 3. The merchant can check the status of the application on
