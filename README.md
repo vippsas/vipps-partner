@@ -1,8 +1,8 @@
 # Vipps Partners
 
-💥 Work in progress! "Star" this repository to get updates. 💥
+💥 Continuous improvements going on! "Star" this repository to get updates. 💥
 
-Document version: 0.14.9.
+Document version: 1.0.0.
 
 # Table of Contents
 
@@ -116,10 +116,17 @@ source plattforms you can (and should) use to integrate Vipps.
 
 # How to sign up new merchants
 
+All merchants must have a customer relationship with Vipps,
+in addition to the one with the partner.
+
+A merchant that already has a customer relationship with Vipps still needs
+to apply for a new product (sale unit) to use with a new partner.
+
 1. The merchant applies for Vipps on
    [portal.vipps.no](https://portal.vipps.no)
-   and selects the correct product and partner - and price package (typically Small, Medium or Large).
+   and selects the correct product and partner - and price package (typically "Small", "Medium" or "Large").
 2. Vipps processes the application and does customer control (KYC, PEP, AML, etc).
+   This may take a few days, depending on the information provided and the workload.
 3. The merchant can check the status of the application on
    [portal.vipps.no](https://portal.vipps.no)
    at any time.
@@ -132,6 +139,19 @@ We are working on the
 [Merchant Management API](#merchant-management-api),
 which will improve the
 process above. Please bear with us in the meantime.
+
+## Typical reasons for delays
+
+The application solution on
+[portal.vipps.no](https://portal.vipps.no)
+contains a lot of help and tips, as well as links to more information.
+
+There are still some common problems:
+
+* The application is not signed by a person that has signatory rights.
+* The merchant's website does not have the required terms and conditions.
+* The merchant's website does not have the organization number clearly visible.
+* Vipps has sent an email requesting additional information, but has not received a reply.
 
 ## The Vipps Signup API
 
