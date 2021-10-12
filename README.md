@@ -2,7 +2,7 @@
 
 💥 Continuous improvements going on! "Star" this repository to get updates. 💥
 
-Document version: 1.0.4.
+Document version: 1.0.5.
 
 # Table of Contents
 
@@ -139,7 +139,9 @@ to apply for a new product (sale unit) to use with a new partner.
    with thew new MSN, and that the merchant can use Vipps.
    If the application is declined, only the merchant is notified.
 
-The partner uses their partner keys and the new MSN to make Vipps payments.
+The partner uses their
+[partner keys](#partner-keys)
+and the new MSN to make Vipps payments.
 
 We are working on the
 [Merchant Management API](#merchant-management-api),
@@ -155,7 +157,8 @@ contains a lot of help and tips, as well as links to more information.
 There are still some common problems:
 
 * The application is not signed by a person that has signatory rights.
-* The merchant's website does not have the required terms and conditions.
+* The merchant's website does not have the
+  [legally required terms and conditions](https://www.forbrukertilsynet.no/lov-og-rett/veiledninger-og-retningslinjer/standard-salgsbetingelser-for-forbrukerkjop-av-varer-over-internett).
 * The merchant's website does not have the organization number clearly visible.
 * Vipps has sent an email requesting additional information, but has not received a reply.
 * The application has been declined. Vipps only informs the merchant about this, not the partner.
@@ -166,7 +169,9 @@ The soon-to-be-deprecated legacy
 [Vipps Signup API](https://github.com/vippsas/vipps-signup-api),
 also called "partial signup",
 is still available for partners that have already started using it, but new partners
-should use partner keys - and
+should use
+[partner keys](#partner-keys)
+- and
 [Merchant Management API](#merchant-management-api)
 when available.
 
@@ -180,7 +185,7 @@ The Vipps Signup API in short:
 We are phasing out the Vipps Signup API because:
 * The signup process is improved and is now on
   [portal.vipps.no](https://portal.vipps.no)
-  (not the old form used in step 2 and 3 above).
+  (not the old and outdated form used in step 2 and 3 above).
 * [Partner keys](#partner-keys) eliminate the need for merchant-specific API keys, so step 5 is no longer needed.
 
 # Questions?
