@@ -2,7 +2,7 @@
 
 💥 Continuous improvements going on! "Star" this repository to get updates. 💥
 
-Document version: 1.0.6.
+Document version: 1.0.7.
 
 # Table of Contents
 
@@ -12,8 +12,8 @@ Document version: 1.0.6.
   * [Finishing the integration and going live](#finishing-the-integration-and-going-live)
 - [Technical information for partners](#technical-information-for-partners)
   * [Partner keys](#partner-keys)
-  * [Merchant Management API](#merchant-management-api)
   * [Plugin development](#plugin-development)
+  * [Merchant Management API](#merchant-management-api)
 - [How to sign up new merchants](#how-to-sign-up-new-merchants)
   * [Typical reasons for delays](#typical-reasons-for-delays)
   * [The Vipps Signup API](#the-vipps-signup-api)
@@ -100,6 +100,12 @@ and that have gone through the required compliance checks, etc after ordering Vi
 It is not possible to pay the partner instead of the merchant. See also:
 [Can I create a marketplace with multiple merchants?](https://github.com/vippsas/vipps-ecom-api/blob/master/vipps-ecom-api-faq.md#can-i-create-a-marketplace-with-multiple-merchants)
 
+## Plugin development
+
+If you’re an integration partner we have a number of plugins for different open
+source plattforms you can (and should) use to integrate Vipps.
+[See our plugin section](https://github.com/vippsas/vipps-plugins).
+
 ## Merchant Management API
 
 An early draft of the Vipps Merchant Management API is available on GitHub:
@@ -108,12 +114,6 @@ https://github.com/vippsas/vipps-merchant-management-api
 The Vipps Merchant Management API will let partners, banks and large corporations
 manage their merchants and sale units. See the GitHub repository for
 background and priorities.
-
-## Plugin development
-
-If you’re an integration partner we have a number of plugins for different open
-source plattforms you can (and should) use to integrate Vipps.
-[See our plugin section](https://github.com/vippsas/vipps-plugins).
 
 # How to sign up new merchants
 
@@ -174,7 +174,7 @@ The soon-to-be-deprecated legacy
 [Vipps Signup API](https://github.com/vippsas/vipps-signup-api),
 also called "partial signup",
 is still available for partners that have already started using it, but new partners
-should use
+should use the more efficient
 [partner keys](#partner-keys)
 - and
 [Merchant Management API](#merchant-management-api)
@@ -188,9 +188,9 @@ The Vipps Signup API in short:
 5. Vipps makes a callback to the partner's API with the merchant's new API keys.
 
 We are phasing out the Vipps Signup API because:
-* The signup process is improved and is now on
+* The signup process is now on
   [portal.vipps.no](https://portal.vipps.no)
-  (not the old and outdated form used in step 2 and 3 above).
+  and has _many_ improvements over the old signup form that is used in steps 2 and 3 above as part of the Signup API.
 * [Partner keys](#partner-keys) eliminate the need for merchant-specific API keys, so step 5 is no longer needed.
 
 # Questions?
