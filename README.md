@@ -15,6 +15,7 @@ Document version: 1.0.0.
   * [Merchant Management API](#merchant-management-api)
   * [Plugin development](#plugin-development)
 - [How to sign up new merchants](#how-to-sign-up-new-merchants)
+  * [Typical reasons for delays](#typical-reasons-for-delays)
   * [The Vipps Signup API](#the-vipps-signup-api)
 - [Questions?](#questions-)
 
