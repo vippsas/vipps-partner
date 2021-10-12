@@ -137,7 +137,7 @@ to apply for a new product (sale unit) to use with a new partner.
    Vipps does not have the capacity to answer emails with status inquiries.
 4. Vipps notifies the merchant **and the partner** by email that their application is approved,
    with thew new MSN, and that the merchant can use Vipps.
-   If the4 application is declined, only the merchant is notified.
+   If the application is declined, only the merchant is notified.
 
 The partner uses their partner keys and the new MSN to make Vipps payments.
 
