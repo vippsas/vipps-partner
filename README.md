@@ -2,7 +2,7 @@
 
 💥 Continuous improvements going on! "Star" this repository to get updates. 💥
 
-Document version: 1.0.9.
+Document version: 1.0.10.
 
 # Table of Contents
 
@@ -109,7 +109,7 @@ the platforms they are designed for.
 We encourage submitting issues and PRs to improve the plugins.
 
 If you have developed, or plan to develop, a plugin for Vipps, and you think
-it may be a candidate forbecoming an official plugin: See
+it may be a candidate for becoming an official plugin: See
 [How to become a Vipps partner](#how-to-become-a-vipps-partner)
 and let us know what your plans are.
 
@@ -142,18 +142,17 @@ to apply for a new product (sale unit) to use with a new partner.
    [portal.vipps.no](https://portal.vipps.no)
    at any time.
    Vipps does not have the capacity to answer emails with status inquiries.
-4. Vipps notifies the merchant **and the partner** by email that their application is approved,
-   with thew new MSN, and that the merchant can use Vipps.
+4. Vipps notifies the merchant **and the partner** by email that the application is approved,
+   with thew new MSN, and that the merchant can now use Vipps.
    If the application is declined, only the merchant is notified.
 
 The partner uses their
 [partner keys](#partner-keys)
 and the new MSN to make Vipps payments.
 
-We are working on the
+We have started on the
 [Merchant Management API](#merchant-management-api),
-which will improve the
-process above. Please bear with us in the meantime.
+which will improve the process above. Please bear with us in the meantime.
 
 ## Typical reasons for delays
 
@@ -161,19 +160,21 @@ The application solution on
 [portal.vipps.no](https://portal.vipps.no)
 contains a lot of help and tips, as well as links to more information.
 
-There are still some common problems:
+There are still some common problems that cause delays:
 
 * The application is not signed by a person that has signatory rights.
-  Merchants can check this at
+  Merchants can check who can sign at
   [Brønnøysundregistrene](https://www.brreg.no).
 * The merchant's website does not have the
   [legally required terms and conditions](https://www.forbrukertilsynet.no/lov-og-rett/veiledninger-og-retningslinjer/standard-salgsbetingelser-for-forbrukerkjop-av-varer-over-internett).
 * The merchant's website does not have the organization number clearly visible.
+* The merchant has not provided enough information about what they want to use
+  Vipps for ("Spesifiser kort hvilke varer/tjenester dere selger").
 * Vipps has sent an email requesting additional information, but has not received a reply.
   Merchants should check their "spam" and try to search their email for "vipps".
 * The application has been declined. Vipps only informs the merchant about this, not the partner.
 
-Partners should always check with the merchant for an updated status before contacting Vipps.
+**Please note:** Partners should always check with the merchant for an updated status before contacting Vipps.
 
 ## The Vipps Signup API
 
