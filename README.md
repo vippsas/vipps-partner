@@ -1,7 +1,5 @@
 # Vipps Partners
 
-💥 Continuous improvements going on! "Star" this repository to get updates. 💥
-
 Document version: 1.0.11.
 
 # Table of Contents
