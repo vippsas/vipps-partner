@@ -1,10 +1,11 @@
 # Vipps Partners
 
-Document version: 1.0.11.
+Document version: 1.1.0.
 
 # Table of Contents
 
 - [How to become a Vipps partner](#how-to-become-a-vipps-partner)
+  * [Partner types)(#partner-types)
   * [Apply on vipps.no](#apply-on-vippsno)
   * [Integrate with the Vipps APIs](#integrate-with-the-vipps-apis)
   * [Vipps API Lifecycle](#vipps-api-lifecycle)
@@ -25,6 +26,21 @@ to have you on the team as a partner. The goal of the partner program is to
 find areas where we can work closely together and experience good growth - together.
 The collaboration will give you good exposure and opportunities for even better
 solutions for our customers.
+
+## Partner types
+
+Vipps has three types of partners:
+
+1. Platform partners: Provide a ready-to-use platform for their merchants, do all
+   integration, development and maintenance on their platform, and also
+   provide all support for the merchants.
+2. Integration partners: Assist merchants in development of the merchants'
+   integration. Typically a concultancy firm doing development for the merchant.
+3. Plugin partners: Develop Vipps' official
+   [open source plugins](https://github.com/vippsas/vipps-plugins)
+   for Vipps.
+   
+The document is for platform partners.
 
 ## Apply on vipps.no
 
