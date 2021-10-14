@@ -8,14 +8,15 @@ Document version: 1.1.0.
   * [Partner types](#partner-types)
   * [Apply on vipps.no](#apply-on-vippsno)
   * [Integrate with the Vipps APIs](#integrate-with-the-vipps-apis)
-  * [Vipps API Lifecycle](#vipps-api-lifecycle)
   * [Finishing the integration and going live](#finishing-the-integration-and-going-live)
 - [Technical information for partners](#technical-information-for-partners)
+  * [Developer documentation](#developer-documentation)
+  * [Vipps API Lifecycle](#vipps-api-lifecycle)
   * [Partner keys](#partner-keys)
   * [Plugin development](#plugin-development)
-  * [Merchant Management API](#merchant-management-api)
 - [How to sign up new merchants](#how-to-sign-up-new-merchants)
   * [Typical reasons for delays](#typical-reasons-for-delays)
+  * [Merchant Management API](#merchant-management-api)
   * [The Vipps Signup API](#the-vipps-signup-api)
 - [Questions?](#questions-)
 
@@ -50,22 +51,15 @@ read through our FAQ, and fill out the form.
 
 ## Integrate with the Vipps APIs
 
+See: [Developer documentation](#developer-documentation).
+
 You will receive an email with details about access to the
 [test environment](https://github.com/vippsas/vipps-developers/blob/master/vipps-test-environment.md).
-
-All developer resources are available on
-[GitHub](https://github.com/vippsas/vipps-developers).
 
 **Please note:** Access to the production environment requires thorough
 checks required by law. For most partners this is not relevant, as
 it is the partner's _merchants_ that will need production access.
 The partner only needs access to the test environment to complete an integration.
-
-### Vipps API Lifecycle
-
-See the
-[Vipps API Lifecycle](https://github.com/vippsas/vipps-developers/blob/master/vipps-api-lifecycle.md)
-for information about deprecation notices, etc.
 
 ## Finishing the integration and going live
 
@@ -83,8 +77,8 @@ In addition, all partners are required to complete the following:
      - [ ] FAQ for merchants
 - [ ] Provide one pilot customer to verify the integration in production environment
 
-When the integration checklist is completed, send an email to Vipps as described in the checklist.
-The Vipps Integration team will verify the integration, and reply to the email.
+When the integration checklist is completed, notify Vipps as described in the checklist.
+The Vipps Integration team will verify the integration, and contact the partner.
 
 Vipps then adds the partner to vipps.no, including the signup forms on
 [portal.vipps.no](https://portal.vipps.no)
@@ -92,10 +86,21 @@ where the merchants can sign up and select the partner as their partner.
 
 # Technical information for partners
 
+## Developer documentation
+
+All developer documentation and tools is available on
+[GitHub](https://github.com/vippsas/vipps-developers).
+
+## Vipps API Lifecycle
+
+See the
+[Vipps API Lifecycle](https://github.com/vippsas/vipps-developers/blob/master/vipps-api-lifecycle.md)
+for information about deprecation notices, etc.
+
 ## Partner keys
 
-As a partner you can manage transactions on behalf of other Vipps merchants.
-Vipps will provide you with _partner keys_, which allows you to use your own API credentials to
+As a partner you manage transactions on behalf of Vipps merchants.
+Vipps provide you with _partner keys_, which allows you to use your own API credentials to
 make API calls on behalf of your merchants (only for the sale units that are linked to you as a partner, though).
 
 With the partner keys you authenticate in the normal way, and then send
@@ -133,15 +138,6 @@ If you have developed, or plan to develop, a plugin for Vipps, and you think
 it may be a candidate for becoming an official plugin: See
 [How to become a Vipps partner](#how-to-become-a-vipps-partner)
 and let us know what your plans are.
-
-## Merchant Management API
-
-An early draft of the Vipps Merchant Management API is available on GitHub:
-https://github.com/vippsas/vipps-merchant-management-api
-
-The Vipps Merchant Management API will let partners, banks and large corporations
-manage their merchants and sale units. See the GitHub repository for
-background and priorities.
 
 # How to sign up new merchants
 
@@ -196,6 +192,15 @@ There are still some common problems that cause delays:
 * The application has been declined. Vipps only informs the merchant about this, not the partner.
 
 **Please note:** Partners should always check with the merchant for an updated status before contacting Vipps.
+
+## Merchant Management API
+
+An early draft of the Vipps Merchant Management API is available on GitHub:
+https://github.com/vippsas/vipps-merchant-management-api
+
+The Vipps Merchant Management API will let partners, banks and large corporations
+manage their merchants and sale units. See the GitHub repository for
+background and priorities.
 
 ## The Vipps Signup API
 
