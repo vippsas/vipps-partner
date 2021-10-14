@@ -2,13 +2,14 @@
 
 💥 Continuous improvements going on! "Star" this repository to get updates. 💥
 
-Document version: 1.0.10.
+Document version: 1.0.11.
 
 # Table of Contents
 
 - [How to become a Vipps partner](#how-to-become-a-vipps-partner)
   * [Apply on vipps.no](#apply-on-vippsno)
   * [Integrate with the Vipps APIs](#integrate-with-the-vipps-apis)
+  * [Vipps API Lifecycle](#vipps-api-lifecycle)
   * [Finishing the integration and going live](#finishing-the-integration-and-going-live)
 - [Technical information for partners](#technical-information-for-partners)
   * [Partner keys](#partner-keys)
@@ -45,6 +46,12 @@ All developer resources are available on
 checks required by law. For most partners this is not relevant, as
 it is the partner's _merchants_ that will need production access.
 The partner only needs access to the test environment to complete an integration.
+
+### Vipps API Lifecycle
+
+See the
+[Vipps API Lifecycle](https://github.com/vippsas/vipps-developers/blob/master/vipps-api-lifecycle.md)
+for information about deprecation notices, etc.
 
 ## Finishing the integration and going live
 
