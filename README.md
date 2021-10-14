@@ -1,6 +1,6 @@
 # Vipps Partners
 
-Document version: 1.1.0.
+Document version: 1.1.1.
 
 # Table of Contents
 
@@ -41,7 +41,7 @@ Vipps has three types of partners:
    [open source plugins](https://github.com/vippsas/vipps-plugins)
    for Vipps.
    
-The document is for platform partners.
+This document is mainly for platform partners.
 
 ## Apply on vipps.no
 
