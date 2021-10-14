@@ -5,7 +5,7 @@ Document version: 1.1.0.
 # Table of Contents
 
 - [How to become a Vipps partner](#how-to-become-a-vipps-partner)
-  * [Partner types)(#partner-types)
+  * [Partner types](#partner-types)
   * [Apply on vipps.no](#apply-on-vippsno)
   * [Integrate with the Vipps APIs](#integrate-with-the-vipps-apis)
   * [Vipps API Lifecycle](#vipps-api-lifecycle)
