@@ -1,6 +1,6 @@
 # Vipps Partners
 
-Document version: 1.1.1.
+Document version: 1.1.2.
 
 # Table of Contents
 
@@ -42,6 +42,11 @@ Vipps has three types of partners:
    for Vipps.
    
 This document is mainly for platform partners.
+
+Information for PSP (Payment Service Providers) is here:
+[Vipps PSP API](https://github.com/vippsas/vipps-psp-api),
+including
+[PSP Signup API](https://github.com/vippsas/vipps-psp-api/blob/master/vipps-psp-api.md#psp-signup-api)
 
 ## Apply on vipps.no
 
