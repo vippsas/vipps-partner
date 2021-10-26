@@ -46,7 +46,9 @@ Vipps has three types of partners:
    [open source plugins](https://github.com/vippsas/vipps-plugins)
    on contract for Vipps.
 
-This document is mainly for platform partners.
+This document is mainly for platform partners, that act _on behalf of_ merchants,
+using one set of API keys for all merchants: Partner keys.
+Other partners must rely on each merchant's individual API keys.
 
 Information for PSP (Payment Service Providers) is here:
 [Vipps PSP API](https://github.com/vippsas/vipps-psp-api),
