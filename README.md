@@ -2,7 +2,7 @@
 
 Technical information for Vipps partners.
 
-Document version: 1.1.3.
+Document version: 1.1.4.
 
 # Table of Contents
 
@@ -38,9 +38,13 @@ Vipps has three types of partners:
    do all integration with the Vipps APIs,
    do all development and maintenance on their platform,
    and also provide all support for the merchants.
-   Platform partners initiate payments, etc. _on behalf of_ merchants.
+
+   Platform partners use the Vipps APIs _on behalf of_ merchants
+   (initiate payments, do captures, do refunds, etc).
+
 2. Integration partners: Assist merchants in development of the merchants'
    integration. Typically a consultancy firm doing development for the merchant.
+   An integration partner does not use the Vipps APIs on behalf of the merchant.
 
    If the integration partner continue to run, manage and develop the
    _everything_ related to the Vipps integration, and also manage the API
@@ -51,8 +55,9 @@ Vipps has three types of partners:
    [open source plugins](https://github.com/vippsas/vipps-plugins)
    on contract for Vipps.
 
-   If the partner uses official Vipps plugins to implement Vipps integration
-   for their merchants, the API credentials for the merchant is used.
+   If a partner uses official Vipps plugins to implement a Vipps integration
+   for a merchant, the API credentials for the merchant must be used, and
+   the partner use the Vipps APIs on behalf of the merchant.
 
 A partner may act as a different type of partner in different situation.
 It is possible for a partner to both develop an official Vipps plugin and
