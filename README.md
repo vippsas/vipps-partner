@@ -2,7 +2,7 @@
 
 Technical information for Vipps partners.
 
-Document version: 1.1.4.
+Document version: 1.1.5.
 
 # Table of Contents
 
@@ -169,6 +169,10 @@ it may be a candidate for becoming an official plugin: See
 and let us know what your plans are.
 
 # How to sign up new merchants
+
+The below if for platform partners.
+Merchants that do not use a platform partner sign up on their own on
+[portal.vipps.no](https://portal.vipps.no).
 
 All merchants must have a customer relationship with Vipps,
 in addition to the one with the partner.
