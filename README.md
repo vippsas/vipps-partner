@@ -18,7 +18,7 @@ Document version: 1.1.6.
   * [Plugin development](#plugin-development)
 - [How to sign up new merchants](#how-to-sign-up-new-merchants)
   * [Typical reasons for delays](#typical-reasons-for-delays)
-  * [Vipps Partner API](#vipps-partner-api)
+  * [Vipps Partner API PoC](#vipps-partner-api-poc)
   * [Vipps Signup API](#vipps-signup-api)
 - [Questions?](#questions-)
 
@@ -200,8 +200,8 @@ The partner uses their
 [partner keys](#partner-keys)
 and the new MSN to make Vipps payments.
 
-We have started on the
-[Merchant Management API](#merchant-management-api),
+We have started on a proof of concept for a
+[Partner API](#vipps-partner-api-poc),
 which will improve the process above. Please bear with us in the meantime.
 
 ## Typical reasons for delays
@@ -226,14 +226,12 @@ There are still some common problems that cause delays:
 
 **Please note:** Partners should always check with the merchant for an updated status before contacting Vipps.
 
-## Vipps Partner API
+## Vipps Partner API PoC
 
 An early draft of the Vipps Partner API is available on GitHub:
 https://github.com/vippsas/vipps-partner-api
 
-The Vipps Partner API will let partners, banks and large corporations
-manage their merchants and sale units. See the GitHub repository for
-background and priorities.
+The plan for the Vipps Partner API will let partners, banks and large corporations manage their merchants and sale units. See the GitHub repository for background and priorities.
 
 ## Vipps Signup API
 
