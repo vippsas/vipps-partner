@@ -2,7 +2,7 @@
 
 Technical information for Vipps partners.
 
-Document version: 1.1.5.
+Document version: 1.1.6.
 
 # Table of Contents
 
@@ -18,8 +18,8 @@ Document version: 1.1.5.
   * [Plugin development](#plugin-development)
 - [How to sign up new merchants](#how-to-sign-up-new-merchants)
   * [Typical reasons for delays](#typical-reasons-for-delays)
-  * [Merchant Management API](#merchant-management-api)
-  * [The Vipps Signup API](#the-vipps-signup-api)
+  * [Vipps Partner API](#vipps-partner-api)
+  * [Vipps Signup API](#vipps-signup-api)
 - [Questions?](#questions-)
 
 # How to become a Vipps partner
@@ -226,16 +226,16 @@ There are still some common problems that cause delays:
 
 **Please note:** Partners should always check with the merchant for an updated status before contacting Vipps.
 
-## Merchant Management API
+## Vipps Partner API
 
-An early draft of the Vipps Merchant Management API is available on GitHub:
-https://github.com/vippsas/vipps-merchant-management-api
+An early draft of the Vipps Partner API is available on GitHub:
+https://github.com/vippsas/vipps-partner-api
 
-The Vipps Merchant Management API will let partners, banks and large corporations
+The Vipps Partner API will let partners, banks and large corporations
 manage their merchants and sale units. See the GitHub repository for
 background and priorities.
 
-## The Vipps Signup API
+## Vipps Signup API
 
 The soon-to-be-deprecated legacy
 [Vipps Signup API](https://github.com/vippsas/vipps-signup-api),
@@ -243,8 +243,8 @@ also called "partial signup",
 is still available for partners that have already started using it, but new partners
 should use the more efficient
 [partner keys](#partner-keys)
-(and
-[Merchant Management API](#merchant-management-api)
+(and the
+[Vipps Partner API](#vipps-partner-api)
 when available).
 
 The Vipps Signup API in short:
