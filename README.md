@@ -20,7 +20,8 @@ Document version: 1.1.7.
   * [Typical reasons for delays](#typical-reasons-for-delays)
   * [Vipps Partner API PoC](#vipps-partner-api-poc)
   * [Vipps Signup API](#vipps-signup-api)
-- [Questions?](#questions-)
+- [FAQ for partners](#faq-for-partners)
+- [Questions?](#questions)
 
 # How to become a Vipps partner
 
@@ -258,7 +259,11 @@ We are phasing out the Vipps Signup API because:
   and has _many_ improvements over the old signup form that is used in steps 2 and 3 above as part of the Signup API.
 * [Partner keys](#partner-keys) eliminate the need for merchant-specific API keys, so step 5 is no longer needed.
 
-# Questions?
+# FAQ for partners
+
+You may find answers to your questions on our FAQ section on the bottom of the [partner page on vipps.no](https://vipps.no/developer/bli-partner/)
+
+# Questions
 
 We're always happy to help with code or other questions you might have!
 Please create an [issue](https://github.com/vippsas/vipps-developers/issues),
