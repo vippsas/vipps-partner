@@ -2,7 +2,7 @@
 
 Technical information for Vipps partners.
 
-Document version: 1.1.7.
+Document version: 1.1.8.
 
 # Table of Contents
 
@@ -83,8 +83,11 @@ read through our FAQ, and fill out the form.
 
 See: [Developer documentation](#developer-documentation).
 
-You will receive an email with details about access to the
+When you application is aproved you will receive an email with details about access to the
 [test environment](https://github.com/vippsas/vipps-developers/blob/master/vipps-test-environment.md).
+
+If you already have a pilot merchant that has access to the Vipps APIs,
+you can also use the merchant's API keys for the test environment for development.
 
 **Please note:** Access to the production environment requires thorough
 checks required by law. For most partners this is not relevant, as
