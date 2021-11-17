@@ -2,7 +2,7 @@
 
 Technical information for Vipps partners.
 
-Document version: 1.1.9.
+Document version: 1.1.10.
 
 # Table of Contents
 
@@ -20,6 +20,7 @@ Document version: 1.1.9.
   * [Typical reasons for delays](#typical-reasons-for-delays)
   * [Vipps Partner API PoC](#vipps-partner-api-poc)
   * [Vipps Signup API](#vipps-signup-api)
+    - [If you are using Signup API](#if-you-are-using-the-signup-api)
 - [FAQ for partners](#faq-for-partners)
 - [Questions?](#questions)
 
@@ -249,8 +250,8 @@ The plan for the Vipps Partner API will let partners, banks and large corporatio
 The soon-to-be-deprecated legacy
 [Vipps Signup API](https://github.com/vippsas/vipps-signup-api),
 also called "partial signup",
-is still available for partners that have already started using it, but new partners
-should use the more efficient
+is still available _for a short while_ for partners that have already started
+using it, but new partners should use the more efficient
 [partner keys](#partner-keys)
 (and the
 [Vipps Partner API](#vipps-partner-api)
@@ -258,7 +259,7 @@ when available).
 
 The Vipps Signup API in short:
 1. Partners sendt some basic info about a new merchant to Vipps.
-2. The merchant get a URL to a form with a few pre-filled fields.
+2. The merchant gets a URL to the old, outdated signup form, with a few pre-filled fields.
 3. The merchant completes the form and signs with BankID.
 4. Vipps processes the application and does customer control (KYC, PEP, AML, etc).
 5. Vipps makes a callback to the partner's API with the merchant's new API keys.
@@ -266,12 +267,35 @@ The Vipps Signup API in short:
 We are phasing out the Vipps Signup API because:
 * The signup process is now on
   [portal.vipps.no](https://portal.vipps.no)
-  and has _many_ improvements over the old signup form that is used in steps 2 and 3 above as part of the Signup API.
-* [Partner keys](#partner-keys) eliminate the need for merchant-specific API keys, so step 5 is no longer needed.
+  and has _many_ improvements over the old signup form that is used in steps 2
+  and 3 above as part of the Signup API.
+* [Partner keys](#partner-keys)
+  eliminate the need for merchant-specific API keys, so step 5 is no longer needed.
+* The signup process is being adapted to the different Vipps products,
+  so merchants only have to provide the relevant data for each product.
+* Vipps will launch new products and these will only be possible to order on
+  [portal.vipps.no](https://portal.vipps.no).
+
+### If you are using Signup API
+
+You should _as quickly as possible_ stop using it and instead follow the
+guidelines described in
+[How to sign up new merchants](#how-to-sign-up-new-merchants).
+
+Merchants will then get the _much improved_ new signup solution,
+applications will be processed much faster, and by using
+[partner keys](#partner-keys)
+there is no need for callbacks with the merchant's API keys.
+
+The new
+[Vipps Partner API](#vipps-partner-api)
+will be simple in the beginning, but our goal is to offer as much
+self-service to partners as possible.
 
 # FAQ for partners
 
-You may find answers to your questions on our FAQ section on the bottom of the [partner page on vipps.no](https://vipps.no/developer/bli-partner/)
+You may find answers to your questions on our FAQ section on the bottom of the
+[partner page on vipps.no](https://vipps.no/developer/bli-partner/)
 
 # Questions
 
