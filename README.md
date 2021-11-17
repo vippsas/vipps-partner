@@ -20,7 +20,7 @@ Document version: 1.1.10.
   * [Typical reasons for delays](#typical-reasons-for-delays)
   * [Vipps Partner API PoC](#vipps-partner-api-poc)
   * [Vipps Signup API](#vipps-signup-api)
-    - [If you are using Signup API](#if-you-are-using-the-signup-api)
+    - [If you are using the Signup API](#if-you-are-using-the-signup-api)
 - [FAQ for partners](#faq-for-partners)
 - [Questions?](#questions)
 
@@ -276,7 +276,7 @@ We are phasing out the Vipps Signup API because:
 * Vipps will launch new products and these will only be possible to order on
   [portal.vipps.no](https://portal.vipps.no).
 
-### If you are using Signup API
+### If you are using the Signup API
 
 You should _as quickly as possible_ stop using it and instead follow the
 guidelines described in
