@@ -213,7 +213,7 @@ The partner uses their
 and the new MSN to make Vipps payments.
 
 We have started on a proof of concept for a
-[Partner API](#vipps-partner-api-poc),
+[Vipps Partner API PoC](#vipps-partner-api-poc),
 which will improve the process above. Please bear with us in the meantime.
 
 ## Typical reasons for delays
@@ -254,7 +254,7 @@ is still available _for a short while_ for partners that have already started
 using it, but new partners should use the more efficient
 [partner keys](#partner-keys)
 (and the
-[Vipps Partner API](#vipps-partner-api)
+[Vipps Partner API PoC](#vipps-partner-api-poc)
 when available).
 
 The Vipps Signup API in short:
@@ -288,7 +288,7 @@ applications will be processed much faster, and by using
 there is no need for callbacks with the merchant's API keys.
 
 The new
-[Vipps Partner API](#vipps-partner-api)
+[Vipps Partner API PoC](#vipps-partner-api-poc)
 will be simple in the beginning, but our goal is to offer as much
 self-service to partners as possible.
 
