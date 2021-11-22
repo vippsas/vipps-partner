@@ -2,7 +2,7 @@
 
 Technical information for Vipps partners.
 
-Document version: 1.1.10.
+Document version: 1.1.11.
 
 # Table of Contents
 
@@ -116,9 +116,11 @@ In addition, all partners are required to complete the following:
      - [ ] Documentation for merchants regarding how to apply for Vipps products
      - [ ] Documentation for merchants regarding how to configure and use the module
      - [ ] FAQ for merchants
-- [ ] Provide one pilot customer to verify the integration in production environment
+- [ ] Provide one pilot customer to verify the integration in production environment (send organization number and name)
+- [ ] Describe how your integration have been set up with link to demo or screenshots. 
 
-When the integration checklist is completed, notify Vipps as described in the checklist.
+When the integration checklist is completed, notify Vipps Integration [integration@vipps.no](integration@vipps.no) as described in the checklist with ordreID examples from test environment, pilot customer info and description of the implemented solution.
+
 The Vipps Integration team will verify the integration, and contact the partner.
 
 Vipps then adds the partner to vipps.no, including the signup forms on
