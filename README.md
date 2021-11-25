@@ -2,7 +2,7 @@
 
 Technical information for Vipps partners.
 
-Document version: 1.1.11.
+Document version: 1.1.12.
 
 # Table of Contents
 
@@ -21,6 +21,7 @@ Document version: 1.1.11.
   * [Vipps Partner API PoC](#vipps-partner-api-poc)
   * [Vipps Signup API](#vipps-signup-api)
     - [If you are using the Signup API](#if-you-are-using-the-signup-api)
+    - [Why is the Signup API being phased out?](#why-is-the-signup-api-being-phased-out)
 - [FAQ for partners](#faq-for-partners)
 - [Questions?](#questions)
 
@@ -117,7 +118,7 @@ In addition, all partners are required to complete the following:
      - [ ] Documentation for merchants regarding how to configure and use the module
      - [ ] FAQ for merchants
 - [ ] Provide one pilot customer to verify the integration in production environment (send organization number and name)
-- [ ] Describe how your integration have been set up with link to demo or screenshots. 
+- [ ] Describe how your integration have been set up with link to demo or screenshots.
 
 When the integration checklist is completed, notify Vipps Integration [integration@vipps.no](integration@vipps.no) as described in the checklist with ordreID examples from test environment, pilot customer info and description of the implemented solution.
 
@@ -293,6 +294,30 @@ The new
 [Vipps Partner API PoC](#vipps-partner-api-poc)
 will be simple in the beginning, but our goal is to offer as much
 self-service to partners as possible.
+
+### Why is the Signup API being phased out?
+
+1. The Signup API uses the old, outdated signup form, where merchants make mistakes.
+2. Applications from merchants that have used the old signup form takes longer to
+   to process, and often require  manual follow-up on email for clarifications.
+3. New products, such as
+   [Vipps Checkout](https://vipps.no/produkter-og-tjenester/bedrift/ta-betalt-paa-nett/vipps-checkout/),
+   can not be ordered using the Signup API.      
+4. The signup on portal.vipps.no already contains a _lot_ of improvements over the
+   signup used by the Signup AP, and is being continuously improved - practically
+   every day. The Signup API gets none of these improvements.   
+5. The callbacks to the partner (with API keys and MSN) often fail, and
+   Vipps has an unacceptable amount of manual work to handle this by manually
+   sending API keys with encrypted Excel files with passwords on SMS, etc.
+6. Merchants that already have another Vipps product get a difficult user experience,
+   where they have to provide the same information they have already provided,
+   and sign again with BankID.
+7. Vipps is making significant changes to the underlying data model for how
+   merchants are represented, and we can not continue do maintain both the
+    Signup API and the signup on portal.vipps.no.
+
+And, of course: We are working on a new and better solution: The
+[Vipps Partner API PoC](#vipps-partner-api-poc).
 
 # FAQ for partners
 
