@@ -2,7 +2,7 @@
 
 Technical information for Vipps partners.
 
-Document version: 1.1.13.
+Document version: 1.1.14.
 
 # Table of Contents
 
@@ -111,7 +111,7 @@ relevant API's checklist are done (see the checklists for the
 and the
 [Recurring API](https://github.com/vippsas/vipps-recurring-api/blob/master/vipps-recurring-api-checklist.md)).
 
-In addition, all partners are required to complete the following:
+In addition to the checklists mentioned above, all partners are required to complete the following:
 - [ ] As a partner you accept the [Partner terms and conditions](https://github.com/vippsas/vipps-partner/blob/main/partnerterms.md)
 - [ ] Technical documentation for merchants
      - [ ] Documentation for merchants regarding how to apply for Vipps products
