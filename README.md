@@ -2,7 +2,7 @@
 
 Technical information for Vipps partners.
 
-Document version: 1.1.14.
+Document version: 1.1.15.
 
 # Table of Contents
 
@@ -149,7 +149,30 @@ make API calls on behalf of your merchants (only for the sale units that are lin
 
 With the partner keys you authenticate in the normal way, and then send
 the required `Merchant-Serial-Number` header to identify which of your merchants you are
-acting on behalf of.
+acting on behalf of: `Merchant-Serial-Number: 123456`.
+
+Example of headers in an API request _without_ using partner keys:
+
+```
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1Ni <snip>
+Ocp-Apim-Subscription-Key: 0f14ebcab0ec4b29ae0cb90d91b4a84a
+Vipps-System-Name: Acme Enterprises Ecommerce DeLuxe
+Vipps-System-Version: 3.1.2
+Vipps-System-Plugin-Name: acme-webshop
+Vipps-System-Plugin-Version: 4.5.6
+```
+
+```
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1Ni <snip>
+Ocp-Apim-Subscription-Key: 0f14ebcab0ec4b29ae0cb90d91b4a84a
+Merchant-Serial-Number: 123456
+Vipps-System-Name: Acme Enterprises Ecommerce DeLuxe
+Vipps-System-Version: 3.1.2
+Vipps-System-Plugin-Name: acme-webshop
+Vipps-System-Plugin-Version: 4.5.6
+```
+
+It's just one extra line.
 
 The same set of partner keys can be used for all your merchants' sale units, for both the
 [Vipps eCom API](https://github.com/vippsas/vipps-ecom-api)
