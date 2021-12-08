@@ -107,9 +107,10 @@ The partner only needs access to the test environment to complete an integration
 
 An integration is considered finished when all the elements of the
 relevant API's checklist are done (see the checklists for the
-[eCom API](https://github.com/vippsas/vipps-ecom-api/blob/master/vipps-ecom-api-checklist.md)
+[eCom API](https://github.com/vippsas/vipps-ecom-api/blob/master/vipps-ecom-api-checklist.md),
+[Recurring API](https://github.com/vippsas/vipps-recurring-api/blob/master/vipps-recurring-api-checklist.md))
 and the
-[Recurring API](https://github.com/vippsas/vipps-recurring-api/blob/master/vipps-recurring-api-checklist.md)).
+[Login API](https://github.com/vippsas/vipps-login-api/blob/master/vipps-login-api-checklist.md).
 
 In addition to the checklists mentioned above, all partners are required to complete the following:
 - [ ] As a partner you accept the [Partner terms and conditions](https://github.com/vippsas/vipps-partner/blob/main/partnerterms.md)
@@ -146,6 +147,7 @@ for information about deprecation notices, etc.
 As a partner you manage transactions on behalf of Vipps merchants.
 Vipps provide you with _partner keys_, which allows you to use your own API credentials to
 make API calls on behalf of your merchants (only for the sale units that are linked to you as a partner, though).
+Please be aware that partner keys can not be used for Vipps Login, here you need to use ther merchants own keys.
 
 With the partner keys you authenticate in the normal way, and then send
 the required `Merchant-Serial-Number` header to identify which of your merchants you are
