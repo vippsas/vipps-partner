@@ -2,7 +2,7 @@
 
 Technical information for Vipps partners.
 
-Document version: 1.1.16.
+Document version: 1.1.17.
 
 # Table of Contents
 
@@ -299,10 +299,8 @@ We are phasing out the Vipps Signup API because:
   and 3 above as part of the Signup API.
 * [Partner keys](#partner-keys)
   eliminate the need for merchant-specific API keys, so step 5 is no longer needed.
-* The signup process is being adapted to the different Vipps products,
-  so merchants only have to provide the relevant data for each product.
-* Vipps will launch new products and these will only be possible to order on
-  [portal.vipps.no](https://portal.vipps.no).
+
+See: [Why is the Signup API being phased out?](#why-is-the-signup-api-being-phased-out).
 
 ### If you are using the Signup API
 
@@ -321,6 +319,9 @@ will be simple in the beginning, but our goal is to offer as much
 self-service to partners as possible.
 
 ### Why is the Signup API being phased out?
+
+In short: It is no longer needed, as there are better solutions that are
+continuously improved.
 
 1. The Signup API uses the old, outdated signup form, where merchants make mistakes.
 2. Applications from merchants that have used the old signup form takes longer to
@@ -352,6 +353,8 @@ You may find answers to your questions on our FAQ section on the bottom of the
 [partner page on vipps.no](https://vipps.no/developer/bli-partner/)
 
 # Questions
+
+Please contact your partner manager.
 
 We're always happy to help with code or other questions you might have!
 Please create an [issue](https://github.com/vippsas/vipps-developers/issues),
