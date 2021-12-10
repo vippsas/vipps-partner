@@ -3,7 +3,7 @@
 This document is an example that partners can use for documentation to their
 merchants of how to get started with Vipps.
 
-The **Please note:** is for the partners, and must not be in the finished
+The **ℹ️ Please note:** is for the partners, and must not be in the finished
 documentation for the partner's merchants. See
 [Vipps Partners](https://github.com/vippsas/vipps-partner)
 for more information.
@@ -39,13 +39,13 @@ You can check the status of your Vipps order on
 [portal.vipps.no](https://portal.vipps.no)
 at any time.
 
-**Please note:** Vipps is working on improvements, including:
+**ℹ️ Please note:** Vipps is working on improvements, including:
 * Soon: Direct URLs that eliminate the need for selecting partner, product and price.
 * Later: A Partner API that let partners (mass) sign up new merchants.
 
 # API keys
 
-**Please note: Select one of the alternatives below:**
+**ℹ️ Please note: Select one of the alternatives below:**
 
 We use "partner keys" so there is no need for you to do anything.
 
@@ -59,11 +59,11 @@ complete with screenshots with added arrows, text, etc.**
 
 # Configuration of Vipps on our (the partner) side
 
-**Please note: Describe in detail, with screenshots, etc how to configure Vipps.**
+**ℹ️Please note: Describe in detail, with screenshots, etc how to configure Vipps.**
 
 # Questions
 
 Please contact us and we will help as soon as possible.
 We will contact Vipps if needed, so you should not contact Vipps directly.
 
-**Please note: Add partner name, address, website, phone, email, etc here.**
+**ℹ️Please note: Add partner name, address, website, phone, email, etc here.**
