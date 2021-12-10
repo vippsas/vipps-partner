@@ -52,9 +52,14 @@ We use "partner keys" so there is no need for you to do anything.
 When the Vipps application is complete, you will get an email.
 You then need to log in on
 [portal.vipps.no](https://portal.vipps.no)
-to retrieve the API keys under the "Utvikler" menu and
-<describe how to use the API keys in the partner's solution,
-complete with screenshots with added arrows, text, etc>.
+to retrieve the API keys under the "Utvikler" menu and ...
+
+**Please note: Describe how to use the API keys in the partner's solution,
+complete with screenshots with added arrows, text, etc.**
+
+# Configuration of Vipps on our (the partner) side
+
+**Please note: Describe in detail, with screenshots, etc how to configure Vipps.**
 
 # Questions
 
