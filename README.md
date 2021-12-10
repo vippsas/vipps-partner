@@ -2,7 +2,7 @@
 
 Technical information for Vipps partners.
 
-Document version: 1.1.17.
+Document version: 1.1.18.
 
 # Table of Contents
 
@@ -60,6 +60,7 @@ Vipps has three types of partners:
 
    Merchants that use an integration partner must
    _provide the API keys to the integration partner_.
+   See [Getting started: Getting the API keys](https://github.com/vippsas/vipps-developers/blob/master/vipps-getting-started.md#getting-the-api-keys).
 
 3. **Plugin partners:** Develop Vipps' official
    [open source plugins](https://github.com/vippsas/vipps-plugins)
