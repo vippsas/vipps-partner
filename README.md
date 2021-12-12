@@ -108,9 +108,9 @@ The partner only needs access to the test environment to complete an integration
 
 An integration is considered complete when all the elements of the
 relevant API's checklist are done. See the checklists:
-- [ ] [Vipps eCom API](https://github.com/vippsas/vipps-ecom-api/blob/master/vipps-ecom-api-checklist.md),
+- [ ] [Vipps eCom API](https://github.com/vippsas/vipps-ecom-api/blob/master/vipps-ecom-api-checklist.md)
 - [ ] [Vipps Recurring API](https://github.com/vippsas/vipps-recurring-api/blob/master/vipps-recurring-api-checklist.md)
-- [ ] [Vipps Login API](https://github.com/vippsas/vipps-login-api/blob/master/vipps-login-api-checklist.md)).
+- [ ] [Vipps Login API](https://github.com/vippsas/vipps-login-api/blob/master/vipps-login-api-checklist.md)
 
 In addition to the checklists mentioned above, all partners are required to complete the following:
 - [ ] As a partner you accept the [Partner terms and conditions](https://github.com/vippsas/vipps-partner/blob/main/partnerterms.md)
@@ -119,11 +119,14 @@ In addition to the checklists mentioned above, all partners are required to comp
      - [ ] Documentation for merchants regarding how to configure and use the module
      - [ ] FAQ for merchants
 - [ ] Provide one pilot customer to verify the integration in production environment (send organization number and name)
-- [ ] Describe how your integration have been set up with link to demo or screenshots.
+- [ ] Describe how your integration have been set up with a link to a demo, or provide screenshots.
 
-When the integration checklist is completed, notify Vipps Integration [integration@vipps.no](integration@vipps.no) as described in the checklist with ordreID examples from test environment, pilot customer info and description of the implemented solution.
+When the integration checklist is completed, notify Vipps Integration
+[integration@vipps.no](integration@vipps.no)
+as described in the checklist with `orderId` examples from test environment,
+pilot customer info and description of the implemented solution.
 
-The Vipps Integration team will verify the integration, and contact the partner.
+Vipps Integration will verify the integration, and contact the partner.
 
 Vipps then adds the partner to vipps.no, including the signup forms on
 [portal.vipps.no](https://portal.vipps.no)
