@@ -8,11 +8,11 @@ documentation for the partner's merchants. See
 [Vipps Partners](https://github.com/vippsas/vipps-partner)
 for more information.
 
-Document version: 0.0.1.
+Document version: 0.0.2.
 
 # How to order Vipps
 
-All merchants order Vipps on
+All merchants must order Vipps on
 [portal.vipps.no](https://portal.vipps.no):
 
 1. Log in with BankID
@@ -55,11 +55,27 @@ You then need to log in on
 to retrieve the API keys under the "Utvikler" menu and ...
 
 **Please note: Describe how to use the API keys in the partner's solution,
-complete with screenshots with added arrows, text, etc.**
+complete with screenshots with added arrows, text, etc.
+Link to
+[Getting Started: Get credentials](https://github.com/vippsas/vipps-developers/blob/master/vipps-getting-started.md#get-credentials)
+if relevant.
+**
 
 # Configuration of Vipps on our (the partner) side
 
-**ℹ️Please note: Describe in detail, with screenshots, etc how to configure Vipps.**
+**ℹ️Please note: Describe in detail how to configure Vipps, with screenshots, etc.
+Link to
+[Getting Started](https://github.com/vippsas/vipps-developers/blob/master/vipps-getting-started.md)
+if relevant.
+**
+
+# Frequently asked questions
+
+**ℹ️Please note: All partners must offer a FAQ for their merchants.
+Link to the
+[Vipps eCom API FAQ](https://github.com/vippsas/vipps-ecom-api/blob/master/vipps-ecom-api-faq.md)
+if relevant.
+**
 
 # Questions
 
