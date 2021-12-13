@@ -2,7 +2,7 @@
 
 Technical information for Vipps partners.
 
-Document version: 1.1.19.
+Document version: 1.1.20.
 
 # Table of Contents
 
@@ -348,6 +348,9 @@ continuously improved.
 7. Vipps is making significant changes to the underlying data model for how
    merchants are represented, and we can not continue to maintain both the
    old Signup API and the current signup on portal.vipps.no.
+
+See:
+[Deprecation of the Vipps Signup API](https://github.com/vippsas/vipps-signup-api/blob/master/vipps-signup-api-deprecation.md).
 
 And, of course: We are working on a new and better solution: The
 [Vipps Partner API PoC](#vipps-partner-api-poc).
