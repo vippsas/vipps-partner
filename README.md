@@ -2,7 +2,7 @@
 
 Technical information for Vipps partners.
 
-Document version: 1.1.20.
+Document version: 1.1.21.
 
 # Table of Contents
 
@@ -113,7 +113,7 @@ relevant API's checklist are done. See the checklists:
 - [ ] [Vipps Login API](https://github.com/vippsas/vipps-login-api/blob/master/vipps-login-api-checklist.md)
 
 In addition to the checklists mentioned above, all partners are required to complete the following:
-- [ ] As a partner you accept the [Partner terms and conditions](https://github.com/vippsas/vipps-partner/blob/main/partnerterms.md)
+- [ ] As a partner you accept the [Partner terms and conditions](https://github.com/vippsas/vipps-partner/blob/main/partner-terms.md)
 - [ ] Technical documentation for merchants
      - [ ] Documentation for merchants regarding how to apply for Vipps products
      - [ ] Documentation for merchants regarding how to configure and use the module
