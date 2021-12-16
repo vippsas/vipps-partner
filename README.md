@@ -2,7 +2,7 @@
 
 Technical information for Vipps partners.
 
-Document version: 1.1.21.
+Document version: 1.1.22.
 
 # Table of Contents
 
@@ -180,6 +180,9 @@ Vipps-System-Plugin-Version: 4.5.6
 ```
 
 It's just one extra line.
+
+**Please note:** If you are already using the same, identical API-keys for multiple
+merchants, you are _already_ using partner keys. That's good.
 
 The same set of partner keys can be used for all your merchants' sale units, for both the
 [Vipps eCom API](https://github.com/vippsas/vipps-ecom-api)
