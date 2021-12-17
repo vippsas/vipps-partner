@@ -2,7 +2,7 @@
 
 Technical information for Vipps partners.
 
-Document version: 1.1.22.
+Document version: 1.2.0.
 
 # Table of Contents
 
@@ -22,6 +22,7 @@ Document version: 1.1.22.
   * [Vipps Signup API](#vipps-signup-api)
     - [If you are using the Signup API](#if-you-are-using-the-signup-api)
     - [Why is the Signup API being phased out?](#why-is-the-signup-api-being-phased-out)
+    - [When will there be a replacement for the Signup API?](#when-will-there-be-a-replacement-for-the-signup-api)
 - [FAQ for partners](#faq-for-partners)
 - [Questions?](#questions)
 
@@ -355,8 +356,33 @@ continuously improved.
 See:
 [Deprecation of the Vipps Signup API](https://github.com/vippsas/vipps-signup-api/blob/master/vipps-signup-api-deprecation.md).
 
-And, of course: We are working on a new and better solution: The
+### When will there be a replacement for the Signup API?
+
+We are working on a new and better solution. See:
 [Vipps Partner API PoC](#vipps-partner-api-poc).
+
+Thew Partner API will be available as soon as possible, but we can not give
+a date. We will make the most important features available first, and
+welcome feedback. See:
+[Questions?](#questions).
+
+Vipps is making fundamental changes to the data model for representing
+merchants, partners, prices, payments, etc. This is a huge effort, with
+numerous dependencies, and has in practice already been in process for years.
+It is a continuous effort to improve and adapt our systems, and at the time
+of writing there is a lot going on with how _merchants_ are handles internally.
+
+Vipps is able to handle these changes in the backend services in the signup solution on
+[portal.vipps.no](https://portal.vipps.no),
+as we have complete control, and can make related changes at the same time.
+When we make a backend change, we make the necessary change in the frontend too.
+
+An external API is different. We can not make a stable API while we are making
+big changes in our backend, as that would require partners to frequently
+update their integration with our API.
+
+Again: The Signup API is no longer needed, as there are better solutions that are
+continuously improved - and we are working hard to provide even better solutions.
 
 # FAQ for partners
 
