@@ -361,7 +361,7 @@ See:
 We are working on a new and better solution. See:
 [Vipps Partner API PoC](#vipps-partner-api-poc).
 
-Thew Partner API will be available as soon as possible, but we can not give
+The Partner API will be available as soon as possible, but we can not give
 a date. We will make the most important features available first, and
 welcome feedback. See:
 [Questions?](#questions).
