@@ -2,7 +2,7 @@
 
 Technical information for Vipps partners.
 
-Document version: 1.2.0.
+Document version: 1.2.1.
 
 # Table of Contents
 
@@ -234,7 +234,7 @@ to apply for a new product (sale unit) to use with a new partner.
    and selects:
    1. The correct product
    2. The partner
-   3. The price package, typically "Small", "Medium" or "Large"
+   3. The price package, typically "Pris 1", "Pris 2" or "Pris 3"
 2. Vipps processes the application and does customer control (KYC, PEP, AML, etc).
    This may take a few days, depending on the information provided and the workload.
 3. The merchant can check the status of the application on
