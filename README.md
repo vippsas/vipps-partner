@@ -234,7 +234,10 @@ to apply for a new product (sale unit) to use with a new partner.
    and selects:
    1. The correct product
    2. The partner
-   3. The price package, typically "Pris 1", "Pris 2" or "Pris 3"
+   3. The price package, typically "Pris 1", "Pris 2" or "Pris 3".
+      We are aware that it's not ideal to let merchants select the price package,
+      but right now this must be done - and it works quite well for most partners.
+      Talk to your partner contact in Vipps about the current plans and status.
 2. Vipps processes the application and does customer control (KYC, PEP, AML, etc).
    This may take a few days, depending on the information provided and the workload.
 3. The merchant can check the status of the application on
