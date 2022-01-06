@@ -2,7 +2,7 @@
 
 Technical information for Vipps partners.
 
-Document version: 1.2.1.
+Document version: 1.2.2.
 
 # Table of Contents
 
@@ -252,9 +252,14 @@ The partner uses their
 [partner keys](#partner-keys)
 and the new MSN to make Vipps payments.
 
-We have started on a proof of concept for a
-[Vipps Partner API PoC](#vipps-partner-api-poc),
-which will improve the process above. Please bear with us in the meantime.
+**Please note:**
+- We are working on direct URLs that will let merchants go directly to the
+  right page on
+  [portal.vipps.no](https://portal.vipps.no)
+  with as much information as possible information pre-filled.
+- We have started on a proof of concept for a
+  [Vipps Partner API PoC](#vipps-partner-api-poc),
+  which will improve the process above. Please bear with us in the meantime.
 
 ## Typical reasons for delays
 
