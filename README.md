@@ -2,7 +2,7 @@
 
 Technical information for Vipps partners.
 
-Document version: 1.2.2.
+Document version: 1.2.3.
 
 # Table of Contents
 
@@ -181,6 +181,11 @@ Vipps-System-Plugin-Version: 4.5.6
 ```
 
 It's just one extra line.
+
+Partners must always send the `Merchant-Serial-Number` header, and we recommend
+that _everyone_ sends it, also when using the merchant's own API keys.
+The `Merchant-Serial-Number` header can be used with all API keys, and can
+speed up any trouble-shooting of API problems quite a bit.
 
 **Please note:** If you are already using the same, identical API-keys for multiple
 merchants, you are _already_ using partner keys. That's good.
