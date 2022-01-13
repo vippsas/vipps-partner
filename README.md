@@ -258,6 +258,11 @@ The partner uses their
 and the new MSN to make Vipps payments.
 
 **Please note:**
+- Partners can ask the mercant to create a user for them so they get access
+  to the MSN on
+  [portal.vipps.no](https://portal.vipps.no).
+  See:
+  [Getting started: Permissions and users](https://github.com/vippsas/vipps-developers/blob/master/vipps-getting-started.md#permissions-and-users).
 - We are working on direct URLs that will let merchants go directly to the
   right page on
   [portal.vipps.no](https://portal.vipps.no)
