@@ -181,7 +181,7 @@ Vipps-System-Plugin-Version: 4.5.6
 ```
 
 It's just one extra line.
-And: You must of course first get an access token, using the same partner keys, as documented in
+And: You must of course first get an access token (to send in the `Authorization` header), using the same partner keys, as documented in
 [Getting started: Get an access token](https://github.com/vippsas/vipps-developers/blob/master/vipps-getting-started.md#get-an-access-token).
 
 Partners must always send the `Merchant-Serial-Number` header, and we recommend
