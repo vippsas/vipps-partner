@@ -157,7 +157,10 @@ With the partner keys you authenticate in the normal way, and then send
 the required `Merchant-Serial-Number` header to identify which of your merchants you are
 acting on behalf of: `Merchant-Serial-Number: 123456`.
 
-Example of headers in an API request _without_ using partner keys:
+Example of headers in an API request _without_ using partner keys
+(including the required
+[Vipps HTTP headers](https://github.com/vippsas/vipps-ecom-api/blob/master/vipps-ecom-api.md#vipps-http-headers)
+):
 
 ```
 Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1Ni <snip>
