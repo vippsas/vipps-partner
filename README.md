@@ -159,8 +159,7 @@ acting on behalf of: `Merchant-Serial-Number: 123456`.
 
 Example of headers in an API request _without_ using partner keys
 (including the required
-[Vipps HTTP headers](https://github.com/vippsas/vipps-ecom-api/blob/master/vipps-ecom-api.md#vipps-http-headers)
-):
+[Vipps HTTP headers](https://github.com/vippsas/vipps-ecom-api/blob/master/vipps-ecom-api.md#vipps-http-headers)):
 
 ```
 Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1Ni <snip>
@@ -171,7 +170,9 @@ Vipps-System-Plugin-Name: acme-webshop
 Vipps-System-Plugin-Version: 4.5.6
 ```
 
-With the `Merchant-Serial-Number` header, using partner keys:
+With the `Merchant-Serial-Number` header, using partner keys
+(including the required
+[Vipps HTTP headers](https://github.com/vippsas/vipps-ecom-api/blob/master/vipps-ecom-api.md#vipps-http-headers)):
 
 ```
 Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1Ni <snip>
