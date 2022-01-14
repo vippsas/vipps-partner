@@ -2,7 +2,7 @@
 
 Technical information for Vipps partners.
 
-Document version: 1.2.5.
+Document version: 1.2.6.
 
 # Table of Contents
 
@@ -189,9 +189,6 @@ that _everyone_ sends it, also when using the merchant's own API keys.
 The `Merchant-Serial-Number` header can be used with all API keys, and can
 speed up any trouble-shooting of API problems quite a bit.
 
-**Please note:** If you are already using the same, identical API-keys for multiple
-merchants, you are _already_ using partner keys. That's good.
-
 The same set of partner keys can be used for all your merchants' sale units, for both the
 [Vipps eCom API](https://github.com/vippsas/vipps-ecom-api)
 and the
@@ -200,13 +197,21 @@ including the
 [Userinfo](#use-userinfo)
 endpoints for both.
 
+**Please note:**
+* If the merchant can, in any way, see or access the API keys you _must not_
+  use partner keys, as that will make it possible to act on behalf of all your
+  merchants.
+* If you are already using the same, identical API-keys for multiple
+  merchants, you are _already_ using partner keys. That's good.
+
 See:
 * [Partner keys for eCom](https://github.com/vippsas/vipps-ecom-api/blob/master/vipps-ecom-api.md#partner-keys)
 * [Partner keys for Recurring](https://github.com/vippsas/vipps-recurring-api/blob/master/vipps-recurring-api.md#partner-keys)
 * [Getting started: Quick overview of how to make an API call](https://github.com/vippsas/vipps-developers/blob/master/vipps-getting-started.md#quick-overview-of-how-to-make-an-api-call)
 
-**Please note:** Vipps payments can only be made to merchants that have a customer relationship with Vipps,
-and that have gone through the required compliance checks, etc after ordering Vipps on
+**Please note:** Vipps payments can only be made to merchants that have a
+customer relationship with Vipps, and that have gone through the required
+compliance checks, etc after ordering Vipps on
 [portal.vipps.no](https://portal.vipps.no).
 It is not possible to pay the partner instead of the merchant. See also:
 [Can I create a marketplace with multiple merchants?](https://github.com/vippsas/vipps-ecom-api/blob/master/vipps-ecom-api-faq.md#can-i-create-a-marketplace-with-multiple-merchants)
