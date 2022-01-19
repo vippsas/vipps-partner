@@ -15,7 +15,7 @@ Vilkårene regulerer forpliktelser i forbindelse med Partners distribusjon, klar
  
 2. Partner skal ved varsling om endringer i Selskapets API som medfører at Partner må gjøre endringer på sin side, gjennomføre disse innen de tidsfrister som settes for produksjonsdato og gjennomføring av endring.   
  
-3. Partner skal ikke distribuere eller tilrettelegge Vipps for Brukersteder som tilbyr «Ikke tillatte betalinger» i henhold til [Vipps gjeldende vilkår for bedrifter, lag og foreninger](https://www.vipps.no/vilkar/vilkar-bedrift/)  
+3. Partner skal ikke distribuere eller tilrettelegge Vipps for Brukersteder som tilbyr «Ikke tillatte betalinger» i henhold til [Vipps gjeldende vilkår for bedrifter, lag og foreninger](https://www.vipps.no/vilkar/vilkar-bedrift/). Tilsvarende skal ikke Partner i henhold til tilsvarende vilkår legge til rette for at Vipps Logg inn brukes dersom det av lov eller praksis følger et høyt krav til sikkerhet og trygghet på at rett fysisk person logger inn eller register seg. 
  
 4. Partner har et selvstendig ansvar for å vurdere om Brukersteder som ønsker å bruke Tjenestene oppfyller Selskapets vilkår.  Selskapet kan avvise brukersteder eller stanse bruk av tjenestene iht vilkårene 
  
