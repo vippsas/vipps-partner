@@ -2,7 +2,7 @@
 
 Technical information for Vipps partners.
 
-Document version: 1.2.7.
+Document version: 1.2.8.
 
 # Table of Contents
 
@@ -17,6 +17,7 @@ Document version: 1.2.7.
   * [Partner keys](#partner-keys)
   * [Plugin development](#plugin-development)
 - [How to sign up new merchants](#how-to-sign-up-new-merchants)
+  * [Merchants sign up on portal.vipps.no](#merchants-sign-up-on-portal.vipps.no)
   * [Typical reasons for delays](#typical-reasons-for-delays)
   * [Vipps Partner API PoC](#vipps-partner-api-poc)
   * [How to change partners for a merchant](#how-to-change-partners-for-a-merchant)
@@ -245,6 +246,8 @@ in addition to the one with the partner.
 
 A merchant that already has a customer relationship with Vipps still needs
 to apply for a new product (sale unit) to use with a new partner.
+
+## Merchants sign up on portal.vipps.no
 
 1. The merchant applies for Vipps on
    [portal.vipps.no](https://portal.vipps.no)
