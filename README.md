@@ -246,6 +246,7 @@ in addition to the one with the partner.
 
 A merchant that already has a customer relationship with Vipps still needs
 to apply for a new product (sale unit) to use with a new partner.
+See: [How to change partners for a merchant](#how-to-change-partners-for-a-merchant).
 
 ## Merchants sign up on portal.vipps.no
 
