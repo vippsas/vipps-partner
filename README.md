@@ -271,7 +271,7 @@ See: [How to change partners for a merchant](#how-to-change-partners-for-a-merch
 
 The partner uses their
 [partner keys](#partner-keys)
-and the new MSN to make Vipps payments.
+and the new MSN to make Vipps payments. 
 
 **Please note:**
 - Partners can ask the mercant to create a user for them so they get access
@@ -286,6 +286,7 @@ and the new MSN to make Vipps payments.
 - We have started on a proof of concept for a
   [Vipps Partner API PoC](#vipps-partner-api-poc),
   which will improve the process above. Please bear with us in the meantime.
+- Partner keys can not be used for Vipps Login, here you need to use the merchant's own keys.
 
 ## Typical reasons for delays
 
