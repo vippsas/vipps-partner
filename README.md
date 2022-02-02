@@ -2,7 +2,7 @@
 
 Technical information for Vipps partners.
 
-Document version: 1.2.8.
+Document version: 1.2.9.
 
 # Table of Contents
 
@@ -274,9 +274,11 @@ The partner uses their
 and the new MSN to make Vipps payments.
 
 **Please note:**
-- Partners can ask the mercant to create a user for them so they get access
+- Partners can ask the merchant to create a user for them so they get access
   to the MSN on
   [portal.vipps.no](https://portal.vipps.no).
+  The user persmissions are described (in Norwegian)
+  [here](https://vipps.no/hjelp/vipps/kundeforholdet-mitt/hvilke-tilganger-kan-vi-opprette-i-vippsportalen/).
   See:
   [Getting started: Permissions and users](https://github.com/vippsas/vipps-developers/blob/master/vipps-getting-started.md#permissions-and-users).
 - We are working on direct URLs that will let merchants go directly to the
