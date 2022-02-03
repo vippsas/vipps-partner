@@ -2,7 +2,7 @@
 
 Technical information for Vipps partners.
 
-Document version: 1.2.9.
+Document version: 1.2.10.
 
 # Table of Contents
 
@@ -271,7 +271,7 @@ See: [How to change partners for a merchant](#how-to-change-partners-for-a-merch
 
 The partner uses their
 [partner keys](#partner-keys)
-and the new MSN to make Vipps payments. 
+and the new MSN to make Vipps payments.
 
 **Please note:**
 - Partners can ask the merchant to create a user for them so they get access
@@ -308,7 +308,9 @@ There are still some common problems that cause delays:
   Vipps for ("Spesifiser kort hvilke varer/tjenester dere selger").
 * Vipps has sent an email requesting additional information, but has not received a reply.
   Merchants should check their "spam" and try to search their email for "vipps".
-* The application has been declined. Vipps only informs the merchant about this, not the partner.
+* The application has been declined. Vipps only informs the merchant about this,
+  not the partner. The reason for declining may be related to risk and
+  compliance, and thus sensitive.
 
 **Please note:** Partners should always check with the merchant for an updated status before contacting Vipps.
 
