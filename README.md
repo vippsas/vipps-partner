@@ -2,7 +2,7 @@
 
 Technical information for Vipps partners.
 
-Document version: 1.2.10.
+Document version: 1.2.11.
 
 # Table of Contents
 
@@ -440,6 +440,9 @@ continuously improved.
 7. Vipps is making significant changes to the underlying data model for how
    merchants are represented, and we can not continue to maintain both the
    old Signup API and the current signup on portal.vipps.no.
+8. The Signup API has no authentication or other security. Anyone can send
+   requests. There is no validation of data, and when a partner sends
+   incorrect data (which happens quite often), it requires manual correction by Vipps.
 
 See:
 [Deprecation of the Vipps Signup API](https://github.com/vippsas/vipps-signup-api/blob/master/vipps-signup-api-deprecation.md).
