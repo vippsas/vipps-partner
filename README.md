@@ -209,8 +209,8 @@ endpoints for both.
   merchants.
 * If you are already using the same, identical API-keys for multiple
   merchants, you are _already_ using partner keys. That's good.
-* Vipps can not send merchant's API keys to a partner. The partner must get
-  the API keys from the merchant - if partner keys are not used.
+* Vipps can not send the merchant's API keys to the partner. The partner must get
+  the API keys from the merchant in a secure way (if partner keys are not used).
   See:
   [Getting started: Get credentials](https://github.com/vippsas/vipps-developers/blob/master/vipps-getting-started.md#get-credentials)
   for more details.
