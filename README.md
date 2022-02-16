@@ -2,7 +2,7 @@
 
 Technical information for Vipps partners.
 
-Document version: 1.2.11.
+Document version: 1.2.12.
 
 # Table of Contents
 
@@ -209,6 +209,11 @@ endpoints for both.
   merchants.
 * If you are already using the same, identical API-keys for multiple
   merchants, you are _already_ using partner keys. That's good.
+* Vipps can not send merchant's API keys to a partner. The partner must get
+  the API keys from the merchant - if partner keys are not used.
+  See:
+  [Getting started: Get credentials](https://github.com/vippsas/vipps-developers/blob/master/vipps-getting-started.md#get-credentials)
+  for more details.
 
 See:
 * [Partner keys for eCom](https://github.com/vippsas/vipps-ecom-api/blob/master/vipps-ecom-api.md#partner-keys)
