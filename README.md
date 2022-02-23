@@ -216,7 +216,7 @@ endpoints for both.
   for more details.
 * If the merchant is unable to provide the API keys to the partner in a secure
   way (due to technical incompetence, etc), the merchant _can_ create a user
-  with "read" and "developer" permissions for a person at the partner:
+  for the partner:
   1. Log in with BankID on portal.vipps.no
   2. Click "Brukertilganger"
   3. Click "Legg til bruker"
