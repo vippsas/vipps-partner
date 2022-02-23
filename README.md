@@ -2,7 +2,7 @@
 
 Technical information for Vipps partners.
 
-Document version: 1.2.12.
+Document version: 1.2.13.
 
 # Table of Contents
 
@@ -214,6 +214,15 @@ endpoints for both.
   See:
   [Getting started: Get credentials](https://github.com/vippsas/vipps-developers/blob/master/vipps-getting-started.md#get-credentials)
   for more details.
+* If the merchant is unable to provide the API keys to the partner in a secure
+  way (due to technical incompetence, etc), the merchant _can_ create a user
+  with "read" and "developer" permissions for a person at the partner:
+  1. Log in with BankID on portal.vipps.no
+  2. Click "Brukertilganger"
+  3. Click "Legg til bruker"
+  4. Enter the phone number of the person at the partner, click "Neste"
+  5. Check the "Lese" and "Utvikler" checkboxes, click "Neste"
+  6. Check the sale unit the new user will get access to, click "Ferdig"
 
 See:
 * [Partner keys for eCom](https://github.com/vippsas/vipps-ecom-api/blob/master/vipps-ecom-api.md#partner-keys)
