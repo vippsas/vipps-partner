@@ -2,7 +2,7 @@
 
 Technical information for Vipps partners.
 
-Document version: 1.2.13.
+Document version: 1.2.14.
 
 # Table of Contents
 
@@ -264,7 +264,13 @@ See: [How to change partners for a merchant](#how-to-change-partners-for-a-merch
 
 ## Merchants sign up on portal.vipps.no
 
-1. The merchant applies for Vipps on
+1. The merchant logs in on
+   [portal.vipps.no](https://portal.vipps.no)
+   and fills out the details for the company, including
+   "reelle rettighetshaverer", politically exposed persons, etc.
+   This application is signed with BankID by a person that has
+   signatory rights for the company.
+2. The merchant then applies for the relevant Vipps product(s) on
    [portal.vipps.no](https://portal.vipps.no)
    and selects:
    1. The correct product
@@ -273,13 +279,13 @@ See: [How to change partners for a merchant](#how-to-change-partners-for-a-merch
       We are aware that it's not ideal to let merchants select the price package,
       but right now this must be done - and it works quite well for most partners.
       Talk to your partner contact in Vipps about the current plans and status.
-2. Vipps processes the application and does customer control (KYC, PEP, AML, etc).
+3. Vipps processes the application and does customer control (KYC, PEP, AML, etc).
    This may take a few days, depending on the information provided and the workload.
-3. The merchant can check the status of the application on
+4. The merchant can check the status of the application on
    [portal.vipps.no](https://portal.vipps.no)
    at any time.
    Vipps does not have the capacity to answer emails with status inquiries.
-4. Vipps notifies the merchant **and the partner** by email that the application is approved,
+5. Vipps notifies the merchant **and the partner** by email that the application is approved,
    with thew new MSN, and that the merchant can now use Vipps.
    If the application is declined, only the merchant is notified.
 
