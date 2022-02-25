@@ -2,7 +2,7 @@
 
 Technical information for Vipps partners.
 
-Document version: 1.2.14.
+Document version: 1.2.15.
 
 # Table of Contents
 
@@ -265,12 +265,16 @@ See: [How to change partners for a merchant](#how-to-change-partners-for-a-merch
 ## Merchants sign up on portal.vipps.no
 
 1. The merchant logs in on
-   [portal.vipps.no](https://portal.vipps.no)
-   and fills out the details for the company, including
+   [portal.vipps.no](https://portal.vipps.no) using BankID
+2. If the merchant does not have an existing customer relationship with Vipps, they need to first set this up. They can find the necessary form by going to:
+`https://portal.vipps.no/register/{organisation number}`
+
+   There, they need to fill in details for the company, including
    "reelle rettighetshaverer", politically exposed persons, etc.
    This application is signed with BankID by a person that has
    signatory rights for the company.
-2. The merchant then applies for the relevant Vipps product(s) on
+
+3. If the merchant already have a customer relationship or the after the above step has been done, the merchant then needs to apply for the relevant Vipps product(s) on
    [portal.vipps.no](https://portal.vipps.no)
    and selects:
    1. The correct product
