@@ -18,14 +18,17 @@ Document version: 0.0.1.
 
 # 1. Log in on portal.vipps.no
 
-The merchant logs in with BankID. on
-[portal.vipps.no](https://portal.vipps.no).
+The merchant logs in with BankID on
+[portal.vipps.no](https://portal.vipps.no)
+and sees the main page.
 
-Click "Brukertilganger" (top left):
+Click "Brukertilganger" in the left menu:
 
 ![1](images/portal-add-user-1.png)
 
 # 2. See the list of users
+
+The list of users is now shown.
 
 Click "Legg til bruker":
 
@@ -33,24 +36,37 @@ Click "Legg til bruker":
 
 # 3. Enter the new user's phone number
 
+A panel for adding a new user is shown.
+
+Enter the phone number of the new user that will be added.
+
 The name of the person will automatically be displayed.
+
+Click "Neste".
 
 ![3](images/portal-add-user-3.png)
 
 # 4. Select permissions
 
-The partner's user shoyuld have "Lese" and "Utvikler" permissions:
+The partner's user should have "Lese" and "Utvikler" permissions.
+
+Click "Neste".
 
 ![4](images/portal-add-user-4.png)
 
 # 5. Select sale units the new user will get access to
 
-There may be one or several sale units. Choose the right one(s),
-then click "Ferdig".
+There merchant may have one or several sale units.
+
+Choose the one(s) that the new user will get access to.
+
+Click "Ferdig".
 
 ![5](images/portal-add-user-5.png)
 
 # 6. Confirmation
+
+That's it.
 
 The confirmation screen looks like this:
 
