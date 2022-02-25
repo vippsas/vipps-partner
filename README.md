@@ -2,7 +2,7 @@
 
 Technical information for Vipps partners.
 
-Document version: 1.2.15.
+Document version: 1.2.16.
 
 # Table of Contents
 
@@ -216,7 +216,8 @@ endpoints for both.
   for more details.
 * If the merchant is unable to provide the API keys to the partner in a secure
   way (due to technical incompetence, etc), the merchant _can_ create a user
-  for the partner:
+  for the partner,
+  [as described in detail with screenshots here](add-portal-user.md):
   1. Log in with BankID on portal.vipps.no
   2. Click "Brukertilganger"
   3. Click "Legg til bruker"

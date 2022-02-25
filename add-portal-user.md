@@ -8,7 +8,10 @@ Document version: 0.0.1.
 
 # 1. Log in on portal.vipps.no
 
-Click "Brukertilganger":
+The merchant logs in with BankID. on
+[portal.vipps.no](https://portal.vipps.no).
+
+Click "Brukertilganger" (top left):
 
 ![1](images/portal-add-user-1.png)
 
@@ -47,7 +50,7 @@ The confirmation screen looks like this:
 
 Please contact your partner manager.
 
-See: [Vipps Partners](README.md). 
+See: [Vipps Partners](README.md).
 
 We're always happy to help with code or other questions you might have!
 Please create an [issue](https://github.com/vippsas/vipps-developers/issues),
