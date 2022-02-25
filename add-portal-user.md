@@ -1,7 +1,7 @@
 # How to add a user on portal.vipps.no
 
 Partners should use
-[partner keys][https://github.com/vippsas/vipps-partner#partner-keys].
+[partner keys](https://github.com/vippsas/vipps-partner#partner-keys).
 
 If the partner has not implemented partner keys, there will be some manual work:
 The merchant must retrieve the API keys on portal.vipps.no and send them to the
