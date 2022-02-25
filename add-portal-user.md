@@ -1,8 +1,17 @@
 # How to add a user on portal.vipps.no
 
-A step by step guide for partners that are not using partner keys, and must
-have the merchant add a user on portal.vipps.no, so the partner can retrieve
-the merchant's API keys.
+Partners should use
+[partner keys][https://github.com/vippsas/vipps-partner#partner-keys].
+
+If the partner has not implemented partner keys, there will be some manual work:
+The merchant must retrieve the API keys on portal.vipps.no and send them to the
+partner in a secure way.
+
+If the merchant is unable to provide the API keys to the partner in a secure
+way (due to technical incompetence, etc), the merchant _can_ create a user
+for the partner, so the partner can retrieve the API keys.
+
+This is a step by step guide for that.
 
 Document version: 0.0.1.
 
