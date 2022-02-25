@@ -215,8 +215,7 @@ endpoints for both.
   [Getting started: Get credentials](https://github.com/vippsas/vipps-developers/blob/master/vipps-getting-started.md#get-credentials)
   for more details.
 * If the merchant is unable to provide the API keys to the partner in a secure
-  way (due to technical incompetence, etc), the merchant _can_ create a user
-  for the partner,
+  way, the merchant _can_ create a user for the partner,
   [as described in detail with screenshots here](add-portal-user.md):
   1. Log in with BankID on portal.vipps.no
   2. Click "Brukertilganger"

@@ -8,8 +8,8 @@ The merchant must retrieve the API keys on portal.vipps.no and send them to the
 partner in a secure way.
 
 If the merchant is unable to provide the API keys to the partner in a secure
-way (due to technical incompetence, etc), the merchant _can_ create a user
-for the partner, so the partner can retrieve the API keys.
+way, the merchant _can_ create a user for the partner, so the partner can
+retrieve the API keys.
 
 This is a step by step guide for that.
 
