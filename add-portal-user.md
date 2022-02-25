@@ -6,6 +6,16 @@ the merchant's API keys.
 
 Document version: 0.0.1.
 
+# Table of contents
+
+* [1. Log in on portal.vipps.no](#1-log-in-on-portalvippsno)
+* [2. See the list of users](#2-see-the-list-of-users)
+* [3. Enter the new user's phone number](#3-enter-the-new-users-phone-number)
+* [4. Select permissions](#4-select-permissions)
+* [5. Select sale units the new user will get access to](#5-select-sale-units-the-new-user-will-get-access-to)
+* [6. Confirmation](#6-confirmation)
+* [Questions](#questions)
+
 # 1. Log in on portal.vipps.no
 
 The merchant logs in with BankID. on
@@ -35,7 +45,7 @@ The partner's user shoyuld have "Lese" and "Utvikler" permissions:
 
 # 5. Select sale units the new user will get access to
 
-There may be one or several sale unit. Choose the right one(s),
+There may be one or several sale units. Choose the right one(s),
 then click "Ferdig".
 
 ![5](images/portal-add-user-5.png)
