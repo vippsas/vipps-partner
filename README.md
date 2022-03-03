@@ -2,7 +2,7 @@
 
 Technical information for Vipps partners.
 
-Document version: 1.2.16.
+Document version: 1.2.17.
 
 # Table of Contents
 
@@ -313,6 +313,41 @@ and the new MSN to make Vipps payments.
   [Vipps Partner API PoC](#vipps-partner-api-poc),
   which will improve the process above. Please bear with us in the meantime.
 - Partner keys can not be used for Vipps Login, here you need to use the merchant's own keys.
+
+### How to check if a merchant is signed up with the partner as partner
+
+A workaround until
+[Vipps Partner API PoC](#vipps-partner-api-poc)
+is available:
+
+Partners can use the partner keys and try to retrieve a fictional `orderId` with
+the merchant's MSN with
+[`GET:/ecomm/v2/payments/{orderId}/details`](https://vippsas.github.io/vipps-ecom-api/#/Vipps_eCom_API/getPaymentDetailsUsingGET).
+
+If the MSN does not have the partner as partner, this will be the error:
+```
+[
+    {
+        "errorCode": "Unauthorized",
+        "errorMessage": "Invalid MSN: 123. This MSN is not valid for the provided supermerchant id. Check that you are using the correct credentials for the right environment.",
+        "contextId": "87f70e69-5649-458f-a3cc-39acbec0d4ba",
+        "errorGroup": "Merchant"
+    }
+]
+```
+
+If the MSN is set up correctly for the partner, the fictional `orderId`
+will result in this error:
+```
+[
+    {
+        "errorGroup": "Merchant",
+        "errorCode": "35",
+        "errorMessage": "Requested Order not found",
+        "contextId": "b829cb3f-2abd-4eb4-a425-68a173fd630a"
+    }
+]
+```
 
 ## Typical reasons for delays
 
