@@ -18,6 +18,7 @@ Document version: 1.2.17.
   * [Plugin development](#plugin-development)
 - [How to sign up new merchants](#how-to-sign-up-new-merchants)
   * [Merchants sign up on portal.vipps.no](#merchants-sign-up-on-portal.vipps.no)
+    - [How to check if a merchant is signed up with the partner as partner](#how-to-check-if-a-merchant-is-signed-up-with-the-partner-as-partner)
   * [Typical reasons for delays](#typical-reasons-for-delays)
   * [Vipps Partner API PoC](#vipps-partner-api-poc)
   * [How to change partners for a merchant](#how-to-change-partners-for-a-merchant)
