@@ -153,7 +153,7 @@ for information about deprecation notices, etc.
 
 As a partner you manage transactions on behalf of Vipps merchants.
 Vipps provides you with _partner keys_, which allows you to use your own API credentials to
-make API calls on behalf of your merchants (only for the sale units that are linked to you as a partner, though).
+make API calls on behalf of your merchants (only for the sales units that are linked to you as a partner, though).
 Please note that partner keys can not be used for Vipps Login, here you need to use the merchant's own keys.
 
 With the partner keys you authenticate in the normal way, and then send
