@@ -396,44 +396,51 @@ The new partner will get access to all the payments made to the MSN.
 There is no way Vipps can restrict the new partner's access to it can not see
 payments made before the partner change.
 
-The MSN can only be used with one set of partner keys at a time,
+The MSN can only be used with one set of
+[partner keys](https://github.com/vippsas/vipps-partner#partner-keys)
+at a time,
 so in the transition period this requires some effort from
 both the merchant and the two partners.
 
 This is the recommended way:
 
 1. The merchant logs in on
-  [portal.vipps.no](https://portal.vipps.no)
-  and retrieves the API keys for the MSN, as documented in
-  [Getting started](https://github.com/vippsas/vipps-developers/blob/master/vipps-getting-started.md#getting-the-api-keys).
+   [portal.vipps.no](https://portal.vipps.no)
+   and retrieves the API keys for the MSN, as documented in
+   [Getting started](https://github.com/vippsas/vipps-developers/blob/master/vipps-getting-started.md#getting-the-api-keys).
 2. The merchant securely provides the MSN's API keys to _both_ the
-  old partner and the new partner. This ensures that both partners can
-  make API calls for the MSN, regardless of each partner's
-  [partner keys](https://github.com/vippsas/vipps-partner#partner-keys).
+   old partner and the new partner. This ensures that both partners can
+   make API calls for the MSN, regardless of each partner's
+   [partner keys](https://github.com/vippsas/vipps-partner#partner-keys).
 3. The new partner contacts
-  [Partnerbestilling](https://github.com/vippsas/vipps-developers/blob/master/contact.md#we-help-with-technical-issues)
-  and orders a reconfiguration of the MSN: Link it to the new partner instead
-  of the old one.
-  When this is done, the MSN has the new partner as partner.
-4. The new partner's partner keys now work for the MSN,
-  and the old partner's partner keys has stopped working for this MSN.
+   [Partnerbestilling](https://github.com/vippsas/vipps-developers/blob/master/contact.md#we-help-with-technical-issues)
+   and orders a reconfiguration of the MSN: Vipps must connect it to the new
+   partner instead of the old one.
+   When this is done, the MSN has the new partner as partner.
+4. The new partner's
+   [partner keys](https://github.com/vippsas/vipps-partner#partner-keys)
+   now work for the MSN,
+   and the old partner's partner keys has stopped working for this MSN.
 5. The new partner uses its partner keys.
-  The old partner (if it needs to make API calls) must use the merchant's own API keys,
-  which they got in step 2.
+   The old partner (if it needs to make API calls) must use the merchant's own API keys,
+   which they got in step 2.
 
 Both partners can use the MSN's own API (from step 2) keys if there are "special"
 API calls to make in the transition period.
 The new partner should _always_ use the partner keys.
 Vipps offers a
 [Postman collection](https://github.com/vippsas/vipps-recurring-api/blob/master/vipps-recurring-postman.md)
-that can be used if needed.
+that can be used to make manual API calls if needed.
 
 **Important:** When or if the merchant wants to remove the old partner's access
 to the MSN, the merchant can log in on
 [portal.vipps.no](https://portal.vipps.no)
 and regenerate the MSN's API keys.
-That will make the MSN's old API keys invalid and unusable.
-This is also the recommended way to manage AOPI keys when _not_ using partner keys:
+That will make the MSN's old API keys invalid and unusable for both Partners,
+but the new partner's
+[partner keys](https://github.com/vippsas/vipps-partner#partner-keys)
+will continue to work.
+This is also the recommended way to manage API keys when _not_ using partner keys:
 Generate new API keys for the merchant, so the keys used by the old partner no
 longer can be used.
 
