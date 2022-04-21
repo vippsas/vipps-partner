@@ -2,7 +2,7 @@
 
 Technical information for Vipps partners.
 
-Document version: 1.2.18.
+Document version: 1.2.19.
 
 # Table of Contents
 
@@ -384,7 +384,7 @@ The plan for the Vipps Partner API will let partners, banks and large corporatio
 ## How to change partners for a merchant
 
 Merchants can change partners. This is always initiated by the merchant, and the
-merchant is responsible, as data processor, for which partner(s) ca access the
+merchant is responsible, as data processor, for which partner(s) can access the
 merchant's data.
 
 If the merchant changes partners, the merchant's sale unit (identified with MSN,
