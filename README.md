@@ -384,11 +384,11 @@ The plan for the Vipps Partner API will let partners, banks and large corporatio
 ## How to change partners for a merchant
 
 Merchants can change partners. This is always initiated by the merchant, and the
-merchant is responsible, as data processor, for which partner(s) has access to
-the merchant's data.
+merchant is responsible, as data processor, for which partner(s) ca access the
+merchant's data.
 
 If the merchant changes partners, the merchant's sale unit (identified with MSN,
-the Merchant Serial Number) must be reconfigures so the new partner's
+the Merchant Serial Number) must be reconfigured so the new partner's
 [partner keys](https://github.com/vippsas/vipps-partner#partner-keys)
 can be used for the same MSN.
 
@@ -433,6 +433,9 @@ to the MSN, the merchant can log in on
 [portal.vipps.no](https://portal.vipps.no)
 and regenerate the MSN's API keys.
 That will make the MSN's old API keys invalid and unusable.
+This is also the recommended way to manage AOPI keys when _not_ using partner keys:
+Generate new API keys for the merchant, so the keys used by the old partner no
+longer can be used.
 
 **Please note:** Vipps has previously handled the above by creating a new MSN to use with the
 new partner. We no longer offer this, as it creates a lot of additional work,
