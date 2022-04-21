@@ -2,7 +2,7 @@
 
 Technical information for Vipps partners.
 
-Document version: 1.2.17.
+Document version: 1.2.18.
 
 # Table of Contents
 
@@ -383,10 +383,18 @@ The plan for the Vipps Partner API will let partners, banks and large corporatio
 
 ## How to change partners for a merchant
 
+Merchants can change partners. This is always initiated by the merchant, and the
+merchant is responsible, as data processor, for which partner(s) has access to
+the merchant's data.
+
 If the merchant changes partners, the merchant's sale unit (identified with MSN,
 the Merchant Serial Number) must be reconfigures so the new partner's
 [partner keys](https://github.com/vippsas/vipps-partner#partner-keys)
 can be used for the same MSN.
+
+The new partner will get access to all the payments made to the MSN.
+There is no way Vipps can restrict the new partner's access to it can not see
+payments made before the partner change.
 
 The MSN can only be used with one set of partner keys at a time,
 so in the transition period this requires some effort from
@@ -420,8 +428,8 @@ Vipps offers a
 [Postman collection](https://github.com/vippsas/vipps-recurring-api/blob/master/vipps-recurring-postman.md)
 that can be used if needed.
 
-When the merchant wants to remove the old partner's access to the MSN,
-the merchant can log in on
+**Important:** When or if the merchant wants to remove the old partner's access
+to the MSN, the merchant can log in on
 [portal.vipps.no](https://portal.vipps.no)
 and regenerate the MSN's API keys.
 That will make the MSN's old API keys invalid and unusable.
