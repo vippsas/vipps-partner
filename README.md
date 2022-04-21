@@ -383,9 +383,9 @@ The plan for the Vipps Partner API will let partners, banks and large corporatio
 
 ## How to change partners for a merchant
 
-Merchants can change partners. This is always initiated by the merchant, and the
-merchant is responsible, as data processor, for which partner(s) can access the
-merchant's data.
+Merchants can change partners. This is always initiated by the merchant. The
+merchant is responsible, as _data controller_, for which partner(s) can access the
+merchant's data as _data processor_. 
 
 If the merchant changes partners, the merchant's sale unit (identified with MSN,
 the Merchant Serial Number) must be reconfigured so the new partner's
