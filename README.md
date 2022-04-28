@@ -2,7 +2,7 @@
 
 Technical information for Vipps partners.
 
-Document version: 1.2.19.
+Document version: 1.2.20.
 
 # Table of Contents
 
@@ -97,7 +97,7 @@ read through our FAQ, and fill out the form.
 
 See: [Developer documentation](#developer-documentation).
 
-When you application is aproved you will receive an email with details about access to the
+When you application is approved you will receive an email with details about access to the
 [test environment](https://github.com/vippsas/vipps-developers/blob/master/vipps-test-environment.md).
 
 If you already have a pilot merchant that has access to the Vipps APIs,
@@ -205,6 +205,10 @@ including the
 endpoints for both.
 
 **Please note:**
+* Partner keys only work in the production environment. In the
+  [test environment](https://github.com/vippsas/vipps-developers/blob/master/vipps-test-environment.md)
+  the partner has to use a merchant's API keys if the partner does not have
+  its own customer relationship, as a merchant, with Vipps.
 * If the merchant can, in any way, see or access the API keys you _must not_
   use partner keys, as that will make it possible to act on behalf of all your
   merchants.
@@ -385,7 +389,7 @@ The plan for the Vipps Partner API will let partners, banks and large corporatio
 
 Merchants can change partners. This is always initiated by the merchant. The
 merchant is responsible, as _data controller_, for which partner(s) can access the
-merchant's data as _data processor_. 
+merchant's data as _data processor_.
 
 If the merchant changes partners, the merchant's sale unit (identified with MSN,
 the Merchant Serial Number) must be reconfigured so the new partner's
