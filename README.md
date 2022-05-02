@@ -2,7 +2,7 @@
 
 Technical information for Vipps partners.
 
-Document version: 1.2.20.
+Document version: 1.2.21.
 
 # Table of Contents
 
@@ -20,11 +20,11 @@ Document version: 1.2.20.
   * [Merchants sign up on portal.vipps.no](#merchants-sign-up-on-portal.vipps.no)
     - [How to check if a merchant is signed up with the partner as partner](#how-to-check-if-a-merchant-is-signed-up-with-the-partner-as-partner)
   * [Typical reasons for delays](#typical-reasons-for-delays)
-  * [Vipps Partner API PoC](#vipps-partner-api-poc)
+  * [Vipps Partner API](#vipps-partner-api)
   * [How to change partners for a merchant](#how-to-change-partners-for-a-merchant)
   * [Vipps Signup API](#vipps-signup-api)
     - [If you are using the Signup API](#if-you-are-using-the-signup-api)
-    - [Why is the Signup API being phased out?](#why-is-the-signup-api-being-phased-out)
+    - [Why was the Signup API phased out?](#why-was-the-signup-api-phased-out)
     - [When will there be a replacement for the Signup API?](#when-will-there-be-a-replacement-for-the-signup-api)
 - [FAQ for partners](#faq-for-partners)
 - [Questions?](#questions)
@@ -315,14 +315,14 @@ and the new MSN to make Vipps payments.
   [portal.vipps.no](https://portal.vipps.no)
   with as much information as possible information pre-filled.
 - We have started on a proof of concept for a
-  [Vipps Partner API PoC](#vipps-partner-api-poc),
+  [Vipps Partner API](#vipps-partner-api),
   which will improve the process above. Please bear with us in the meantime.
 - Partner keys can not be used for Vipps Login, here you need to use the merchant's own keys.
 
 ### How to check if a merchant is signed up with the partner as partner
 
 A workaround until
-[Vipps Partner API PoC](#vipps-partner-api-poc)
+[Vipps Partner API](#vipps-partner-api)
 is available:
 
 Partners can use the partner keys and try to retrieve a fictional `orderId` with
@@ -378,12 +378,14 @@ There are still some common problems that cause delays:
 
 **Please note:** Partners should always check with the merchant for an updated status before contacting Vipps.
 
-## Vipps Partner API PoC
+## Vipps Partner API
 
-An early draft of the Vipps Partner API is available on GitHub:
+The Vipps Partner API documentation is available on GitHub:
 https://github.com/vippsas/vipps-partner-api
 
-The plan for the Vipps Partner API will let partners, banks and large corporations manage their merchants and sale units. See the GitHub repository for background and priorities.
+The plan for the Vipps Partner API will let partners, banks and large
+corporations manage their merchants and sale units. See the GitHub repository
+for background and priorities.
 
 ## How to change partners for a merchant
 
@@ -454,50 +456,36 @@ and it results in a confusing user experience for Vipps users - and partners.
 
 ## Vipps Signup API
 
-The soon-to-be-deprecated legacy
+The deprecated legacy
 [Vipps Signup API](https://github.com/vippsas/vipps-signup-api),
-also called "partial signup",
-is still available _for a short while_ for partners that have already started
-using it, but new partners should use the more efficient
+also called "partial signup", is no longer available,
+and partners should use the more efficient
 [partner keys](#partner-keys)
 (and the
-[Vipps Partner API PoC](#vipps-partner-api-poc)
+[Vipps Partner API](#vipps-partner-api)
 when available).
 
 The Vipps Signup API in short:
-1. Partners sendt some basic info about a new merchant to Vipps.
-2. The merchant gets a URL to the old, outdated signup form, with a few pre-filled fields.
-3. The merchant completes the form and signs with BankID.
-4. Vipps processes the application and does customer control (KYC, PEP, AML, etc).
-5. Vipps makes a callback to the partner's API with the merchant's new API keys.
+1. Partners sent some basic info about a new merchant to Vipps.
+2. The merchant got a URL to the old, outdated signup form, with a few pre-filled fields.
+3. The merchant completed the form and signed with BankID.
+4. Vipps processed the application and did customer control (KYC, PEP, AML, etc).
+5. Vipps made a callback to the partner's API with the merchant's new API keys.
 
-We are phasing out the Vipps Signup API because:
+The Vipps Signup API was phased out because:
 * The signup process is now on
   [portal.vipps.no](https://portal.vipps.no)
   and has _many_ improvements over the old signup form that is used in steps 2
   and 3 above as part of the Signup API.
 * [Partner keys](#partner-keys)
   eliminate the need for merchant-specific API keys, so step 5 is no longer needed.
+* Partners can soon use the
+  [Vipps Partner API](#vipps-partner-api)
+  to "pre-fill" applications for their merchants.
 
-See: [Why is the Signup API being phased out?](#why-is-the-signup-api-being-phased-out).
+See: [Why was the Signup API phased out?](#why-was-the-signup-api-phased-out).
 
-### If you are using the Signup API
-
-You should _as quickly as possible_ stop using it and instead follow the
-guidelines described in
-[How to sign up new merchants](#how-to-sign-up-new-merchants).
-
-Merchants will then get the _much improved_ new signup solution,
-applications will be processed much faster, and by using
-[partner keys](#partner-keys)
-there is no need for callbacks with the merchant's API keys.
-
-The new
-[Vipps Partner API PoC](#vipps-partner-api-poc)
-will be simple in the beginning, but our goal is to offer as much
-self-service to partners as possible.
-
-### Why is the Signup API being phased out?
+### Why was the Signup API phased out?
 
 In short: It is no longer needed, as there are better solutions that are
 continuously improved.
@@ -532,7 +520,7 @@ See:
 ### When will there be a replacement for the Signup API?
 
 We are working on a new and better solution. See:
-[Vipps Partner API PoC](#vipps-partner-api-poc).
+[Vipps Partner API](#vipps-partner-api).
 
 The Partner API will be available as soon as possible, but we can not give
 a date. We will make the most important features available first, and
