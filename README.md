@@ -2,7 +2,7 @@
 
 Technical information for Vipps partners.
 
-Document version: 1.2.21.
+Document version: 1.2.22.
 
 # Table of Contents
 
@@ -267,6 +267,10 @@ A merchant that already has a customer relationship with Vipps still needs
 to apply for a new product (sale unit) to use with a new partner.
 See: [How to change partners for a merchant](#how-to-change-partners-for-a-merchant).
 
+We are working on the
+[Vipps Partner API](#vipps-partner-api),
+but until that is available the process is a described below.
+
 ## Merchants sign up on portal.vipps.no
 
 1. The merchant logs in on
@@ -314,10 +318,7 @@ and the new MSN to make Vipps payments.
   right page on
   [portal.vipps.no](https://portal.vipps.no)
   with as much information as possible information pre-filled.
-- We have started on a proof of concept for a
-  [Vipps Partner API](#vipps-partner-api),
-  which will improve the process above. Please bear with us in the meantime.
-- Partner keys can not be used for Vipps Login, here you need to use the merchant's own keys.
+- Partner keys can not be used for the Vipps Login API, here you need to use the merchant's own keys.
 
 ### How to check if a merchant is signed up with the partner as partner
 
