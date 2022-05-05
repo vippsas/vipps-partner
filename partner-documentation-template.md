@@ -67,13 +67,6 @@ Topics to cover:
   - Autorization
   - Shortcodes
   - Webhooks
-* Order handling
-  - How do I capture an order
-  - How do I partial capture an order
-  - How do I cancel an order
-  - How do I refund an order
-  - How do I partial refund an order
-  - How do I debug a failed order
 * Additional info (support)
 
 Consider linking to the Vipps API FAQs.
