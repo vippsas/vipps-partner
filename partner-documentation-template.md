@@ -10,7 +10,16 @@ for more information.
 
 Document version: 1.0.0.
 
-# How to order Vipps
+## Table of contents
+* [How to order Vipps](#how-to-order-vipps)
+* [API keys](#api-keys)
+* [Configuration of Vipps on our (the partner) side](#configuration-of-vipps-on-our-the-partner-side)
+* [Frequently asked questions](#frequently-asked-questions)
+* [Order handling](#order-handling)
+* [Support](#support)
+* [Questions](#questions)
+
+## How to order Vipps
 
 ℹ️ Partners should use the
 [Partner API](https://github.com/vippsas/vipps-partner-api)
@@ -32,7 +41,7 @@ You can check the status of your Vipps order on
 [portal.vipps.no](https://portal.vipps.no)
 at any time.
 
-# API keys
+## API keys
 
 ℹ️ Select one of the alternatives below, depending on whether you use partner
 keys or not.
@@ -49,10 +58,10 @@ keys or not.
 2. Explain how to use the Vipps API keys in the partner's solution,
    complete with screenshots with added arrows, text, etc.
    Link to
-   [Getting Started: Get credentials](https://github.com/vippsas/vipps-developers/blob/master/vipps-getting-started.md#get-credentials)
+   [Getting Started: Get credentials](https://github.com/vippsas/vipps-developers/blob/master/vipps-getting-started.md##get-credentials)
    if relevant.
 
-# Configuration of Vipps on our (the partner) side
+## Configuration of Vipps on our (the partner) side
 
 ℹ️ Describe _in detail_ how to configure Vipps, with screenshots, etc.
 Link to
@@ -70,14 +79,14 @@ Topics to cover:
 
 Consider linking to the Vipps API FAQs.
 
-# Frequently asked questions
+## Frequently asked questions
 
 ℹ️ All partners must offer a FAQ for their merchants.
 Link to the
 [Vipps eCom API FAQ](https://github.com/vippsas/vipps-ecom-api/blob/master/vipps-ecom-api-faq.md)
 if relevant.
 
-# Order handling
+## Order handling
 
 ℹ️ Document everyrthing required for the merchant to manage their orders.
 All order management must be done in the partner's interface, using the Vipps API,
@@ -95,13 +104,13 @@ Topics to cover:
   - How do I debug a failed order
 * Additional info (support)
 
-# Support
+## Support
 
 ℹ️ All partners must offer all required support for their merchants.
 Explain how to get help, how to use the partner's support system, etc.
 Document very clearly that the partner's merchants should _never_ contact Vipps directly.
 
-# Questions
+## Questions
 
 Please contact us and we will help as soon as possible.
 We will contact Vipps if needed, so you should not contact Vipps directly.
