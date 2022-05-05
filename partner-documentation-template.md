@@ -77,6 +77,12 @@ Link to the
 [Vipps eCom API FAQ](https://github.com/vippsas/vipps-ecom-api/blob/master/vipps-ecom-api-faq.md)
 if relevant.
 
+# Order handling
+
+ℹ️ Document everyrthing required for the merchant to manage their orders.
+All order management must be done in the partner's interface, using the Vipps API,
+and _not_ on portal.vipps.no.
+
 Topics to cover:
 
 * Order handling
@@ -85,6 +91,7 @@ Topics to cover:
   - How do I cancel an order
   - How do I refund an order
   - How do I partial refund an order
+  - How to I find all the details about an order
   - How do I debug a failed order
 * Additional info (support)
 
