@@ -2,7 +2,7 @@
 
 Technical information for Vipps partners.
 
-Document version: 1.2.22.
+Document version: 1.2.23.
 
 # Table of Contents
 
@@ -203,6 +203,10 @@ and the
 including the
 [Userinfo](#use-userinfo)
 endpoints for both.
+
+**Important:** The partner keys _*must not be shared in any readable way with
+the merchants*_, as that will let one merchant perform API calls (including
+making payments, refunds, etc) on behalf of another merchant.
 
 **Please note:**
 * Partner keys only work in the production environment. In the
