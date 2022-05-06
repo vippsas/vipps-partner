@@ -57,7 +57,6 @@ Vipps has three types of partners:
    the merchants*_, as that will let one merchant perform API calls (including
    making payments, refunds, etc) on behalf of another merchant.
 
-
 2. **Integration partners:** Assist merchants in development of the merchants'
    integration. Typically a consultancy firm doing development for the merchant.
    An integration partner does not use the Vipps APIs on behalf of the merchant.
