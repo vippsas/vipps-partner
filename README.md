@@ -2,7 +2,7 @@
 
 Technical information for Vipps partners.
 
-Document version: 1.2.17.
+Document version: 1.2.24.
 
 # Table of Contents
 
@@ -20,11 +20,11 @@ Document version: 1.2.17.
   * [Merchants sign up on portal.vipps.no](#merchants-sign-up-on-portal.vipps.no)
     - [How to check if a merchant is signed up with the partner as partner](#how-to-check-if-a-merchant-is-signed-up-with-the-partner-as-partner)
   * [Typical reasons for delays](#typical-reasons-for-delays)
-  * [Vipps Partner API PoC](#vipps-partner-api-poc)
+  * [Vipps Partner API](#vipps-partner-api)
   * [How to change partners for a merchant](#how-to-change-partners-for-a-merchant)
   * [Vipps Signup API](#vipps-signup-api)
     - [If you are using the Signup API](#if-you-are-using-the-signup-api)
-    - [Why is the Signup API being phased out?](#why-is-the-signup-api-being-phased-out)
+    - [Why was the Signup API phased out?](#why-was-the-signup-api-phased-out)
     - [When will there be a replacement for the Signup API?](#when-will-there-be-a-replacement-for-the-signup-api)
 - [FAQ for partners](#faq-for-partners)
 - [Questions?](#questions)
@@ -51,7 +51,11 @@ Vipps has three types of partners:
 
    Merchants that use a platform partner
    _never need to see their API keys_,
-   since the platform partner uses partner keys.
+   since the platform partner uses **partner keys**.
+
+   **Important:** The partner keys _*must not be shared in any readable way with
+   the merchants*_, as that will let one merchant perform API calls (including
+   making payments, refunds, etc) on behalf of another merchant.
 
 2. **Integration partners:** Assist merchants in development of the merchants'
    integration. Typically a consultancy firm doing development for the merchant.
@@ -204,7 +208,15 @@ including the
 [Userinfo](#use-userinfo)
 endpoints for both.
 
+**Important:** The partner keys _*must not be shared in any readable way with
+the merchants*_, as that will let one merchant perform API calls (including
+making payments, refunds, etc) on behalf of another merchant.
+
 **Please note:**
+* Partner keys only work in the production environment. In the
+  [test environment](https://github.com/vippsas/vipps-developers/blob/master/vipps-test-environment.md)
+  the partner has to use a merchant's API keys if the partner does not have
+  its own customer relationship, as a merchant, with Vipps.
 * If the merchant can, in any way, see or access the API keys you _must not_
   use partner keys, as that will make it possible to act on behalf of all your
   merchants.
@@ -263,6 +275,10 @@ A merchant that already has a customer relationship with Vipps still needs
 to apply for a new product (sale unit) to use with a new partner.
 See: [How to change partners for a merchant](#how-to-change-partners-for-a-merchant).
 
+We are working on the
+[Vipps Partner API](#vipps-partner-api),
+but until that is available the process is a described below.
+
 ## Merchants sign up on portal.vipps.no
 
 1. The merchant logs in on
@@ -310,15 +326,12 @@ and the new MSN to make Vipps payments.
   right page on
   [portal.vipps.no](https://portal.vipps.no)
   with as much information as possible pre-filled.
-- We have started on a proof of concept for a
-  [Vipps Partner API PoC](#vipps-partner-api-poc),
-  which will improve the process above. Please bear with us in the meantime.
-- Partner keys can not be used for Vipps Login, here you need to use the merchant's own keys.
+- Partner keys can not be used for the Vipps Login API, here you need to use the merchant's own keys.
 
 ### How to check if a merchant is signed up with the partner as partner
 
 A workaround until
-[Vipps Partner API PoC](#vipps-partner-api-poc)
+[Vipps Partner API](#vipps-partner-api)
 is available:
 
 Partners can use the partner keys and try to retrieve a fictional `orderId` with
@@ -374,57 +387,77 @@ There are still some common problems that cause delays:
 
 **Please note:** Partners should always check with the merchant for an updated status before contacting Vipps.
 
-## Vipps Partner API PoC
+## Vipps Partner API
 
-An early draft of the Vipps Partner API is available on GitHub:
+The Vipps Partner API documentation is available on GitHub:
 https://github.com/vippsas/vipps-partner-api
 
-The plan for the Vipps Partner API will let partners, banks and large corporations manage their merchants and sale units. See the GitHub repository for background and priorities.
+The plan for the Vipps Partner API will let partners, banks and large
+corporations manage their merchants and sale units. See the GitHub repository
+for background and priorities.
 
 ## How to change partners for a merchant
+
+Merchants can change partners. This is always initiated by the merchant. The
+merchant is responsible, as _data controller_, for which partner(s) can access the
+merchant's data as _data processor_.
 
 If the merchant changes partners, the merchant's sale unit (identified with MSN,
 the Merchant Serial Number) must be reconfigured so the new partner's
 [partner keys](https://github.com/vippsas/vipps-partner#partner-keys)
 can be used for the same MSN.
 
-The MSN can only be used with one set of partner keys at a time,
+The new partner will get access to all the payments made to the MSN.
+There is no way Vipps can restrict the new partner's access to it can not see
+payments made before the partner change.
+
+The MSN can only be used with one set of
+[partner keys](https://github.com/vippsas/vipps-partner#partner-keys)
+at a time,
 so in the transition period this requires some effort from
 both the merchant and the two partners.
 
 This is the recommended way:
 
 1. The merchant logs in on
-  [portal.vipps.no](https://portal.vipps.no)
-  and retrieves the API keys for the MSN, as documented in
-  [Getting started](https://github.com/vippsas/vipps-developers/blob/master/vipps-getting-started.md#getting-the-api-keys).
+   [portal.vipps.no](https://portal.vipps.no)
+   and retrieves the API keys for the MSN, as documented in
+   [Getting started](https://github.com/vippsas/vipps-developers/blob/master/vipps-getting-started.md#getting-the-api-keys).
 2. The merchant securely provides the MSN's API keys to _both_ the
-  old partner and the new partner. This ensures that both partners can
-  make API calls for the MSN, regardless of each partner's
-  [partner keys](https://github.com/vippsas/vipps-partner#partner-keys).
+   old partner and the new partner. This ensures that both partners can
+   make API calls for the MSN, regardless of each partner's
+   [partner keys](https://github.com/vippsas/vipps-partner#partner-keys).
 3. The new partner contacts
   [Partnerbestilling](https://github.com/vippsas/vipps-developers/blob/master/contact.md#we-help-with-technical-issues)
   and orders a reconfiguration of the MSN: Link it to the new partner instead
   of the old one.
   When this is done, the MSN has the new partner as partner.
-4. The new partner's partner keys now work for the MSN,
+4. The new partner's
+   [partner keys](https://github.com/vippsas/vipps-partner#partner-keys)
+   now work for the MSN,
   and the old partner's partner keys have stopped working for this MSN.
 5. The new partner uses its partner keys.
-  The old partner (if it needs to make API calls) must use the merchant's own API keys,
-  which they got in step 2.
+   The old partner (if it needs to make API calls) must use the merchant's own API keys,
+   which they got in step 2.
 
 Both partners can use the MSN's own API (from step 2) keys if there are "special"
 API calls to make in the transition period.
 The new partner should _always_ use the partner keys.
 Vipps offers a
 [Postman collection](https://github.com/vippsas/vipps-recurring-api/blob/master/vipps-recurring-postman.md)
-that can be used if needed.
+that can be used to make manual API calls if needed.
 
-When the merchant wants to remove the old partner's access to the MSN,
-the merchant can log in on
+**Important:** When or if the merchant wants to remove the old partner's access
+to the MSN, the merchant can log in on
 [portal.vipps.no](https://portal.vipps.no)
 and regenerate the MSN's API keys.
-That will make the MSN's old API keys invalid and unusable.
+That will make the MSN's old API keys invalid and unusable for both Partners,
+but the new partner's
+[partner keys](https://github.com/vippsas/vipps-partner#partner-keys)
+will continue to work.
+This is also the recommended way to manage API keys when _not_ using partner keys:
+Generate new API keys for the merchant, so the keys used by the old partner no
+longer can be used.
 
 **Please note:** Vipps has previously handled the above by creating a new MSN to use with the
 new partner. We no longer offer this, as it creates a lot of additional work,
@@ -432,50 +465,36 @@ and it results in a confusing user experience for Vipps users - and partners.
 
 ## Vipps Signup API
 
-The soon-to-be-deprecated legacy
+The deprecated legacy
 [Vipps Signup API](https://github.com/vippsas/vipps-signup-api),
-also called "partial signup",
-is still available _for a short while_ for partners that have already started
-using it, but new partners should use the more efficient
+also called "partial signup", is no longer available,
+and partners should use the more efficient
 [partner keys](#partner-keys)
 (and the
-[Vipps Partner API PoC](#vipps-partner-api-poc)
+[Vipps Partner API](#vipps-partner-api)
 when available).
 
 The Vipps Signup API in short:
-1. Partners sendt some basic info about a new merchant to Vipps.
-2. The merchant gets a URL to the old, outdated signup form, with a few pre-filled fields.
-3. The merchant completes the form and signs with BankID.
-4. Vipps processes the application and does customer control (KYC, PEP, AML, etc).
-5. Vipps makes a callback to the partner's API with the merchant's new API keys.
+1. Partners sent some basic info about a new merchant to Vipps.
+2. The merchant got a URL to the old, outdated signup form, with a few pre-filled fields.
+3. The merchant completed the form and signed with BankID.
+4. Vipps processed the application and did customer control (KYC, PEP, AML, etc).
+5. Vipps made a callback to the partner's API with the merchant's new API keys.
 
-We are phasing out the Vipps Signup API because:
+The Vipps Signup API was phased out because:
 * The signup process is now on
   [portal.vipps.no](https://portal.vipps.no)
   and has _many_ improvements over the old signup form that is used in steps 2
   and 3 above as part of the Signup API.
 * [Partner keys](#partner-keys)
   eliminate the need for merchant-specific API keys, so step 5 is no longer needed.
+* Partners can soon use the
+  [Vipps Partner API](#vipps-partner-api)
+  to "pre-fill" applications for their merchants.
 
-See: [Why is the Signup API being phased out?](#why-is-the-signup-api-being-phased-out).
+See: [Why was the Signup API phased out?](#why-was-the-signup-api-phased-out).
 
-### If you are using the Signup API
-
-You should _as quickly as possible_ stop using it and instead follow the
-guidelines described in
-[How to sign up new merchants](#how-to-sign-up-new-merchants).
-
-Merchants will then get the _much improved_ new signup solution,
-applications will be processed much faster, and by using
-[partner keys](#partner-keys)
-there is no need for callbacks with the merchant's API keys.
-
-The new
-[Vipps Partner API PoC](#vipps-partner-api-poc)
-will be simple in the beginning, but our goal is to offer as much
-self-service to partners as possible.
-
-### Why is the Signup API being phased out?
+### Why was the Signup API phased out?
 
 In short: It is no longer needed, as there are better solutions that are
 continuously improved.
@@ -510,7 +529,7 @@ See:
 ### When will there be a replacement for the Signup API?
 
 We are working on a new and better solution. See:
-[Vipps Partner API PoC](#vipps-partner-api-poc).
+[Vipps Partner API](#vipps-partner-api).
 
 The Partner API will be available as soon as possible, but we can not give
 a date. We will make the most important features available first, and
