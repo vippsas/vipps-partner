@@ -58,10 +58,10 @@ Vipps has three types of partners:
    making payments, refunds, etc) on behalf of another merchant.
 
 2. **Integration partners:** Assist merchants in development of the merchants'
-   integration. Typically a consultancy firm doing development for the merchant.
+   integration. Typically, a consultancy firm doing development for the merchant.
    An integration partner does not use the Vipps APIs on behalf of the merchant.
 
-   If the integration partner continue to run, manage and develop the
+   If the integration partner continues to run, manage, and develop
    _everything_ related to the Vipps integration, and also manage the API
    credentials _on behalf of_ the merchant, the partner is similar to a
    platform partner and should use partner keys.
@@ -76,13 +76,13 @@ Vipps has three types of partners:
 
    If a partner uses official Vipps plugins to implement a Vipps integration
    for a merchant, the API credentials for the merchant must be used, and
-   the partner use the Vipps APIs on behalf of the merchant.
+   the partner uses the Vipps APIs on behalf of the merchant.
 
-A partner may act as a different type of partner in different situation.
+A partner may act as a different type of partner in different situations.
 It is possible for a partner to both develop an official Vipps plugin and
 to be a platform partner.
 
-This document is mainly for platform partners, that act _on behalf of_ merchants,
+This document is mainly for platform partners that act _on behalf of_ merchants,
 using one set of API keys for all merchants: Partner keys.
 Other partners must rely on each merchant's individual API keys.
 
@@ -101,7 +101,7 @@ read through our FAQ, and fill out the form.
 
 See: [Developer documentation](#developer-documentation).
 
-When you application is approved you will receive an email with details about access to the
+When your application is approved, you will receive an email with details about access to the
 [test environment](https://github.com/vippsas/vipps-developers/blob/master/vipps-test-environment.md).
 
 If you already have a pilot merchant that has access to the Vipps APIs,
@@ -127,11 +127,11 @@ In addition to the checklists mentioned above, all partners are required to comp
      - [ ] Documentation for merchants regarding how to configure and use the module
      - [ ] FAQ for merchants
 - [ ] Provide one pilot customer to verify the integration in production environment (send organization number and name)
-- [ ] Describe how your integration have been set up with a link to a demo, or provide screenshots.
+- [ ] Describe how your integration has been set up with a link to a demo, or provide screenshots.
 
 When the integration checklist is completed, notify Vipps Integration
 [integration@vipps.no](integration@vipps.no)
-as described in the checklist with `orderId` examples from test environment,
+as described in the checklist with `orderId` examples from the test environment,
 pilot customer info and description of the implemented solution.
 
 Vipps Integration will verify the integration, and contact the partner.
@@ -144,7 +144,7 @@ where the merchants can sign up and select the partner as their partner.
 
 ## Developer documentation
 
-All developer documentation and tools is available on
+All developer documentation and tools are available on
 [GitHub](https://github.com/vippsas/vipps-developers).
 
 ## Vipps API Lifecycle
@@ -155,9 +155,9 @@ for information about deprecation notices, etc.
 
 ## Partner keys
 
-As a partner you manage transactions on behalf of Vipps merchants.
-Vipps provide you with _partner keys_, which allows you to use your own API credentials to
-make API calls on behalf of your merchants (only for the sale units that are linked to you as a partner, though).
+As a partner, you manage transactions on behalf of Vipps merchants.
+Vipps provides you with _partner keys_, which allows you to use your own API credentials to
+make API calls on behalf of your merchants (only for the sales units that are linked to you as a partner, though).
 Please note that partner keys can not be used for Vipps Login, here you need to use the merchant's own keys.
 
 With the partner keys you authenticate in the normal way, and then send
@@ -291,23 +291,23 @@ but until that is available the process is a described below.
    This application is signed with BankID by a person that has
    signatory rights for the company.
 
-3. If the merchant already have a customer relationship or the after the above step has been done, the merchant then needs to apply for the relevant Vipps product(s) on
+3. If the merchant already has a customer relationship or the above step has been done, the merchant then needs to apply for the relevant Vipps product(s) on
    [portal.vipps.no](https://portal.vipps.no)
-   and selects:
+   and select:
    1. The correct product
    2. The partner
    3. The price package, typically "Pris 1", "Pris 2" or "Pris 3".
       We are aware that it's not ideal to let merchants select the price package,
       but right now this must be done - and it works quite well for most partners.
       Talk to your partner contact in Vipps about the current plans and status.
-3. Vipps processes the application and does customer control (KYC, PEP, AML, etc).
+4. Vipps processes the application and does customer control (KYC, PEP, AML, etc).
    This may take a few days, depending on the information provided and the workload.
-4. The merchant can check the status of the application on
+5. The merchant can check the status of the application on
    [portal.vipps.no](https://portal.vipps.no)
    at any time.
    Vipps does not have the capacity to answer emails with status inquiries.
-5. Vipps notifies the merchant **and the partner** by email that the application is approved,
-   with thew new MSN, and that the merchant can now use Vipps.
+6. Vipps notifies the merchant **and the partner** by email that the application is approved,
+   with the new MSN, and that the merchant can now use Vipps.
    If the application is declined, only the merchant is notified.
 
 The partner uses their
@@ -318,14 +318,14 @@ and the new MSN to make Vipps payments.
 - Partners can ask the merchant to create a user for them so they get access
   to the MSN on
   [portal.vipps.no](https://portal.vipps.no).
-  The user persmissions are described (in Norwegian)
+  The user permissions are described (in Norwegian)
   [here](https://vipps.no/hjelp/vipps/kundeforholdet-mitt/hvilke-tilganger-kan-vi-opprette-i-vippsportalen/).
   See:
   [Getting started: Permissions and users](https://github.com/vippsas/vipps-developers/blob/master/vipps-getting-started.md#permissions-and-users).
 - We are working on direct URLs that will let merchants go directly to the
   right page on
   [portal.vipps.no](https://portal.vipps.no)
-  with as much information as possible information pre-filled.
+  with as much information as possible pre-filled.
 - Partner keys can not be used for the Vipps Login API, here you need to use the merchant's own keys.
 
 ### How to check if a merchant is signed up with the partner as partner
@@ -343,7 +343,7 @@ If the MSN does not have the partner as partner, this will be the error:
 [
     {
         "errorCode": "Unauthorized",
-        "errorMessage": "Invalid MSN: 123. This MSN is not valid for the provided supermerchant id. Check that you are using the correct credentials for the right environment.",
+        "errorMessage": "Invalid MSN: 123. This MSN is not valid for the provided super merchant id. Check that you are using the correct credentials for the right environment.",
         "contextId": "87f70e69-5649-458f-a3cc-39acbec0d4ba",
         "errorGroup": "Merchant"
     }
@@ -428,14 +428,14 @@ This is the recommended way:
    make API calls for the MSN, regardless of each partner's
    [partner keys](https://github.com/vippsas/vipps-partner#partner-keys).
 3. The new partner contacts
-   [Partnerbestilling](https://github.com/vippsas/vipps-developers/blob/master/contact.md#we-help-with-technical-issues)
-   and orders a reconfiguration of the MSN: Vipps must connect it to the new
-   partner instead of the old one.
-   When this is done, the MSN has the new partner as partner.
+  [Partnerbestilling](https://github.com/vippsas/vipps-developers/blob/master/contact.md#we-help-with-technical-issues)
+  and orders a reconfiguration of the MSN: Link it to the new partner instead
+  of the old one.
+  When this is done, the MSN has the new partner as partner.
 4. The new partner's
    [partner keys](https://github.com/vippsas/vipps-partner#partner-keys)
    now work for the MSN,
-   and the old partner's partner keys has stopped working for this MSN.
+  and the old partner's partner keys have stopped working for this MSN.
 5. The new partner uses its partner keys.
    The old partner (if it needs to make API calls) must use the merchant's own API keys,
    which they got in step 2.
@@ -500,7 +500,7 @@ In short: It is no longer needed, as there are better solutions that are
 continuously improved.
 
 1. The Signup API uses the old, outdated signup form, where merchants make mistakes.
-2. Applications from merchants that have used the old signup form takes longer to
+2. Applications from merchants that have used the old signup form take longer
    to process, and often require  manual follow-up on email for clarifications.
 3. New products, such as
    [Vipps Checkout](https://vipps.no/produkter-og-tjenester/bedrift/ta-betalt-paa-nett/vipps-checkout/),
@@ -540,7 +540,7 @@ Vipps is making fundamental changes to the data model for representing
 merchants, partners, prices, payments, etc. This is a huge effort, with
 numerous dependencies, and has in practice already been in process for years.
 It is a continuous effort to improve and adapt our systems, and at the time
-of writing there is a lot going on with how _merchants_ are handles internally.
+of writing there is a lot going on with how _merchants_ are handled internally.
 
 Vipps is able to handle these changes in the backend services in the signup solution on
 [portal.vipps.no](https://portal.vipps.no),
