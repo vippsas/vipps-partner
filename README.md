@@ -58,10 +58,10 @@ Vipps has three types of partners:
    making payments, refunds, etc) on behalf of another merchant.
 
 2. **Integration partners:** Assist merchants in development of the merchants'
-   integration. Typically a consultancy firm doing development for the merchant.
+   integration. Typically, a consultancy firm doing development for the merchant.
    An integration partner does not use the Vipps APIs on behalf of the merchant.
 
-   If the integration partner continues to run, manage and develop
+   If the integration partner continues to run, manage, and develop
    _everything_ related to the Vipps integration, and also manage the API
    credentials _on behalf of_ the merchant, the partner is similar to a
    platform partner and should use partner keys.
@@ -101,7 +101,7 @@ read through our FAQ, and fill out the form.
 
 See: [Developer documentation](#developer-documentation).
 
-When your application is approved you will receive an email with details about access to the
+When your application is approved, you will receive an email with details about access to the
 [test environment](https://github.com/vippsas/vipps-developers/blob/master/vipps-test-environment.md).
 
 If you already have a pilot merchant that has access to the Vipps APIs,
@@ -155,7 +155,7 @@ for information about deprecation notices, etc.
 
 ## Partner keys
 
-As a partner you manage transactions on behalf of Vipps merchants.
+As a partner, you manage transactions on behalf of Vipps merchants.
 Vipps provides you with _partner keys_, which allows you to use your own API credentials to
 make API calls on behalf of your merchants (only for the sales units that are linked to you as a partner, though).
 Please note that partner keys can not be used for Vipps Login, here you need to use the merchant's own keys.
@@ -300,13 +300,13 @@ but until that is available the process is a described below.
       We are aware that it's not ideal to let merchants select the price package,
       but right now this must be done - and it works quite well for most partners.
       Talk to your partner contact in Vipps about the current plans and status.
-3. Vipps processes the application and does customer control (KYC, PEP, AML, etc).
+4. Vipps processes the application and does customer control (KYC, PEP, AML, etc).
    This may take a few days, depending on the information provided and the workload.
-4. The merchant can check the status of the application on
+5. The merchant can check the status of the application on
    [portal.vipps.no](https://portal.vipps.no)
    at any time.
    Vipps does not have the capacity to answer emails with status inquiries.
-5. Vipps notifies the merchant **and the partner** by email that the application is approved,
+6. Vipps notifies the merchant **and the partner** by email that the application is approved,
    with the new MSN, and that the merchant can now use Vipps.
    If the application is declined, only the merchant is notified.
 
