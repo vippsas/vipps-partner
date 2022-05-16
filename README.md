@@ -2,7 +2,7 @@
 
 Technical information for Vipps partners.
 
-Document version: 1.2.25.
+Document version: 1.2.26.
 
 # Table of Contents
 
@@ -381,6 +381,8 @@ contains a lot of help and tips, as well as links to more information.
 
 There are still some common problems that cause delays:
 
+* The merchant has signed a merchant agreement, but has not ordered any
+  Vipps products.
 * The application is not signed by a person that has signatory rights.
   Merchants can check who can sign at
   [Brønnøysundregistrene](https://www.brreg.no).
