@@ -115,30 +115,30 @@ The partner only needs access to the test environment to complete an integration
 ## Finishing the integration and going live
 
 An integration is considered complete when all the elements of the
-relevant API's checklist are done. See the checklists:
+relevant API checklists are done. See the checklists:
 - [ ] [Vipps eCom API](https://github.com/vippsas/vipps-ecom-api/blob/master/vipps-ecom-api-checklist.md)
 - [ ] [Vipps Recurring API](https://github.com/vippsas/vipps-recurring-api/blob/master/vipps-recurring-api-checklist.md)
 - [ ] [Vipps Login API](https://github.com/vippsas/vipps-login-api/blob/master/vipps-login-api-checklist.md)
 
 In addition to the checklists mentioned above, all partners are required to complete the following:
-- [ ] As a partner you accept the [Partner terms and conditions](https://github.com/vippsas/vipps-partner/blob/main/partner-terms.md)
-- [ ] Technical documentation for merchants
-     - [ ] Documentation for merchants regarding how to apply for Vipps products
-     - [ ] Documentation for merchants regarding how to configure and use the module
-     - [ ] FAQ for merchants
+- [ ] As a partner, you accept the [Partner terms and conditions](https://github.com/vippsas/vipps-partner/blob/main/partner-terms.md)
+- [ ] Provide technical documentation for merchants regarding:
+     - [ ] How to apply for Vipps products
+     - [ ] How to configure and use the module
+     - [ ] Frequently Asked Questions (FAQs) for merchants
 - [ ] Provide one pilot customer to verify the integration in production environment (send organization number and name)
 - [ ] Describe how your integration has been set up with a link to a demo, or provide screenshots.
 
 When the integration checklist is completed, notify Vipps Integration
-[integration@vipps.no](integration@vipps.no)
-as described in the checklist with `orderId` examples from the test environment,
-pilot customer info and description of the implemented solution.
+([integration@vipps.no](integration@vipps.no))
+as described in the checklist, with `orderId` examples from the test environment,
+pilot customer info, and a description of the implemented solution.
 
-Vipps Integration will verify the integration, and contact the partner.
+Vipps Integration will verify the integration and take contact with you.
 
-Vipps then adds the partner to vipps.no, including the signup forms on
+Vipps then adds you to vipps.no, including the signup forms on
 [portal.vipps.no](https://portal.vipps.no)
-where the merchants can sign up and select the partner as their partner.
+where the merchants can sign up and select you as their partner.
 
 # Technical information for partners
 
@@ -156,18 +156,18 @@ for information about deprecation notices, etc.
 ## Partner keys
 
 As a partner, you manage transactions on behalf of Vipps merchants.
-Vipps provides you with _partner keys_, which allows you to use your own API credentials to
-make API calls on behalf of your merchants (only for the sales units that are linked to you as a partner, though).
-Please note that partner keys can not be used for Vipps Login, here you need to use the merchant's own keys.
+Vipps provides you with _partner keys_, which allow you to use your own API credentials to
+make API calls on behalf of your merchants (i.e., the sales units that are linked to you as a partner).
+
+**_NOTE:_**  Partner keys cannot be used for Vipps Login. You need to use the merchant's own keys in the login API.
 
 With the partner keys you authenticate in the normal way,
 using the `client_id`, `client_secret` and `Ocp-Apim-Subscription-Key` that are
-part of your partner keys, and then send the required `Merchant-Serial-Number`
-header to identify which of your merchants you are acting on behalf of, like so:
-`Merchant-Serial-Number: 123456`.
+part of your partner keys. Then, send the required `Merchant-Serial-Number`
+header to identify which of your merchants you are acting on behalf of (e.g.,
+`Merchant-Serial-Number: 123456`).
 
-Example of headers in an API request _without_ using partner keys
-(including the required
+The following is an example showing the headers found in a merchant's API request (_without_ using partner keys but including the required
 [Vipps HTTP headers](https://github.com/vippsas/vipps-ecom-api/blob/master/vipps-ecom-api.md#vipps-http-headers)):
 
 ```
@@ -179,9 +179,8 @@ Vipps-System-Plugin-Name: acme-webshop
 Vipps-System-Plugin-Version: 4.5.6
 ```
 
-With the `Merchant-Serial-Number` header, using partner keys
-(including the required
-[Vipps HTTP headers](https://github.com/vippsas/vipps-ecom-api/blob/master/vipps-ecom-api.md#vipps-http-headers)):
+An example of API headers for a partner's API request includes the `Merchant-Serial-Number` header, partner keys, and the required
+[Vipps HTTP headers](https://github.com/vippsas/vipps-ecom-api/blob/master/vipps-ecom-api.md#vipps-http-headers).
 
 ```
 Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1Ni <snip>
@@ -193,11 +192,9 @@ Vipps-System-Plugin-Name: acme-webshop
 Vipps-System-Plugin-Version: 4.5.6
 ```
 
-It's just one extra line (and of course the partner keys instead of the merchant's keys).
-
-And: You must of course first get an access token (to send in the `Authorization`
-header shown above), using the same partner keys, as documented in
-[Getting started: Get an access token](https://github.com/vippsas/vipps-developers/blob/master/vipps-getting-started.md#get-an-access-token).
+Remember that you must use your partner keys instead of the merchant's keys.
+In addition, the partner keys must be used to get the access token, sent in the `Authorization`
+header shown above.
 
 Partners must always send the `Merchant-Serial-Number` header, and we recommend
 that _everyone_ sends it, also when using the merchant's own API keys.
@@ -219,28 +216,19 @@ making payments, refunds, etc) on behalf of another merchant.
 **Please note:**
 * If you are already using the same, identical API keys for multiple
   merchants, you are _already_ using partner keys.
-* If the merchants can, in any way, see or access the API keys you _must not_
-  use partner keys, as that will make it possible to act on behalf of all your
-  merchants.
+* You _must not_
+  use partner keys if the merchants can, in any way, see or access the API keys. That would be security problem that would make it possible for someone to act on behalf of all your merchants.
 * Partner keys only work in the production environment. In the
-  [test environment](https://github.com/vippsas/vipps-developers/blob/master/vipps-test-environment.md)
-  the partner has to use a merchant's API keys if the partner does not have
-  its own customer relationship, as a merchant, with Vipps.
-* Vipps can not send the merchant's API keys to the partner. The partner must get
-  the API keys from the merchant in a secure way (if partner keys are not used).
+  [test environment](https://github.com/vippsas/vipps-developers/blob/master/vipps-test-environment.md),
+  you must merchant API keys. If you are not a Vipps merchant and do not have these keys, you will need to use the merchant keys belonging to one of your merchants.
+* Vipps can not send the merchant's API keys to you. You must get them from the merchant in a secure way (if partner keys are not used).
   See:
   [Getting started: Get credentials](https://github.com/vippsas/vipps-developers/blob/master/vipps-getting-started.md#get-credentials)
   for more details.
-* If the merchant is unable to provide the API keys to the partner in a secure
-  way, the merchant _can_ create a user for the partner,
-  [as described in detail with screenshots here](add-portal-user.md):
-  1. Log in with BankID on portal.vipps.no
-  2. Click "Brukertilganger"
-  3. Click "Legg til bruker"
-  4. Enter the phone number of the person at the partner, click "Neste"
-  5. Check the "Lese" and "Utvikler" checkboxes, click "Neste"
-  6. Check the sale unit the new user will get access to, click "Ferdig"
-* Vipps can not assist a partner in getting the API keys from the merchant,
+* If the merchant is unable to provide the API keys to you in a secure
+  way, the merchant _can_ create a user for you,
+  [as described in detail with screenshots](add-portal-user.md).
+* Vipps cannot assist a partner in getting the API keys from the merchant,
   other than by improving the documentation for how to do it.  
 
 See:
@@ -287,7 +275,7 @@ but until that is available the process is a described below.
 
 ## Merchants sign up on portal.vipps.no
 
-1. The merchant logs in on
+1. The merchant logs in to
    [portal.vipps.no](https://portal.vipps.no) using BankID
 2. If the merchant does not have an existing customer relationship with Vipps,
    they need to first set this up. They can find the necessary form by going to:
@@ -325,7 +313,7 @@ and the new MSN to make Vipps payments.
 **Please note:**
 - Partners can ask the merchant to create a user for them so they get access
   to the MSN on
-  [portal.vipps.no](https://portal.vipps.no).
+  [portal.vipps.no](https://portal.vipps.no)
   as described
   [in detail with screenshots here](add-portal-user.md).
   The user permissions are described (in Norwegian)
@@ -420,13 +408,13 @@ the Merchant Serial Number) must be reconfigured so the new partner's
 can be used for the same MSN.
 
 The new partner will get access to all the payments made to the MSN.
-There is no way Vipps can restrict the new partner's access to it can not see
+There is no way Vipps can restrict the new partner's access so it cannot see
 payments made before the partner change.
 
 The MSN can only be used with one set of
 [partner keys](https://github.com/vippsas/vipps-partner#partner-keys)
 at a time,
-so in the transition period this requires some effort from
+so, in the transition period, this requires some effort from
 both the merchant and the two partners.
 
 This is the recommended way:
