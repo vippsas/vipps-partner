@@ -72,8 +72,8 @@ Topics to cover:
 
 * Installation
 * Configuration
-  - Autorization
-  - Shortcodes
+  - Authorization
+  - Short codes
   - Webhooks
 * Additional info (support)
 
@@ -83,12 +83,12 @@ Consider linking to the Vipps API FAQs.
 
 ℹ️ All partners must offer a FAQ for their merchants.
 Link to the
-[Vipps eCom API FAQ](https://github.com/vippsas/vipps-ecom-api/blob/master/vipps-ecom-api-faq.md)
+[Vipps eCom API FAQ](https://github.com/vippsas/vipps-ecom-api/blob/master/vipps-ecom-api-faq.md),
 if relevant.
 
 ## Order handling
 
-ℹ️ Document everyrthing required for the merchant to manage their orders.
+ℹ️ Document everything required for the merchant to manage their orders.
 All order management must be done in the partner's interface, using the Vipps API,
 and _not_ on portal.vipps.no.
 
