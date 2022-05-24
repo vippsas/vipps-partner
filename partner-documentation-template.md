@@ -8,7 +8,7 @@ finished documentation for the partner's merchants. See
 [Vipps Partners](https://github.com/vippsas/vipps-partner)
 for more information.
 
-Document version: 1.0.0.
+Document version: 1.0.1.
 
 ## Table of contents
 * [How to order Vipps](#how-to-order-vipps)

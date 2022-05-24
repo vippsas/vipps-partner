@@ -2,7 +2,7 @@
 
 Technical information for Vipps partners.
 
-Document version: 1.2.26.
+Document version: 1.2.27.
 
 # Table of Contents
 
