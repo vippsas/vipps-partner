@@ -208,6 +208,11 @@ including the
 [Userinfo](#use-userinfo)
 endpoints for both.
 
+:bomb: **Potential Pitfall:** If you answer _YES_ to any of the following questions, partner keys is **_NOT_** for your solution.
+- [ ] Your merchants can see the Partner Keys (Subscription Key, ClientID, ClientSecret)
+- [ ] Your merchant has the ability to _change_ the MSN / Merchant Serial Number
+- [ ] The keys & secrets are stored on premesis at the merchant
+
 **Important:** The partner keys _*must not be shared in any readable way with
 the merchants*_, as that will let one merchant perform API calls (including
 making payments, refunds, etc) on behalf of another merchant.
