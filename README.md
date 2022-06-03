@@ -2,7 +2,7 @@
 
 Technical information for Vipps partners.
 
-Document version: 1.2.27.
+Document version: 1.2.28.
 
 # Table of Contents
 
@@ -209,14 +209,15 @@ including the
 [Userinfo](#use-userinfo)
 endpoints for both.
 
-:bomb: **Potential Pitfall:** If you answer _YES_ to any of the following questions, partner keys is **_NOT_** for your solution.
-- [ ] Your merchants can see the Partner Keys (Subscription Key, ClientID, ClientSecret)
-- [ ] Your merchant has the ability to _change_ the MSN / Merchant Serial Number
-- [ ] The keys & secrets are stored on premesis at the merchant
-
-**Important:** The partner keys _*must not be shared in any readable way with
+**Important:** The partner keys _*must never be shared in any readable way with
 the merchants*_, as that will let one merchant perform API calls (including
 making payments, refunds, etc) on behalf of another merchant.
+
+:bomb: **Potential pitfalls:**
+If you answer _YES_ to any of the following questions, partner keys is **_not_** for your solution.
+- [ ] Your merchants can see the partner keys (`client_id`, `client_secret`, `Ocp-Apim-Subscription-Key`)
+- [ ] Your merchant has the ability to _change_ their MSN (Merchant Serial Number)
+- [ ] The keys and secrets are stored on the merchant system's (so they can access it)
 
 **Please note:**
 * If you are already using the same, identical API keys for multiple
