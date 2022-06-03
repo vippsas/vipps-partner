@@ -274,9 +274,11 @@ A merchant that already has a customer relationship with Vipps still needs
 to apply for a new product (sale unit) to use with a new partner.
 See: [How to change partners for a merchant](#how-to-change-partners-for-a-merchant).
 
-We are working on the
-[Vipps Partner API](#vipps-partner-api),
-but until that is available the process is a described below.
+See the
+[Vipps Partner API](#vipps-partner-api)
+for an updated status on how to sign up new merchants.
+Until that is fully released, the information below is valid
+(we update all documentation as soon as there is new infomration).
 
 ## Merchants sign up on portal.vipps.no
 
