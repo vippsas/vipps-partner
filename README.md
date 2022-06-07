@@ -2,7 +2,7 @@
 
 Technical information for Vipps partners.
 
-Document version: 1.2.28.
+Document version: 1.2.29.
 
 # Table of Contents
 
@@ -46,29 +46,27 @@ Vipps has three types of partners:
    do all development and maintenance on their platform,
    and also provide all support for the merchants.
 
-   Platform partners use the Vipps APIs _on behalf of_ merchants
-   (initiate payments, do captures, do refunds, etc).
+   Platform partners use the Vipps APIs _on behalf of_ merchants:
+   Initiate payments, do captures, do refunds, etc.
 
    Merchants that use a platform partner
    _never need to see their API keys_,
-   since the platform partner uses **partner keys**.
-
-   **Important:** The partner keys _*must not be shared in any readable way with
-   the merchants*_, as that will let one merchant perform API calls (including
-   making payments, refunds, etc) on behalf of another merchant.
+   since the platform partner uses
+   [partner keys](#partner-keys).
 
 2. **Integration partners:** Assist merchants in development of the merchants'
    integration. Typically, a consultancy firm doing development for the merchant.
    An integration partner does not use the Vipps APIs on behalf of the merchant.
 
-   If the integration partner continues to run, manage, and develop
-   _everything_ related to the Vipps integration, and also manage the API
-   credentials _on behalf of_ the merchant, the partner is similar to a
-   platform partner and should use partner keys.
-
    Merchants that use an integration partner must
    _provide the API keys to the integration partner_.
    See [Getting started: Getting the API keys](https://github.com/vippsas/vipps-developers/blob/master/vipps-getting-started.md#getting-the-api-keys).
+
+   If the integration partner continues to run, manage, and develop
+   _everything_ related to the Vipps integration, and also manage the API
+   credentials _on behalf of_ the merchant, the partner is similar to a
+   platform partner and should use
+   [partner keys](#partner-keys).
 
 3. **Plugin partners:** Develop Vipps' official
    [open source plugins](https://github.com/vippsas/vipps-plugins)
@@ -83,7 +81,8 @@ It is possible for a partner to both develop an official Vipps plugin and
 to be a platform partner.
 
 This document is mainly for platform partners that act _on behalf of_ merchants,
-using one set of API keys for all merchants: Partner keys.
+using one set of API keys for all merchants:
+[Partner keys](#partner-keys).
 Other partners must rely on each merchant's individual API keys.
 
 Information for PSP (Payment Service Providers) is here:
