@@ -2,7 +2,7 @@
 
 Technical information for Vipps partners.
 
-Document version: 1.2.29.
+Document version: 1.2.30.
 
 # Table of Contents
 
@@ -158,7 +158,8 @@ As a partner, you manage transactions on behalf of Vipps merchants.
 Vipps provides you with _partner keys_, which allow you to use your own API credentials to
 make API calls on behalf of your merchants (i.e., the sales units that are linked to you as a partner).
 
-**_NOTE:_**  Partner keys cannot be used for Vipps Login. You need to use the merchant's own keys in the login API.
+**_NOTE:_**  Partner keys cannot be used for Vipps Login.
+You need to use the merchant's own keys in the login API.
 
 With the partner keys you authenticate in the normal way,
 using the `client_id`, `client_secret` and `Ocp-Apim-Subscription-Key` that are
@@ -234,7 +235,9 @@ If you answer _YES_ to any of the following questions, partner keys is **_not_**
   way, the merchant _can_ create a user for you,
   [as described in detail with screenshots](add-portal-user.md).
 * Vipps cannot assist a partner in getting the API keys from the merchant,
-  other than by improving the documentation for how to do it.  
+  other than by improving the documentation for how to do it.
+* Partner keys can be used for all sale units that are registered with the partner.
+  It does not matter if the sale unit is several years old, or one day old.
 
 See:
 * [Partner keys for eCom](https://github.com/vippsas/vipps-ecom-api/blob/master/vipps-ecom-api.md#partner-keys)
