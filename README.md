@@ -115,6 +115,7 @@ The partner only needs access to the test environment to complete an integration
 
 An integration is considered complete when all the elements of the
 relevant API checklists are done. See the checklists:
+- [ ] [Vipps Checkout API](https://github.com/vippsas/vipps-checkout-api/blob/main/vipps-checkout-api-checklist.md)
 - [ ] [Vipps eCom API](https://github.com/vippsas/vipps-ecom-api/blob/master/vipps-ecom-api-checklist.md)
 - [ ] [Vipps Recurring API](https://github.com/vippsas/vipps-recurring-api/blob/master/vipps-recurring-api-checklist.md)
 - [ ] [Vipps Login API](https://github.com/vippsas/vipps-login-api/blob/master/vipps-login-api-checklist.md)
