@@ -291,7 +291,7 @@ portal.vipps.no on behalf of a merchant, so the merchant can log in,
 check the data, and submit the product order.
 
 See:
-[Submit a product order for a merchant](https://github.com/vippsas/vipps-partner-api/blob/main/vipps-partner-api.md#submit-a-product-order-for-a-merchant)
+[Submit a product order for a merchant](https://github.com/vippsas/vipps-partner-api/blob/main/vipps-partner-api.md#submit-a-product-order-for-a-merchant).
 
 ## Merchants can also sign up on portal.vipps.no
 
