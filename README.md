@@ -2,7 +2,7 @@
 
 Technical information for Vipps partners.
 
-Document version: 2.0.1.
+Document version: 2.0.2.
 
 # Table of Contents
 
@@ -13,6 +13,7 @@ Document version: 2.0.1.
   * [Finishing the integration and going live](#finishing-the-integration-and-going-live)
 * [Technical information for partners](#technical-information-for-partners)
   * [Developer documentation](#developer-documentation)
+  * [Vipps Partner API](#vipps-partner-api)
   * [Vipps API Lifecycle](#vipps-api-lifecycle)
   * [Partner keys](#partner-keys)
   * [Plugin development](#plugin-development)
@@ -21,7 +22,6 @@ Document version: 2.0.1.
   * [Merchants can also sign up on portal.vipps.no](#merchants-can-also-sign-up-on-portalvippsno)
   * [How to check if a merchant is signed up with the partner as partner](#how-to-check-if-a-merchant-is-signed-up-with-the-partner-as-partner)
   * [Typical reasons for delays](#typical-reasons-for-delays)
-  * [Vipps Partner API](#vipps-partner-api)
   * [How to change partners for a merchant](#how-to-change-partners-for-a-merchant)
   * [Vipps Signup API](#vipps-signup-api)
     * [Why was the Signup API phased out?](#why-was-the-signup-api-phased-out)
@@ -146,6 +146,11 @@ where the merchants can sign up and select you as their partner.
 All developer documentation and tools are available on
 [GitHub](https://github.com/vippsas/vipps-developers).
 
+## Vipps Partner API
+
+The Vipps Partner API documentation is available on GitHub:
+https://github.com/vippsas/vipps-partner-api
+
 ## Vipps API Lifecycle
 
 See the
@@ -159,7 +164,7 @@ Vipps provides you with _partner keys_, which allow you to use your own API cred
 make API calls on behalf of your merchants (i.e., the sales units that are linked to you as a partner).
 
 **_NOTE:_**  Partner keys cannot be used for Vipps Login.
-You need to use the merchant's own keys in the login API.
+You need to use the merchant's own keys in the Vipps Login API.
 
 With the partner keys you authenticate in the normal way,
 using the `client_id`, `client_secret` and `Ocp-Apim-Subscription-Key` that are
@@ -193,8 +198,8 @@ Vipps-System-Plugin-Version: 4.5.6
 ```
 
 Remember that you must use your partner keys instead of the merchant's keys.
-In addition, the partner keys must be used to get the access token, sent in the `Authorization`
-header shown above.
+In addition, the partner keys must be used to get the access token, sent in the
+`Authorization` header shown above.
 
 Partners must always send the `Merchant-Serial-Number` header, and we recommend
 that _everyone_ sends it, also when using the merchant's own API keys.
@@ -215,15 +220,16 @@ making payments, refunds, etc) on behalf of another merchant.
 
 :bomb: **Potential pitfalls:**
 If you answer _YES_ to any of the following questions, partner keys is **_not_** for your solution.
-- [ ] Your merchants can see the partner keys (`client_id`, `client_secret`, `Ocp-Apim-Subscription-Key`)
-- [ ] Your merchant has the ability to _change_ their MSN (Merchant Serial Number)
-- [ ] The keys and secrets are stored on the merchant system's (so they can access it)
+- [ ] Your merchants can see the partner keys (`client_id`, `client_secret`, `Ocp-Apim-Subscription-Key`) in your solution.
+- [ ] Your merchants have the ability to _change_ their MSN (Merchant Serial Number) in your solution.
+- [ ] The keys and secrets are stored on the merchant system's (in a way that allows them to access and see it).
 
 **Please note:**
 * If you are already using the same, identical API keys for multiple
   merchants, you are _already_ using partner keys.
 * You _must not_
-  use partner keys if the merchants can, in any way, see or access the API keys. That would be security problem that would make it possible for someone to act on behalf of all your merchants.
+  use partner keys if the merchants can, in any way, see or access the API keys.
+  That would be security problem that would make it possible for someone to act on behalf of all your merchants.
 * Partner keys only work in the production environment. In the
   [test environment](https://github.com/vippsas/vipps-developers/blob/master/vipps-test-environment.md),
   you must merchant API keys. If you are not a Vipps merchant and do not have these keys, you will need to use the merchant keys belonging to one of your merchants.
@@ -266,9 +272,7 @@ and let us know what your plans are.
 
 # How to sign up new merchants
 
-The below is for platform partners.
-Merchants that do not use a platform partner sign up on their own on
-[portal.vipps.no](https://portal.vipps.no).
+The information below is for platform partners.
 
 All merchants must have a customer relationship with Vipps,
 in addition to the one with the partner.
@@ -277,11 +281,8 @@ A merchant that already has a customer relationship with Vipps still needs
 to apply for a new product (sale unit) to use with a new partner.
 See: [How to change partners for a merchant](#how-to-change-partners-for-a-merchant).
 
-See the
-[Vipps Partner API](#vipps-partner-api)
-for an updated status on how to sign up new merchants.
-Until that is fully released, the information below is valid
-(we update all documentation as soon as there is new infomration).
+Merchants that do not use a platform partner must sign up on their own on
+[portal.vipps.no](https://portal.vipps.no).
 
 ## Partners use the Partner API to pre-fill the signup form
 
@@ -376,15 +377,6 @@ There are still some common problems that cause delays:
   compliance, and thus sensitive.
 
 **Please note:** Partners should always check with the merchant for an updated status before contacting Vipps.
-
-## Vipps Partner API
-
-The Vipps Partner API documentation is available on GitHub:
-https://github.com/vippsas/vipps-partner-api
-
-The plan for the Vipps Partner API will let partners, banks and large
-corporations manage their merchants and sale units. See the GitHub repository
-for background and priorities.
 
 ## How to change partners for a merchant
 
