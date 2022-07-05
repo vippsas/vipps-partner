@@ -2,32 +2,32 @@
 
 Technical information for Vipps partners.
 
-Document version: 1.2.30.
+Document version: 2.0.0.
 
 # Table of Contents
 
-- [How to become a Vipps partner](#how-to-become-a-vipps-partner)
+* [How to become a Vipps partner](#how-to-become-a-vipps-partner)
   * [Partner types](#partner-types)
   * [Apply on vipps.no](#apply-on-vippsno)
   * [Integrate with the Vipps APIs](#integrate-with-the-vipps-apis)
   * [Finishing the integration and going live](#finishing-the-integration-and-going-live)
-- [Technical information for partners](#technical-information-for-partners)
+* [Technical information for partners](#technical-information-for-partners)
   * [Developer documentation](#developer-documentation)
   * [Vipps API Lifecycle](#vipps-api-lifecycle)
   * [Partner keys](#partner-keys)
   * [Plugin development](#plugin-development)
-- [How to sign up new merchants](#how-to-sign-up-new-merchants)
-  * [Merchants sign up on portal.vipps.no](#merchants-sign-up-on-portal.vipps.no)
-    - [How to check if a merchant is signed up with the partner as partner](#how-to-check-if-a-merchant-is-signed-up-with-the-partner-as-partner)
+* [How to sign up new merchants](#how-to-sign-up-new-merchants)
+  * [Partners use the Partner API to pre-fill the signup form](#partners-use-the-partner-api-to-pre-fill-the-signup-form)
+  * [Merchants can also sign up on portal.vipps.no](#merchants-can-also-sign-up-on-portalvippsno)
+  * [How to check if a merchant is signed up with the partner as partner](#how-to-check-if-a-merchant-is-signed-up-with-the-partner-as-partner)
   * [Typical reasons for delays](#typical-reasons-for-delays)
   * [Vipps Partner API](#vipps-partner-api)
   * [How to change partners for a merchant](#how-to-change-partners-for-a-merchant)
   * [Vipps Signup API](#vipps-signup-api)
-    - [If you are using the Signup API](#if-you-are-using-the-signup-api)
-    - [Why was the Signup API phased out?](#why-was-the-signup-api-phased-out)
-    - [When will there be a replacement for the Signup API?](#when-will-there-be-a-replacement-for-the-signup-api)
-- [FAQ for partners](#faq-for-partners)
-- [Questions?](#questions)
+    * [Why was the Signup API phased out?](#why-was-the-signup-api-phased-out)
+    * [When will there be a replacement for the Signup API?](#when-will-there-be-a-replacement-for-the-signup-api)
+* [FAQ for partners](#faq-for-partners)
+* [Questions](#questions)
 
 # How to become a Vipps partner
 
@@ -284,7 +284,16 @@ for an updated status on how to sign up new merchants.
 Until that is fully released, the information below is valid
 (we update all documentation as soon as there is new infomration).
 
-## Merchants sign up on portal.vipps.no
+## Partners use the Partner API to pre-fill the signup form
+
+The Vipps Partner API lets a partner "pre-fill" the product order form on
+portal.vipps.no on behalf of a merchant, so the merchant can log in,
+check the data, and submit the product order.
+
+See:
+[Submit a product order for a merchant](https://github.com/vippsas/vipps-partner-api/blob/main/vipps-partner-api.md#submit-a-product-order-for-a-merchant)
+
+## Merchants can also sign up on portal.vipps.no
 
 1. The merchant logs in to
    [portal.vipps.no](https://portal.vipps.no) using BankID
@@ -331,46 +340,17 @@ and the new MSN to make Vipps payments.
   [here](https://vipps.no/hjelp/vipps/kundeforholdet-mitt/hvilke-tilganger-kan-vi-opprette-i-vippsportalen/).
   See:
   [Getting started: Permissions and users](https://github.com/vippsas/vipps-developers/blob/master/vipps-getting-started.md#permissions-and-users).
-- We are working on direct URLs that will let merchants go directly to the
-  right page on
-  [portal.vipps.no](https://portal.vipps.no)
-  with as much information as possible pre-filled.
 - Partner keys can not be used for the Vipps Login API, here you need to use the merchant's own keys.
 
-### How to check if a merchant is signed up with the partner as partner
+## How to check if a merchant is signed up with the partner as partner
 
-A workaround until
-[Vipps Partner API](#vipps-partner-api)
-is available:
+The Vipps Partner API lets a partner look up MSNs based on the merchant's
+organization number, and also retrieve details of a specific sale unit based
+on the sale unit's MSN.
 
-Partners can use the partner keys and try to retrieve a fictional `orderId` with
-the merchant's MSN with
-[`GET:/ecomm/v2/payments/{orderId}/details`](https://vippsas.github.io/vipps-ecom-api/#/Vipps_eCom_API/getPaymentDetailsUsingGET).
-
-If the MSN does not have the partner as partner, this will be the error:
-```
-[
-    {
-        "errorCode": "Unauthorized",
-        "errorMessage": "Invalid MSN: 123. This MSN is not valid for the provided super merchant id. Check that you are using the correct credentials for the right environment.",
-        "contextId": "87f70e69-5649-458f-a3cc-39acbec0d4ba",
-        "errorGroup": "Merchant"
-    }
-]
-```
-
-If the MSN is set up correctly for the partner, the fictional `orderId`
-will result in this error:
-```
-[
-    {
-        "errorGroup": "Merchant",
-        "errorCode": "35",
-        "errorMessage": "Requested Order not found",
-        "contextId": "b829cb3f-2abd-4eb4-a425-68a173fd630a"
-    }
-]
-```
+See:
+* [Get information about a merchant based on organization number](https://github.com/vippsas/vipps-partner-api/blob/main/vipps-partner-api.md#get-information-about-a-merchant-based-on-organization-number)
+* [Get information about a sale unit based on MSN](https://github.com/vippsas/vipps-partner-api/blob/main/vipps-partner-api.md#get-information-about-a-sale-unit-based-on-msn)
 
 ## Typical reasons for delays
 
