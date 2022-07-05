@@ -2,7 +2,7 @@
 
 Technical information for Vipps partners.
 
-Document version: 2.0.0.
+Document version: 2.0.1.
 
 # Table of Contents
 
@@ -115,7 +115,6 @@ The partner only needs access to the test environment to complete an integration
 
 An integration is considered complete when all the elements of the
 relevant API checklists are done. See the checklists:
-- [ ] [Vipps Checkout API](https://github.com/vippsas/vipps-checkout-api/blob/main/vipps-checkout-api-checklist.md)
 - [ ] [Vipps eCom API](https://github.com/vippsas/vipps-ecom-api/blob/master/vipps-ecom-api-checklist.md)
 - [ ] [Vipps Recurring API](https://github.com/vippsas/vipps-recurring-api/blob/master/vipps-recurring-api-checklist.md)
 - [ ] [Vipps Login API](https://github.com/vippsas/vipps-login-api/blob/master/vipps-login-api-checklist.md)
@@ -519,31 +518,7 @@ See:
 
 ### When will there be a replacement for the Signup API?
 
-We are working on a new and better solution. See:
-[Vipps Partner API](#vipps-partner-api).
-
-The Partner API will be available as soon as possible, but we can not give
-a date. We will make the most important features available first, and
-welcome feedback. See:
-[Questions?](#questions).
-
-Vipps is making fundamental changes to the data model for representing
-merchants, partners, prices, payments, etc. This is a huge effort, with
-numerous dependencies, and has in practice already been in process for years.
-It is a continuous effort to improve and adapt our systems, and at the time
-of writing there is a lot going on with how _merchants_ are handled internally.
-
-Vipps is able to handle these changes in the backend services in the signup solution on
-[portal.vipps.no](https://portal.vipps.no),
-as we have complete control, and can make related changes at the same time.
-When we make a backend change, we make the necessary change in the frontend too.
-
-An external API is different. We can not make a stable API while we are making
-big changes in our backend, as that would require partners to frequently
-update their integration with our API.
-
-Again: The Signup API is no longer needed, as there are better solutions that are
-continuously improved - and we are working hard to provide even better solutions.
+Yes, please use the [Vipps Partner API](#vipps-partner-api).
 
 # FAQ for partners
 
