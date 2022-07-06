@@ -2,7 +2,7 @@
 
 Technical information for Vipps partners.
 
-Document version: 2.0.2.
+Document version: 2.0.3.
 
 # Table of Contents
 
@@ -510,7 +510,7 @@ See:
 
 ### When will there be a replacement for the Signup API?
 
-Yes, please use the [Vipps Partner API](#vipps-partner-api).
+It's available now: Please use the [Vipps Partner API](#vipps-partner-api).
 
 # FAQ for partners
 
