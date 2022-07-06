@@ -2,7 +2,7 @@
 
 Technical information for Vipps partners.
 
-Document version: 2.0.4.
+Document version: 2.0.5.
 
 # Table of Contents
 
@@ -119,23 +119,24 @@ relevant API checklists are done. See the checklists:
 - [ ] [Vipps Recurring API](https://github.com/vippsas/vipps-recurring-api/blob/master/vipps-recurring-api-checklist.md)
 - [ ] [Vipps Login API](https://github.com/vippsas/vipps-login-api/blob/master/vipps-login-api-checklist.md)
 
+**Important:** Please make sure to read and understand the checklist.
+You must provide the required information, such as orderId and the HTTP headers.
+If you simply send a copy of the checklist with "OK" for each item,
+we will have to ask you again to complete the checklist.
+
 In addition to the checklists mentioned above, all partners are required to complete the following:
 - [ ] As a partner, you accept the [Partner terms and conditions](https://github.com/vippsas/vipps-partner/blob/main/partner-terms.md)
 - [ ] Provide technical documentation for merchants regarding:
-     - [ ] How to apply for Vipps products
-     - [ ] How to configure and use the module
-     - [ ] Frequently Asked Questions (FAQs) for merchants
-- [ ] Provide one pilot customer to verify the integration in production environment (send organization number and name)
-- [ ] Describe how your integration has been set up with a link to a demo, or provide screenshots.
+     - [ ] How to apply for Vipps products (a URL, plain text or PDF is preferred)
+     - [ ] How to configure and use the module (a URL, plain text or PDF is preferred)
+     - [ ] Frequently Asked Questions (FAQs) for merchants (a URL, plain text or PDF is preferred)
+- [ ] Provide one pilot customer to verify the integration in the production environment (send organization number and name)
+- [ ] Describe how your integration has been set up, with a link to a demo, or provide screenshots (PDF is preferred).
 
 When the integration checklist is completed, notify Vipps Integration
 ([integration@vipps.no](integration@vipps.no))
 as described in the checklist, with `orderId` examples from the test environment,
 pilot customer info, and a description of the implemented solution.
-
-**Please note:** If you simply send the checklist with "OK" for each item,
-and do not send the required information,
-we will have to ask you again to complete the checklist.
 
 Vipps Integration will verify the integration and take contact with you.
 
