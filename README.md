@@ -2,7 +2,7 @@
 
 Technical information for Vipps partners.
 
-Document version: 2.0.3.
+Document version: 2.0.4.
 
 # Table of Contents
 
@@ -132,6 +132,10 @@ When the integration checklist is completed, notify Vipps Integration
 ([integration@vipps.no](integration@vipps.no))
 as described in the checklist, with `orderId` examples from the test environment,
 pilot customer info, and a description of the implemented solution.
+
+**Please note:** If you simply send the checklist with "OK" for each item,
+and do not send the required information,
+we will have to ask you again to complete the checklist.
 
 Vipps Integration will verify the integration and take contact with you.
 
