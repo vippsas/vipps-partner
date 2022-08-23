@@ -1,3 +1,9 @@
+<!-- START_METADATA
+---
+title: How to add a user on the portal
+sidebar_position: 2
+---
+END_METADATA -->
 # How to add a user on portal.vipps.no
 
 Partners should use
@@ -15,6 +21,8 @@ This is a step by step guide for that.
 
 Document version: 0.0.1.
 
+<!-- START_TOC -->
+
 # Table of contents
 
 * [1. Log in on portal.vipps.no](#1-log-in-on-portalvippsno)
@@ -24,6 +32,8 @@ Document version: 0.0.1.
 * [5. Select sale units the new user will get access to](#5-select-sale-units-the-new-user-will-get-access-to)
 * [6. Confirmation](#6-confirmation)
 * [Questions](#questions)
+
+<!-- END_TOC -->
 
 # 1. Log in on portal.vipps.no
 

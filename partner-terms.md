@@ -1,3 +1,10 @@
+<!-- START_METADATA
+---
+title: Partner Terms
+sidebar_position: 4
+---
+END_METADATA -->
+# Partner Terms
 ## Selverklæring for Partnere 
 
 Vilkårene regulerer forpliktelser i forbindelse med Partners distribusjon, klargjøring, installering og integrering for bruk av Selskapets («Vipps») tjenester («Tjenestene») til relevante målgrupper og potensielle Brukersteder.   

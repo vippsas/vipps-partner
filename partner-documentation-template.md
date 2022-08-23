@@ -1,3 +1,9 @@
+<!-- START_METADATA
+---
+title: Partner documentation template
+sidebar_position: 3
+---
+END_METADATA -->
 # Vipps partner documentation template
 
 This document is an example that partners can use for documentation to their
@@ -10,7 +16,9 @@ for more information.
 
 Document version: 1.0.1.
 
+<!-- START_TOC -->
 ## Table of contents
+
 * [How to order Vipps](#how-to-order-vipps)
 * [API keys](#api-keys)
 * [Configuration of Vipps on our (the partner) side](#configuration-of-vipps-on-our-the-partner-side)
@@ -18,6 +26,8 @@ Document version: 1.0.1.
 * [Order handling](#order-handling)
 * [Support](#support)
 * [Questions](#questions)
+
+<!-- END_TOC -->
 
 ## How to order Vipps
 
