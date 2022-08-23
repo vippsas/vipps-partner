@@ -1,9 +1,16 @@
+<!-- START_METADATA
+---
+title: Introduction
+sidebar_position: 1
+---
+END_METADATA -->
 # Vipps Partners
 
 Technical information for Vipps partners.
 
 Document version: 2.0.5.
 
+<!-- START_TOC -->
 # Table of Contents
 
 * [How to become a Vipps partner](#how-to-become-a-vipps-partner)
@@ -28,6 +35,8 @@ Document version: 2.0.5.
     * [When will there be a replacement for the Signup API?](#when-will-there-be-a-replacement-for-the-signup-api)
 * [FAQ for partners](#faq-for-partners)
 * [Questions](#questions)
+
+<!-- END_TOC -->
 
 # How to become a Vipps partner
 
