@@ -24,7 +24,7 @@ Document version: 2.1.0.
   * [Vipps API Lifecycle](#vipps-api-lifecycle)
   * [Partner keys](#partner-keys)
   * [Plugin development](#plugin-development)
-  * [How to get access to portal.vipps.no](#how-to-get-access-to-portal.vipps.no)
+  * [How to get access to portal.vipps.no](#how-to-get-access-to-portalvippsno)
 * [How to sign up new merchants](#how-to-sign-up-new-merchants)
   * [Partners use the Partner API to pre-fill the signup form](#partners-use-the-partner-api-to-pre-fill-the-signup-form)
   * [Merchants can also sign up on portal.vipps.no](#merchants-can-also-sign-up-on-portalvippsno)
