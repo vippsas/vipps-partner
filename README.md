@@ -298,8 +298,8 @@ in on
 and manage their own sale units in
 [the test environment](https://github.com/vippsas/vipps-developers/blob/master/vipps-test-environment.md).
 
-Partners can ask the merchant to create a user for them so they get access
-to the MSN on
+**Please note:** Partners can also ask the merchant to create a user for them so
+they get access to the merchant's MSN on
 [portal.vipps.no](https://portal.vipps.no)
 as described
 [in detail with screenshots here](add-portal-user.md).
