@@ -8,7 +8,7 @@ END_METADATA -->
 
 Technical information for Vipps partners.
 
-Document version: 2.0.5.
+Document version: 2.1.0.
 
 <!-- START_TOC -->
 # Table of Contents
@@ -24,13 +24,14 @@ Document version: 2.0.5.
   * [Vipps API Lifecycle](#vipps-api-lifecycle)
   * [Partner keys](#partner-keys)
   * [Plugin development](#plugin-development)
+  * [How to get access to portal.vipps.no](#how-to-get-access-to-portal.vipps.no)
 * [How to sign up new merchants](#how-to-sign-up-new-merchants)
   * [Partners use the Partner API to pre-fill the signup form](#partners-use-the-partner-api-to-pre-fill-the-signup-form)
   * [Merchants can also sign up on portal.vipps.no](#merchants-can-also-sign-up-on-portalvippsno)
   * [How to check if a merchant is signed up with the partner as partner](#how-to-check-if-a-merchant-is-signed-up-with-the-partner-as-partner)
   * [Typical reasons for delays](#typical-reasons-for-delays)
   * [How to change partners for a merchant](#how-to-change-partners-for-a-merchant)
-  * [Vipps Signup API](#vipps-signup-api)
+  * [The deprecated Vipps Signup API](#the-deprecated-vipps-signup-api)
     * [Why was the Signup API phased out?](#why-was-the-signup-api-phased-out)
     * [When will there be a replacement for the Signup API?](#when-will-there-be-a-replacement-for-the-signup-api)
 * [FAQ for partners](#faq-for-partners)
@@ -284,6 +285,29 @@ it may be a candidate for becoming an official plugin: See
 [How to become a Vipps partner](#how-to-become-a-vipps-partner)
 and let us know what your plans are.
 
+## How to get access to portal.vipps.no
+
+Partners can order Vipps Logg Inn on
+[portal.vipps.no](https://portal.vipps.no).
+The requirements for customer control are simpler than other products, since
+Vipps Logg Inn does not allow for payments.
+
+When the partner's order for Vipps Logg Inn is approved, the partner can log
+in on
+[portal.vipps.no](https://portal.vipps.no)
+and manage their own sale units in
+[the test environment](https://github.com/vippsas/vipps-developers/blob/master/vipps-test-environment.md).
+
+Partners can ask the merchant to create a user for them so they get access
+to the MSN on
+[portal.vipps.no](https://portal.vipps.no)
+as described
+[in detail with screenshots here](add-portal-user.md).
+The user permissions are described (in Norwegian)
+[here](https://vipps.no/hjelp/vipps/kundeforholdet-mitt/hvilke-tilganger-kan-vi-opprette-i-vippsportalen/).
+See:
+[Getting started: Permissions and users](https://github.com/vippsas/vipps-developers/blob/master/vipps-getting-started.md#permissions-and-users).
+
 # How to sign up new merchants
 
 The information below is for platform partners.
@@ -459,7 +483,7 @@ longer can be used.
 new partner. We no longer offer this, as it creates a lot of additional work,
 and it results in a confusing user experience for Vipps users - and partners.
 
-## Vipps Signup API
+## The deprecated Vipps Signup API
 
 The deprecated legacy
 [Vipps Signup API](https://github.com/vippsas/vipps-signup-api),
