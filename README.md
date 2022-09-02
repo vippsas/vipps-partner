@@ -358,6 +358,13 @@ and the new MSN to make Vipps payments.
 
 ## How to check if a merchant is signed up with the partner as partner
 
+**Please note:** Vipps can not share information about the status of a
+merchant's merchant agreement or product orders.
+The partner must always check with the merchant.
+The merchant can check the status on
+[portal.vipps.no](https://portal.vipps.no)
+any time.
+
 The Vipps Partner API lets a partner look up MSNs based on the merchant's
 organization number, and also retrieve details of a specific sale unit based
 on the sale unit's MSN.
@@ -367,13 +374,6 @@ See:
 * [Get information about a sale unit based on MSN](https://github.com/vippsas/vipps-partner-api/blob/main/vipps-partner-api.md#get-information-about-a-sale-unit-based-on-msn)
 
 ## Typical reasons for delays
-
-**Please note:** Vipps can not share information about the status of a
-merchant's merchant agreement or product orders.
-The partner must always check with the merchant.
-The merchant can check the status on
-[portal.vipps.no](https://portal.vipps.no)
-any time.
 
 The application solution on
 [portal.vipps.no](https://portal.vipps.no)
