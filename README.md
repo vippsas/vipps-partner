@@ -8,7 +8,7 @@ END_METADATA -->
 
 Technical information for Vipps partners.
 
-Document version: 2.0.5.
+Document version: 2.0.6.
 
 <!-- START_TOC -->
 # Table of Contents
@@ -368,6 +368,13 @@ See:
 
 ## Typical reasons for delays
 
+**Please note:** Vipps can not share information about the status of a
+merchant's merchant agreement or product orders.
+The partner must always check with the merchant.
+The merchant can check the status on
+[portal.vipps.no](https://portal.vipps.no)
+any time.
+
 The application solution on
 [portal.vipps.no](https://portal.vipps.no)
 contains a lot of help and tips, as well as links to more information.
@@ -389,8 +396,6 @@ There are still some common problems that cause delays:
 * The application has been declined. Vipps only informs the merchant about this,
   not the partner. The reason for declining may be related to risk and
   compliance, and thus sensitive.
-
-**Please note:** Partners should always check with the merchant for an updated status before contacting Vipps.
 
 ## How to change partners for a merchant
 
@@ -425,13 +430,13 @@ This is the recommended way:
    [partner keys](https://github.com/vippsas/vipps-partner#partner-keys).
 3. The new partner contacts
   [Partnerbestilling](https://github.com/vippsas/vipps-developers/blob/master/contact.md#we-help-with-technical-issues)
-  and orders a reconfiguration of the MSN: Link it to the new partner instead
-  of the old one.
-  When this is done, the MSN has the new partner as partner.
+   and orders a reconfiguration of the MSN: Link it to the new partner instead
+   of the old one.
+   When this is done, the MSN has the new partner as partner.
 4. The new partner's
    [partner keys](https://github.com/vippsas/vipps-partner#partner-keys)
    now work for the MSN,
-  and the old partner's partner keys have stopped working for this MSN.
+   and the old partner's partner keys have stopped working for this MSN.
 5. The new partner uses its partner keys.
    The old partner (if it needs to make API calls) must use the merchant's own API keys,
    which they got in step 2.
