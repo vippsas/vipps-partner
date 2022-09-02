@@ -359,7 +359,7 @@ and the new MSN to make Vipps payments.
 ## How to check if a merchant is signed up with the partner as partner
 
 **Please note:** Vipps can not share information about the status of a
-merchant's merchant agreement or product orders.
+merchant's agreement or product orders.
 The partner must always check with the merchant.
 The merchant can check the status on
 [portal.vipps.no](https://portal.vipps.no)
