@@ -8,7 +8,7 @@ END_METADATA -->
 
 Technical information for Vipps partners.
 
-Document version: 2.0.6.
+Document version: 2.0.7.
 
 <!-- START_TOC -->
 # Table of Contents
@@ -300,12 +300,18 @@ Merchants that do not use a platform partner must sign up on their own on
 
 ## Partners use the Partner API to pre-fill the signup form
 
-The Vipps Partner API lets a partner "pre-fill" the product order form on
-portal.vipps.no on behalf of a merchant, so the merchant can log in,
+The Vipps Partner API lets a partner "prefill" the product order form on
+[portal.vipps.no](https://portal.vipps.no)
+on behalf of a merchant, so the merchant can log in,
 check the data, and submit the product order.
 
 See:
-[Submit a product order for a merchant](https://github.com/vippsas/vipps-partner-api/blob/main/vipps-partner-api.md#submit-a-product-order-for-a-merchant).
+* [Submit a product order for a merchant](https://github.com/vippsas/vipps-partner-api/blob/main/vipps-partner-api.md#submit-a-product-order-for-a-merchant).
+
+**Please note:** A partner that only rarely needs to onboard a new merchant can
+have the merchant order Vipps on
+[portal.vipps.no](https://portal.vipps.no)
+instead of using the Partner API's prefill functionality.
 
 ## Merchants can also sign up on portal.vipps.no
 
