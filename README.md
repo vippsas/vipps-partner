@@ -4,6 +4,7 @@ title: Introduction
 sidebar_position: 1
 ---
 END_METADATA -->
+
 # Vipps Partners
 
 Technical information for Vipps partners.
@@ -11,7 +12,8 @@ Technical information for Vipps partners.
 Document version: 2.0.7.
 
 <!-- START_TOC -->
-# Table of Contents
+
+# Table of contents
 
 * [How to become a Vipps partner](#how-to-become-a-vipps-partner)
   * [Partner types](#partner-types)
