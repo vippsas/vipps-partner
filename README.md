@@ -9,7 +9,14 @@ END_METADATA -->
 
 Technical information for Vipps partners.
 
-Document version: 2.0.7.
+Document version: 2.0.8.
+
+<!-- START_COMMENT -->
+
+💥 Preview the new documentation pages here: <https://vippsas.github.io/vipps-developer-docs/>.
+See the disclaimer: <https://vippsas.github.io/vipps-developer-docs/docs/examples/>.
+
+<!-- END_COMMENT -->
 
 <!-- START_TOC -->
 
