@@ -30,7 +30,6 @@ See the disclaimer: <https://vippsas.github.io/vipps-developer-docs/docs/example
 * [Technical information for partners](#technical-information-for-partners)
   * [Developer documentation](#developer-documentation)
   * [Vipps Partner API](#vipps-partner-api)
-  * [Vipps API Lifecycle](#vipps-api-lifecycle)
   * [Partner keys](#partner-keys)
   * [Plugin development](#plugin-development)
 * [How to sign up new merchants](#how-to-sign-up-new-merchants)
@@ -169,12 +168,6 @@ See: [Developer documentation](https://vippsas.github.io/vipps-developer-docs/).
 ## Vipps Partner API
 
 See: [Partnre API](https://vippsas.github.io/vipps-developer-docs/docs/APIs/partner-api).
-
-## Vipps API Lifecycle
-
-See the
-[Vipps API Lifecycle](https://github.com/vippsas/vipps-developers/blob/master/vipps-api-lifecycle.md)
-for information about deprecation notices, etc.
 
 ## Partner keys
 
