@@ -277,7 +277,7 @@ and partners should use the more efficient
 when available).
 
 For more details:
-* [Old signup API](old-signup.api)
+* [Old signup API](old-signup-api.md)
 
 # FAQ for partners
 
