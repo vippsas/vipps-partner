@@ -1,7 +1,7 @@
 <!-- START_METADATA
 ---
 title: Partner documentation template
-sidebar_position: 3
+sidebar_position: 80
 ---
 END_METADATA -->
 # Vipps partner documentation template
