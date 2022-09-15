@@ -1,6 +1,6 @@
 <!-- START_METADATA
 ---
-title: Partner Terms
+title: Partner terms
 sidebar_position: 85
 ---
 END_METADATA -->

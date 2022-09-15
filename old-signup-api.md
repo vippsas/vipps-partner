@@ -1,6 +1,7 @@
 <!-- START_METADATA
 ---
-draft: true
+title: Old Signup API
+sidebar_position: 100
 ---
 END_METADATA -->
 
@@ -11,7 +12,7 @@ See the disclaimer: <https://vippsas.github.io/vipps-developer-docs/docs/example
 
 <!-- END_COMMENT -->
 
-# Old signup API
+# Old Signup API
 
 The deprecated legacy
 [Vipps Signup API](https://github.com/vippsas/vipps-signup-api),
@@ -22,8 +23,6 @@ and partners should use the more efficient
 [Vipps Partner API](#vipps-partner-api)
 when available).
 
-For more details:
-* [Old signup API](old-signup.api)
 
 The Vipps Signup API in short:
 1. Partners sent some basic info about a new merchant to Vipps.
