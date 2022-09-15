@@ -9,7 +9,7 @@ END_METADATA -->
 
 Technical information for Vipps partners.
 
-Document version: 2.0.8.
+Document version: 2.1.0.
 
 <!-- START_COMMENT -->
 
@@ -164,13 +164,11 @@ where the merchants can sign up and select you as their partner.
 
 ## Developer documentation
 
-All developer documentation and tools are available on
-[GitHub](https://github.com/vippsas/vipps-developers).
+See: [Developer documentation](https://vippsas.github.io/vipps-developer-docs/).
 
 ## Vipps Partner API
 
-The Vipps Partner API documentation is available on GitHub:
-https://github.com/vippsas/vipps-partner-api
+See: [Partnre API](https://vippsas.github.io/vipps-developer-docs/docs/APIs/partner-api).
 
 ## Vipps API Lifecycle
 
@@ -184,8 +182,7 @@ As a partner, you manage transactions on behalf of Vipps merchants.
 Vipps provides you with _partner keys_, which allow you to use your own API credentials to
 make API calls on behalf of your merchants (i.e., the sales units that are linked to you as a partner).
 
-See:
-[Partner keys](partner-keys.md)
+See: [Partner keys](partner-keys.md).
 
 ## Plugin development
 
@@ -221,8 +218,7 @@ The Vipps Partner API lets a partner "prefill" the product order form on
 on behalf of a merchant, so the merchant can log in,
 check the data, and submit the product order.
 
-See:
-* [Submit a product order for a merchant](https://github.com/vippsas/vipps-partner-api/blob/main/vipps-partner-api.md#submit-a-product-order-for-a-merchant).
+See: [Submit a product order for a merchant](https://github.com/vippsas/vipps-partner-api/blob/main/vipps-partner-api.md#submit-a-product-order-for-a-merchant).
 
 **Please note:** A partner that only rarely needs to onboard a new merchant can
 have the merchant order Vipps on
@@ -231,8 +227,7 @@ instead of using the Partner API's prefill functionality.
 
 ## Merchants can also sign up on portal.vipps.no
 
-See:
-* [Manual signup](manual-signup.md)
+See: [Manual signup](manual-signup.md).
 
 ## How to check if a merchant is signed up with the partner as partner
 
@@ -243,13 +238,11 @@ The merchant can check the status on
 [portal.vipps.no](https://portal.vipps.no)
 any time.
 
-The Vipps Partner API lets a partner look up MSNs based on the merchant's
+The
+[Vipps Partner API](https://vippsas.github.io/vipps-developer-docs/docs/APIs/partner-api)
+lets a partner look up MSNs based on the merchant's
 organization number, and also retrieve details of a specific sale unit based
 on the sale unit's MSN.
-
-See:
-* [Get information about a merchant based on organization number](https://github.com/vippsas/vipps-partner-api/blob/main/vipps-partner-api.md#get-information-about-a-merchant-based-on-organization-number)
-* [Get information about a sale unit based on MSN](https://github.com/vippsas/vipps-partner-api/blob/main/vipps-partner-api.md#get-information-about-a-sale-unit-based-on-msn)
 
 ## Typical reasons for delays
 
@@ -277,8 +270,7 @@ There are still some common problems that cause delays:
 
 # How to change partners for a merchant
 
-See:
-* [How to change partners](how-to-change-partners.md)
+See: [How to change partners](how-to-change-partners.md).
 
 ## Vipps Signup API
 
