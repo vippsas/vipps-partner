@@ -38,10 +38,8 @@ See the disclaimer: <https://vippsas.github.io/vipps-developer-docs/docs/example
   * [Merchants can also sign up on portal.vipps.no](#merchants-can-also-sign-up-on-portalvippsno)
   * [How to check if a merchant is signed up with the partner as partner](#how-to-check-if-a-merchant-is-signed-up-with-the-partner-as-partner)
   * [Typical reasons for delays](#typical-reasons-for-delays)
-  * [How to change partners for a merchant](#how-to-change-partners-for-a-merchant)
+* [How to change partners for a merchant](#how-to-change-partners-for-a-merchant)
   * [Vipps Signup API](#vipps-signup-api)
-    * [Why was the Signup API phased out?](#why-was-the-signup-api-phased-out)
-    * [When will there be a replacement for the Signup API?](#when-will-there-be-a-replacement-for-the-signup-api)
 * [FAQ for partners](#faq-for-partners)
 * [Questions](#questions)
 
