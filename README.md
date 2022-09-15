@@ -103,7 +103,7 @@ Other partners must rely on each merchant's individual API keys.
 Information for PSP (Payment Service Providers) is here:
 [Vipps PSP API](https://github.com/vippsas/vipps-psp-api),
 including
-[PSP Signup API](https://github.com/vippsas/vipps-psp-api/blob/master/vipps-psp-api.md#psp-signup-api).
+[PSP Signup API](https://github.com/vippsas/vipps-psp-api/blob/master/vipps-psp-signup-api.md).
 
 ## Apply on vipps.no
 
