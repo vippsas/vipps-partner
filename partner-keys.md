@@ -5,6 +5,13 @@ sidebar_position: 10
 ---
 END_METADATA -->
 
+<!-- START_COMMENT -->
+
+💥 Preview the new documentation pages here: <https://vippsas.github.io/vipps-developer-docs/>.
+See the disclaimer: <https://vippsas.github.io/vipps-developer-docs/docs/examples/>.
+
+<!-- END_COMMENT -->
+
 # Partner keys
 
 As a partner, you manage transactions on behalf of Vipps merchants.

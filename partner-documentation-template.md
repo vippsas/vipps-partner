@@ -4,6 +4,14 @@ title: Partner documentation template
 sidebar_position: 80
 ---
 END_METADATA -->
+
+<!-- START_COMMENT -->
+
+💥 Preview the new documentation pages here: <https://vippsas.github.io/vipps-developer-docs/>.
+See the disclaimer: <https://vippsas.github.io/vipps-developer-docs/docs/examples/>.
+
+<!-- END_COMMENT -->
+
 # Vipps partner documentation template
 
 This document is an example that partners can use for documentation to their

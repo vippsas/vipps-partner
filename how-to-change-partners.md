@@ -5,6 +5,13 @@ sidebar_position: 20
 ---
 END_METADATA -->
 
+<!-- START_COMMENT -->
+
+💥 Preview the new documentation pages here: <https://vippsas.github.io/vipps-developer-docs/>.
+See the disclaimer: <https://vippsas.github.io/vipps-developer-docs/docs/examples/>.
+
+<!-- END_COMMENT -->
+
 # How to change partners for a merchant
 
 Merchants can change partners. This is always initiated by the merchant. The

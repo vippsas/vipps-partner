@@ -5,6 +5,13 @@ sidebar_position: 30
 ---
 END_METADATA -->
 
+<!-- START_COMMENT -->
+
+💥 Preview the new documentation pages here: <https://vippsas.github.io/vipps-developer-docs/>.
+See the disclaimer: <https://vippsas.github.io/vipps-developer-docs/docs/examples/>.
+
+<!-- END_COMMENT -->
+
 # Manual signup
 
 Partners that can, for osme reason, not use the Partner API to

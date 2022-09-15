@@ -4,7 +4,16 @@ title: Partner Terms
 sidebar_position: 85
 ---
 END_METADATA -->
+
+<!-- START_COMMENT -->
+
+💥 Preview the new documentation pages here: <https://vippsas.github.io/vipps-developer-docs/>.
+See the disclaimer: <https://vippsas.github.io/vipps-developer-docs/docs/examples/>.
+
+<!-- END_COMMENT -->
+
 # Partner Terms
+
 ## Selverklæring for Partnere
 
 Vilkårene regulerer forpliktelser i forbindelse med Partners distribusjon, klargjøring, installering og integrering for bruk av Selskapets («Vipps») tjenester («Tjenestene») til relevante målgrupper og potensielle Brukersteder.  
