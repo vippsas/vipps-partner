@@ -9,7 +9,7 @@ END_METADATA -->
 
 Technical information for Vipps partners.
 
-Document version: 2.1.0.
+Document version: 2.2.0.
 
 <!-- START_COMMENT -->
 
@@ -38,7 +38,6 @@ See the disclaimer: <https://vippsas.github.io/vipps-developer-docs/docs/example
   * [How to check if a merchant is signed up with the partner as partner](#how-to-check-if-a-merchant-is-signed-up-with-the-partner-as-partner)
   * [Typical reasons for delays](#typical-reasons-for-delays)
 * [How to change partners for a merchant](#how-to-change-partners-for-a-merchant)
-  * [Vipps Signup API](#vipps-signup-api)
 * [FAQ for partners](#faq-for-partners)
 * [Questions](#questions)
 
@@ -264,20 +263,6 @@ There are still some common problems that cause delays:
 # How to change partners for a merchant
 
 See: [How to change partners](how-to-change-partners.md).
-
-## Vipps Signup API
-
-The deprecated legacy
-[Vipps Signup API](https://github.com/vippsas/vipps-signup-api),
-also called "partial signup", is no longer available,
-and partners should use the more efficient
-[partner keys](#partner-keys)
-(and the
-[Vipps Partner API](#vipps-partner-api)
-when available).
-
-For more details:
-* [Old signup API](old-signup-api.md)
 
 # FAQ for partners
 
