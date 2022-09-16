@@ -9,7 +9,7 @@ END_METADATA -->
 
 Technical information for Vipps partners.
 
-Document version: 2.1.0.
+Document version: 2.1.1.
 
 <!-- START_COMMENT -->
 
@@ -275,9 +275,6 @@ and partners should use the more efficient
 (and the
 [Vipps Partner API](#vipps-partner-api)
 when available).
-
-For more details:
-* [Old signup API](old-signup-api.md)
 
 # FAQ for partners
 
