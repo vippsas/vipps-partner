@@ -18,14 +18,16 @@ As a partner, you manage transactions on behalf of Vipps merchants.
 Vipps provides you with _partner keys_, which allow you to use your own API credentials to
 make API calls on behalf of your merchants (i.e., the sales units that are linked to you as a partner).
 
-**_NOTE:_**  Partner keys cannot yet be used for Vipps Login.
-You need to use the merchant's own keys in the Vipps Login API.
-We are working on solving this.
+Partner keys in short:
+* The partner uses its own API keys (the partner keys) for all its merchants
+* The partner specifies the MSN of the sale unit its acting on behalf of
 
 With the partner keys you authenticate in the normal way,
 using the `client_id`, `client_secret` and `Ocp-Apim-Subscription-Key` that are
-part of your partner keys. Then, send the required `Merchant-Serial-Number`
-header to identify which of your merchants you are acting on behalf of (e.g.,
+part of your partner keys.
+
+You must also send the required `Merchant-Serial-Number` HTTP header to identify
+which of your merchants you are acting on behalf of (e.g.,
 `Merchant-Serial-Number: 123456`).
 
 The following is an example showing the headers found in a merchant's API request (_without_ using partner keys but including the required
@@ -69,6 +71,10 @@ and the
 including the
 [Userinfo](#use-userinfo)
 endpoints for both.
+
+**_NOTE:_**  Partner keys cannot yet be used for Vipps Login.
+You need to use the merchant's own keys in the Vipps Login API.
+We are working on solving this.
 
 **Important:** The partner keys _*must never be shared in any readable way with
 the merchants*_, as that will let one merchant perform API calls (including
