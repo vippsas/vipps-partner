@@ -5,7 +5,7 @@ sidebar_position: 1
 ---
 END_METADATA -->
 
-# Vipps Partners
+## Vipps Partners
 
 Technical information for Vipps partners.
 
@@ -20,9 +20,8 @@ See the disclaimer: <https://vippsas.github.io/vipps-developer-docs/docs/example
 
 <!-- START_TOC -->
 
-# Table of contents
+## Table of contents
 
-* [Table of contents](#table-of-contents)
 * [How to become a Vipps partner](#how-to-become-a-vipps-partner)
   * [Partner types](#partner-types)
   * [Apply on vipps.no](#apply-on-vippsno)
@@ -45,7 +44,7 @@ See the disclaimer: <https://vippsas.github.io/vipps-developer-docs/docs/example
 
 <!-- END_TOC -->
 
-# How to become a Vipps partner
+## How to become a Vipps partner
 
 If you and your merchants have a good volume and great potential, we would like
 to have you on the team as a partner. The goal of the partner program is to
@@ -53,7 +52,7 @@ find areas where we can work closely together and experience good growth - toget
 The collaboration will give you good exposure and opportunities for even better
 solutions for our customers.
 
-## Partner types
+### Partner types
 
 Vipps has three types of partners:
 
@@ -106,13 +105,13 @@ Information for PSP (Payment Service Providers) is here:
 including
 [PSP Signup API](https://github.com/vippsas/vipps-psp-api/blob/master/vipps-psp-signup-api.md).
 
-## Apply on vipps.no
+### Apply on vipps.no
 
 Please visit the
 [partner page at Vipps.no]( https://vipps.no/developer/bli-partner/),
 read through our FAQ, and fill out the form.
 
-## Integrate with the Vipps APIs
+### Integrate with the Vipps APIs
 
 See: [Developer documentation](#developer-documentation).
 
@@ -127,7 +126,7 @@ checks required by law. For most partners this is not relevant, as
 it is the partner's _merchants_ that will need production access.
 The partner only needs access to the test environment to complete an integration.
 
-## Finishing the integration and going live
+### Finishing the integration and going live
 
 An integration is considered complete when all the elements of the
 relevant API checklists are done. See the checklists:
@@ -160,17 +159,17 @@ Vipps then adds you to vipps.no, including the signup forms on
 [portal.vipps.no](https://portal.vipps.no)
 where the merchants can sign up and select you as their partner.
 
-# Technical information for partners
+## Technical information for partners
 
-## Developer documentation
+### Developer documentation
 
 See: [Developer documentation](https://vippsas.github.io/vipps-developer-docs/).
 
-## Vipps Partner API
+### Vipps Partner API
 
 See: [Partnre API](https://vippsas.github.io/vipps-developer-docs/docs/APIs/partner-api).
 
-## Partner keys
+### Partner keys
 
 As a partner, you manage transactions on behalf of Vipps merchants.
 Vipps provides you with _partner keys_, which allow you to use your own API credentials to
@@ -178,7 +177,7 @@ make API calls on behalf of your merchants (i.e., the sales units that are linke
 
 See: [Partner keys](partner-keys.md).
 
-## Plugin development
+### Plugin development
 
 All official plugins are open source, free to use, and available in our
 [plugin section](https://github.com/vippsas/vipps-plugins), as well as on
@@ -191,7 +190,7 @@ it may be a candidate for becoming an official plugin: See
 [How to become a Vipps partner](#how-to-become-a-vipps-partner)
 and let us know what your plans are.
 
-# How to sign up new merchants
+## How to sign up new merchants
 
 The information below is for platform partners.
 
@@ -205,7 +204,7 @@ See: [How to change partners for a merchant](#how-to-change-partners-for-a-merch
 Merchants that do not use a platform partner must sign up on their own on
 [portal.vipps.no](https://portal.vipps.no).
 
-## Partners use the Partner API to pre-fill the signup form
+### Partners use the Partner API to pre-fill the signup form
 
 The Vipps Partner API lets a partner "prefill" the product order form on
 [portal.vipps.no](https://portal.vipps.no)
@@ -219,11 +218,11 @@ have the merchant order Vipps on
 [portal.vipps.no](https://portal.vipps.no)
 instead of using the Partner API's prefill functionality.
 
-## Merchants can also sign up on portal.vipps.no
+### Merchants can also sign up on portal.vipps.no
 
 See: [Manual signup](manual-signup.md).
 
-## How to check if a merchant is signed up with the partner as partner
+### How to check if a merchant is signed up with the partner as partner
 
 **Please note:** Vipps can not share information about the status of a
 merchant's agreement or product orders.
@@ -238,7 +237,7 @@ lets a partner look up MSNs based on the merchant's
 organization number, and also retrieve details of a specific sale unit based
 on the sale unit's MSN.
 
-## Typical reasons for delays
+### Typical reasons for delays
 
 The application solution on
 [portal.vipps.no](https://portal.vipps.no)
@@ -262,11 +261,11 @@ There are still some common problems that cause delays:
   not the partner. The reason for declining may be related to risk and
   compliance, and thus sensitive.
 
-# How to change partners for a merchant
+## How to change partners for a merchant
 
 See: [How to change partners](how-to-change-partners.md).
 
-## Vipps Signup API
+### Vipps Signup API
 
 The deprecated legacy
 [Vipps Signup API](https://github.com/vippsas/vipps-signup-api),
@@ -280,12 +279,12 @@ when available).
 For more details:
 * [Old signup API](old-signup-api.md)
 
-# FAQ for partners
+## FAQ for partners
 
 You may find answers to your questions on our FAQ section on the bottom of the
 [partner page on vipps.no](https://vipps.no/developer/bli-partner/)
 
-# Questions
+## Questions
 
 Please contact your partner manager.
 
