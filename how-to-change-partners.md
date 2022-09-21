@@ -14,6 +14,10 @@ See the disclaimer: <https://vippsas.github.io/vipps-developer-docs/docs/example
 
 # How to change partners for a merchant
 
+**Please see:**
+[How to sign up new merchants](README.md#how-to-sign-up-new-merchants)
+for general information about signing up new merchants.
+
 Merchants can change partners. This is always initiated by the merchant. The
 merchant is responsible, as _data controller_, for which partner(s) can access the
 merchant's data as _data processor_.

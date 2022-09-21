@@ -14,7 +14,7 @@ See the disclaimer: <https://vippsas.github.io/vipps-developer-docs/docs/example
 
 # Manual signup
 
-Partners that can, for osme reason, not use the Partner API to
+Partners that can, for some reason, not use the Partner API to
 [submit a product order for a merchant](https://github.com/vippsas/vipps-partner-api/blob/main/vipps-partner-api.md#submit-a-product-order-for-a-merchant)
 must use manual signup: The merchant must fill out the form on its own.
 

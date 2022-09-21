@@ -9,7 +9,7 @@ END_METADATA -->
 
 Technical information for Vipps partners.
 
-Document version: 2.1.0.
+Document version: 2.1.1.
 
 <!-- START_COMMENT -->
 
@@ -22,6 +22,7 @@ See the disclaimer: <https://vippsas.github.io/vipps-developer-docs/docs/example
 
 # Table of contents
 
+* [Table of contents](#table-of-contents)
 * [How to become a Vipps partner](#how-to-become-a-vipps-partner)
   * [Partner types](#partner-types)
   * [Apply on vipps.no](#apply-on-vippsno)
