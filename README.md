@@ -5,7 +5,7 @@ sidebar_position: 1
 ---
 END_METADATA -->
 
-## Vipps Partners
+# Vipps Partners
 
 Technical information for Vipps partners.
 
