@@ -1,7 +1,6 @@
 <!-- START_METADATA
 ---
-title: Old Signup API
-sidebar_position: 100
+draft: True
 ---
 END_METADATA -->
 

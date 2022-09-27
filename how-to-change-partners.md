@@ -64,7 +64,7 @@ Both partners can use the MSN's own API (from step 2) keys if there are "special
 API calls to make in the transition period.
 The new partner should _always_ use the partner keys.
 Vipps offers a
-[Postman collection](https://github.com/vippsas/vipps-recurring-api/blob/master/vipps-recurring-postman.md)
+[Postman collection](https://github.com/vippsas/vipps-recurring-api/blob/master/vipps-recurring-api-quick-start.md)
 that can be used to make manual API calls if needed.
 
 **Important:** When or if the merchant wants to remove the old partner's access
