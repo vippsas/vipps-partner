@@ -4,6 +4,14 @@ title: How to add a user on the portal
 sidebar_position: 2
 ---
 END_METADATA -->
+
+<!-- START_COMMENT -->
+
+💥 Preview the new documentation pages here: <https://vippsas.github.io/vipps-developer-docs/>.
+See the disclaimer: <https://vippsas.github.io/vipps-developer-docs/docs/examples/>.
+
+<!-- END_COMMENT -->
+
 # How to add a user on portal.vipps.no
 
 Partners should use
