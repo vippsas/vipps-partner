@@ -9,7 +9,7 @@ END_METADATA -->
 
 Technical information for Vipps partners.
 
-Document version: 2.1.1.
+Document version: 2.1.2.
 
 <!-- START_COMMENT -->
 
@@ -40,8 +40,6 @@ See the disclaimer: <https://vippsas.github.io/vipps-developer-docs/docs/example
   * [Typical reasons for delays](#typical-reasons-for-delays)
   * [How to change partners for a merchant](#how-to-change-partners-for-a-merchant)
   * [The deprecated Vipps Signup API](#the-deprecated-vipps-signup-api)
-    * [Why was the Signup API phased out?](#why-was-the-signup-api-phased-out)
-    * [When will there be a replacement for the Signup API?](#when-will-there-be-a-replacement-for-the-signup-api)
 * [FAQ for partners](#faq-for-partners)
 * [Questions](#questions)
 
@@ -133,6 +131,7 @@ The partner only needs access to the test environment to complete an integration
 
 An integration is considered complete when all the elements of the
 relevant API checklists are done. See the checklists:
+
 - [ ] [Vipps eCom API](https://github.com/vippsas/vipps-ecom-api/blob/master/vipps-ecom-api-checklist.md)
 - [ ] [Vipps Recurring API](https://github.com/vippsas/vipps-recurring-api/blob/master/vipps-recurring-api-checklist.md)
 - [ ] [Vipps Login API](https://github.com/vippsas/vipps-login-api/blob/master/vipps-login-api-checklist.md)
@@ -143,6 +142,7 @@ If you simply send a copy of the checklist with "OK" for each item,
 we will have to ask you again to complete the checklist.
 
 In addition to the checklists mentioned above, all partners are required to complete the following:
+
 - [ ] As a partner, you accept the [Partner terms and conditions](https://github.com/vippsas/vipps-partner/blob/main/partner-terms.md)
 - [ ] Provide technical documentation for merchants regarding:
      - [ ] How to apply for Vipps products (a URL, plain text or PDF is preferred)
@@ -170,7 +170,7 @@ See: [Developer documentation](https://vippsas.github.io/vipps-developer-docs/).
 
 ### Vipps Partner API
 
-See: [Partnre API](https://vippsas.github.io/vipps-developer-docs/docs/APIs/partner-api).
+See: [Partner API](https://vippsas.github.io/vipps-developer-docs/docs/APIs/partner-api).
 
 ### Partner keys
 
@@ -216,7 +216,7 @@ The user permissions are described (in Norwegian)
 See:
 [Getting started: Permissions and users](https://github.com/vippsas/vipps-developers/blob/master/vipps-getting-started.md#permissions-and-users).
 
-# How to sign up new merchants
+## How to sign up new merchants
 
 The information below is for platform partners.
 
@@ -280,7 +280,7 @@ There are still some common problems that cause delays:
   [legally required terms and conditions](https://www.forbrukertilsynet.no/lov-og-rett/veiledninger-og-retningslinjer/standard-salgsbetingelser-for-forbrukerkjop-av-varer-over-internett).
 * The merchant's website does not have the organization number clearly visible.
 * The merchant has not provided enough information about what they want to use
-  Vipps for ("Spesifiser kort hvilke varer/tjenester dere selger").
+  Vipps for ("Spesifiser kort hvilke varer/tjenester dere selger", in English: "Briefly specify which goods/services you sell").
 * Vipps has sent an email requesting additional information, but has not received a reply.
   Merchants should check their "spam" and try to search their email for "vipps".
 * The application has been declined. Vipps only informs the merchant about this,
@@ -301,9 +301,6 @@ and partners should use the more efficient
 (and the
 [Vipps Partner API](#vipps-partner-api)
 when available).
-
-For more details:
-* [Old signup API](old-signup-api.md)
 
 ## FAQ for partners
 
