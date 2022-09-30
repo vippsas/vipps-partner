@@ -12,6 +12,8 @@ See the disclaimer: <https://vippsas.github.io/vipps-developer-docs/docs/example
 
 <!-- END_COMMENT -->
 
+Document version: 2.0.0.
+
 # How to change partners for a merchant
 
 **Please see:**
@@ -66,6 +68,10 @@ The new partner should _always_ use the partner keys.
 Vipps offers a
 [Postman collection](https://github.com/vippsas/vipps-recurring-api/blob/master/vipps-recurring-api-quick-start.md)
 that can be used to make manual API calls if needed.
+
+The new partner should use the
+[Partner API](https://vippsas.github.io/vipps-developer-docs/docs/APIs/partner-api/vipps-partner-api)
+to verify that the MSN is set up correctly.
 
 **Important:** When or if the merchant wants to remove the old partner's access
 to the MSN, the merchant can log in on
