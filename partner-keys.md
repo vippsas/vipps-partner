@@ -12,6 +12,19 @@ See the disclaimer: <https://vippsas.github.io/vipps-developer-docs/docs/example
 
 <!-- END_COMMENT -->
 
+<!-- START_TOC -->
+
+## Table of Contents
+
+* [Authentication](#authentication)
+* [HTTP headers](#http-headers)
+* [Partner keys for different APIs](#partner-keys-for-different-apis)
+* [Important information](#important-information)
+* [Merchant requirements](#merchant-requirements)
+* [Questions](#questions)
+
+<!-- END_TOC -->
+
 # Partner keys
 
 As a partner, you manage transactions on behalf of Vipps merchants.
@@ -22,6 +35,15 @@ Partner keys in short:
 * The partner uses its own API keys (the partner keys) for all its merchants
 * The partner specifies the MSN of the sale unit its acting on behalf of
 
+There are two ways to use partner keys:
+1. To use the Partner API to create and manage merchants' sale units.
+2. To make payments (and move money) on behalf of merchants.
+
+All partners (with a signed contract) can use partner keys for (1),
+but (2) requires more - see the rest of this document.
+
+## Authentication
+
 With the partner keys you authenticate in the normal way,
 using the `client_id`, `client_secret` and `Ocp-Apim-Subscription-Key` that are
 part of your partner keys.
@@ -29,6 +51,8 @@ part of your partner keys.
 You must also send the required `Merchant-Serial-Number` HTTP header to identify
 which of your merchants you are acting on behalf of (e.g.,
 `Merchant-Serial-Number: 123456`).
+
+## HTTP headers
 
 The following is an example showing the headers found in a merchant's API request (_without_ using partner keys but including the required
 [Vipps HTTP headers](https://github.com/vippsas/vipps-ecom-api/blob/master/vipps-ecom-api.md#vipps-http-headers)):
@@ -64,6 +88,8 @@ that _everyone_ sends it, also when using the merchant's own API keys.
 The `Merchant-Serial-Number` header can be used with all API keys, and can
 speed up any trouble-shooting of API problems quite a bit.
 
+## Partner keys for different APIs
+
 The same set of partner keys can be used for all your merchants' sale units, for both the
 [Vipps eCom API](https://github.com/vippsas/vipps-ecom-api)
 and the
@@ -85,6 +111,8 @@ If you answer _YES_ to any of the following questions, partner keys is **_not_**
 - [ ] Your merchants can see the partner keys (`client_id`, `client_secret`, `Ocp-Apim-Subscription-Key`) in your solution.
 - [ ] Your merchants have the ability to _change_ their MSN (Merchant Serial Number) in your solution.
 - [ ] The keys and secrets are stored on the merchant system's (in a way that allows them to access and see it).
+
+## Important information
 
 **Please note:**
 * If you are already using the same, identical API keys for multiple
@@ -112,6 +140,8 @@ See:
 * [Partner keys for Recurring](https://github.com/vippsas/vipps-recurring-api/blob/master/vipps-recurring-api.md#partner-keys)
 * [Getting started: Quick overview of how to make an API call](https://github.com/vippsas/vipps-developers/blob/master/vipps-getting-started.md#quick-overview-of-how-to-make-an-api-call)
 
+## Merchant requirements
+
 **Please note:** Vipps payments can only be made to merchants that have a
 customer relationship with Vipps, and that have gone through the required
 compliance checks, etc after ordering Vipps on
@@ -119,7 +149,7 @@ compliance checks, etc after ordering Vipps on
 It is not possible to pay the partner instead of the merchant. See also:
 [Can I create a marketplace with multiple merchants?](https://github.com/vippsas/vipps-ecom-api/blob/master/vipps-ecom-api-faq.md#can-i-create-a-marketplace-with-multiple-merchants)
 
-# Questions
+## Questions
 
 Please contact your partner manager.
 
