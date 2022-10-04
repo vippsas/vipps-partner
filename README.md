@@ -2,6 +2,8 @@
 ---
 title: Introduction
 sidebar_position: 1
+pagination_next: null
+pagination_prev: null
 ---
 END_METADATA -->
 
