@@ -5,14 +5,14 @@ sidebar_position: 30
 ---
 END_METADATA -->
 
+# Manual signup
+
 <!-- START_COMMENT -->
 
-💥 Preview the new documentation pages here: <https://vippsas.github.io/vipps-developer-docs/>.
-See the disclaimer: <https://vippsas.github.io/vipps-developer-docs/docs/examples/>.
+ℹ️ Please use the new documentation:
+[Vipps Technical Documentation](https://vippsas.github.io/vipps-developer-docs/).
 
 <!-- END_COMMENT -->
-
-# Manual signup
 
 Partners that can, for some reason, not use the Partner API to
 [submit a product order for a merchant](https://github.com/vippsas/vipps-partner-api/blob/main/vipps-partner-api.md#submit-a-product-order-for-a-merchant)

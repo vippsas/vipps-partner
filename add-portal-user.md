@@ -5,14 +5,14 @@ sidebar_position: 2
 ---
 END_METADATA -->
 
+# How to add a user on portal.vipps.no
+
 <!-- START_COMMENT -->
 
-💥 Preview the new documentation pages here: <https://vippsas.github.io/vipps-developer-docs/>.
-See the disclaimer: <https://vippsas.github.io/vipps-developer-docs/docs/examples/>.
+ℹ️ Please use the new documentation:
+[Vipps Technical Documentation](https://vippsas.github.io/vipps-developer-docs/).
 
 <!-- END_COMMENT -->
-
-# How to add a user on portal.vipps.no
 
 Partners should use
 [partner keys](https://github.com/vippsas/vipps-partner#partner-keys).

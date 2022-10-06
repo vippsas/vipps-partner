@@ -9,16 +9,16 @@ END_METADATA -->
 
 # Vipps Partners
 
+<!-- START_COMMENT -->
+
+ℹ️ Please use the new documentation:
+[Vipps Technical Documentation](https://vippsas.github.io/vipps-developer-docs/).
+
+<!-- END_COMMENT -->
+
 Technical information for Vipps partners.
 
 Document version: 2.1.2.
-
-<!-- START_COMMENT -->
-
-💥 Preview the new documentation pages here: <https://vippsas.github.io/vipps-developer-docs/>.
-See the disclaimer: <https://vippsas.github.io/vipps-developer-docs/docs/examples/>.
-
-<!-- END_COMMENT -->
 
 <!-- START_TOC -->
 

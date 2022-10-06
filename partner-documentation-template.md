@@ -5,14 +5,14 @@ sidebar_position: 80
 ---
 END_METADATA -->
 
+# Vipps partner documentation template
+
 <!-- START_COMMENT -->
 
-💥 Preview the new documentation pages here: <https://vippsas.github.io/vipps-developer-docs/>.
-See the disclaimer: <https://vippsas.github.io/vipps-developer-docs/docs/examples/>.
+ℹ️ Please use the new documentation:
+[Vipps Technical Documentation](https://vippsas.github.io/vipps-developer-docs/).
 
 <!-- END_COMMENT -->
-
-# Vipps partner documentation template
 
 This document is an example that partners can use for documentation to their
 merchants of how to get started with Vipps.

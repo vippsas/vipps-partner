@@ -5,16 +5,17 @@ sidebar_position: 20
 ---
 END_METADATA -->
 
+
+# How to change partners for a merchant
+
 <!-- START_COMMENT -->
 
-💥 Preview the new documentation pages here: <https://vippsas.github.io/vipps-developer-docs/>.
-See the disclaimer: <https://vippsas.github.io/vipps-developer-docs/docs/examples/>.
+ℹ️ Please use the new documentation:
+[Vipps Technical Documentation](https://vippsas.github.io/vipps-developer-docs/).
 
 <!-- END_COMMENT -->
 
 Document version: 2.0.0.
-
-# How to change partners for a merchant
 
 **Please see:**
 [How to sign up new merchants](README.md#how-to-sign-up-new-merchants)
