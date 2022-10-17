@@ -48,50 +48,32 @@ For partners making API calls on behalf of merchants:
 
 ## Authentication
 
-With the partner keys you authenticate in the normal way,
-using the `client_id`, `client_secret` and `Ocp-Apim-Subscription-Key` that are
-part of your partner keys.
+With the partner keys, you authenticate in the normal way, as described in
+[Get an access token](https://github.com/vippsas/vipps-developers/blob/master/vipps-getting-started.md#get-an-access-token)
+in the Getting started guide.
+
+Remember that you must use your partner keys instead of the merchant's keys.
 
 When making API calls on behalf of a merchant:
 You must also send the required `Merchant-Serial-Number` HTTP header to identify
 which of your merchants you are acting on behalf of (e.g.,
 `Merchant-Serial-Number: 123456`).
 
+See
+[Get an access token](https://github.com/vippsas/vipps-developers/blob/master/vipps-getting-started.md#get-an-access-token)
+in the Getting started guide, for more details.
+
 ## HTTP headers
 
-The following is an example showing the headers found in a merchant's API request (_without_ using partner keys but including the required
-[Vipps HTTP headers](https://github.com/vippsas/vipps-ecom-api/blob/master/vipps-ecom-api.md#vipps-http-headers)):
+We recommend using the standard Vipps HTTP headers for all requests.
 
-```
-Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1Ni <snip>
-Ocp-Apim-Subscription-Key: 0f14ebcab0ec4b29ae0cb90d91b4a84a
-Vipps-System-Name: Acme Enterprises Ecommerce DeLuxe
-Vipps-System-Version: 3.1.2
-Vipps-System-Plugin-Name: acme-webshop
-Vipps-System-Plugin-Version: 4.5.6
-```
-
-An example of API headers for a partner's API request includes the `Merchant-Serial-Number` header, partner keys, and the required
-[Vipps HTTP headers](https://github.com/vippsas/vipps-ecom-api/blob/master/vipps-ecom-api.md#vipps-http-headers).
-
-```
-Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1Ni <snip>
-Ocp-Apim-Subscription-Key: 0f14ebcab0ec4b29ae0cb90d91b4a84a
-Merchant-Serial-Number: 123456
-Vipps-System-Name: Acme Enterprises Ecommerce DeLuxe
-Vipps-System-Version: 3.1.2
-Vipps-System-Plugin-Name: acme-webshop
-Vipps-System-Plugin-Version: 4.5.6
-```
+See [Vipps HTTP headers](https://github.com/vippsas/vipps-developers/blob/master/vipps-getting-started.md#vipps-http-headers)
+in the Getting started guide, for details.
 
 Remember that you must use your partner keys instead of the merchant's keys.
 In addition, the partner keys must be used to get the access token, sent in the
 `Authorization` header shown above.
 
-Partners must always send the `Merchant-Serial-Number` header, and we recommend
-that _everyone_ sends it, also when using the merchant's own API keys.
-The `Merchant-Serial-Number` header can be used with all API keys, and can
-speed up any trouble-shooting of API problems quite a bit.
 
 ## Partner keys must be kept secret for merchants
 
