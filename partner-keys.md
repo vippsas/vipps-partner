@@ -61,7 +61,7 @@ which of your merchants you are acting on behalf of (e.g.,
 
 See
 [Get an access token](https://github.com/vippsas/vipps-developers/blob/master/vipps-getting-started.md#get-an-access-token)
-in the Getting started guide, for more details.
+in the Getting Started guide, for more details.
 
 ## HTTP headers
 
