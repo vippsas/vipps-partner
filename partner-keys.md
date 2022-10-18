@@ -48,11 +48,9 @@ For partners making API calls on behalf of merchants:
 
 ## Authentication
 
-With the partner keys, you authenticate in the normal way, as described in
-[Get an access token](https://github.com/vippsas/vipps-developers/blob/master/vipps-getting-started.md#get-an-access-token)
-in the Getting started guide.
-
-Remember that you must use your partner keys instead of the merchant's keys.
+With the partner keys you authenticate in the normal way,
+using the `client_id`, `client_secret` and `Ocp-Apim-Subscription-Key` that are
+part of your partner keys.
 
 When making API calls on behalf of a merchant:
 You must also send the required `Merchant-Serial-Number` HTTP header to identify
@@ -65,15 +63,26 @@ in the Getting Started guide, for more details.
 
 ## HTTP headers
 
-We recommend using the standard Vipps HTTP headers for all requests.
-
-See [Vipps HTTP headers](https://github.com/vippsas/vipps-developers/blob/master/vipps-getting-started.md#vipps-http-headers)
-in the Getting started guide, for details.
-
-Remember that you must use your partner keys instead of the merchant's keys.
-In addition, the partner keys must be used to get the access token, sent in the
+In the Partner API, you must use your partner keys instead of the merchant's keys.
+In addition, you must send the `Merchant-Serial-Number` header.
+Note that the partner keys must be used to get the access token, sent in the
 `Authorization` header shown above.
 
+The following is an example Partner API request including the `Merchant-Serial-Number` header, partner keys, and the required
+[Vipps HTTP headers](https://github.com/vippsas/vipps-ecom-api/blob/master/vipps-ecom-api.md#vipps-http-headers).
+
+```json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1Ni <snip>
+Ocp-Apim-Subscription-Key: 0f14ebcab0ec4b29ae0cb90d91b4a84a
+Merchant-Serial-Number: 123456
+Vipps-System-Name: Acme Enterprises Ecommerce DeLuxe
+Vipps-System-Version: 3.1.2
+Vipps-System-Plugin-Name: acme-webshop
+Vipps-System-Plugin-Version: 4.5.6
+```
+
+See [Vipps HTTP headers](https://github.com/vippsas/vipps-developers/blob/master/vipps-getting-started.md#vipps-http-headers)
+in the Getting started guide for more details.
 
 ## Partner keys must be kept secret for merchants
 
