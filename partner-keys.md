@@ -57,24 +57,21 @@ You must also send the required `Merchant-Serial-Number` HTTP header to identify
 which of your merchants you are acting on behalf of (e.g.,
 `Merchant-Serial-Number: 123456`).
 
+See
+[Get an access token](https://github.com/vippsas/vipps-developers/blob/master/vipps-getting-started.md#get-an-access-token)
+in the Getting Started guide, for more details.
+
 ## HTTP headers
 
-The following is an example showing the headers found in a merchant's API request (_without_ using partner keys but including the required
-[Vipps HTTP headers](https://github.com/vippsas/vipps-ecom-api/blob/master/vipps-ecom-api.md#vipps-http-headers)):
+In the Partner API, you must use your partner keys instead of the merchant's keys.
+In addition, you must send the `Merchant-Serial-Number` header.
+Note that the partner keys must be used to get the access token, sent in the
+`Authorization` header shown above.
 
-```
-Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1Ni <snip>
-Ocp-Apim-Subscription-Key: 0f14ebcab0ec4b29ae0cb90d91b4a84a
-Vipps-System-Name: Acme Enterprises Ecommerce DeLuxe
-Vipps-System-Version: 3.1.2
-Vipps-System-Plugin-Name: acme-webshop
-Vipps-System-Plugin-Version: 4.5.6
-```
-
-An example of API headers for a partner's API request includes the `Merchant-Serial-Number` header, partner keys, and the required
+The following is an example Partner API request including the `Merchant-Serial-Number` header, partner keys, and the required
 [Vipps HTTP headers](https://github.com/vippsas/vipps-ecom-api/blob/master/vipps-ecom-api.md#vipps-http-headers).
 
-```
+```json
 Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1Ni <snip>
 Ocp-Apim-Subscription-Key: 0f14ebcab0ec4b29ae0cb90d91b4a84a
 Merchant-Serial-Number: 123456
@@ -84,14 +81,8 @@ Vipps-System-Plugin-Name: acme-webshop
 Vipps-System-Plugin-Version: 4.5.6
 ```
 
-Remember that you must use your partner keys instead of the merchant's keys.
-In addition, the partner keys must be used to get the access token, sent in the
-`Authorization` header shown above.
-
-Partners must always send the `Merchant-Serial-Number` header, and we recommend
-that _everyone_ sends it, also when using the merchant's own API keys.
-The `Merchant-Serial-Number` header can be used with all API keys, and can
-speed up any trouble-shooting of API problems quite a bit.
+See [Vipps HTTP headers](https://github.com/vippsas/vipps-developers/blob/master/vipps-getting-started.md#vipps-http-headers)
+in the Getting started guide for more details.
 
 ## Partner keys must be kept secret for merchants
 
