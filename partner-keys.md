@@ -91,7 +91,7 @@ the merchants*_, as that will let one merchant perform API calls (including
 making payments, refunds, etc) on behalf of another merchant.
 
 :bomb: **Potential pitfalls:**
-If you answer _YES_ to any of the following questions, partner keys is **_not_** for your solution.
+If you answer _YES_ to any of the following questions, partner keys is **_not_** for your solution.'
 - [ ] Your merchants can see the partner keys (`client_id`, `client_secret`, `Ocp-Apim-Subscription-Key`) in your solution.
 - [ ] Your merchants have the ability to _change_ their MSN (Merchant Serial Number) in your solution.
 - [ ] The keys and secrets are stored on the merchant system's (in a way that allows them to access and see it).
@@ -103,7 +103,7 @@ The same set of partner keys can be used for all your merchants' sale units, for
 and the
 [Vipps Recurring API](https://github.com/vippsas/vipps-recurring-api),
 including the
-[Userinfo](#use-userinfo)
+[Userinfo](https://github.com/vippsas/vipps-developers/blob/master/common-topics/userinfo.md)
 endpoints for both.
 
 **_NOTE:_**  Partner keys cannot yet be used for Vipps Login.
@@ -113,13 +113,14 @@ We are working on solving this.
 ## Important information
 
 **Please note:**
+
 * If you are already using the same, identical API keys for multiple
   merchants, you are _already_ using partner keys.
 * You _must not_
   use partner keys if the merchants can, in any way, see or access the API keys.
   That would be security problem that would make it possible for someone to act on behalf of all your merchants.
 * Partner keys only work in the production environment. In the
-  [test environment](https://github.com/vippsas/vipps-developers/blob/master/vipps-test-environment.md),
+  [test environment](https://github.com/vippsas/vipps-developers/blob/master/developer-resources/test-environment.md,
   you must merchant API keys. If you are not a Vipps merchant and do not have these keys, you will need to use the merchant keys belonging to one of your merchants.
 * Vipps can not send the merchant's API keys to you. You must get them from the merchant in a secure way (if partner keys are not used).
   See:
@@ -134,6 +135,7 @@ We are working on solving this.
   It does not matter if the sale unit is several years old, or one day old.
 
 See:
+
 * [Partner keys for eCom](https://github.com/vippsas/vipps-ecom-api/blob/master/vipps-ecom-api.md#partner-keys)
 * [Partner keys for Recurring](https://github.com/vippsas/vipps-recurring-api/blob/master/vipps-recurring-api.md#partner-keys)
 * [Getting started: Quick overview of how to make an API call](https://github.com/vippsas/vipps-developers/blob/master/vipps-getting-started.md#quick-overview-of-how-to-make-an-api-call)
@@ -156,4 +158,4 @@ Please create an [issue](https://github.com/vippsas/vipps-developers/issues),
 a [pull request](https://github.com/vippsas/vipps-developers/pulls),
 or contact us by email: partnerbestilling@vipps.no.
 
-Sign up for our [Technical newsletter for developers](https://github.com/vippsas/vipps-developers/tree/master/newsletters).
+Sign up for our [Technical newsletter for developers](https://vippsas.github.io/vipps-developer-docs/docs/vipps-developers/newsletters).

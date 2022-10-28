@@ -119,7 +119,7 @@ read through our FAQ, and fill out the form.
 See: [Developer documentation](#developer-documentation).
 
 When your application is approved, you will receive an email with details about access to the
-[test environment](https://github.com/vippsas/vipps-developers/blob/master/vipps-test-environment.md).
+[test environment](https://github.com/vippsas/vipps-developers/blob/master/developer-resources/test-environment.md.
 
 If you already have a pilot merchant that has access to the Vipps APIs,
 you can also use the merchant's API keys for the test environment for development.
@@ -206,7 +206,7 @@ When the partner's order for Vipps Logg Inn is approved, the partner can log
 in on
 [portal.vipps.no](https://portal.vipps.no)
 and manage their own sale units in
-[the test environment](https://github.com/vippsas/vipps-developers/blob/master/vipps-test-environment.md).
+[the test environment](https://github.com/vippsas/vipps-developers/blob/master/developer-resources/test-environment.md.
 
 **Please note:** Partners can also ask the merchant to create a user for them so
 they get access to the merchant's MSN on
@@ -318,4 +318,4 @@ Please create an [issue](https://github.com/vippsas/vipps-developers/issues),
 a [pull request](https://github.com/vippsas/vipps-developers/pulls),
 or contact us by email: partnerbestilling@vipps.no.
 
-Sign up for our [Technical newsletter for developers](https://github.com/vippsas/vipps-developers/tree/master/newsletters).
+Sign up for our [Technical newsletter for developers](https://vippsas.github.io/vipps-developer-docs/docs/vipps-developers/newsletters).
