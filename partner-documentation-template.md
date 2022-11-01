@@ -101,7 +101,7 @@ Consider linking to the Vipps API FAQs.
 
 ℹ️ All partners must offer a FAQ for their merchants.
 Link to the
-[Vipps eCom API FAQ](https://github.com/vippsas/vipps-ecom-api/blob/master/vipps-ecom-api-faq.md),
+[Vipps FAQs](https://github.com/vippsas/vipps-developers/tree/master/faqs),
 if relevant.
 
 ## Order handling
