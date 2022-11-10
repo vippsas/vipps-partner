@@ -106,10 +106,6 @@ including the
 [Userinfo](https://github.com/vippsas/vipps-developers/blob/master/common-topics/userinfo.md)
 endpoints for both.
 
-**_NOTE:_**  Partner keys cannot yet be used for Vipps Login.
-You need to use the merchant's own keys in the Vipps Login API.
-We are working on solving this.
-
 ## Important information
 
 **Please note:**
