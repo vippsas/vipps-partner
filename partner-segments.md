@@ -1,7 +1,7 @@
 <!-- START_METADATA
 ---
 title: Partner segments
-sidebar_position: 10
+sidebar_position: 90
 ---
 END_METADATA -->
 
@@ -34,7 +34,7 @@ END_METADATA -->
 | Self-service using the documention.        | Self-service using the documention.        | Self-service using the documention.        |
 | Support by email.                          | Support by email.                          | Support by email.                          |
 | -                                          | Support by Slack.                          | Support by Slack.                          |
-| -                                          | Commissions.                               | Commissions.                               |     
+| -                                          | Partner commissions.                       | Partner commissions.                       |     
 | -                                          | Presented on the Vipps website.            | Presented on the Vipps website.            |
 | -                                          | Marketing cooperation possible.            | Marketing copperation possible.            |
 | -                                          | -                                          | Priority onboarding of merchants.          |
