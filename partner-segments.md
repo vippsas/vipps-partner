@@ -26,15 +26,15 @@ END_METADATA -->
 
 | Reseller                                   | Partner                                    | Partner+                                   |
 | ------------------------------------------ | ------------------------------------------ | ------------------------------------------ |
-| Annual revenue < 5 MNOK                    | Annual revenue >= 5 MNOK                   | Annual revenue > 40 MNOK                   |
-| Number of merchants < 30                   | Number of merchants >= 30                  | Number of merchants >= 30                  |
-| Offer one Vipps product                    | Must offer more than one Vipps product     | Must offer more than one Vipps product     |
+| Annual revenue < 5 MNOK.                   | Annual revenue >= 5 MNOK.                  | Annual revenue > 40 MNOK.                  |
+| Number of merchants < 30.                  | Number of merchants >= 30.                 | Number of merchants >= 30.                 |
+| Offer one Vipps product.                   | Must offer more than one Vipps product.    | Must offer more than one Vipps product.    |
 | Fixed price only.                          | Can select prices if revenue > 1.2 MNOK.   | Can select prices.                         |
-| Must use the merchants' API keys           | Can use partner keys.                      | Can use partner keys.                      |  
+| Must use the merchants' API keys.          | Can use partner keys.                      | Can use partner keys.                      |  
 | Self-service using the documention.        | Self-service using the documention.        | Self-service using the documention.        |
 | Support by email.                          | Support by email.                          | Support by email.                          |
 | -                                          | Support by Slack.                          | Support by Slack.                          |
-| -                                          | Kick-back.                                 | Kick-back.                                 |     
+| -                                          | Commissions.                               | Commissions.                               |     
 | -                                          | Presented on the Vipps website.            | Presented on the Vipps website.            |
 | -                                          | Marketing cooperation possible.            | Marketing copperation possible.            |
 | -                                          | -                                          | Priority onboarding of merchants.          |
