@@ -36,8 +36,8 @@ END_METADATA -->
 | -                                          | Support by Slack.                          | Support by Slack.                          |
 | -                                          | Kick-back.                                 | Kick-back.                                 |     
 | -                                          | Presented on the Vipps website.            | Presented on the Vipps website.            |
-| -                                          | Marketing coopperation possible.           | Marketing coopperation possible.           |
+| -                                          | Marketing cooperation possible.            | Marketing copperation possible.            |
 | -                                          | -                                          | Priority onboarding of merchants.          |
 | -                                          | -                                          | Workshops with Vipps product teams, etc.   |
 | -                                          | -                                          | Commit to qwuarterly training.             |
-| -                                          | -                                          | Will get help with fixing API errors.       |
+| -                                          | -                                          | Will get help with fixing API errors.      |
