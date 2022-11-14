@@ -39,5 +39,5 @@ END_METADATA -->
 | -                                          | Marketing cooperation possible.            | Marketing copperation possible.            |
 | -                                          | -                                          | Priority onboarding of merchants.          |
 | -                                          | -                                          | Workshops with Vipps product teams, etc.   |
-| -                                          | -                                          | Commit to qwuarterly training.             |
+| -                                          | -                                          | Commit to quarterly training.              |
 | -                                          | -                                          | Will get help with fixing API errors.      |
