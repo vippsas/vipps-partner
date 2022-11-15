@@ -60,7 +60,7 @@ which of your merchants you are acting on behalf of (e.g.,
 `Merchant-Serial-Number: 123456`).
 
 See
-[Get an access token](https://github.com/vippsas/vipps-developers/blob/master/vipps-getting-started.md#get-an-access-token)
+[Get an access token](https://vippsas.github.io/vipps-developer-docs/docs/vipps-developers/vipps-getting-started#get-an-access-token)
 in the Getting Started guide, for more details.
 
 ## HTTP headers
@@ -71,7 +71,7 @@ Note that the partner keys must be used to get the access token, sent in the
 `Authorization` header shown above.
 
 The following is an example Partner API request including the `Merchant-Serial-Number` header, partner keys, and the required
-[Vipps HTTP headers](https://github.com/vippsas/vipps-developers/blob/master/common-topics/http-headers.md).
+[Vipps HTTP headers](https://vippsas.github.io/vipps-developer-docs/docs/vipps-developers/common-topics/http-headers).
 
 ```json
 Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1Ni <snip>
@@ -99,11 +99,11 @@ If you answer _YES_ to any of the following questions, partner keys is **_not_**
 ## Partner keys for different APIs
 
 The same set of partner keys can be used for all your merchants' sale units, for both the
-[Vipps eCom API](https://github.com/vippsas/vipps-ecom-api)
+[Vipps eCom API](https://vippsas.github.io/vipps-developer-docs/docs/APIs/ecom-api/)
 and the
-[Vipps Recurring API](https://github.com/vippsas/vipps-recurring-api),
+[Vipps Recurring API](https://vippsas.github.io/vipps-developer-docs/docs/APIs/recurring-api/),
 including the
-[Userinfo](https://github.com/vippsas/vipps-developers/blob/master/common-topics/userinfo.md)
+[Userinfo](https://vippsas.github.io/vipps-developer-docs/docs/vipps-developers/common-topics/userinfo)
 endpoints for both.
 
 ## Important information
@@ -116,11 +116,11 @@ endpoints for both.
   use partner keys if the merchants can, in any way, see or access the API keys.
   That would be security problem that would make it possible for someone to act on behalf of all your merchants.
 * Partner keys only work in the production environment. In the
-  [test environment](https://github.com/vippsas/vipps-developers/blob/master/developer-resources/test-environment.md),
+  [test environment](https://vippsas.github.io/vipps-developer-docs/docs/vipps-developers/developer-resources/test-environment),
   you must merchant API keys. If you are not a Vipps merchant and do not have these keys, you will need to use the merchant keys belonging to one of your merchants.
 * Vipps can not send the merchant's API keys to you. You must get them from the merchant in a secure way (if partner keys are not used).
   See:
-  [Getting started: Get credentials](https://github.com/vippsas/vipps-developers/blob/master/vipps-getting-started.md#get-credentials)
+  [Getting started: Get credentials](https://vippsas.github.io/vipps-developer-docs/docs/vipps-developers/vipps-getting-started#get-credentials)
   for more details.
 * If the merchant is unable to provide the API keys to you in a secure
   way, the merchant _can_ create a user for you,
@@ -132,7 +132,7 @@ endpoints for both.
 
 See:
 
-* [Getting started: Quick overview of how to make an API call](https://github.com/vippsas/vipps-developers/blob/master/vipps-getting-started.md#quick-overview-of-how-to-make-an-api-call)
+* [Getting started: Quick overview of how to make an API call](https://vippsas.github.io/vipps-developer-docs/docs/vipps-developers/vipps-getting-started#quick-overview-of-how-to-make-an-api-call)
 
 ## Merchant requirements
 
@@ -141,7 +141,7 @@ customer relationship with Vipps, and that have gone through the required
 compliance checks, etc after ordering Vipps on
 [portal.vipps.no](https://portal.vipps.no).
 It is not possible to pay the partner instead of the merchant. See also:
-[Can I create a marketplace with multiple merchants?](https://github.com/vippsas/vipps-developers/blob/master/faqs/users-and-payments-faq.md#can-i-create-a-marketplace-with-multiple-merchants)
+[Can I create a marketplace with multiple merchants?](https://vippsas.github.io/vipps-developer-docs/docs/vipps-developers/faqs/users-and-payments-faq#can-i-create-a-marketplace-with-multiple-merchants)
 
 ## Questions
 

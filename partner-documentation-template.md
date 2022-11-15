@@ -19,7 +19,7 @@ merchants of how to get started with Vipps.
 
 The paragraphs prefixed with "ℹ️" is for the partners, and must not be in the
 finished documentation for the partner's merchants. See
-[Vipps Partners](https://github.com/vippsas/vipps-partner)
+[Vipps Partners](https://vippsas.github.io/vipps-developer-docs/docs/vipps-partner/)
 for more information.
 
 Document version: 1.0.1.
@@ -40,7 +40,7 @@ Document version: 1.0.1.
 ## How to order Vipps
 
 ℹ️ Partners should use the
-[Partner API](https://github.com/vippsas/vipps-partner-api)
+[Partner API](https://vippsas.github.io/vipps-developer-docs/docs/APIs/partner-api/)
 to pre-fill product orders for merchants,
 and document how the merchant sign up in the partner's interface.
 If the Partner API is not used, the merchants must order Vipps on
@@ -76,14 +76,14 @@ keys or not.
 2. Explain how to use the Vipps API keys in the partner's solution,
    complete with screenshots with added arrows, text, etc.
    Link to
-   [Getting Started: Get credentials](https://github.com/vippsas/vipps-developers/blob/master/vipps-getting-started.md##get-credentials)
+   [Getting Started: Get credentials](https://vippsas.github.io/vipps-developer-docs/docs/vipps-developers/vipps-getting-started##get-credentials)
    if relevant.
 
 ## Configuration of Vipps on our (the partner) side
 
 ℹ️ Describe _in detail_ how to configure Vipps, with screenshots, etc.
 Link to
-[Getting Started](https://github.com/vippsas/vipps-developers/blob/master/vipps-getting-started.md)
+[Getting Started](https://vippsas.github.io/vipps-developer-docs/docs/vipps-developers/vipps-getting-started)
 if relevant.
 
 Topics to cover:
@@ -101,7 +101,7 @@ Consider linking to the Vipps API FAQs.
 
 ℹ️ All partners must offer a FAQ for their merchants.
 Link to the
-[Vipps FAQs](https://github.com/vippsas/vipps-developers/tree/master/faqs),
+[Vipps FAQs](https://vippsas.github.io/vipps-developer-docs/docs/vipps-developers/faqs/),
 if relevant.
 
 ## Order handling

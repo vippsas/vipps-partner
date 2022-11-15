@@ -78,7 +78,7 @@ Vipps has three types of partners:
 
    Merchants that use an integration partner must
    _provide the API keys to the integration partner_.
-   See [Getting started: Getting the API keys](https://github.com/vippsas/vipps-developers/blob/master/vipps-getting-started.md#getting-the-api-keys).
+   See [Getting started: Getting the API keys](https://vippsas.github.io/vipps-developer-docs/docs/vipps-developers/vipps-getting-started#getting-the-api-keys).
 
    If the integration partner continues to run, manage, and develop
    _everything_ related to the Vipps integration, and also manage the API
@@ -87,7 +87,7 @@ Vipps has three types of partners:
    [partner keys](#partner-keys).
 
 3. **Plugin partners:** Develop Vipps' official
-   [open source plugins](https://github.com/vippsas/vipps-plugins)
+   [open source plugins](https://vippsas.github.io/vipps-developer-docs/docs/vipps-plugins/)
    on contract for Vipps.
 
    If a partner uses official Vipps plugins to implement a Vipps integration
@@ -104,9 +104,9 @@ using one set of API keys for all merchants:
 Other partners must rely on each merchant's individual API keys.
 
 Information for PSP (Payment Service Providers) is here:
-[Vipps PSP API](https://github.com/vippsas/vipps-psp-api),
+[Vipps PSP API](https://vippsas.github.io/vipps-developer-docs/docs/APIs/psp-api/),
 including
-[PSP Signup API](https://github.com/vippsas/vipps-psp-api/blob/master/vipps-psp-signup-api.md).
+[PSP Signup API](https://vippsas.github.io/vipps-developer-docs/docs/APIs/psp-api/vipps-psp-signup-api).
 
 ### Apply on vipps.no
 
@@ -119,7 +119,7 @@ read through our FAQ, and fill out the form.
 See: [Developer documentation](#developer-documentation).
 
 When your application is approved, you will receive an email with details about access to the
-[test environment](https://github.com/vippsas/vipps-developers/blob/master/developer-resources/test-environment.md.
+[test environment](https://vippsas.github.io/vipps-developer-docs/docs/vipps-developers/developer-resources/test-environment/).
 
 If you already have a pilot merchant that has access to the Vipps APIs,
 you can also use the merchant's API keys for the test environment for development.
@@ -134,9 +134,9 @@ The partner only needs access to the test environment to complete an integration
 An integration is considered complete when all the elements of the
 relevant API checklists are done. See the checklists:
 
-- [ ] [Vipps eCom API](https://github.com/vippsas/vipps-ecom-api/blob/master/vipps-ecom-api-checklist.md)
-- [ ] [Vipps Recurring API](https://github.com/vippsas/vipps-recurring-api/blob/master/vipps-recurring-api-checklist.md)
-- [ ] [Vipps Login API](https://github.com/vippsas/vipps-login-api/blob/master/vipps-login-api-checklist.md)
+- [ ] [Vipps eCom API](https://vippsas.github.io/vipps-developer-docs/docs/APIs/ecom-api/vipps-ecom-api-checklist)
+- [ ] [Vipps Recurring API](https://vippsas.github.io/vipps-developer-docs/docs/APIs/recurring-api/vipps-recurring-api-checklist)
+- [ ] [Vipps Login API](https://vippsas.github.io/vipps-developer-docs/docs/APIs/login-api/vipps-login-api-checklist)
 
 **Important:** Please make sure to read and understand the checklist.
 You must provide the required information, such as orderId and the HTTP headers.
@@ -145,7 +145,7 @@ we will have to ask you again to complete the checklist.
 
 In addition to the checklists mentioned above, all partners are required to complete the following:
 
-- [ ] As a partner, you accept the [Partner terms and conditions](https://github.com/vippsas/vipps-partner/blob/main/partner-terms.md)
+- [ ] As a partner, you accept the [Partner terms and conditions](https://vippsas.github.io/vipps-developer-docs/docs/vipps-partner/partner-terms)
 - [ ] Provide technical documentation for merchants regarding:
      - [ ] How to apply for Vipps products (a URL, plain text or PDF is preferred)
      - [ ] How to configure and use the module (a URL, plain text or PDF is preferred)
@@ -185,7 +185,7 @@ See: [Partner keys](partner-keys.md).
 ### Plugin development
 
 All official plugins are open source, free to use, and available in our
-[plugin section](https://github.com/vippsas/vipps-plugins), as well as on
+[plugin section](https://vippsas.github.io/vipps-developer-docs/docs/vipps-plugins/), as well as on
 the platforms they are designed for.
 
 We encourage submitting issues and PRs to improve the plugins.
@@ -206,7 +206,7 @@ When the partner's order for Vipps Logg Inn is approved, the partner can log
 in on
 [portal.vipps.no](https://portal.vipps.no)
 and manage their own sale units in
-[the test environment](https://github.com/vippsas/vipps-developers/blob/master/developer-resources/test-environment.md.
+[the test environment](https://vippsas.github.io/vipps-developer-docs/docs/vipps-developers/developer-resources/test-environment.
 
 **Please note:** Partners can also ask the merchant to create a user for them so
 they get access to the merchant's MSN on
@@ -216,7 +216,7 @@ as described
 The user permissions are described (in Norwegian)
 [here](https://vipps.no/hjelp/vipps/kundeforholdet-mitt/hvilke-tilganger-kan-vi-opprette-i-vippsportalen/).
 See:
-[Getting started: Permissions and users](https://github.com/vippsas/vipps-developers/blob/master/vipps-getting-started.md#permissions-and-users).
+[Getting started: Permissions and users](https://vippsas.github.io/vipps-developer-docs/docs/vipps-developers/vipps-getting-started#permissions-and-users).
 
 ## How to sign up new merchants
 
@@ -239,7 +239,7 @@ The Vipps Partner API lets a partner "prefill" the product order form on
 on behalf of a merchant, so the merchant can log in,
 check the data, and submit the product order.
 
-See: [Submit a product order for a merchant](https://github.com/vippsas/vipps-partner-api/blob/main/vipps-partner-api.md#submit-a-product-order-for-a-merchant).
+See: [Submit a product order for a merchant](https://vippsas.github.io/vipps-developer-docs/docs/APIs/partner-api/vipps-partner-api#submit-a-product-order-for-a-merchant).
 
 **Please note:** A partner that only rarely needs to onboard a new merchant can
 have the merchant order Vipps on

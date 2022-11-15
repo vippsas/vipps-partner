@@ -15,7 +15,7 @@ END_METADATA -->
 <!-- END_COMMENT -->
 
 Partners should use
-[partner keys](https://github.com/vippsas/vipps-partner/blob/main/partner-keys.md).
+[partner keys](https://vippsas.github.io/vipps-developer-docs/docs/vipps-partner/partner-keys).
 
 If the partner has not implemented partner keys, there will be some manual work:
 The merchant must retrieve the API keys on portal.vipps.no and send them to the
