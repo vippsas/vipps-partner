@@ -15,7 +15,7 @@ END_METADATA -->
 <!-- END_COMMENT -->
 
 Partners that can, for some reason, not use the Partner API to
-[submit a product order for a merchant](https://github.com/vippsas/vipps-partner-api/blob/main/vipps-partner-api.md#submit-a-product-order-for-a-merchant)
+[submit a product order for a merchant](https://vippsas.github.io/vipps-developer-docs/docs/APIs/partner-api/vipps-partner-api#submit-a-product-order-for-a-merchant)
 must use manual signup: The merchant must fill out the form on its own.
 
 1. The merchant logs in to
@@ -62,7 +62,7 @@ and the new MSN to make Vipps payments.
   The user permissions are described (in Norwegian)
   [here](https://vipps.no/hjelp/vipps/kundeforholdet-mitt/hvilke-tilganger-kan-vi-opprette-i-vippsportalen/).
   See:
-  [Getting started: Permissions and users](https://github.com/vippsas/vipps-developers/blob/master/vipps-getting-started.md#permissions-and-users).
+  [Getting started: Permissions and users](https://vippsas.github.io/vipps-developer-docs/docs/vipps-developers/vipps-getting-started#permissions-and-users).
 - Partner keys can not be used for the Vipps Login API, here you need to use the merchant's own keys.
 
 # Questions
