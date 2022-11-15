@@ -29,7 +29,7 @@ END_METADATA -->
 | Annual revenue < 5 MNOK                    | Annual revenue >= 5 MNOK                   | Annual revenue > 40 MNOK                   |
 | Number of merchants < 30                   | Number of merchants >= 30                  | Number of merchants >= 30                  |
 | Offer one Vipps product                    | Must offer more than one Vipps product     | Must offer more than one Vipps product     |
-| Fixed price only.                          | Can select prices if revenue > 1.2 MNOK.   | Can select prices.                         |
+| Fixed price only.                          | Can select prices if monthly revenue > 1.2 MNOK. | Can select prices.                         |
 | Must use the merchants' API keys           | Can use partner keys.                      | Can use partner keys.                      |  
 | Self-service using the documention.        | Self-service using the documention.        | Self-service using the documention.        |
 | Support by email.                          | Support by email.                          | Support by email.                          |
