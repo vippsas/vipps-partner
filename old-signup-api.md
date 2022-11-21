@@ -6,24 +6,17 @@ END_METADATA -->
 
 # Old Signup API
 
-<!-- START_COMMENT -->
-
-ℹ️ Please use the new documentation:
-[Vipps Technical Documentation](https://vippsas.github.io/vipps-developer-docs/).
-
-<!-- END_COMMENT -->
-
 The deprecated legacy
 [Vipps Signup API](https://github.com/vippsas/vipps-signup-api),
 also called "partial signup", is no longer available,
 and partners should use the more efficient
-[partner keys](#partner-keys)
+[partner keys](./partner-keys.md)
 (and the
-[Vipps Partner API](#vipps-partner-api)
+[Vipps Partner API](https://vippsas.github.io/vipps-developer-docs/docs/APIs/partner-api/)
 when available).
 
-
 The Vipps Signup API in short:
+
 1. Partners sent some basic info about a new merchant to Vipps.
 2. The merchant got a URL to the old, outdated signup form, with a few pre-filled fields.
 3. The merchant completed the form and signed with BankID.
@@ -31,19 +24,20 @@ The Vipps Signup API in short:
 5. Vipps made a callback to the partner's API with the merchant's new API keys.
 
 The Vipps Signup API was phased out because:
+
 * The signup process is now on
   [portal.vipps.no](https://portal.vipps.no)
   and has _many_ improvements over the old signup form that is used in steps 2
   and 3 above as part of the Signup API.
-* [Partner keys](#partner-keys)
+* [Partner keys](./partner-keys.md)
   eliminate the need for merchant-specific API keys, so step 5 is no longer needed.
-* Partners can soon use the
-  [Vipps Partner API](#vipps-partner-api)
+* Partners can use the
+  [Vipps Partner API](https://vippsas.github.io/vipps-developer-docs/docs/APIs/partner-api/)
   to "pre-fill" applications for their merchants.
 
 See: [Why was the Signup API phased out?](#why-was-the-signup-api-phased-out).
 
-### Why was the Signup API phased out?
+## Why was the Signup API phased out?
 
 In short: It is no longer needed, as there are better solutions that are
 continuously improved.
@@ -75,11 +69,11 @@ continuously improved.
 See:
 [Deprecation of the Vipps Signup API](https://github.com/vippsas/vipps-signup-api/blob/master/vipps-signup-api-deprecation.md).
 
-### When will there be a replacement for the Signup API?
+## When will there be a replacement for the Signup API?
 
-It's available now: Please use the [Vipps Partner API](#vipps-partner-api).
+It's available now: Please use the [Vipps Partner API](https://vippsas.github.io/vipps-developer-docs/docs/APIs/partner-api/).
 
-# Questions
+## Questions
 
 Please contact your partner manager.
 

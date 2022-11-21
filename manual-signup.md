@@ -10,7 +10,7 @@ END_METADATA -->
 <!-- START_COMMENT -->
 
 ℹ️ Please use the new documentation:
-[Vipps Technical Documentation](https://vippsas.github.io/vipps-developer-docs/).
+[Vipps Technical Documentation](https://vippsas.github.io/vipps-developer-docs/docs/vipps-partner/manual-signup).
 
 <!-- END_COMMENT -->
 
@@ -50,10 +50,11 @@ must use manual signup: The merchant must fill out the form on its own.
    If the application is declined, only the merchant is notified.
 
 The partner uses their
-[partner keys](#partner-keys)
+[partner keys](./partner-keys.md)
 and the new MSN to make Vipps payments.
 
 **Please note:**
+
 - Partners can ask the merchant to create a user for them so they get access
   to the MSN on
   [portal.vipps.no](https://portal.vipps.no)
