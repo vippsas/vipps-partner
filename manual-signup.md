@@ -10,7 +10,7 @@ END_METADATA -->
 <!-- START_COMMENT -->
 
 ℹ️ Please use the new documentation:
-[Vipps Technical Documentation](https://vippsas.github.io/vipps-developer-docs/).
+[Vipps Technical Documentation](https://vippsas.github.io/vipps-developer-docs/docs/vipps-partner/manual-signup).
 
 <!-- END_COMMENT -->
 
@@ -50,10 +50,11 @@ must use manual signup: The merchant must fill out the form on its own.
    If the application is declined, only the merchant is notified.
 
 The partner uses their
-[partner keys](#partner-keys)
+[partner keys](./partner-keys.md)
 and the new MSN to make Vipps payments.
 
 **Please note:**
+
 - Partners can ask the merchant to create a user for them so they get access
   to the MSN on
   [portal.vipps.no](https://portal.vipps.no)
@@ -72,6 +73,6 @@ Please contact your partner manager.
 We're always happy to help with code or other questions you might have!
 Please create an [issue](https://github.com/vippsas/vipps-developers/issues),
 a [pull request](https://github.com/vippsas/vipps-developers/pulls),
-or contact us by email: partnerbestilling@vipps.no.
+or contact us by email: [partnerbestilling@vipps.no](mailto:partnerbestilling@vipps.no).
 
 Sign up for our [Technical newsletter for developers](https://vippsas.github.io/vipps-developer-docs/docs/vipps-developers/newsletters).

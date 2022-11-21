@@ -10,7 +10,7 @@ END_METADATA -->
 <!-- START_COMMENT -->
 
 ℹ️ Please use the new documentation:
-[Vipps Technical Documentation](https://vippsas.github.io/vipps-developer-docs/).
+[Vipps Technical Documentation](https://vippsas.github.io/vipps-developer-docs/docs/vipps-partner/add-portal-user).
 
 <!-- END_COMMENT -->
 
@@ -108,6 +108,6 @@ See: [Vipps Partners](README.md).
 We're always happy to help with code or other questions you might have!
 Please create an [issue](https://github.com/vippsas/vipps-developers/issues),
 a [pull request](https://github.com/vippsas/vipps-developers/pulls),
-or contact us by email: partnerbestilling@vipps.no.
+or contact us by email: [partnerbestilling@vipps.no](mailto:partnerbestilling@vipps.no).
 
 Sign up for our [Technical newsletter for developers](https://vippsas.github.io/vipps-developer-docs/docs/vipps-developers/newsletters).
