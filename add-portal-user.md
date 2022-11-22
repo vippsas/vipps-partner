@@ -27,7 +27,7 @@ retrieve the API keys.
 
 This is a step by step guide for that.
 
-Document version: 0.0.1.
+Document version: 1.0.0.
 
 <!-- START_TOC -->
 

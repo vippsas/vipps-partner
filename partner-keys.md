@@ -29,6 +29,8 @@ END_METADATA -->
 
 <!-- END_TOC -->
 
+Document version: 1.0.1.
+
 As a partner, you manage transactions on behalf of Vipps merchants.
 Vipps provides you with _partner keys_, which allow you to use your own API credentials to
 make API calls on behalf of your merchants (i.e., the sales units that are linked to you as a partner).
@@ -114,11 +116,16 @@ endpoints for both.
   merchants, you are _already_ using partner keys.
 * You _must not_
   use partner keys if the merchants can, in any way, see or access the API keys.
-  That would be security problem that would make it possible for someone to act on behalf of all your merchants.
+  That would be security problem that would make it possible for someone to act
+  on behalf of all your merchants.
 * Partner keys only work in the production environment. In the
   [test environment](https://vippsas.github.io/vipps-developer-docs/docs/vipps-developers/developer-resources/test-environment),
-  you must merchant API keys. If you are not a Vipps merchant and do not have these keys, you will need to use the merchant keys belonging to one of your merchants.
-* Vipps can not send the merchant's API keys to you. You must get them from the merchant in a secure way (if partner keys are not used).
+  you must use the merchant's API keys.
+  If you are not a Vipps merchant in the production environment and do not have
+  these keys, you will need to use the merchant keys belonging to one of your
+  merchants.
+* Vipps can not send the merchant's API keys to you. You must get them from the
+  merchant in a secure way (if partner keys are not used).
   See:
   [Getting started: Get credentials](https://vippsas.github.io/vipps-developer-docs/docs/vipps-developers/vipps-getting-started#get-credentials)
   for more details.
