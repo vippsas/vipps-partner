@@ -120,7 +120,7 @@ endpoints for both.
   you must merchant API keys. If you are not a Vipps merchant and do not have these keys, you will need to use the merchant keys belonging to one of your merchants.
 * Vipps can not send the merchant's API keys to you. You must get them from the merchant in a secure way (if partner keys are not used).
   See:
-  [Getting started: Get credentials](https://vippsas.github.io/vipps-developer-docs/docs/vipps-developers/vipps-getting-started#get-credentials)
+  [Developer resources: Vipps portal: How to find the API keys](https://vippsas.github.io/vipps-developer-docs/docs/vipps-developers/developer-resources/portal/#how-to-find-the-api-keys)
   for more details.
 * If the merchant is unable to provide the API keys to you in a secure
   way, the merchant _can_ create a user for you,
