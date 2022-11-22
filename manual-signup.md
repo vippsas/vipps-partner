@@ -55,7 +55,7 @@ and the new MSN to make Vipps payments.
 
 **Please note:**
 
-- Partners can ask the merchant to create a user for them so they get access
+- Partners can ask the merchant to create a user for them, so they get access
   to the MSN on
   [portal.vipps.no](https://portal.vipps.no)
   as described
@@ -63,7 +63,7 @@ and the new MSN to make Vipps payments.
   The user permissions are described (in Norwegian)
   [here](https://vipps.no/hjelp/vipps/kundeforholdet-mitt/hvilke-tilganger-kan-vi-opprette-i-vippsportalen/).
   See:
-  [Getting started: Permissions and users](https://vippsas.github.io/vipps-developer-docs/docs/vipps-developers/vipps-getting-started#permissions-and-users).
+  [Developer resources: Vipps Portal: Permissions and users](https://vippsas.github.io/vipps-developer-docs/docs/vipps-developers/developer-resources/portal#permissions-and-users).
 - Partner keys can not be used for the Vipps Login API, here you need to use the merchant's own keys.
 
 # Questions
