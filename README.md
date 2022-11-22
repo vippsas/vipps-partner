@@ -78,7 +78,7 @@ Vipps has three types of partners:
 
    Merchants that use an integration partner must
    _provide the API keys to the integration partner_.
-   See [Getting started: Getting the API keys](https://vippsas.github.io/vipps-developer-docs/docs/vipps-developers/vipps-getting-started#getting-the-api-keys).
+   See [Common topics: API Keys](https://vippsas.github.io/vipps-developer-docs/docs/vipps-developers/common-topics/api-keys#getting-the-api-keys).
 
    If the integration partner continues to run, manage, and develop
    _everything_ related to the Vipps integration, and also manage the API
