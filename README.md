@@ -78,7 +78,7 @@ Vipps has three types of partners:
 
    Merchants that use an integration partner must
    _provide the API keys to the integration partner_.
-   See [Getting started: Getting the API keys](https://vippsas.github.io/vipps-developer-docs/docs/vipps-developers/vipps-getting-started#getting-the-api-keys).
+   See [Common topics: API Keys](https://vippsas.github.io/vipps-developer-docs/docs/vipps-developers/common-topics/api-keys#getting-the-api-keys).
 
    If the integration partner continues to run, manage, and develop
    _everything_ related to the Vipps integration, and also manage the API
@@ -205,8 +205,10 @@ Vipps Logg Inn does not allow for payments.
 When the partner's order for Vipps Logg Inn is approved, the partner can log
 in on
 [portal.vipps.no](https://portal.vipps.no)
-and manage their own sale units in
-[the test environment](https://vippsas.github.io/vipps-developer-docs/docs/vipps-developers/developer-resources/test-environment.
+and manage their own sale units in the test environment.
+
+For information about the test environment, see:
+[Developer resources: Test environment](https://vippsas.github.io/vipps-developer-docs/docs/vipps-developers/developer-resources/test-environment).
 
 **Please note:** Partners can also ask the merchant to create a user for them so
 they get access to the merchant's MSN on
@@ -215,8 +217,9 @@ as described
 [in detail with screenshots here](add-portal-user.md).
 The user permissions are described (in Norwegian)
 [here](https://vipps.no/hjelp/vipps/kundeforholdet-mitt/hvilke-tilganger-kan-vi-opprette-i-vippsportalen/).
+
 See:
-[Getting started: Permissions and users](https://vippsas.github.io/vipps-developer-docs/docs/vipps-developers/vipps-getting-started#permissions-and-users).
+  [Developer resources: Vipps Portal: Permissions and users](https://vippsas.github.io/vipps-developer-docs/docs/vipps-developers/developer-resources/portal#permissions-and-users).
 
 ## How to sign up new merchants
 

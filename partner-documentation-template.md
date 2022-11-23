@@ -76,8 +76,11 @@ keys or not.
 2. Explain how to use the Vipps API keys in the partner's solution,
    complete with screenshots with added arrows, text, etc.
    Link to
-   [Getting Started: Get credentials](https://vippsas.github.io/vipps-developer-docs/docs/vipps-developers/vipps-getting-started##get-credentials)
+   [Developer resources: Vipps portal: How to find the API keys](https://vippsas.github.io/vipps-developer-docs/docs/vipps-developers/developer-resources/portal/#how-to-find-the-api-keys),
    if relevant.
+
+For information about API keys, see
+[Common topics: API keys](https://vippsas.github.io/vipps-developer-docs/docs/vipps-developers/common-topics/api-keys).
 
 ## Configuration of Vipps on our (the partner) side
 
