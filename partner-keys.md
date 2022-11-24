@@ -29,14 +29,15 @@ END_METADATA -->
 
 <!-- END_TOC -->
 
-Document version: 1.0.2.
+Document version: 1.0.3.
 
 As a partner, you manage transactions on behalf of Vipps merchants.
 Vipps provides you with _partner keys_, which allow you to use your own API credentials to
 make API calls on behalf of _all_ your merchants
-(i.e., the sales units that are linked to you as a partner).
-The partner keys work for the sale units regardless whether the keys are used in
-a POS integration, in a webshop, or something else.
+(i.e., all the sales units that are linked to you as a partner).
+
+The partner keys work for the sale units regardless linked to you as a partner,
+whether the keys are used in a POS integration, in a webshop, or something else.
 
 There are two ways to use partner keys:
 
