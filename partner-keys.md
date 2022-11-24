@@ -29,26 +29,29 @@ END_METADATA -->
 
 <!-- END_TOC -->
 
-Document version: 1.0.1.
+Document version: 1.0.2.
 
 As a partner, you manage transactions on behalf of Vipps merchants.
 Vipps provides you with _partner keys_, which allow you to use your own API credentials to
-make API calls on behalf of your merchants (i.e., the sales units that are linked to you as a partner).
+make API calls on behalf of _all_ your merchants
+(i.e., the sales units that are linked to you as a partner).
+The partner keys work for the sale units regardless whether the keys are used in
+a POS integration, in a webshop, or something else.
 
 There are two ways to use partner keys:
 
 1. To use the
    [Partner API](https://vippsas.github.io/vipps-developer-docs/docs/APIs/partner-api)
-   to create and manage merchants' sale units.
-2. To make API calls to Vipps APIs on behalf of merchants (including moving money).
+   to create and manage your merchants' sale units.
+2. To make API calls to Vipps APIs on behalf of your merchants (including moving money).
 
 All partners (with a signed contract) can use partner keys for (1),
 but (2) requires more - see the rest of this document.
 
 For partners making API calls on behalf of merchants:
 
-* The partner uses its own API keys (the partner keys) for all its merchants.
-* The partner specifies the MSN of the sale unit its acting on behalf of.
+* The partner uses the partner keys (the partner's own "special" API keys) for all its merchants.
+* The partner specifies the MSN of the sale unit its acting on behalf of in the HTTP header.
 
 ## Authentication
 
