@@ -123,7 +123,7 @@ endpoints for both.
   That would be security problem that would make it possible for someone to act
   on behalf of all your merchants.
 * Partner keys only work in the production environment. In the
-  [test environment](https://vippsas.github.io/vipps-developer-docs/docs/vipps-developers/developer-resources/test-environment),
+  [test environment](https://vippsas.github.io/vipps-developer-docs/docs/vipps-developers/test-environment),
   you must use the merchant's API keys.
   If you are not a Vipps merchant in the production environment and do not have
   these keys, you will need to use the merchant keys belonging to one of your
