@@ -119,7 +119,7 @@ read through our FAQ, and fill out the form.
 See: [Developer documentation](#developer-documentation).
 
 When your application is approved, you will receive an email with details about access to the
-[test environment](https://vippsas.github.io/vipps-developer-docs/docs/vipps-developers/developer-resources/test-environment/).
+[test environment](https://vippsas.github.io/vipps-developer-docs/docs/vipps-developers/test-environment/).
 
 If you already have a pilot merchant that has access to the Vipps APIs,
 you can also use the merchant's API keys for the test environment for development.
@@ -208,7 +208,7 @@ in on
 and manage their own sale units in the test environment.
 
 For information about the test environment, see:
-[Developer resources: Test environment](https://vippsas.github.io/vipps-developer-docs/docs/vipps-developers/developer-resources/test-environment).
+[Developer resources: Test environment](https://vippsas.github.io/vipps-developer-docs/docs/vipps-developers/test-environment).
 
 **Please note:** Partners can also ask the merchant to create a user for them so
 they get access to the merchant's MSN on
