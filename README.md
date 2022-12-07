@@ -18,7 +18,7 @@ END_METADATA -->
 
 Technical information for Vipps partners.
 
-Document version: 2.1.2.
+Document version: 2.1.4.
 
 <!-- START_TOC -->
 
@@ -254,6 +254,13 @@ instead of using the Partner API's prefill functionality.
 See: [Manual signup](manual-signup.md).
 
 ### How to check if a merchant is signed up with the partner as partner
+
+When a new merchants gets its Vipps application approved, an email is sent
+to both the merchant and the partner with information about:
+* The merchant's organization number
+* The merchant's name
+* The sale unit's MSN
+* The sale unit's name
 
 **Please note:** Vipps can not share information about the status of a
 merchant's agreement or product orders.
