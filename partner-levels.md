@@ -21,17 +21,17 @@ END_METADATA -->
 | Vipps Partner                              | Vipps Partner Plus                         | Vipps Partner Premium                      |
 | ------------------------------------------ | ------------------------------------------ | ------------------------------------------ |
 | ![Vipps Partner](images/vipps-partner.jpg) | ![Vipps Partner Plus](images/vipps-partner-plus.jpg) | ![Vipps Partner Premium](images/vipps-partner-premium.jpg)
-| Annual revenue < 5 MNOK                    | Annual revenue >= 5 MNOK                   | Annual revenue > 40 MNOK                   |
+| Annual revenue < 15 MNOK                   | Annual revenue >= 15 MNOK                  | Annual revenue > 80 MNOK                   |
 | Number of merchants < 30                   | Number of merchants >= 30                  | Number of merchants >= 30                  |
 | Offer one Vipps product                    | Must offer more than one Vipps product     | Must offer more than one Vipps product     |
 | Fixed price only.                          | Can select prices if monthly revenue > 1.2 MNOK. | Can select prices.                   |
 | Must use the merchants' API keys           | Can use partner keys.                      | Can use partner keys.                      |  
-| Self-service using the documention.        | Self-service using the documention.        | Self-service using the documention.        |
+| Self-service using the documentation.      | Self-service using the documentation.      | Self-service using the documentation.      |
 | Support by email.                          | Support by email.                          | Support by email.                          |
 | -                                          | Support by Slack.                          | Support by Slack.                          |
-| -                                          | Commission.                                | Commission.                                |     
+| -                                          | Possibility for commission.                | Possibility for commission.                |     
 | -                                          | Presented on the Vipps website.            | Presented on the Vipps website.            |
-| -                                          | Marketing cooperation possible.            | Marketing copperation possible.            |
+| -                                          | Marketing cooperation possible.            | Marketing cooperation possible.            |
 | -                                          | -                                          | Priority onboarding of merchants.          |
 | -                                          | -                                          | Workshops with Vipps product teams, etc.   |
 | -                                          | -                                          | Commit to quarterly training.              |
