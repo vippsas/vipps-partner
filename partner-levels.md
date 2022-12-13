@@ -1,11 +1,11 @@
 <!-- START_METADATA
 ---
-title: Partner segments
+title: Partner levels
 sidebar_position: 10
 ---
 END_METADATA -->
 
-# Partner segments
+# Partner levels
 
 <!-- START_COMMENT -->
 
@@ -16,17 +16,11 @@ END_METADATA -->
 
 <!-- START_TOC -->
 
-## Table of Contents
-
-
 <!-- END_TOC -->
-
-## What you get
-
 
 | Vipps Partner                              | Vipps Partner Plus                         | Vipps Partner Premium                      |
 | ------------------------------------------ | ------------------------------------------ | ------------------------------------------ |
-| ![Vipps Partner](images/vipps-partner.jpg) | ![Vipps Partner Plus](images/vipps-partner-plus.jpg) | ![Vipps Partner Premium](images/vipps-partner-premium.jpg) 
+| ![Vipps Partner](images/vipps-partner.jpg) | ![Vipps Partner Plus](images/vipps-partner-plus.jpg) | ![Vipps Partner Premium](images/vipps-partner-premium.jpg)
 | Annual revenue < 5 MNOK                    | Annual revenue >= 5 MNOK                   | Annual revenue > 40 MNOK                   |
 | Number of merchants < 30                   | Number of merchants >= 30                  | Number of merchants >= 30                  |
 | Offer one Vipps product                    | Must offer more than one Vipps product     | Must offer more than one Vipps product     |
