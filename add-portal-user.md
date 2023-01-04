@@ -2,6 +2,8 @@
 ---
 title: How to add a user on the portal
 sidebar_position: 2
+pagination_next: null
+pagination_prev: null
 ---
 END_METADATA -->
 

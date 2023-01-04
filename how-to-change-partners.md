@@ -2,6 +2,8 @@
 ---
 title: How to change partners
 sidebar_position: 20
+pagination_next: null
+pagination_prev: null
 ---
 END_METADATA -->
 

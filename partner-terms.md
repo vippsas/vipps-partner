@@ -2,6 +2,8 @@
 ---
 title: Partner terms
 sidebar_position: 85
+pagination_next: null
+pagination_prev: null
 ---
 END_METADATA -->
 

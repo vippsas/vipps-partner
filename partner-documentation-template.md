@@ -2,6 +2,8 @@
 ---
 title: Partner documentation template
 sidebar_position: 80
+pagination_next: null
+pagination_prev: null
 ---
 END_METADATA -->
 
