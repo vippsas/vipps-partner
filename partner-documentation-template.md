@@ -2,6 +2,8 @@
 ---
 title: Partner documentation template
 sidebar_position: 80
+pagination_next: null
+pagination_prev: null
 ---
 END_METADATA -->
 
@@ -10,7 +12,7 @@ END_METADATA -->
 <!-- START_COMMENT -->
 
 ℹ️ Please use the new documentation:
-[Vipps Technical Documentation](https://vippsas.github.io/vipps-developer-docs/).
+[Vipps Technical Documentation](https://vippsas.github.io/vipps-developer-docs/docs/vipps-partner/partner-documentation-template).
 
 <!-- END_COMMENT -->
 
@@ -19,10 +21,10 @@ merchants of how to get started with Vipps.
 
 The paragraphs prefixed with "ℹ️" is for the partners, and must not be in the
 finished documentation for the partner's merchants. See
-[Vipps Partners](https://github.com/vippsas/vipps-partner)
+[Vipps Partners](https://vippsas.github.io/vipps-developer-docs/docs/vipps-partner/)
 for more information.
 
-Document version: 1.0.1.
+Document version: 2.0.0.
 
 <!-- START_TOC -->
 ## Table of contents
@@ -40,7 +42,7 @@ Document version: 1.0.1.
 ## How to order Vipps
 
 ℹ️ Partners should use the
-[Partner API](https://github.com/vippsas/vipps-partner-api)
+[Partner API](https://vippsas.github.io/vipps-developer-docs/docs/APIs/partner-api/)
 to pre-fill product orders for merchants,
 and document how the merchant sign up in the partner's interface.
 If the Partner API is not used, the merchants must order Vipps on
@@ -49,8 +51,12 @@ If the Partner API is not used, the merchants must order Vipps on
 1. Log in with BankID (everyone with BankID can log in).
 2. Search for your company's name or organization number.
 3. Fill in the required information.
+   If you need help, please contact
+   [Vipps customer service](https://vipps.no/kontakt-oss/).
 4. Sign the application with BankID.
 5. Order "Vipps på nett" with the settings required by the partner.
+   Try to avoid the
+   [typical reasons for delays](https://vippsas.github.io/vipps-developer-docs/docs/vipps-partner/#typical-reasons-for-delays).
 
 You may get follow-up questions from Vipps. Please check your email,
 including the "spam" folder, and search for "vipps".
@@ -61,29 +67,34 @@ at any time.
 
 ## API keys
 
-ℹ️ Select one of the alternatives below, depending on whether you use partner
-keys or not.
+ℹ️ Select one of the alternatives below, depending on whether you
+use
+[partner keys](https://vippsas.github.io/vipps-developer-docs/docs/vipps-partner/partner-keys)
+or not.
 
 1. Explain that (since you use the Partner API and partner keys) the merchant
-   does not have to do anything after ordering Vipps in the partner's interface.
+   does not have to do anything after ordering Vipps in the partner's interface:
 
-   When the Vipps application is complete, you will get an email.
+   "When the Vipps application is complete, you will get an email.
    We, your partner, receive the same email.
    The email contains the "Merchant Serial Number" (MSN),
    a six-digit number identifying your new Vipps sale unit.
-   There is nothing more you need to do, we then have everything we need.
+   There is nothing more you need to do, we then have everything we need.""
 
 2. Explain how to use the Vipps API keys in the partner's solution,
    complete with screenshots with added arrows, text, etc.
    Link to
-   [Getting Started: Get credentials](https://github.com/vippsas/vipps-developers/blob/master/vipps-getting-started.md##get-credentials)
+   [Developer resources: Vipps portal: How to find the API keys](https://vippsas.github.io/vipps-developer-docs/docs/vipps-developers/developer-resources/portal),
    if relevant.
+
+For information about API keys, see
+[Common topics: API keys](https://vippsas.github.io/vipps-developer-docs/docs/vipps-developers/common-topics/api-keys).
 
 ## Configuration of Vipps on our (the partner) side
 
 ℹ️ Describe _in detail_ how to configure Vipps, with screenshots, etc.
 Link to
-[Getting Started](https://github.com/vippsas/vipps-developers/blob/master/vipps-getting-started.md)
+[Getting Started](https://vippsas.github.io/vipps-developer-docs/docs/vipps-developers/vipps-getting-started)
 if relevant.
 
 Topics to cover:
@@ -95,13 +106,14 @@ Topics to cover:
   - Webhooks
 * Additional info (support)
 
-Consider linking to the Vipps API FAQs.
+Consider linking to the
+[Vipps FAQs](https://vippsas.github.io/vipps-developer-docs/docs/vipps-developers/faqs/).
 
 ## Frequently asked questions
 
 ℹ️ All partners must offer a FAQ for their merchants.
 Link to the
-[Vipps FAQs](https://github.com/vippsas/vipps-developers/tree/master/faqs),
+[Vipps FAQs](https://vippsas.github.io/vipps-developer-docs/docs/vipps-developers/faqs/),
 if relevant.
 
 ## Order handling
@@ -110,16 +122,22 @@ if relevant.
 All order management must be done in the partner's interface, using the Vipps API,
 and _not_ on portal.vipps.no.
 
+From the integration checklist:
+
+> Make sure your customer service, etc has all the tools and information they need
+> available in your system, through the APIs listed in the first item in this
+> checklist, and that they do not need to visit portal.vipps.no for normal work.
+
 Topics to cover:
 
 * Order handling
-  - How do I capture an order
-  - How do I partial capture an order
-  - How do I cancel an order
-  - How do I refund an order
-  - How do I partial refund an order
-  - How to I find all the details about an order
-  - How do I debug a failed order
+  - How do I capture an order?
+  - How do I partial capture an order?
+  - How do I cancel an order?
+  - How do I refund an order?
+  - How do I partial refund an order?
+  - How to I find all the details about an order?
+  - How do I debug a failed order?
 * Additional info (support)
 
 ## Support
@@ -130,7 +148,7 @@ Document very clearly that the partner's merchants should _never_ contact Vipps 
 
 ## Questions
 
-Please contact us and we will help as soon as possible.
+Please contact us, your partner, and we will help as soon as possible.
 We will contact Vipps if needed, so you should not contact Vipps directly.
 
 **ℹ️Please note: Add partner name, address, website, phone, email, etc here.**

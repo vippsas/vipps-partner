@@ -2,6 +2,8 @@
 ---
 title: How to add a user on the portal
 sidebar_position: 25
+pagination_next: null
+pagination_prev: null
 ---
 END_METADATA -->
 
@@ -10,12 +12,12 @@ END_METADATA -->
 <!-- START_COMMENT -->
 
 ℹ️ Please use the new documentation:
-[Vipps Technical Documentation](https://vippsas.github.io/vipps-developer-docs/).
+[Vipps Technical Documentation](https://vippsas.github.io/vipps-developer-docs/docs/vipps-partner/add-portal-user).
 
 <!-- END_COMMENT -->
 
 Partners should use
-[partner keys](https://github.com/vippsas/vipps-partner/blob/main/partner-keys.md).
+[partner keys](https://vippsas.github.io/vipps-developer-docs/docs/vipps-partner/partner-keys).
 
 If the partner has not implemented partner keys, there will be some manual work:
 The merchant must retrieve the API keys on portal.vipps.no and send them to the
@@ -27,7 +29,7 @@ retrieve the API keys.
 
 This is a step by step guide for that.
 
-Document version: 0.0.1.
+Document version: 1.0.0.
 
 <!-- START_TOC -->
 
@@ -108,6 +110,6 @@ See: [Vipps Partners](README.md).
 We're always happy to help with code or other questions you might have!
 Please create an [issue](https://github.com/vippsas/vipps-developers/issues),
 a [pull request](https://github.com/vippsas/vipps-developers/pulls),
-or contact us by email: partnerbestilling@vipps.no.
+or contact us by email: [partnerbestilling@vipps.no](mailto:partnerbestilling@vipps.no).
 
 Sign up for our [Technical newsletter for developers](https://vippsas.github.io/vipps-developer-docs/docs/vipps-developers/newsletters).

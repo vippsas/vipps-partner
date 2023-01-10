@@ -2,6 +2,8 @@
 ---
 title: Partner terms
 sidebar_position: 85
+pagination_next: null
+pagination_prev: null
 ---
 END_METADATA -->
 
@@ -10,7 +12,7 @@ END_METADATA -->
 <!-- START_COMMENT -->
 
 ℹ️ Please use the new documentation:
-[Vipps Technical Documentation](https://vippsas.github.io/vipps-developer-docs/).
+[Vipps Technical Documentation](https://vippsas.github.io/vipps-developer-docs/docs/vipps-partner/partner-terms).
 
 <!-- END_COMMENT -->
 
@@ -27,7 +29,7 @@ Vilkårene regulerer forpliktelser i forbindelse med Partners distribusjon, klar
 
 ### Partners forpliktelser
 
-1. Partner skal ha gjennomgått [API checklist på github](https://github.com/vippsas/vipps-partner#finishing-the-integration-and-going-live)
+1. Partner skal ha gjennomgått [API checklist på github](https://vippsas.github.io/vipps-developer-docs/docs/vipps-partner/#finishing-the-integration-and-going-live)
 
 2. Partner skal ved varsling om endringer i Selskapets API som medfører at Partner må gjøre endringer på sin side, gjennomføre disse innen de tidsfrister som settes for produksjonsdato og gjennomføring av endring.  
 
