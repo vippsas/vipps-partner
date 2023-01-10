@@ -1,7 +1,7 @@
 <!-- START_METADATA
 ---
 title: How to add a user on the portal
-sidebar_position: 2
+sidebar_position: 25
 ---
 END_METADATA -->
 

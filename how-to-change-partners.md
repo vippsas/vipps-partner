@@ -1,7 +1,7 @@
 <!-- START_METADATA
 ---
 title: How to change partners
-sidebar_position: 20
+sidebar_position: 25
 ---
 END_METADATA -->
 
