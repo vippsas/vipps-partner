@@ -18,14 +18,13 @@ END_METADATA -->
 
 Technical information for Vipps partners.
 
-Document version: 2.1.4.
-
 <!-- START_TOC -->
 
 ## Table of contents
 
 * [How to become a Vipps partner](#how-to-become-a-vipps-partner)
   * [Partner types](#partner-types)
+  * [Partner levels](#partner-levels)
   * [Apply on vipps.no](#apply-on-vippsno)
   * [Integrate with the Vipps APIs](#integrate-with-the-vipps-apis)
   * [Finishing the integration and going live](#finishing-the-integration-and-going-live)
@@ -107,6 +106,11 @@ Information for PSP (Payment Service Providers) is here:
 [Vipps PSP API](https://vippsas.github.io/vipps-developer-docs/docs/APIs/psp-api/),
 including
 [PSP Signup API](https://vippsas.github.io/vipps-developer-docs/docs/APIs/psp-api/vipps-psp-signup-api).
+
+### Partner levels
+
+See:
+[Partner levels](partner-levels.md).
 
 ### Apply on vipps.no
 
