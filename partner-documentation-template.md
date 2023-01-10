@@ -1,7 +1,7 @@
 <!-- START_METADATA
 ---
 title: Partner documentation template
-sidebar_position: 80
+sidebar_position: 90
 pagination_next: null
 pagination_prev: null
 ---
