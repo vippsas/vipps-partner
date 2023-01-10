@@ -14,10 +14,6 @@ END_METADATA -->
 ℹ️ Please use the new documentation:
 [Vipps Technical Documentation](https://vippsas.github.io/vipps-developer-docs/).
 
-<!-- END_COMMENT -->
-
-<!-- START_TOC -->
-
 <!-- END_TOC -->
 
 | Vipps Partner                              | Vipps Partner Plus                         | Vipps Partner Premium                    |
