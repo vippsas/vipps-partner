@@ -14,7 +14,7 @@ END_METADATA -->
 ℹ️ Please use the new documentation:
 [Vipps Technical Documentation](https://vippsas.github.io/vipps-developer-docs/).
 
-<!-- END_TOC -->
+<!-- END_COMMENT -->
 
 | Vipps Partner                              | Vipps Partner Plus                         | Vipps Partner Premium                    |
 | ------------------------------------------ | ------------------------------------------ | ---------------------------------------- |
@@ -27,7 +27,7 @@ END_METADATA -->
 | Self-service using the documentation       | Self-service using the documentation       | Self-service using the documentation     |
 | Support by email                           | Support by email                           | Support by email                         |
 | -                                          | Support by Slack                           | Support by Slack                         |
-| -                                          | Possibility for commission                 | Possibility for commission               |     
+| -                                          | Possibility for commission                 | Possibility for commission               |
 | -                                          | Presented on the Vipps website             | Presented on the Vipps website           |
 | -                                          | Marketing cooperation possible             | Marketing cooperation possible           |
 | -                                          | -                                          | Priority onboarding of merchants         |
