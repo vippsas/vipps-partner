@@ -110,12 +110,12 @@ including
 ### Partner levels
 
 See:
-[Partner levels](partner-levels.md).
+[Partner levels](./partner-level-up.md).
 
 ### Apply on vipps.no
 
 Please visit the
-[partner page at Vipps.no]( https://vipps.no/developer/bli-partner/),
+[partner page at Vipps.no](https://vipps.no/developer/bli-partner/),
 read through our FAQ, and fill out the form.
 
 ### Integrate with the Vipps APIs
