@@ -172,7 +172,7 @@ where the merchants can sign up and select you as their partner.
 
 ### Developer documentation
 
-See: [Developer documentation](https://vippsas.github.io/vipps-developer-docs/).
+See: [Developer documentation](https://vippsas.github.io/vipps-developer-docs/docs/vipps-developers).
 
 ### Vipps Partner API
 
