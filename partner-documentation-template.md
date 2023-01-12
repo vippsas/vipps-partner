@@ -9,13 +9,6 @@ END_METADATA -->
 
 # Vipps partner documentation template
 
-<!-- START_COMMENT -->
-
-ℹ️ Please use the new documentation:
-[Vipps Technical Documentation](https://vippsas.github.io/vipps-developer-docs/docs/vipps-partner/partner-documentation-template).
-
-<!-- END_COMMENT -->
-
 This document is an example that partners can use for documentation to their
 merchants of how to get started with Vipps.
 
@@ -24,9 +17,11 @@ finished documentation for the partner's merchants. See
 [Vipps Partners](https://vippsas.github.io/vipps-developer-docs/docs/vipps-partner/)
 for more information.
 
-Document version: 2.0.0.
+<!-- START_COMMENT -->
 
-<!-- START_TOC -->
+ℹ️ Please use the new documentation:
+[Vipps Technical Documentation](https://vippsas.github.io/vipps-developer-docs/docs/vipps-partner/partner-documentation-template).
+
 ## Table of contents
 
 * [How to order Vipps](#how-to-order-vipps)
@@ -37,7 +32,7 @@ Document version: 2.0.0.
 * [Support](#support)
 * [Questions](#questions)
 
-<!-- END_TOC -->
+<!-- END_COMMENT -->
 
 ## How to order Vipps
 

@@ -7,7 +7,6 @@ pagination_prev: null
 ---
 END_METADATA -->
 
-
 # How to change partners for a merchant
 
 <!-- START_COMMENT -->
@@ -16,8 +15,6 @@ END_METADATA -->
 [Vipps Technical Documentation](https://vippsas.github.io/vipps-developer-docs/docs/vipps-partner/how-to-change-partners).
 
 <!-- END_COMMENT -->
-
-Document version: 2.0.0.
 
 **Please see:**
 [How to sign up new merchants](README.md#how-to-sign-up-new-merchants)

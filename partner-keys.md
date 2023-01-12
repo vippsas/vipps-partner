@@ -14,10 +14,6 @@ END_METADATA -->
 ℹ️ Please use the new documentation:
 [Vipps Technical Documentation](https://vippsas.github.io/vipps-developer-docs/docs/vipps-partner/partner-keys).
 
-<!-- END_COMMENT -->
-
-<!-- START_TOC -->
-
 ## Table of Contents
 
 * [Partner keys](#partner-keys)
@@ -29,9 +25,7 @@ END_METADATA -->
 * [Merchant requirements](#merchant-requirements)
 * [Questions](#questions)
 
-<!-- END_TOC -->
-
-Document version: 1.0.3.
+<!-- END_COMMENT -->
 
 As a partner, you manage transactions on behalf of Vipps merchants.
 Vipps provides you with _partner keys_, which allow you to use your own API credentials to

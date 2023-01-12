@@ -9,13 +9,6 @@ END_METADATA -->
 
 # How to add a user on portal.vipps.no
 
-<!-- START_COMMENT -->
-
-ℹ️ Please use the new documentation:
-[Vipps Technical Documentation](https://vippsas.github.io/vipps-developer-docs/docs/vipps-partner/add-portal-user).
-
-<!-- END_COMMENT -->
-
 Partners should use
 [partner keys](https://vippsas.github.io/vipps-developer-docs/docs/vipps-partner/partner-keys).
 
@@ -29,9 +22,10 @@ retrieve the API keys.
 
 This is a step by step guide for that.
 
-Document version: 1.0.0.
+<!-- START_COMMENT -->
 
-<!-- START_TOC -->
+ℹ️ Please use the new documentation:
+[Vipps Technical Documentation](https://vippsas.github.io/vipps-developer-docs/docs/vipps-partner/add-portal-user).
 
 # Table of contents
 
@@ -43,7 +37,7 @@ Document version: 1.0.0.
 * [6. Confirmation](#6-confirmation)
 * [Questions](#questions)
 
-<!-- END_TOC -->
+<!-- END_COMMENT -->
 
 # 1. Log in on portal.vipps.no
 

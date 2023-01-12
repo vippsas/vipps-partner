@@ -9,16 +9,12 @@ END_METADATA -->
 
 # Vipps Partners
 
+Technical information for Vipps partners.
+
 <!-- START_COMMENT -->
 
 ℹ️ Please use the new documentation:
 [Vipps Technical Documentation](https://vippsas.github.io/vipps-developer-docs/docs/vipps-partner/).
-
-<!-- END_COMMENT -->
-
-Technical information for Vipps partners.
-
-<!-- START_TOC -->
 
 ## Table of contents
 
@@ -44,7 +40,7 @@ Technical information for Vipps partners.
 * [FAQ for partners](#faq-for-partners)
 * [Questions](#questions)
 
-<!-- END_TOC -->
+<!-- END_COMMENT -->
 
 ## How to become a Vipps partner
 
