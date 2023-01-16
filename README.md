@@ -29,14 +29,14 @@ Technical information for Vipps partners.
   * [Vipps Partner API](#vipps-partner-api)
   * [Partner keys](#partner-keys)
   * [Plugin development](#plugin-development)
-  * [How to get access to portal.vipps.no](#how-to-get-access-to-portalvippsno)
+* [How to get access to portal.vipps.no](#how-to-get-access-to-portalvippsno)
 * [How to sign up new merchants](#how-to-sign-up-new-merchants)
-  * [Partners use the Partner API to pre-fill the signup form](#partners-use-the-partner-api-to-pre-fill-the-signup-form)
-  * [Merchants can also sign up on portal.vipps.no](#merchants-can-also-sign-up-on-portalvippsno)
-  * [How to check if a merchant is signed up with the partner as partner](#how-to-check-if-a-merchant-is-signed-up-with-the-partner-as-partner)
+  * [Partner API](#partner-api)
+  * [Manual signup](#manual-signup)
   * [Typical reasons for delays](#typical-reasons-for-delays)
-  * [How to change partners for a merchant](#how-to-change-partners-for-a-merchant)
-  * [The deprecated Vipps Signup API](#the-deprecated-vipps-signup-api)
+  * [How to check if a merchant is signed up with the partner as partner](#how-to-check-if-a-merchant-is-signed-up-with-the-partner-as-partner)
+* [How to change partners for a merchant](#how-to-change-partners-for-a-merchant)
+* [The deprecated Vipps Signup API](#the-deprecated-vipps-signup-api)
 * [FAQ for partners](#faq-for-partners)
 * [Questions](#questions)
 
@@ -235,7 +235,7 @@ See: [How to change partners for a merchant](#how-to-change-partners-for-a-merch
 Merchants that do not use a platform partner must sign up on their own on
 [portal.vipps.no](https://portal.vipps.no).
 
-### Partners use the Partner API to pre-fill the signup form
+### Partner API
 
 The
 [Vipps Partner API](https://vippsas.github.io/vipps-developer-docs/docs/APIs/partner-api)
@@ -251,31 +251,9 @@ have the merchant order Vipps on
 [portal.vipps.no](https://portal.vipps.no)
 instead of using the Partner API's prefill functionality.
 
-### Merchants can also sign up on portal.vipps.no
+### Manual signup
 
 See: [Manual signup](manual-signup.md).
-
-### How to check if a merchant is signed up with the partner as partner
-
-When a new merchants gets its Vipps application approved, an email is sent
-to both the merchant and the partner with information about:
-* The merchant's organization number
-* The merchant's name
-* The sale unit's MSN
-* The sale unit's name
-
-**Please note:** Vipps can not share information about the status of a
-merchant's agreement or product orders.
-The partner must always check with the merchant.
-The merchant can check the status on
-[portal.vipps.no](https://portal.vipps.no)
-any time.
-
-The
-[Vipps Partner API](https://vippsas.github.io/vipps-developer-docs/docs/APIs/partner-api)
-lets a partner look up MSNs based on the merchant's
-organization number, and also retrieve details of a specific sale unit based
-on the sale unit's MSN.
 
 ### Typical reasons for delays
 
@@ -300,6 +278,28 @@ There are still some common problems that cause delays:
 * The application has been declined. Vipps only informs the merchant about this,
   not the partner. The reason for declining may be related to risk and
   compliance, and thus sensitive.
+
+### How to check if a merchant is signed up with the partner as partner
+
+When a new merchants gets its Vipps application approved, an email is sent
+to both the merchant and the partner with information about:
+* The merchant's organization number
+* The merchant's name
+* The sale unit's MSN
+* The sale unit's name
+
+**Please note:** Vipps can not share information about the status of a
+merchant's agreement or product orders.
+The partner must always check with the merchant.
+The merchant can check the status on
+[portal.vipps.no](https://portal.vipps.no)
+any time.
+
+The
+[Vipps Partner API](https://vippsas.github.io/vipps-developer-docs/docs/APIs/partner-api)
+lets a partner look up MSNs based on the merchant's
+organization number, and also retrieve details of a specific sale unit based
+on the sale unit's MSN.
 
 ## How to change partners for a merchant
 
