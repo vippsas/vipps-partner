@@ -13,14 +13,20 @@ Partners should use
 [partner keys](https://vippsas.github.io/vipps-developer-docs/docs/vipps-partner/partner-keys).
 
 If the partner has not implemented partner keys, there will be some manual work:
-The merchant must retrieve the API keys on portal.vipps.no and send them to the
-partner in a secure way.
+The merchant must retrieve the API keys on
+[portal.vipps.no](https://portal.vipps.no)
+and send them to the partner in a secure way.
 
 If the merchant is unable to provide the API keys to the partner in a secure
 way, the merchant _can_ create a user for the partner, so the partner can
 retrieve the API keys.
 
 This is a step by step guide for that.
+
+**Please note:** Access is provided for individuals.
+It is not possible for a merchant to give access to a company (like its partner),
+only to specific people.
+There is no limit to the number of people that can be given access.
 
 <!-- START_COMMENT -->
 

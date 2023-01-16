@@ -31,34 +31,50 @@ must use manual signup: The merchant must fill out the form on its own.
    This application must be signed with BankID by a person that has
    signatory rights for the company.
 
+   **Please note:** It is possible for the partner, or simply a person helping the merchant,
+   to _fill out_ the form, but the _signing_ of the form must be done
+   by a person with signing rights for the merchant.
+
 3. If the merchant already has a customer relationship or the above step has
    been done, the merchant then needs to apply for the relevant Vipps product(s) on
-   [portal.vipps.no](https://portal.vipps.no)
-   and select:
-   1. The correct product
+   [portal.vipps.no](https://portal.vipps.no).
+
+   It's the partner's responsibility to make sure the merchant has all necessary
+   information to fill out the application correctly. The
+   [Partner API's prefill functionality](https://vippsas.github.io/vipps-developer-docs/docs/vipps-partner#partners-use-the-partner-api-to-pre-fill-the-signup-form)
+   eliminates both this and other steps for the merchant.
+
+   When the merchant applies for a Vipps products it must select:
+   1. The Vipps product
    2. The partner
    3. The price package, typically "Pris 1", "Pris 2" or "Pris 3".
       We are aware that it's not ideal to let merchants select the price package,
-      but right now this must be done - and it works quite well for most partners.
-      Talk to your partner contact in Vipps about the current plans and status.
+      but this is needed when not using the Partner API.
+
 4. Vipps processes the application and does customer control (KYC, PEP, AML, etc).
-   This may take a few days, depending on the information provided and the workload.
+   This may take a few days, depending on the information provided and the workload
+   and the quality and completeness of the application.
+   See the
+   [Typical reasons for delays](https://vippsas.github.io/vipps-developer-docs/docs/vipps-partner#typical-reasons-for-delays).
 5. The merchant can check the status of the application on
    [portal.vipps.no](https://portal.vipps.no)
    at any time.
    Vipps does not have the capacity to answer emails with status inquiries.
+   If the partner wants to know the status, it must check with the merchant.
 6. Vipps notifies the merchant **and the partner** by email that the application is approved,
    with the new MSN, and that the merchant can now use Vipps.
-   If the application is declined, only the merchant is notified.
+   Both thew merchant and the partner receive exactly the same information.
+   **Please note:** If the application is declined, only the merchant is notified,
+   as Vipps may not be allowed to share the reason for declining.
 
-The partner uses their
+The partner can now use their
 [partner keys](./partner-keys.md)
-and the new MSN to make Vipps payments.
+and the merchant's new MSN to make Vipps payments.
 
 **Please note:**
 
 - Partners can ask the merchant to create a user for them, so they get access
-  to the MSN on
+  to the merchant's MSN on
   [portal.vipps.no](https://portal.vipps.no)
   as described
   [in detail with screenshots here](add-portal-user.md).
@@ -66,7 +82,6 @@ and the new MSN to make Vipps payments.
   [here](https://vipps.no/hjelp/vipps/kundeforholdet-mitt/hvilke-tilganger-kan-vi-opprette-i-vippsportalen/).
   See:
   [Developer resources: Vipps Portal: Permissions and users](https://vippsas.github.io/vipps-developer-docs/docs/vipps-developers/developer-resources/portal#permissions-and-users).
-- Partner keys can not be used for the Vipps Login API, here you need to use the merchant's own keys.
 
 # Questions
 
