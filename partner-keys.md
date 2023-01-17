@@ -101,9 +101,9 @@ If you answer _YES_ to any of the following questions, partner keys is **_not_**
 ## Partner keys for different APIs
 
 The same set of partner keys can be used for all your merchants' sale units, for both the
-[Vipps eCom API](https://vippsas.github.io/vipps-developer-docs/docs/APIs/ecom-api/)
+[Vipps eCom API](https://vippsas.github.io/vipps-developer-docs/docs/APIs/ecom-api)
 and the
-[Vipps Recurring API](https://vippsas.github.io/vipps-developer-docs/docs/APIs/recurring-api/),
+[Vipps Recurring API](https://vippsas.github.io/vipps-developer-docs/docs/APIs/recurring-api),
 including the
 [Userinfo](https://vippsas.github.io/vipps-developer-docs/docs/vipps-developers/common-topics/userinfo)
 endpoints for both.

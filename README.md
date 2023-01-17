@@ -14,7 +14,7 @@ Technical information for Vipps partners.
 <!-- START_COMMENT -->
 
 ℹ️ Please use the new documentation:
-[Vipps Technical Documentation](https://vippsas.github.io/vipps-developer-docs/docs/vipps-partner/).
+[Vipps Technical Documentation](https://vippsas.github.io/vipps-developer-docs/docs/vipps-partner).
 
 ## Table of contents
 
@@ -82,7 +82,7 @@ Vipps has three types of partners:
    [partner keys](#partner-keys).
 
 3. **Plugin partners:** Develop Vipps' official
-   [open source plugins](https://vippsas.github.io/vipps-developer-docs/docs/vipps-plugins/)
+   [open source plugins](https://vippsas.github.io/vipps-developer-docs/docs/vipps-plugins)
    on contract for Vipps.
 
    If a partner uses official Vipps plugins to implement a Vipps integration
@@ -99,7 +99,7 @@ using one set of API keys for all merchants:
 Other partners must rely on each merchant's individual API keys.
 
 Information for PSP (Payment Service Providers) is here:
-[Vipps PSP API](https://vippsas.github.io/vipps-developer-docs/docs/APIs/psp-api/),
+[Vipps PSP API](https://vippsas.github.io/vipps-developer-docs/docs/APIs/psp-api),
 including
 [PSP Signup API](https://vippsas.github.io/vipps-developer-docs/docs/APIs/psp-api/vipps-psp-signup-api).
 
@@ -119,7 +119,7 @@ read through our FAQ, and fill out the form.
 See: [Developer documentation](#developer-documentation).
 
 When your application is approved, you will receive an email with details about access to the
-[test environment](https://vippsas.github.io/vipps-developer-docs/docs/vipps-developers/test-environment/).
+[test environment](https://vippsas.github.io/vipps-developer-docs/docs/vipps-developers/test-environment).
 
 If you already have a pilot merchant that has access to the Vipps APIs,
 you can also use the merchant's API keys for the test environment for development.
@@ -185,7 +185,7 @@ See: [Partner keys](partner-keys.md).
 ### Plugin development
 
 All official plugins are open source, free to use, and available in our
-[plugin section](https://vippsas.github.io/vipps-developer-docs/docs/vipps-plugins/), as well as on
+[plugin section](https://vippsas.github.io/vipps-developer-docs/docs/vipps-plugins), as well as on
 the platforms they are designed for.
 
 We encourage submitting issues and PRs to improve the plugins.
