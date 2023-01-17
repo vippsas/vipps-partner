@@ -30,7 +30,6 @@ for more information.
 * [Frequently asked questions](#frequently-asked-questions)
 * [Order handling](#order-handling)
 * [Support](#support)
-* [Questions](#questions)
 
 <!-- END_COMMENT -->
 
