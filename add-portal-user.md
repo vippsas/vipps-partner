@@ -41,7 +41,6 @@ There is no limit to the number of people that can be given access.
 * [4. Select permissions](#4-select-permissions)
 * [5. Select sale units the new user will get access to](#5-select-sale-units-the-new-user-will-get-access-to)
 * [6. Confirmation](#6-confirmation)
-* [Questions](#questions)
 
 <!-- END_COMMENT -->
 
@@ -100,16 +99,3 @@ That's it.
 The confirmation screen looks like this:
 
 ![6](images/portal-add-user-6.png)
-
-# Questions
-
-Please contact your partner manager.
-
-See: [Vipps Partners](README.md).
-
-We're always happy to help with code or other questions you might have!
-Please create an [issue](https://github.com/vippsas/vipps-developers/issues),
-a [pull request](https://github.com/vippsas/vipps-developers/pulls),
-or contact us by email: [partnerbestilling@vipps.no](mailto:partnerbestilling@vipps.no).
-
-Sign up for our [Technical newsletter for developers](https://vippsas.github.io/vipps-developer-docs/docs/vipps-developers/newsletters).

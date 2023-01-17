@@ -23,7 +23,6 @@ END_METADATA -->
 * [Partner keys for different APIs](#partner-keys-for-different-apis)
 * [Important information](#important-information)
 * [Merchant requirements](#merchant-requirements)
-* [Questions](#questions)
 
 <!-- END_COMMENT -->
 
@@ -149,14 +148,3 @@ compliance checks, etc after ordering Vipps on
 [portal.vipps.no](https://portal.vipps.no).
 It is not possible to pay the partner instead of the merchant. See also:
 [Can I create a marketplace with multiple merchants?](https://vippsas.github.io/vipps-developer-docs/docs/vipps-developers/faqs/users-and-payments-faq#can-i-create-a-marketplace-with-multiple-merchants)
-
-## Questions
-
-Please contact your partner manager.
-
-We're always happy to help with code or other questions you might have!
-Please create an [issue](https://github.com/vippsas/vipps-developers/issues),
-a [pull request](https://github.com/vippsas/vipps-developers/pulls),
-or contact us by email: [partnerbestilling@vipps.no](mailto:partnerbestilling@vipps.no).
-
-Sign up for our [Technical newsletter for developers](https://vippsas.github.io/vipps-developer-docs/docs/vipps-developers/newsletters).
