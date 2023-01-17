@@ -71,15 +71,4 @@ See:
 
 ## When will there be a replacement for the Signup API?
 
-It's available now: Please use the [Vipps Partner API](https://vippsas.github.io/vipps-developer-docs/docs/APIs/partner-api/).
-
-## Questions
-
-Please contact your partner manager.
-
-We're always happy to help with code or other questions you might have!
-Please create an [issue](https://github.com/vippsas/vipps-developers/issues),
-a [pull request](https://github.com/vippsas/vipps-developers/pulls),
-or contact us by email: [partnerbestilling@vipps.no](mailto:partnerbestilling@vipps.no).
-
-Sign up for our [Technical newsletter for developers](https://vippsas.github.io/vipps-developer-docs/docs/vipps-developers/newsletters).
+Please use the [Vipps Partner API](https://vippsas.github.io/vipps-developer-docs/docs/APIs/partner-api/).

@@ -88,14 +88,3 @@ longer can be used.
 **Please note:** Vipps has previously handled the above by creating a new MSN to use with the
 new partner. We no longer offer this, as it creates a lot of additional work,
 and it results in a confusing user experience for Vipps users - and partners.
-
-# Questions
-
-Please contact your partner manager.
-
-We're always happy to help with code or other questions you might have!
-Please create an [issue](https://github.com/vippsas/vipps-developers/issues),
-a [pull request](https://github.com/vippsas/vipps-developers/pulls),
-or contact us by email: [partnerbestilling@vipps.no](mailto:partnerbestilling@vipps.no).
-
-Sign up for our [Technical newsletter for developers](https://vippsas.github.io/vipps-developer-docs/docs/vipps-developers/newsletters).

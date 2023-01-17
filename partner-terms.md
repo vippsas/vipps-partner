@@ -21,6 +21,7 @@ END_METADATA -->
 Vilkårene regulerer forpliktelser i forbindelse med Partners distribusjon, klargjøring, installering og integrering for bruk av Selskapets («Vipps») tjenester («Tjenestene») til relevante målgrupper og potensielle Brukersteder.  
 
 ### Definisjoner:
+
 **Selskapet: Vipps AS org. nr 918 713 867.**  Selskapet tilbyr et bredt spekter av betalings- og ID løsninger under merkevarene Vipps, BankID og BankAxept. 
 
 **Brukersted:** Juridisk person, registrert i Enhetsregisteret eller tilsvarende offentlig register innenfor EØS-området som benytter Selskapets Tjenester levert gjennom Partner. 
@@ -46,6 +47,5 @@ Vilkårene regulerer forpliktelser i forbindelse med Partners distribusjon, klar
 8. Partner skal be om godkjennelse av Selskapet dersom Partner utarbeider eget materiell eller kommunikasjonsuttak som inkluderer Selskapets merkevare
 
 9. Partner skal ikke gjennomføre betalinger med opprinnelse i salg eller aktiviteter som tilbys av et Brukersted eller annen tredjepart.
-
 
 Dersom Partner ikke overholder ovennevnte forpliktelser kan Vipps innskrenke muligheten for Partners distribusjon, klargjøring, installering og integrering for bruk av Selskapets («Vipps») tjenester («Tjenestene»).  
