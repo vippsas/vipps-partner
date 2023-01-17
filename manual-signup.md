@@ -50,8 +50,8 @@ must use manual signup: The merchant must fill out the form on its own.
    [Partner API's prefill functionality](https://vippsas.github.io/vipps-developer-docs/docs/vipps-partner#partners-use-the-partner-api-to-pre-fill-the-signup-form)
    eliminates both this and other steps for the merchant.
 
-   When the merchant applies for a Vipps products it must select:
-   1. The Vipps product
+   When the merchant applies for a Vipps product it must select:
+   1. The Vipps product (or use a direct link as above)
    2. The partner
    3. The price package, typically "Pris 1", "Pris 2" or "Pris 3".
       We are aware that it's not ideal to let merchants select the price package,
