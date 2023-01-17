@@ -46,6 +46,11 @@ must use manual signup: The merchant must fill out the form on its own.
 
    When the merchant applies for a Vipps products it must select:
    1. The Vipps product
+      It is possible to give merchants a direct link to the right product:
+      - Vipps på nett: https://portal.vipps.no/register/vippspaanett
+      - Vipps Checkout: https://portal.vipps.no/register/vippscheckout
+      - Vipps i kassa: https://portal.vipps.no/register/vippsikasse
+      - Vipps Logg inn: https://portal.vipps.no/register/vippslogginn
    2. The partner
    3. The price package, typically "Pris 1", "Pris 2" or "Pris 3".
       We are aware that it's not ideal to let merchants select the price package,
