@@ -320,3 +320,12 @@ when available).
 
 You may find answers to your questions on our FAQ section on the bottom of the
 [partner page on vipps.no](https://vipps.no/developer/bli-partner/)
+
+## Questions
+
+Please contact your partner manager.
+
+We're always happy to help with code or other questions you might have!
+Please create an [issue](https://github.com/vippsas/vipps-developers/issues),
+a [pull request](https://github.com/vippsas/vipps-developers/pulls),
+or contact us by email: [partnerbestilling@vipps.no](mailto:partnerbestilling@vipps.no).
