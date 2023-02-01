@@ -67,7 +67,7 @@ Vipps has three types of partners:
    since the platform partner uses
    [partner keys](#partner-keys).
 
-2. **Integration partners:** Assist merchants in development of the merchants'
+2. **Reseller partners:** Assist merchants in development of the merchants'
    integration. Typically, a consultancy firm doing development for the merchant.
    An integration partner does not use the Vipps APIs on behalf of the merchant.
 
@@ -81,13 +81,17 @@ Vipps has three types of partners:
    platform partner and should use
    [partner keys](#partner-keys).
 
-3. **Plugin partners:** Develop Vipps' official
+3. **Plugin supplier:** Develop Vipps' official
    [open source plugins](https://vippsas.github.io/vipps-developer-docs/docs/vipps-plugins)
    on contract for Vipps.
 
    If a partner uses official Vipps plugins to implement a Vipps integration
    for a merchant, the API credentials for the merchant must be used, and
    the partner uses the Vipps APIs on behalf of the merchant.
+
+4. **PSP partner**: Uses the
+   [Vipps PSP API](https://vippsas.github.io/vipps-developer-docs/docs/APIs/psp-api)
+   to offer Vipps to its merchants.
 
 A partner may act as a different type of partner in different situations.
 It is possible for a partner to both develop an official Vipps plugin and
