@@ -52,7 +52,7 @@ solutions for our customers.
 
 ### Partner types
 
-Vipps has three types of partners:
+Vipps has four types of partners:
 
 1. **Platform partners:** Provide a "closed" ready-to-use platform for their merchants,
    do all integration with the Vipps APIs,
