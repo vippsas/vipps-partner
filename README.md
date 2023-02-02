@@ -59,13 +59,16 @@ Vipps has four types of partners:
    do all development and maintenance on their platform,
    and also provide all support for the merchants.
 
-   Platform partners use the Vipps APIs _on behalf of_ merchants:
+   Vipps Partner Plus	and Vipps Partner Premium can and should use partner keys. 
+   Platform partners on these partner levels use the Vipps APIs _on behalf of_ merchants:
    Initiate payments, do captures, do refunds, etc.
 
-   Merchants that use a platform partner
+   Merchant that use a platform partner with Vipps Partner Plus	and Vipps Partner Premium 
    _never need to see their API keys_,
-   since the platform partner uses
+   since the partner uses
    [partner keys](#partner-keys).
+   
+   Partner keys are only available for [Vipps Partner Plus and Vipps Partner Premium](https://github.com/vippsas/vipps-partner/blob/main/partner-level-up.md#partner-levels).   
 
 2. **Reseller partners:** Assist merchants in development of the merchants'
    integration. Typically, a consultancy firm doing development for the merchant.
