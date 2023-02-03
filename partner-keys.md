@@ -138,7 +138,7 @@ endpoints for both.
 
 See:
 
-* [Getting started: Quick overview of how to make an API call](https://vippsas.github.io/vipps-developer-docs/docs/vipps-developers/vipps-getting-started#quick-overview-of-how-to-make-an-api-call)
+* [Getting started](https://vippsas.github.io/vipps-developer-docs/docs/vipps-developers/vipps-getting-started)
 
 ## Merchant requirements
 
