@@ -61,8 +61,7 @@ which of your merchants you are acting on behalf of (e.g.,
 `Merchant-Serial-Number: 123456`).
 
 See
-[Get an access token](https://vippsas.github.io/vipps-developer-docs/docs/vipps-developers/vipps-getting-started#get-an-access-token)
-in the Getting Started guide, for more details.
+[Get an access token](https://vippsas.github.io/vipps-developer-docs/docs/APIs/access-token-api#get-an-access-token), for more details.
 
 ## HTTP headers
 
