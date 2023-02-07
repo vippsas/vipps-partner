@@ -30,7 +30,7 @@ Vilkårene regulerer forpliktelser i forbindelse med Partners distribusjon, klar
 
 ### Partners forpliktelser
 
-1. Partner skal ha gjennomgått [API checklist på github](https://vippsas.github.io/vipps-developer-docs/docs/vipps-partner/#finishing-the-integration-and-going-live)
+1. Partner skal ha gjennomgått [API checklist på github](https://vippsas.github.io/vipps-developer-docs/docs/vipps-partner#finishing-the-integration-and-going-live)
 
 2. Partner skal ved varsling om endringer i Selskapets API som medfører at Partner må gjøre endringer på sin side, gjennomføre disse innen de tidsfrister som settes for produksjonsdato og gjennomføring av endring.  
 

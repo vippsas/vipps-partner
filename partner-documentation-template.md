@@ -50,7 +50,7 @@ If the Partner API is not used, the merchants must order Vipps on
 4. Sign the application with BankID.
 5. Order "Vipps på nett" with the settings required by the partner.
    Try to avoid the
-   [typical reasons for delays](https://vippsas.github.io/vipps-developer-docs/docs/vipps-partner/#typical-reasons-for-delays).
+   [typical reasons for delays](https://vippsas.github.io/vipps-developer-docs/docs/vipps-partner#typical-reasons-for-delays).
 
 You may get follow-up questions from Vipps. Please check your email,
 including the "spam" folder, and search for "vipps".
