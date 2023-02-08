@@ -103,7 +103,7 @@ The same set of partner keys can be used for all your merchants' sale units, for
 and the
 [Vipps Recurring API](https://vippsas.github.io/vipps-developer-docs/docs/APIs/recurring-api),
 including the
-[Userinfo](https://vippsas.github.io/vipps-developer-docs/docs/vipps-developers/common-topics/userinfo)
+[Userinfo](https://vippsas.github.io/vipps-developer-docs/docs/APIs/userinfo-api)
 endpoints for both.
 
 ## Important information
