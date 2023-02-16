@@ -16,30 +16,6 @@ Technical information for Vipps partners.
 ℹ️ Please use the new documentation:
 [Vipps Technical Documentation](https://vippsas.github.io/vipps-developer-docs/docs/vipps-partner).
 
-## Table of contents
-
-* [How to become a Vipps partner](#how-to-become-a-vipps-partner)
-  * [Partner types](#partner-types)
-  * [Partner levels](#partner-levels)
-  * [Apply on vipps.no](#apply-on-vippsno)
-  * [Integrate with the Vipps APIs](#integrate-with-the-vipps-apis)
-  * [Finishing the integration and going live](#finishing-the-integration-and-going-live)
-* [Technical information for partners](#technical-information-for-partners)
-  * [Developer documentation](#developer-documentation)
-  * [Vipps Partner API](#vipps-partner-api)
-  * [Partner keys](#partner-keys)
-  * [Plugin development](#plugin-development)
-* [How to get access to portal.vipps.no](#how-to-get-access-to-portalvippsno)
-* [How to sign up new merchants](#how-to-sign-up-new-merchants)
-  * [Partner API](#partner-api)
-  * [Manual signup](#manual-signup)
-  * [Typical reasons for delays](#typical-reasons-for-delays)
-  * [How to check if a merchant is signed up with the partner as partner](#how-to-check-if-a-merchant-is-signed-up-with-the-partner-as-partner)
-* [How to change partners for a merchant](#how-to-change-partners-for-a-merchant)
-* [The deprecated Vipps Signup API](#the-deprecated-vipps-signup-api)
-* [FAQ for partners](#faq-for-partners)
-* [Questions](#questions)
-
 <!-- END_COMMENT -->
 
 ## How to become a Vipps partner
@@ -50,51 +26,61 @@ find areas where we can work closely together and experience good growth - toget
 The collaboration will give you good exposure and opportunities for even better
 solutions for our customers.
 
-### Partner types
+## Partner types
 
 Vipps has four types of partners:
 
-1. **Platform partners:** Provide a "closed" ready-to-use platform for their merchants,
-   do all integration with the Vipps APIs,
-   do all development and maintenance on their platform,
-   and also provide all support for the merchants.
+### Platform partner
 
-   Vipps Partner Plus	and Vipps Partner Premium can and should use partner keys. 
-   Platform partners on these partner levels use the Vipps APIs _on behalf of_ merchants:
-   Initiate payments, do captures, do refunds, etc.
+Provide a "closed" ready-to-use platform for their merchants,
+do all integration with the Vipps APIs,
+do all development and maintenance on their platform,
+and also provide all support for the merchants.
 
-   Merchant that use a platform partner with Vipps Partner Plus	and Vipps Partner Premium 
-   _never need to see their API keys_,
-   since the partner uses
-   [partner keys](#partner-keys).
-   
-   Partner keys are only available for [Vipps Partner Plus and Vipps Partner Premium](https://github.com/vippsas/vipps-partner/blob/main/partner-level-up.md#partner-levels).   
+Vipps Partner Plus	and Vipps Partner Premium can and should use partner keys.
+Platform partners on these partner levels use the Vipps APIs _on behalf of_ merchants:
+Initiate payments, do captures, do refunds, etc.
 
-2. **Reseller partners:** Assist merchants in development of the merchants'
-   integration. Typically, a consultancy firm doing development for the merchant.
-   An integration partner does not use the Vipps APIs on behalf of the merchant.
+Merchant that use a platform partner with Vipps Partner Plus	and Vipps Partner Premium
+_never need to see their API keys_,
+since the partner uses
+[partner keys](#partner-keys).
 
-   Merchants that use an integration partner must
-   _provide the API keys to the integration partner_.
-   See [Common topics: API Keys](https://vippsas.github.io/vipps-developer-docs/docs/vipps-developers/common-topics/api-keys#getting-the-api-keys).
+Partner keys are only available for [Vipps Partner Plus and Vipps Partner Premium](https://github.com/vippsas/vipps-partner/blob/main/partner-level-up.md#partner-levels).   
 
-   If the integration partner continues to run, manage, and develop
-   _everything_ related to the Vipps integration, and also manage the API
-   credentials _on behalf of_ the merchant, the partner is similar to a
-   platform partner and should use
-   [partner keys](#partner-keys).
+### Reseller partner
 
-3. **Plugin supplier:** Develop Vipps' official
-   [open source plugins](https://vippsas.github.io/vipps-developer-docs/docs/vipps-plugins)
-   on contract for Vipps.
+Assist merchants in development of the merchants'
+integration. Typically, a consultancy firm doing development for the merchant.
+A reseller partner does not use the Vipps APIs on behalf of the merchant.
 
-   If a partner uses official Vipps plugins to implement a Vipps integration
-   for a merchant, the API credentials for the merchant must be used, and
-   the partner uses the Vipps APIs on behalf of the merchant.
+Merchants that use a reseller partner must
+_provide the API keys to the integration partner_.
+See [Common topics: API Keys](https://vippsas.github.io/vipps-developer-docs/docs/vipps-developers/common-topics/api-keys#getting-the-api-keys).
 
-4. **PSP partner**: Uses the
-   [Vipps PSP API](https://vippsas.github.io/vipps-developer-docs/docs/APIs/psp-api)
-   to offer Vipps to its merchants.
+If the reseller partner continues to run, manage, and develop
+_everything_ related to the Vipps integration after it has bee developed,
+and also manage the API credentials _on behalf of_ the merchant, the partner
+is similar to a platform partner and should use
+[partner keys](#partner-keys).
+
+### Plugin supplier
+
+Develops Vipps' official
+[open source plugins](https://vippsas.github.io/vipps-developer-docs/docs/vipps-plugins)
+on contract for Vipps.
+
+If a partner uses official Vipps plugins to implement a Vipps integration
+for a merchant, the API credentials for the merchant must be used, and
+the partner uses the Vipps APIs on behalf of the merchant.
+
+### PSP partner
+
+Uses the
+[Vipps PSP API](https://vippsas.github.io/vipps-developer-docs/docs/APIs/psp-api)
+to offer Vipps to its merchants.
+
+### Details
 
 A partner may act as a different type of partner in different situations.
 It is possible for a partner to both develop an official Vipps plugin and
@@ -110,18 +96,18 @@ Information for PSP (Payment Service Providers) is here:
 including
 [PSP Signup API](https://vippsas.github.io/vipps-developer-docs/docs/APIs/psp-api/vipps-psp-signup-api).
 
-### Partner levels
+## Partner levels
 
 See:
 [Partner levels](./partner-level-up.md).
 
-### Apply on vipps.no
+## Apply on vipps.no
 
 Please visit the
 [partner page at Vipps.no](https://vipps.no/developer/bli-partner/),
 read through our FAQ, and fill out the form.
 
-### Integrate with the Vipps APIs
+## Integrate with the Vipps APIs
 
 See: [Developer documentation](#developer-documentation).
 
@@ -136,7 +122,7 @@ checks required by law. For most partners this is not relevant, as
 it is the partner's _merchants_ that will need production access.
 The partner only needs access to the test environment to complete an integration.
 
-### Finishing the integration and going live
+## Finishing the integration and going live
 
 An integration is considered complete when all the elements of the
 relevant API checklists are done. See the checklists:
@@ -185,7 +171,7 @@ See: [Partner API](https://vippsas.github.io/vipps-developer-docs/docs/APIs/part
 
 As a partner, you manage transactions on behalf of Vipps merchants.
 Vipps provides you with _partner keys_, which allow you to use your own API credentials to
-make API calls on behalf of your merchants (i.e., the sales units that are linked to you as a partner).
+make API calls on behalf of your merchants (i.e., the sales units that are connected to you as a partner).
 
 See: [Partner keys](partner-keys.md).
 
@@ -206,13 +192,18 @@ and let us know what your plans are.
 
 Partners can order Vipps Logg Inn on
 [portal.vipps.no](https://portal.vipps.no).
-The requirements for customer control are simpler than other products, since
-Vipps Logg Inn does not allow for payments.
+The requirements for compliance are simpler than other products, since
+[Vipps Login API](https://vippsas.github.io/vipps-developer-docs/docs/APIs/login-api)
+does not allow for payments.
+
+**Please note:** Mention in the application that you apply as a partner and
+that you need access to the API for your own development.
 
 When the partner's order for Vipps Logg Inn is approved, the partner can log
 in on
 [portal.vipps.no](https://portal.vipps.no)
-and manage their own sale units in the test environment.
+and manage their own sale units in the
+[test environment](https://vippsas.github.io/vipps-developer-docs/docs/vipps-developers/test-environment).
 
 For information about the test environment, see:
 [Developer resources: Test environment](https://vippsas.github.io/vipps-developer-docs/docs/vipps-developers/test-environment).
@@ -226,7 +217,7 @@ The user permissions are described (in Norwegian)
 [here](https://vipps.no/hjelp/vipps/kundeforholdet-mitt/hvilke-tilganger-kan-vi-opprette-i-vippsportalen/).
 
 See:
-  [Developer resources: Vipps Portal: Permissions and users](https://vippsas.github.io/vipps-developer-docs/docs/vipps-developers/developer-resources/portal#permissions-and-users).
+[Developer resources: Vipps Portal: Permissions and users](https://vippsas.github.io/vipps-developer-docs/docs/vipps-developers/developer-resources/portal#permissions-and-users).
 
 ## How to sign up new merchants
 
@@ -256,7 +247,7 @@ See: [Submit a product order for a merchant](https://vippsas.github.io/vipps-dev
 **Please note:** A partner that only rarely needs to onboard a new merchant can
 have the merchant order Vipps on
 [portal.vipps.no](https://portal.vipps.no)
-instead of using the Partner API's prefill functionality.
+instead of using the Partner API's pre-fill functionality.
 
 ### Manual signup
 
@@ -279,7 +270,8 @@ There are still some common problems that cause delays:
   [legally required terms and conditions](https://www.forbrukertilsynet.no/lov-og-rett/veiledninger-og-retningslinjer/standard-salgsbetingelser-for-forbrukerkjop-av-varer-over-internett).
 * The merchant's website does not have the organization number clearly visible.
 * The merchant has not provided enough information about what they want to use
-  Vipps for ("Spesifiser kort hvilke varer/tjenester dere selger", in English: "Briefly specify which goods/services you sell").
+  Vipps for ("Spesifiser kort hvilke varer/tjenester dere selger", in English:
+  "Briefly specify which goods/services you sell").
 * Vipps has sent an email requesting additional information, but has not received a reply.
   Merchants should check their "spam" and try to search their email for "vipps".
 * The application has been declined. Vipps only informs the merchant about this,
@@ -288,19 +280,19 @@ There are still some common problems that cause delays:
 
 ### How to check if a merchant is signed up with the partner as partner
 
-When a new merchants gets its Vipps application approved, an email is sent
-to both the merchant and the partner with information about:
-* The merchant's organization number
-* The merchant's name
-* The sale unit's MSN
-* The sale unit's name
-
 **Please note:** Vipps can not share information about the status of a
 merchant's agreement or product orders.
 The partner must always check with the merchant.
 The merchant can check the status on
 [portal.vipps.no](https://portal.vipps.no)
 any time.
+
+When a new merchants gets its Vipps application approved, an email is sent
+to both the merchant and the partner with information about:
+* The merchant's organization number
+* The merchant's name
+* The sale unit's MSN
+* The sale unit's name
 
 The
 [Vipps Partner API](https://vippsas.github.io/vipps-developer-docs/docs/APIs/partner-api)
