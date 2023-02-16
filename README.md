@@ -80,7 +80,12 @@ Uses the
 [Vipps PSP API](https://vippsas.github.io/vipps-developer-docs/docs/APIs/psp-api)
 to offer Vipps to its merchants.
 
-### Details
+Information for PSP (Payment Service Providers) is here:
+[Vipps PSP API](https://vippsas.github.io/vipps-developer-docs/docs/APIs/psp-api),
+including
+[PSP Signup API](https://vippsas.github.io/vipps-developer-docs/docs/APIs/psp-api/vipps-psp-signup-api).
+
+### More about partner types
 
 A partner may act as a different type of partner in different situations.
 It is possible for a partner to both develop an official Vipps plugin and
@@ -90,11 +95,6 @@ This document is mainly for platform partners that act _on behalf of_ merchants,
 using one set of API keys for all merchants:
 [Partner keys](#partner-keys).
 Other partners must rely on each merchant's individual API keys.
-
-Information for PSP (Payment Service Providers) is here:
-[Vipps PSP API](https://vippsas.github.io/vipps-developer-docs/docs/APIs/psp-api),
-including
-[PSP Signup API](https://vippsas.github.io/vipps-developer-docs/docs/APIs/psp-api/vipps-psp-signup-api).
 
 ## Partner levels
 
