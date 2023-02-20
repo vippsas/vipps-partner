@@ -190,14 +190,18 @@ and let us know what your plans are.
 
 ## How to get access to portal.vipps.no
 
-Partners can order Vipps Logg Inn on
+Partners that have a Norwegian organization number and Norwegian BankID can
+order Vipps Logg Inn on
 [portal.vipps.no](https://portal.vipps.no).
 The requirements for compliance are simpler than other products, since
 [Vipps Login API](https://vippsas.github.io/vipps-developer-docs/docs/APIs/login-api)
 does not allow for payments.
 
-**Please note:** Mention in the application that you apply as a partner and
-that you need access to the API for your own development.
+**Please note:**
+* The partner must have a website.
+* The partner's Norewegian organization number must be clearly visible on the website.
+* The partner must mention in the application that the application is for a
+  partner and that it's for access to the API for development.
 
 When the partner's order for Vipps Logg Inn is approved, the partner can log
 in on
