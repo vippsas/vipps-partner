@@ -199,7 +199,7 @@ does not allow for payments.
 
 **Please note:**
 * The partner must have a website.
-* The partner's Norewegian organization number must be clearly visible on the website.
+* The partner's Norwegian organization number must be clearly visible on the website.
 * The partner must mention in the application that the application is for a
   partner and that it's for access to the API for development.
 
