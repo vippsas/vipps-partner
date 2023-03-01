@@ -72,7 +72,7 @@ or not.
    "When the Vipps application is complete, you will get an email.
    We, your partner, receive the same email.
    The email contains the "Merchant Serial Number" (MSN),
-   a six-digit number identifying your new Vipps sale unit.
+   a six-digit number identifying your new Vipps sales unit.
    There is nothing more you need to do, we then have everything we need.""
 
 2. Explain how to use the Vipps API keys in the partner's solution,

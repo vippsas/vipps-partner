@@ -31,14 +31,14 @@ Vipps provides you with _partner keys_, which allow you to use your own API cred
 make API calls on behalf of _all_ your merchants
 (i.e., all the sales units that are linked to you as a partner).
 
-The partner keys work for the sale units regardless linked to you as a partner,
+The partner keys work for the sales units regardless linked to you as a partner,
 whether the keys are used in a POS integration, in a webshop, or something else.
 
 There are two ways to use partner keys:
 
 1. To use the
    [Partner API](https://vippsas.github.io/vipps-developer-docs/docs/APIs/partner-api)
-   to create and manage your merchants' sale units.
+   to create and manage your merchants' sales units.
 2. To make API calls to Vipps APIs on behalf of your merchants (including moving money).
 
 All partners (with a signed contract) can use partner keys for (1),
@@ -47,7 +47,7 @@ but (2) requires more - see the rest of this document.
 For partners making API calls on behalf of merchants:
 
 * The partner uses the partner keys (the partner's own "special" API keys) for all its merchants.
-* The partner specifies the MSN of the sale unit its acting on behalf of in the HTTP header.
+* The partner specifies the MSN of the sales unit its acting on behalf of in the HTTP header.
 
 ## Authentication
 
@@ -98,7 +98,7 @@ If you answer _YES_ to any of the following questions, partner keys is **_not_**
 
 ## Partner keys for different APIs
 
-The same set of partner keys can be used for all your merchants' sale units, for both the
+The same set of partner keys can be used for all your merchants' sales units, for both the
 [Vipps eCom API](https://vippsas.github.io/vipps-developer-docs/docs/APIs/ecom-api)
 and the
 [Vipps Recurring API](https://vippsas.github.io/vipps-developer-docs/docs/APIs/recurring-api),
@@ -132,8 +132,8 @@ endpoints for both.
   [as described in detail with screenshots](add-portal-user.md).
 * Vipps cannot assist a partner in getting the API keys from the merchant,
   other than by improving the documentation for how to do it.
-* Partner keys can be used for all sale units that are registered with the partner.
-  It does not matter if the sale unit is several years old, or one day old.
+* Partner keys can be used for all sales units that are registered with the partner.
+  It does not matter if the sales unit is several years old, or one day old.
 
 See:
 

@@ -39,7 +39,7 @@ There is no limit to the number of people that can be given access.
 * [2. See the list of users](#2-see-the-list-of-users)
 * [3. Enter the new user's phone number](#3-enter-the-new-users-phone-number)
 * [4. Select permissions](#4-select-permissions)
-* [5. Select sale units the new user will get access to](#5-select-sale-units-the-new-user-will-get-access-to)
+* [5. Select sales units the new user will get access to](#5-select-sales-units-the-new-user-will-get-access-to)
 * [6. Confirmation](#6-confirmation)
 
 <!-- END_COMMENT -->
@@ -82,9 +82,9 @@ Click "Neste".
 
 ![4](images/portal-add-user-4.png)
 
-# 5. Select sale units the new user will get access to
+# 5. Select sales units the new user will get access to
 
-There merchant may have one or several sale units.
+There merchant may have one or several sales units.
 
 Choose the one(s) that the new user will get access to.
 

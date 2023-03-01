@@ -206,7 +206,7 @@ does not allow for payments.
 When the partner's order for Vipps Logg Inn is approved, the partner can log
 in on
 [portal.vipps.no](https://portal.vipps.no)
-and manage their own sale units in the
+and manage their own sales units in the
 [test environment](https://vippsas.github.io/vipps-developer-docs/docs/vipps-developers/test-environment).
 
 For information about the test environment, see:
@@ -231,7 +231,7 @@ All merchants must have a customer relationship with Vipps,
 in addition to the one with the partner.
 
 A merchant that already has a customer relationship with Vipps still needs
-to apply for a new product (sale unit) to use with a new partner.
+to apply for a new product (sales unit) to use with a new partner.
 See: [How to change partners for a merchant](#how-to-change-partners-for-a-merchant).
 
 Merchants that do not use a platform partner must sign up on their own on
@@ -295,14 +295,14 @@ When a new merchants gets its Vipps application approved, an email is sent
 to both the merchant and the partner with information about:
 * The merchant's organization number
 * The merchant's name
-* The sale unit's MSN
-* The sale unit's name
+* The sales unit's MSN
+* The sales unit's name
 
 The
 [Vipps Partner API](https://vippsas.github.io/vipps-developer-docs/docs/APIs/partner-api)
 lets a partner look up MSNs based on the merchant's
-organization number, and also retrieve details of a specific sale unit based
-on the sale unit's MSN.
+organization number, and also retrieve details of a specific sales unit based
+on the sales unit's MSN.
 
 ## How to change partners for a merchant
 

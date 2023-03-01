@@ -24,7 +24,7 @@ Merchants can change partners. This is always initiated by the merchant. The
 merchant is responsible, as _data controller_, for which partner(s) can access the
 merchant's data as _data processor_.
 
-If the merchant changes partners, the merchant's sale unit (identified with MSN,
+If the merchant changes partners, the merchant's sales unit (identified with MSN,
 the Merchant Serial Number) must be reconfigured so the new partner's
 [partner keys](partner-keys.md)
 can be used for the same MSN.
