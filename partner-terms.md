@@ -124,7 +124,6 @@ nettside. Selskapets API finnes i
 
 Partner kan implementere støtte for ett eller flere av Produktene basert
 på de plugins/moduler eller API som Selskapet har gjort tilgjengelig.
-
 Selskapets API og plugins/moduler med tilhørende dokumentasjonen er
 Selskapets eiendom også etter integrasjonen, og Selskapet kan fritt
 endre disse. Endringer varsles Partner skriftlig eller via Selskapets
@@ -141,12 +140,10 @@ gjennomført stegene beskrevet i
 Partner har ansvaret for at Produktene integreres og konfigureres
 optimalt hos Brukerstedene. Kostnader knyttet til Partners leveranse
 avtales direkte mellom Partner og Brukersted.
-
 Partner plikter å bruke [Vipps Partner
 API](https://vippsas.github.io/vipps-developer-docs/docs/APIs/partner-api)
 når det er behov for å hente informasjon om et Brukersted eller en
 salgsenhet.  
-
 Partner plikter å abonnere på Vipps' tekniske nyhetsbrev til utviklere,
 tilgjengelig på [Vipps' nettsted for teknisk
 dokumentasjon](https://vippsas.github.io/vipps-developer-docs/docs/vipps-partner).
@@ -188,60 +185,60 @@ for teknisk
 dokumentasjon](https://vippsas.github.io/vipps-developer-docs/docs/vipps-partner)
 under partnersiden.  
 
-##### 1. Monitorering og retting av feil
+1. **Monitorering og retting av feil**
 
-Partner plikter å monitorere sin bruk av Vipps API-er, inkludert
-registrering av eventuelle feilmeldinger fra API-et. Dersom Selskapet
-oppdager feil bruk av API-ene må Partner rette feilene senest 30 dager
-etter skriftlig varsel. Hvis feilene ikke er rettet etter 30 dagers
-varsel forbeholder Selskapet seg retten til å avslutte partnerforholdet
-med umiddelbar virkning.
+    Partner plikter å monitorere sin bruk av Vipps API-er, inkludert
+    registrering av eventuelle feilmeldinger fra API-et. Dersom Selskapet
+    oppdager feil bruk av API-ene må Partner rette feilene senest 30 dager
+    etter skriftlig varsel. Hvis feilene ikke er rettet etter 30 dagers
+    varsel forbeholder Selskapet seg retten til å avslutte partnerforholdet
+    med umiddelbar virkning.
 
-##### 2. Utfasing og endringer av API
+2. **Utfasing og endringer av API**
 
-Dersom Partner ikke oppdaterer sitt system som anvist av Selskapet,
-garanterer ikke Selskapet for at Produktene fungerer. Ved utfasing av et
-API vil forrige versjon fungere i en periode som beskrevet i "Vipps API
-Lifecycle". Samme sted er det dokumentert hva som er \"breaking change\"
-og hva som ikke er det.  
+    Dersom Partner ikke oppdaterer sitt system som anvist av Selskapet,
+    garanterer ikke Selskapet for at Produktene fungerer. Ved utfasing av et
+    API vil forrige versjon fungere i en periode som beskrevet i "Vipps API
+    Lifecycle". Samme sted er det dokumentert hva som er \"breaking change\"
+    og hva som ikke er det.  
 
-Plugins/moduler/integrasjoner som en Partner har utviklet basert på
-Selskapets API slutter å fungere når det aktuelle API fases ut eller det
-gjøres vesentlige endringer.  
+    Plugins/moduler/integrasjoner som en Partner har utviklet basert på
+    Selskapets API slutter å fungere når det aktuelle API fases ut eller det
+    gjøres vesentlige endringer.  
 
-##### 3. Generelt om Plugin for Integrasjonspartnere
+3. **Generelt om Plugin for Integrasjonspartnere**
 
-Selskapet vil løpende vurdere hvilke plattformer det tilbys
-plugins/moduler for og når det anses formålstjenlig å iverksette
-nødvendig arbeid for å etablere offisielle plugins/moduler for en
-plattform. Selskapet vil informere Partner når ny offisiell plugin
-gjøres tilgjengelig. Partnere og Brukersteder oppfordres til å ta i bruk
-offisiell plugin/modul når Selskapet tilbyr dette.
+    Selskapet vil løpende vurdere hvilke plattformer det tilbys
+    plugins/moduler for og når det anses formålstjenlig å iverksette
+    nødvendig arbeid for å etablere offisielle plugins/moduler for en
+    plattform. Selskapet vil informere Partner når ny offisiell plugin
+    gjøres tilgjengelig. Partnere og Brukersteder oppfordres til å ta i bruk
+    offisiell plugin/modul når Selskapet tilbyr dette.
 
-##### 4. Selskapets plugin
+4. **Selskapets plugin**
 
-Selskapet er kun ansvarlig for løpende vedlikehold og oppgraderinger av
-Selskapets egne plugins/moduler. Gjeldene oversikt over Selskapets
-offisielle plugins moduler finnes
-[her](https://vippsas.github.io/vipps-developer-docs/docs/vipps-plugins).
-Selskapet vil løpende informere Partner om endringer i eksisterende
-plugins/moduler. Endringer som medfører at Brukerstedet må gjøre
-endringer på sin side, vil varsles til både Partner og Brukerstedet
-samtidig, sammen med planlagt produksjonsdato for ny versjon.  
+    Selskapet er kun ansvarlig for løpende vedlikehold og oppgraderinger av
+    Selskapets egne plugins/moduler. Gjeldene oversikt over Selskapets
+    offisielle plugins moduler finnes
+    [her](https://vippsas.github.io/vipps-developer-docs/docs/vipps-plugins).
+    Selskapet vil løpende informere Partner om endringer i eksisterende
+    plugins/moduler. Endringer som medfører at Brukerstedet må gjøre
+    endringer på sin side, vil varsles til både Partner og Brukerstedet
+    samtidig, sammen med planlagt produksjonsdato for ny versjon.  
 
-Partner plikter å oppgradere til nyeste versjon av plugins og moduler
-senest 60 dager etter at de er gjort tilgjengelige. Dersom Brukerstedet
-velger å ikke oppdatere sitt system som anvist av Selskapet, garanterer
-ikke Selskapet for at Produktene fungerer.  
+    Partner plikter å oppgradere til nyeste versjon av plugins og moduler
+    senest 60 dager etter at de er gjort tilgjengelige. Dersom Brukerstedet
+    velger å ikke oppdatere sitt system som anvist av Selskapet, garanterer
+    ikke Selskapet for at Produktene fungerer.  
 
-##### 5. Partners plugin(s)
+5. **Partners plugin(s)**
 
-Partner som har utviklet egne plugins/moduler/integrasjoner skal løpende
-videreutvikle disse i henhold til de mulighetene og forbedringene som
-gjøres tilgjengelig i Selskapets API jf punkt 4.1. Ved større endringer
-i Produktene, f.eks. ved at et API fases ut og/eller plugins/moduler
-lanseres, oppfordres Partner til å anbefale Brukerstedene å gå over til
-Selskapets offisielle plugins, hvis slike finnes.
+    Partner som har utviklet egne plugins/moduler/integrasjoner skal løpende
+    videreutvikle disse i henhold til de mulighetene og forbedringene som
+    gjøres tilgjengelig i Selskapets API jf punkt 4.1. Ved større endringer
+    i Produktene, f.eks. ved at et API fases ut og/eller plugins/moduler
+    lanseres, oppfordres Partner til å anbefale Brukerstedene å gå over til
+    Selskapets offisielle plugins, hvis slike finnes.
 
 #### 7. ONBOARDING AV BRUKERSTED
 
@@ -251,34 +248,29 @@ dokumentasjon](https://vippsas.github.io/vipps-developer-docs/docs/vipps-partner
 
 #### 8. SUPPORT BRUKERSTED
 
-##### 1. Partners ansvar
+1. **Partners ansvar**
 
-- Partner skal være kontaktpunkt for mottak av henvendelser fra
-  Partners Brukersteder (1. linje support).
+    - Partner skal være kontaktpunkt for mottak av henvendelser fra
+    Partners Brukersteder (1. linje support).
+    - Dersom Partner ikke kan besvare henvendelsen skal Partner benytte
+    Selskapets supportressurser (2. linje support).
+    - Partner bør ikke henvise kunder videre til Selskapet, men
+    fortrinnsvis kontakte Selskapet på vegne av Brukerstedet.
+    - Mottar Partner henvendelser som kan innebære omdømmerisiko og/eller
+    negativ medieomtale for Selskapet, skal Selskapet varsles
+    umiddelbart.
 
-- Dersom Partner ikke kan besvare henvendelsen skal Partner benytte
-  Selskapets supportressurser (2. linje support).
+2. **Selskapets ansvar**
 
-- Partner bør ikke henvise kunder videre til Selskapet, men
-  fortrinnsvis kontakte Selskapet på vegne av Brukerstedet.
-
-- Mottar Partner henvendelser som kan innebære omdømmerisiko og/eller
-  negativ medieomtale for Selskapet, skal Selskapet varsles
-  umiddelbart.
-
-##### 2. Selskapets ansvar
-
-- Selskapet skal gjøre nødvendig Dokumentasjon tilgjengelig for
-  Partner og deres Brukersteder. Dokumentasjonen hentes fra Selskapets
-  nettsider.
-
-- Selskapet skal videre sørge for at Partner får tilgang til 2. linje
-  support, slik at Partner kan gi teknisk støtte og support til sine
-  Brukersteder.
-
-- Ved behov for utvidet support fra Selskapet overfor Partner, eller
-  Partners Brukersteder, utover det som tilbys vederlagsfritt via 2.
-  linje support, inngås separat avtale mellom Partene.
+    - Selskapet skal gjøre nødvendig Dokumentasjon tilgjengelig for
+    Partner og deres Brukersteder. Dokumentasjonen hentes fra Selskapets
+    nettsider.
+    - Selskapet skal videre sørge for at Partner får tilgang til 2. linje
+    support, slik at Partner kan gi teknisk støtte og support til sine
+    Brukersteder.
+    - Ved behov for utvidet support fra Selskapet overfor Partner, eller
+    Partners Brukersteder, utover det som tilbys vederlagsfritt via 2.
+    linje support, inngås separat avtale mellom Partene.
 
 #### 9. TILGJENGELIGHET
 
@@ -288,11 +280,9 @@ i henhold til etablerte rutiner i rimelig tid før Selskapets API vil
 være utilgjengelig. Nedetid som følge av nødvendige sikkerhetstiltak
 gjennomføres umiddelbart, med informasjon til Partner så snart som
 mulig.  
-
 Ved uforutsett driftsavbrudd/nedetid i Selskapets API, skal Selskapet
 informere Partner så snart som mulig. Selskapets skal, om mulig, gi
 informasjon om når situasjonen forventes å være rettet.  
-
 Selskapet skal i perioder med driftsavbrudd gjøre informasjon om status
 tilgjengelig for Partner på [offisiell
 nettside](http://vipps.statuspage.io/).
@@ -306,21 +296,21 @@ umiddelbar virkning.
 
 #### 11. VIRKNINGER AV OPPHØR
 
-##### 1. Forholdet til Brukersted
+1. **Forholdet til Brukersted**
 
-Ved opphør av Avtalen skal Partner i samarbeid med Selskapet gi
-Brukerstedene informasjon om opphør av Avtalen, hvilken betydning
-dette har for Brukerstedet, og hva Brukerstedet skal gjøre for å
-kunne fortsette å benytte Produktene. Om nødvendig kan Selskapet
-varsle Brukerstedene direkte.  
+    Ved opphør av Avtalen skal Partner i samarbeid med Selskapet gi
+    Brukerstedene informasjon om opphør av Avtalen, hvilken betydning
+    dette har for Brukerstedet, og hva Brukerstedet skal gjøre for å
+    kunne fortsette å benytte Produktene. Om nødvendig kan Selskapet
+    varsle Brukerstedene direkte.  
 
-##### 2. Markedsføringsmateriell
+2. **Markedsføringsmateriell**
 
-Etter opphør av Avtalen skal Partner ikke fremstå som Partner av
-Selskapet. Dette innebærer blant annet at Partner skal fjerne alle
-referanser til Selskapet og/eller Selskapets varemerke fra sine
-digitale flater, fra markedsføringsmateriale og for øvrig fjerne
-alle henvisninger til Selskapet.  
+    Etter opphør av Avtalen skal Partner ikke fremstå som Partner av
+    Selskapet. Dette innebærer blant annet at Partner skal fjerne alle
+    referanser til Selskapet og/eller Selskapets varemerke fra sine
+    digitale flater, fra markedsføringsmateriale og for øvrig fjerne
+    alle henvisninger til Selskapet.  
 
 #### 12. ENDRINGER
 
