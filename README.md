@@ -138,8 +138,7 @@ we will have to ask you again to complete the checklist.
 
 In addition to the checklists mentioned above, all partners are required to complete the following:
 
-- [ ] As a partner, you accept the
-  [Partner terms and conditions](vipps-partner-terms-norwegian.pdf) (PDF, in Norwegian).
+- [ ] As a partner, you accept the [Partner terms and conditions](https://vippsas.github.io/vipps-developer-docs/docs/vipps-partner/partner-terms)
 - [ ] Provide technical documentation for merchants regarding:
      - [ ] How to apply for Vipps products (a URL, plain text or PDF is preferred)
      - [ ] How to configure and use the module (a URL, plain text or PDF is preferred)
