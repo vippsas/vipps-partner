@@ -154,6 +154,8 @@ pilot customer info, and a description of the implemented solution.
 
 Vipps Integration will verify the integration and take contact with you.
 
+After checklist is approved, you will recieve all necessary information from [partnerbestilling@vipps.no](mailto:partnerbestilling@vipps.no).  
+
 Vipps then adds you to vipps.no, including the signup forms on
 [portal.vipps.no](https://portal.vipps.no)
 where the merchants can sign up and select you as their partner.
