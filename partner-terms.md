@@ -9,23 +9,20 @@ END_METADATA -->
 
 # Partner Terms
 
-<!-- START_COMMENT -->
+Version: 2.0
 
-ℹ️ Please use the new documentation:
-[Vipps Technical Documentation](https://vippsas.github.io/vipps-developer-docs/docs/vipps-partner/partner-terms).
+These terms are only provided in Norwegian at this time, but will be provided in English in the future.
+For now, if you need a translation, try pasting the text into
+[Google translate](https://translate.google.com/?sl=no&tl=en&op=translate).
 
-<!-- END_COMMENT -->
-
-## Legal terms (in Norwegian)
-
-### VILKÅR FOR PARTNERE
+## VILKÅR FOR PARTNERE
 
 Vilkårene regulerer forpliktelser i forbindelse med Partners
 distribusjon, klargjøring, installering og integrering for bruk av
 Vipps' («Selskapets») produkter («Produktene») til relevante målgrupper
 og potensielle Brukersteder.  
 
-#### 1. DEFINISJONER
+### 1. DEFINISJONER
 
 **Selskapet: Vipps AS org. nr 918 713 867.**  Vipps er et
 norskregistrert betalingsforetak med konsesjon fra Finansdepartementet.
@@ -42,7 +39,7 @@ tilsvarende offentlig register innenfor EØS-området som tilbyr
 klargjøring, installering og integrering av Selskapets Produkter levert
 til Brukerstedet.
 
-#### 2. PARTNERS FORPLIKTELSER
+### 2. PARTNERS FORPLIKTELSER
 
 1. Partner skal ha gjennomgått [API checklist på
     github](https://vippsas.github.io/vipps-developer-docs/docs/vipps-partner#finishing-the-integration-and-going-live).
@@ -111,7 +108,7 @@ Dersom Partner ikke overholder ovennevnte forpliktelser kan Selskapet
 innskrenke muligheten for Partners distribusjon, klargjøring,
 installering og integrering for bruk av Produktene.
 
-#### 3. NÆRMERE BESKRIVELSE AV PARTNERS PLIKTER
+### 3. NÆRMERE BESKRIVELSE AV PARTNERS PLIKTER
 
 Partner kan være en **plattformpartner** eller en
 **integrasjonspartner**. Definisjonen av disse finnes i
@@ -129,7 +126,7 @@ Selskapets eiendom også etter integrasjonen, og Selskapet kan fritt
 endre disse. Endringer varsles Partner skriftlig eller via Selskapets
 nettsider.
 
-#### 4. INTEGRASJON
+### 4. INTEGRASJON
 
 Partner plikter å integrere Produktene i samsvar med de krav og
 retningslinjer Selskapet gir samt den tekniske
@@ -148,7 +145,7 @@ Partner plikter å abonnere på Vipps' tekniske nyhetsbrev til utviklere,
 tilgjengelig på [Vipps' nettsted for teknisk
 dokumentasjon](https://vippsas.github.io/vipps-developer-docs/docs/vipps-partner).
 
-#### 5. PARTNERNØKLER
+### 5. PARTNERNØKLER
 
 Partnere som leverer komplette løsninger til sine brukersteder kan bruke
 partnernøkler. Partner får dermed ett sett med API-nøkler til Vipps'
@@ -178,7 +175,7 @@ Detaljert informasjon om partnernøkler fremkommer av den til enhver tid
 gjeldende tekniske
 [Dokumentasjonen](https://vippsas.github.io/vipps-developer-docs/docs/vipps-partner/partner-keys/).  
 
-#### 6. KRAV TIL FORVALTNING AV INTEGRASJON
+### 6. KRAV TIL FORVALTNING AV INTEGRASJON
 
 Teknisk dokumentasjon for Partner er tilgjengelig på [Vipps' nettsted
 for teknisk
@@ -240,13 +237,13 @@ under partnersiden.  
     lanseres, oppfordres Partner til å anbefale Brukerstedene å gå over til
     Selskapets offisielle plugins, hvis slike finnes.
 
-#### 7. ONBOARDING AV BRUKERSTED
+### 7. ONBOARDING AV BRUKERSTED
 
 Partner skal bruke en av Selskapets prefererte metoder for å onboarde
 brukersteder som beskrevet på [Vipps' nettsted for teknisk
 dokumentasjon](https://vippsas.github.io/vipps-developer-docs/docs/vipps-partner).
 
-#### 8. SUPPORT BRUKERSTED
+### 8. SUPPORT BRUKERSTED
 
 1. **Partners ansvar**
 
@@ -272,7 +269,7 @@ dokumentasjon](https://vippsas.github.io/vipps-developer-docs/docs/vipps-partner
     Partners Brukersteder, utover det som tilbys vederlagsfritt via 2.
     linje support, inngås separat avtale mellom Partene.
 
-#### 9. TILGJENGELIGHET
+### 9. TILGJENGELIGHET
 
 Ved planlagt nedetid utover vedlikeholdsvindu som er definert i
 Dokumentasjonen eller Brukerstedsvilkårene, informerer Selskapet Partner
@@ -287,14 +284,14 @@ Selskapet skal i perioder med driftsavbrudd gjøre informasjon om status
 tilgjengelig for Partner på [offisiell
 nettside](http://vipps.statuspage.io/).
 
-#### 10. OPPSIGELSE
+### 10. OPPSIGELSE
 
 Partner kan si opp Avtalen med tre (3) måneders skriftlig varsel.
 Selskapet kan si opp Avtalen med seks (6) måneders skriftlig varsel. Ved
 vesentlig mislighold fra en Part kan den annen Part heve Avtalen med
 umiddelbar virkning.
 
-#### 11. VIRKNINGER AV OPPHØR
+### 11. VIRKNINGER AV OPPHØR
 
 1. **Forholdet til Brukersted**
 
@@ -312,12 +309,12 @@ umiddelbar virkning.
     digitale flater, fra markedsføringsmateriale og for øvrig fjerne
     alle henvisninger til Selskapet.  
 
-#### 12. ENDRINGER
+### 12. ENDRINGER
 
 Selskapet forbeholder seg retten til å endre disse vilkårene med 3
 måneders varsel.
 
-#### 13. PERSONOPPLYSNINGER
+### 13. PERSONOPPLYSNINGER
 
 Personopplysninger skal behandles i samsvar med personvernlovgivningen
 og i henhold til krav og vilkår i Partenes konsesjoner.  Hver av Partene
@@ -326,7 +323,7 @@ forbindelse med Avtalen.  Dersom en av Partene skal behandle
 personopplysninger på vegne av den annen Part, skal Partene inngå en
 særskilt databehandleravtale.
 
-#### 14. KONFIDENSIALITET
+### 14. KONFIDENSIALITET
 
 Hver Part skal overholde taushetsplikt og ikke avsløre for tredjemann
 konfidensiell informasjon som Parten har fått fra den andre Parten i
@@ -335,14 +332,14 @@ oppfyllelse av Partens forpliktelser etter Avtalen. Partene skal pålegge
 ansatte og medhjelpere taushetsplikt som dekker kravene til
 taushetsplikt i Avtalen.
 
-#### 15. ANSVAR OG ERSTATNING
+### 15. ANSVAR OG ERSTATNING
 
 Dersom en av Partene misligholder Avtalen kan den annen Part kreve
 erstatning for direkte tap etter alminnelig erstatningsrettslige regler.
 Indirekte tap dekkes ikke. Som indirekte tap regnes for eksempel tap av
 data, tap av omsetning og andre følgetap.
 
-#### 16. LOVVALG OG TVISTELØSNING
+### 16. LOVVALG OG TVISTELØSNING
 
 Avtalen er underlagt norsk rett. Enhver tvist som springer ut av Avtalen
 skal om mulig løses ved forhandlinger mellom Partene.  Dersom
