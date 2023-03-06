@@ -37,16 +37,17 @@ do all integration with the Vipps APIs,
 do all development and maintenance on their platform,
 and also provide all support for the merchants.
 
-Vipps Partner Plus	and Vipps Partner Premium can and should use partner keys.
+Vipps Partner Plus and Vipps Partner Premium can and should use partner keys.
 Platform partners on these partner levels use the Vipps APIs _on behalf of_ merchants:
 Initiate payments, do captures, do refunds, etc.
 
-Merchant that use a platform partner with Vipps Partner Plus	and Vipps Partner Premium
+Merchant that use a platform partner with Vipps Partner Plus and Vipps Partner Premium
 _never need to see their API keys_,
 since the partner uses
 [partner keys](#partner-keys).
 
-Partner keys are only available for [Vipps Partner Plus and Vipps Partner Premium](https://github.com/vippsas/vipps-partner/blob/main/partner-level-up.md#partner-levels).   
+Partner keys are only available for
+[Vipps Partner Plus and Vipps Partner Premium](https://github.com/vippsas/vipps-partner/blob/main/partner-level-up.md#partner-levels).
 
 ### Reseller partner
 
@@ -153,7 +154,7 @@ pilot customer info, and a description of the implemented solution.
 
 Vipps Integration will verify the integration and take contact with you.
 
-After checklist is approved, you will recieve all necessary information from [partnerbestilling@vipps.no](mailto:partnerbestilling@vipps.no).  
+After checklist is approved, you will receive all necessary information from [partnerbestilling@vipps.no](mailto:partnerbestilling@vipps.no).  
 
 Vipps then adds you to vipps.no, including the signup forms on
 [portal.vipps.no](https://portal.vipps.no)
@@ -200,6 +201,7 @@ The requirements for compliance are simpler than other products, since
 does not allow for payments.
 
 **Please note:**
+
 * The partner must have a website.
 * The partner's Norwegian organization number must be clearly visible on the website.
 * The partner must mention in the application that the application is for a
@@ -276,8 +278,8 @@ There are still some common problems that cause delays:
   [legally required terms and conditions](https://www.forbrukertilsynet.no/lov-og-rett/veiledninger-og-retningslinjer/standard-salgsbetingelser-for-forbrukerkjop-av-varer-over-internett).
 * The merchant's website does not have the organization number clearly visible.
 * The merchant has not provided enough information about what they want to use
-  Vipps for ("Spesifiser kort hvilke varer/tjenester dere selger", in English:
-  "Briefly specify which goods/services you sell").
+  Vipps for (_Spesifiser kort hvilke varer/tjenester dere selger_, in English:
+  _Briefly specify which goods/services you sell_).
 * Vipps has sent an email requesting additional information, but has not received a reply.
   Merchants should check their "spam" and try to search their email for "vipps".
 * The application has been declined. Vipps only informs the merchant about this,
@@ -295,6 +297,7 @@ any time.
 
 When a new merchants gets its Vipps application approved, an email is sent
 to both the merchant and the partner with information about:
+
 * The merchant's organization number
 * The merchant's name
 * The sales unit's MSN
