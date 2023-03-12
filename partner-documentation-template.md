@@ -1,6 +1,7 @@
 <!-- START_METADATA
 ---
 title: Partner documentation template
+sidebar_label: Partner documentation template
 sidebar_position: 90
 pagination_next: null
 pagination_prev: null
@@ -21,15 +22,6 @@ for more information.
 
 ℹ️ Please use the website:
 [Vipps MobilePay Technical Documentation](https://vippsas.github.io/vipps-developer-docs/docs/vipps-partner/partner-documentation-template).
-
-## Table of contents
-
-* [How to order Vipps](#how-to-order-vipps)
-* [API keys](#api-keys)
-* [Configuration of Vipps on our (the partner) side](#configuration-of-vipps-on-our-the-partner-side)
-* [Frequently asked questions](#frequently-asked-questions)
-* [Order handling](#order-handling)
-* [Support](#support)
 
 <!-- END_COMMENT -->
 

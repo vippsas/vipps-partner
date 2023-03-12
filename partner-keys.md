@@ -1,6 +1,7 @@
 <!-- START_METADATA
 ---
 title: Partner keys
+sidebar_label: Partner keys
 sidebar_position: 20
 pagination_next: null
 pagination_prev: null

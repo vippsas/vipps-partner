@@ -1,7 +1,9 @@
 <!-- START_METADATA
 ---
-title: Introduction
+title: Vipps Partners
+sidebar_label: Introduction
 sidebar_position: 1
+description: Technical information for Vipps partners
 pagination_next: null
 pagination_prev: null
 ---

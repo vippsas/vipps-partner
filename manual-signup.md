@@ -1,6 +1,7 @@
 <!-- START_METADATA
 ---
 title: Manual signup
+sidebar_label: Manual signup
 sidebar_position: 35
 pagination_next: null
 pagination_prev: null
