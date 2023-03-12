@@ -1,6 +1,7 @@
 <!-- START_METADATA
 ---
 title: Partner terms
+sidebar_label: Partner terms
 sidebar_position: 85
 pagination_next: null
 pagination_prev: null
