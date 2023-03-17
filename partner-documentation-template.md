@@ -80,7 +80,7 @@ For information about API keys, see
 
 ℹ️ Describe _in detail_ how to configure Vipps, with screenshots, etc.
 Link to
-[Getting Started](https://vippsas.github.io/vipps-developer-docs/docs/vipps-developers/vipps-getting-started)
+[Getting Started](https://vippsas.github.io/vipps-developer-docs/docs/vipps-developers/getting-started)
 if relevant.
 
 Topics to cover:
