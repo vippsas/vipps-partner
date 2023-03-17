@@ -138,7 +138,7 @@ endpoints for both.
 
 See:
 
-* [Getting started](https://vippsas.github.io/vipps-developer-docs/docs/vipps-developers/vipps-getting-started)
+* [Getting started](https://vippsas.github.io/vipps-developer-docs/docs/vipps-developers/getting-started)
 
 ## Merchant requirements
 
