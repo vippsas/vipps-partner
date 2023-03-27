@@ -15,20 +15,20 @@ merchants of how to get started with Vipps.
 
 The paragraphs prefixed with "ℹ️" is for the partners, and must not be in the
 finished documentation for the partner's merchants. See
-[Vipps Partners](https://vippsas.github.io/vipps-developer-docs/docs/vipps-partner)
+[Vipps Partners](https://developer.vippsmobilepay.com/docs/vipps-partner)
 for more information.
 
 <!-- START_COMMENT -->
 
 ℹ️ Please use the website:
-[Vipps MobilePay Technical Documentation](https://vippsas.github.io/vipps-developer-docs/docs/vipps-partner/partner-documentation-template).
+[Vipps MobilePay Technical Documentation](https://developer.vippsmobilepay.com/docs/vipps-partner/partner-documentation-template).
 
 <!-- END_COMMENT -->
 
 ## How to order Vipps
 
 ℹ️ Partners should use the
-[Partner API](https://vippsas.github.io/vipps-developer-docs/docs/APIs/partner-api)
+[Partner API](https://developer.vippsmobilepay.com/docs/APIs/partner-api)
 to pre-fill product orders for merchants,
 and document how the merchant sign up in the partner's interface.
 If the Partner API is not used, the merchants must order Vipps on
@@ -42,7 +42,7 @@ If the Partner API is not used, the merchants must order Vipps on
 4. Sign the application with BankID.
 5. Order "Vipps på nett" with the settings required by the partner.
    Try to avoid the
-   [typical reasons for delays](https://vippsas.github.io/vipps-developer-docs/docs/vipps-partner#typical-reasons-for-delays).
+   [typical reasons for delays](https://developer.vippsmobilepay.com/docs/vipps-partner#typical-reasons-for-delays).
 
 You may get follow-up questions from Vipps. Please check your email,
 including the "spam" folder, and search for "vipps".
@@ -55,7 +55,7 @@ at any time.
 
 ℹ️ Select one of the alternatives below, depending on whether you
 use
-[partner keys](https://vippsas.github.io/vipps-developer-docs/docs/vipps-partner/partner-keys)
+[partner keys](https://developer.vippsmobilepay.com/docs/vipps-partner/partner-keys)
 or not.
 
 1. Explain that (since you use the Partner API and partner keys) the merchant
@@ -70,17 +70,17 @@ or not.
 2. Explain how to use the Vipps API keys in the partner's solution,
    complete with screenshots with added arrows, text, etc.
    Link to
-   [Developer resources: Vipps portal: How to find the API keys](https://vippsas.github.io/vipps-developer-docs/docs/vipps-developers/developer-resources/portal),
+   [Developer resources: Vipps portal: How to find the API keys](https://developer.vippsmobilepay.com/docs/vipps-developers/developer-resources/portal),
    if relevant.
 
 For information about API keys, see
-[Common topics: API keys](https://vippsas.github.io/vipps-developer-docs/docs/vipps-developers/common-topics/api-keys).
+[Common topics: API keys](https://developer.vippsmobilepay.com/docs/vipps-developers/common-topics/api-keys).
 
 ## Configuration of Vipps on our (the partner) side
 
 ℹ️ Describe _in detail_ how to configure Vipps, with screenshots, etc.
 Link to
-[Getting Started](https://vippsas.github.io/vipps-developer-docs/docs/vipps-developers/getting-started)
+[Getting Started](https://developer.vippsmobilepay.com/docs/vipps-developers/getting-started)
 if relevant.
 
 Topics to cover:
@@ -93,13 +93,13 @@ Topics to cover:
 * Additional info (support)
 
 Consider linking to the
-[Vipps FAQs](https://vippsas.github.io/vipps-developer-docs/docs/vipps-developers/faqs).
+[Vipps FAQs](https://developer.vippsmobilepay.com/docs/vipps-developers/faqs).
 
 ## Frequently asked questions
 
 ℹ️ All partners must offer a FAQ for their merchants.
 Link to the
-[Vipps FAQs](https://vippsas.github.io/vipps-developer-docs/docs/vipps-developers/faqs),
+[Vipps FAQs](https://developer.vippsmobilepay.com/docs/vipps-developers/faqs),
 if relevant.
 
 ## Order handling

@@ -43,7 +43,7 @@ til Brukerstedet.
 ### 2. PARTNERS FORPLIKTELSER
 
 1. Partner skal ha gjennomgått [API checklist på
-    github](https://vippsas.github.io/vipps-developer-docs/docs/vipps-partner#finishing-the-integration-and-going-live).
+    github](https://developer.vippsmobilepay.com/docs/vipps-partner#finishing-the-integration-and-going-live).
 
 2. Partner får en begrenset, ikke-eksklusiv og gjenkallelig rett til å
     markedsføre og formidle Produktene i sin virksomhet i forbindelse
@@ -113,12 +113,12 @@ installering og integrering for bruk av Produktene.
 
 Partner kan være en **plattformpartner** eller en
 **integrasjonspartner**. Definisjonen av disse finnes i
-[Dokumentasjonen](https://vippsas.github.io/vipps-developer-docs/docs/vipps-partner/#partner-types).
+[Dokumentasjonen](https://developer.vippsmobilepay.com/docs/vipps-partner/#partner-types).
 
 Produktene gjelder alle tilgjengelige i Vipps produkt porteføljen.
 Nærmere informasjon om Produktene er tilgjengelige på Selskapets
 nettside. Selskapets API finnes i
-[Dokumentasjonen](https://vippsas.github.io/vipps-developer-docs/docs/APIs).
+[Dokumentasjonen](https://developer.vippsmobilepay.com/docs/APIs).
 
 Partner kan implementere støtte for ett eller flere av Produktene basert
 på de plugins/moduler eller API som Selskapet har gjort tilgjengelig.
@@ -131,20 +131,20 @@ nettsider.
 
 Partner plikter å integrere Produktene i samsvar med de krav og
 retningslinjer Selskapet gir samt den tekniske
-[Dokumentasjonen](https://vippsas.github.io/vipps-developer-docs/docs/vipps-partner)
+[Dokumentasjonen](https://developer.vippsmobilepay.com/docs/vipps-partner)
 Integrasjonen er først ferdig og klar til å gå "live" når Partner har
 gjennomført stegene beskrevet i
-[Dokumentasjonen](https://vippsas.github.io/vipps-developer-docs/docs/vipps-partner).
+[Dokumentasjonen](https://developer.vippsmobilepay.com/docs/vipps-partner).
 Partner har ansvaret for at Produktene integreres og konfigureres
 optimalt hos Brukerstedene. Kostnader knyttet til Partners leveranse
 avtales direkte mellom Partner og Brukersted.
 Partner plikter å bruke [Vipps Partner
-API](https://vippsas.github.io/vipps-developer-docs/docs/APIs/partner-api)
+API](https://developer.vippsmobilepay.com/docs/APIs/partner-api)
 når det er behov for å hente informasjon om et Brukersted eller en
 salgsenhet.  
 Partner plikter å abonnere på Vipps' tekniske nyhetsbrev til utviklere,
 tilgjengelig på [Vipps' nettsted for teknisk
-dokumentasjon](https://vippsas.github.io/vipps-developer-docs/docs/vipps-partner).
+dokumentasjon](https://developer.vippsmobilepay.com/docs/vipps-partner).
 
 ### 5. PARTNERNØKLER
 
@@ -160,7 +160,7 @@ MSN (merchant serial number).  
 
 Partner kan ikke bruke partnernøkler til andre formål enn det som er
 beskrevet i
-[Dokumentasjonen](https://vippsas.github.io/vipps-developer-docs/docs/vipps-partner/partner-keys/).
+[Dokumentasjonen](https://developer.vippsmobilepay.com/docs/vipps-partner/partner-keys/).
 Partner er selv ansvarlig for å sikre at partnernøklene ikke blir
 publisert eller delt med uautoriserte personer eller med Brukersteder.
 Manglende sikring av partnernøkler øker sannsynligheten for svindel og
@@ -174,13 +174,13 @@ sikkerheten.
 
 Detaljert informasjon om partnernøkler fremkommer av den til enhver tid
 gjeldende tekniske
-[Dokumentasjonen](https://vippsas.github.io/vipps-developer-docs/docs/vipps-partner/partner-keys/).  
+[Dokumentasjonen](https://developer.vippsmobilepay.com/docs/vipps-partner/partner-keys/).  
 
 ### 6. KRAV TIL FORVALTNING AV INTEGRASJON
 
 Teknisk dokumentasjon for Partner er tilgjengelig på [Vipps' nettsted
 for teknisk
-dokumentasjon](https://vippsas.github.io/vipps-developer-docs/docs/vipps-partner)
+dokumentasjon](https://developer.vippsmobilepay.com/docs/vipps-partner)
 under partnersiden.  
 
 1. **Monitorering og retting av feil**
@@ -218,7 +218,7 @@ under partnersiden.  
     Selskapet er kun ansvarlig for løpende vedlikehold og oppgraderinger av
     Selskapets egne plugins/moduler. Gjeldene oversikt over Selskapets
     offisielle plugins moduler finnes
-    [her](https://vippsas.github.io/vipps-developer-docs/docs/vipps-plugins).
+    [her](https://developer.vippsmobilepay.com/docs/vipps-plugins).
     Selskapet vil løpende informere Partner om endringer i eksisterende
     plugins/moduler. Endringer som medfører at Brukerstedet må gjøre
     endringer på sin side, vil varsles til både Partner og Brukerstedet
@@ -242,7 +242,7 @@ under partnersiden.  
 
 Partner skal bruke en av Selskapets prefererte metoder for å onboarde
 brukersteder som beskrevet på [Vipps' nettsted for teknisk
-dokumentasjon](https://vippsas.github.io/vipps-developer-docs/docs/vipps-partner).
+dokumentasjon](https://developer.vippsmobilepay.com/docs/vipps-partner).
 
 ### 8. SUPPORT BRUKERSTED
 

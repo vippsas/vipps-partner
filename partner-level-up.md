@@ -13,13 +13,13 @@ END_METADATA -->
 <!-- START_COMMENT -->
 
 ℹ️ Please use the website:
-[Vipps MobilePay Technical Documentation](https://vippsas.github.io/vipps-developer-docs/).
+[Vipps MobilePay Technical Documentation](https://developer.vippsmobilepay.com/).
 
 <!-- END_COMMENT -->
 
 This table gives a high-level overview of the partner levels.
 See also:
-[Partner types](https://vippsas.github.io/vipps-developer-docs/docs/vipps-partner#partner-types).
+[Partner types](https://developer.vippsmobilepay.com/docs/vipps-partner#partner-types).
 
 
 | Vipps Partner                              | Vipps Partner Plus                         | Vipps Partner Premium                    |
@@ -42,5 +42,5 @@ See also:
 | -                                          | -                                          | Will get help with fixing API errors     |
 
 *: There are additional requirements. See
-[Partner keys](https://vippsas.github.io/vipps-developer-docs/docs/vipps-partner/partner-keys)
+[Partner keys](https://developer.vippsmobilepay.com/docs/vipps-partner/partner-keys)
 for details.
