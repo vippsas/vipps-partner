@@ -13,12 +13,12 @@ END_METADATA -->
 <!-- START_COMMENT -->
 
 ℹ️ Please use the website:
-[Vipps MobilePay Technical Documentation](https://vippsas.github.io/vipps-developer-docs/docs/vipps-partner).
+[Vipps MobilePay Technical Documentation](https://developer.vippsmobilepay.com/docs/vipps-partner).
 
 <!-- END_COMMENT -->
 
 Partners that can, for some reason, not use the Partner API to
-[submit a product order for a merchant](https://vippsas.github.io/vipps-developer-docs/docs/APIs/partner-api/vipps-partner-api#submit-a-product-order-for-a-merchant)
+[submit a product order for a merchant](https://developer.vippsmobilepay.com/docs/APIs/partner-api/vipps-partner-api#submit-a-product-order-for-a-merchant)
 must use manual signup: The merchant must fill out the form on its own.
 
 1. The merchant logs in to
@@ -48,7 +48,7 @@ must use manual signup: The merchant must fill out the form on its own.
 
    It's the partner's responsibility to make sure the merchant has all necessary
    information to fill out the application correctly. The
-   [Partner API's prefill functionality](https://vippsas.github.io/vipps-developer-docs/docs/vipps-partner#partners-use-the-partner-api-to-pre-fill-the-signup-form)
+   [Partner API's prefill functionality](https://developer.vippsmobilepay.com/docs/vipps-partner#partners-use-the-partner-api-to-pre-fill-the-signup-form)
    eliminates both this and other steps for the merchant.
 
    When the merchant applies for a Vipps product it must select:
@@ -62,7 +62,7 @@ must use manual signup: The merchant must fill out the form on its own.
    This may take a few days, depending on the information provided and the workload
    and the quality and completeness of the application.
    See the
-   [Typical reasons for delays](https://vippsas.github.io/vipps-developer-docs/docs/vipps-partner#typical-reasons-for-delays).
+   [Typical reasons for delays](https://developer.vippsmobilepay.com/docs/vipps-partner#typical-reasons-for-delays).
 5. The merchant can check the status of the application on
    [portal.vipps.no](https://portal.vipps.no)
    at any time.
@@ -88,4 +88,4 @@ and the merchant's new MSN to make Vipps payments.
   The user permissions are described (in Norwegian)
   [here](https://vipps.no/hjelp/vipps/kundeforholdet-mitt/hvilke-tilganger-kan-vi-opprette-i-vippsportalen/).
   See:
-  [Developer resources: Vipps Portal: Permissions and users](https://vippsas.github.io/vipps-developer-docs/docs/vipps-developers/developer-resources/portal#permissions-and-users).
+  [Developer resources: Vipps Portal: Permissions and users](https://developer.vippsmobilepay.com/docs/vipps-developers/developer-resources/portal#permissions-and-users).

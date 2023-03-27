@@ -13,7 +13,7 @@ END_METADATA -->
 <!-- START_COMMENT -->
 
 ℹ️ Please use the website:
-[Vipps MobilePay Technical Documentation](https://vippsas.github.io/vipps-developer-docs/docs/vipps-partner/how-to-change-partners).
+[Vipps MobilePay Technical Documentation](https://developer.vippsmobilepay.com/docs/vipps-partner/how-to-change-partners).
 
 <!-- END_COMMENT -->
 
@@ -45,13 +45,13 @@ This is the recommended way:
 1. The merchant logs in on
    [portal.vipps.no](https://portal.vipps.no)
    and retrieves the API keys for the MSN, as documented in
-   [Common topics: API Keys](https://vippsas.github.io/vipps-developer-docs/docs/vipps-developers/common-topics/api-keys#getting-the-api-keys).
+   [Common topics: API Keys](https://developer.vippsmobilepay.com/docs/vipps-developers/common-topics/api-keys#getting-the-api-keys).
 2. The merchant securely provides the MSN's API keys to _both_ the
    old partner and the new partner. This ensures that both partners can
    make API calls for the MSN, regardless of each partner's
    [partner keys](partner-keys.md).
 3. The new partner contacts
-  [Partnerbestilling](https://vippsas.github.io/vipps-developer-docs/docs/vipps-developers/contact#we-help-with-technical-issues)
+  [Partnerbestilling](https://developer.vippsmobilepay.com/docs/vipps-developers/contact#we-help-with-technical-issues)
    and orders a reconfiguration of the MSN: Link it to the new partner instead
    of the old one.
    When this is done, the MSN has the new partner as partner.
@@ -67,11 +67,11 @@ Both partners can use the MSN's own API (from step 2) keys if there are "special
 API calls to make in the transition period.
 The new partner should _always_ use the partner keys.
 Vipps offers a
-[Postman collection](https://vippsas.github.io/vipps-developer-docs/docs/APIs/recurring-api/vipps-recurring-api-quick-start)
+[Postman collection](https://developer.vippsmobilepay.com/docs/APIs/recurring-api/vipps-recurring-api-quick-start)
 that can be used to make manual API calls if needed.
 
 The new partner should use the
-[Partner API](https://vippsas.github.io/vipps-developer-docs/docs/APIs/partner-api/vipps-partner-api)
+[Partner API](https://developer.vippsmobilepay.com/docs/APIs/partner-api/vipps-partner-api)
 to verify that the MSN is set up correctly.
 
 **Important:** When or if the merchant wants to remove the old partner's access

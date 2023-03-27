@@ -16,7 +16,7 @@ Technical information for Vipps partners.
 <!-- START_COMMENT -->
 
 ℹ️ Please use the website:
-[Vipps MobilePay Technical Documentation](https://vippsas.github.io/vipps-developer-docs/docs/vipps-partner).
+[Vipps MobilePay Technical Documentation](https://developer.vippsmobilepay.com/docs/vipps-partner).
 
 <!-- END_COMMENT -->
 
@@ -59,7 +59,7 @@ A reseller partner does not use the Vipps APIs on behalf of the merchant.
 
 Merchants that use a reseller partner must
 _provide the API keys to the integration partner_.
-See [Common topics: API Keys](https://vippsas.github.io/vipps-developer-docs/docs/vipps-developers/common-topics/api-keys#getting-the-api-keys).
+See [Common topics: API Keys](https://developer.vippsmobilepay.com/docs/vipps-developers/common-topics/api-keys#getting-the-api-keys).
 
 If the reseller partner continues to run, manage, and develop
 _everything_ related to the Vipps integration after it has bee developed,
@@ -70,7 +70,7 @@ is similar to a platform partner and should use
 ### Plugin supplier
 
 Develops Vipps' official
-[open source plugins](https://vippsas.github.io/vipps-developer-docs/docs/vipps-plugins)
+[open source plugins](https://developer.vippsmobilepay.com/docs/vipps-plugins)
 on contract for Vipps.
 
 If a partner uses official Vipps plugins to implement a Vipps integration
@@ -80,13 +80,13 @@ the partner uses the Vipps APIs on behalf of the merchant.
 ### PSP partner
 
 Uses the
-[Vipps PSP API](https://vippsas.github.io/vipps-developer-docs/docs/APIs/psp-api)
+[Vipps PSP API](https://developer.vippsmobilepay.com/docs/APIs/psp-api)
 to offer Vipps to its merchants.
 
 Information for PSP (Payment Service Providers) is here:
-[Vipps PSP API](https://vippsas.github.io/vipps-developer-docs/docs/APIs/psp-api),
+[Vipps PSP API](https://developer.vippsmobilepay.com/docs/APIs/psp-api),
 including
-[PSP Signup API](https://vippsas.github.io/vipps-developer-docs/docs/APIs/psp-api/vipps-psp-signup-api).
+[PSP Signup API](https://developer.vippsmobilepay.com/docs/APIs/psp-api/vipps-psp-signup-api).
 
 ### More about partner types
 
@@ -115,7 +115,7 @@ read through our FAQ, and fill out the form.
 See: [Developer documentation](#developer-documentation).
 
 When your application is approved, you will receive an email with details about access to the
-[test environment](https://vippsas.github.io/vipps-developer-docs/docs/vipps-developers/test-environment).
+[test environment](https://developer.vippsmobilepay.com/docs/vipps-developers/test-environment).
 
 If you already have a pilot merchant that has access to the Vipps APIs,
 you can also use the merchant's API keys for the test environment for development.
@@ -130,9 +130,9 @@ The partner only needs access to the test environment to complete an integration
 An integration is considered complete when all the elements of the
 relevant API checklists are done. See the checklists:
 
-- [ ] [Vipps eCom API](https://vippsas.github.io/vipps-developer-docs/docs/APIs/ecom-api/vipps-ecom-api-checklist)
-- [ ] [Vipps Recurring API](https://vippsas.github.io/vipps-developer-docs/docs/APIs/recurring-api/vipps-recurring-api-checklist)
-- [ ] [Vipps Login API](https://vippsas.github.io/vipps-developer-docs/docs/APIs/login-api/vipps-login-api-checklist)
+- [ ] [Vipps eCom API](https://developer.vippsmobilepay.com/docs/APIs/ecom-api/vipps-ecom-api-checklist)
+- [ ] [Vipps Recurring API](https://developer.vippsmobilepay.com/docs/APIs/recurring-api/vipps-recurring-api-checklist)
+- [ ] [Vipps Login API](https://developer.vippsmobilepay.com/docs/APIs/login-api/vipps-login-api-checklist)
 
 **Important:** Please make sure to read and understand the checklist.
 You must provide the required information, such as orderId and the HTTP headers.
@@ -140,7 +140,6 @@ If you simply send a copy of the checklist with "OK" for each item,
 we will have to ask you again to complete the checklist.
 
 In addition to the checklists mentioned above, all partners are required to complete the following:
-
 
 |  Required to become a partner   |
 | ----     |
@@ -151,8 +150,6 @@ In addition to the checklists mentioned above, all partners are required to comp
 |  - Frequently Asked Questions (FAQs) for merchants (a URL, plain text or PDF is preferred)   |
 |  Provide one pilot customer to verify the integration in the production environment (send organization number and name)   |
 |  Describe how your integration has been set up, with a link to a demo, or provide screenshots (PDF is preferred).    |
-
-
 
 
 When the integration checklist is completed, notify Vipps Integration

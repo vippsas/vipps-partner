@@ -11,7 +11,7 @@ END_METADATA -->
 # How to add a user on portal.vipps.no
 
 Partners should use
-[partner keys](https://vippsas.github.io/vipps-developer-docs/docs/vipps-partner/partner-keys).
+[partner keys](https://developer.vippsmobilepay.com/docs/vipps-partner/partner-keys).
 
 If the partner has not implemented partner keys, there will be some manual work:
 The merchant must retrieve the API keys on
@@ -32,7 +32,7 @@ There is no limit to the number of people that can be given access.
 <!-- START_COMMENT -->
 
 ℹ️ Please use the website:
-[Vipps MobilePay Technical Documentation](https://vippsas.github.io/vipps-developer-docs/docs/vipps-partner/add-portal-user).
+[Vipps MobilePay Technical Documentation](https://developer.vippsmobilepay.com/docs/vipps-partner/add-portal-user).
 
 # Table of contents
 
