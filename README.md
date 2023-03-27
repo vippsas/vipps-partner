@@ -141,13 +141,19 @@ we will have to ask you again to complete the checklist.
 
 In addition to the checklists mentioned above, all partners are required to complete the following:
 
-- [ ] As a partner, you accept the [Partner terms and conditions](https://vippsas.github.io/vipps-developer-docs/docs/vipps-partner/partner-terms)
-- [ ] Provide technical documentation for merchants regarding:
-     - [ ] How to apply for Vipps products (a URL, plain text or PDF is preferred)
-     - [ ] How to configure and use the module (a URL, plain text or PDF is preferred)
-     - [ ] Frequently Asked Questions (FAQs) for merchants (a URL, plain text or PDF is preferred)
-- [ ] Provide one pilot customer to verify the integration in the production environment (send organization number and name)
-- [ ] Describe how your integration has been set up, with a link to a demo, or provide screenshots (PDF is preferred).
+
+|  Required to become a partner   |
+| ----     |
+| As a partner, you accept the [Partner terms and conditions](https://developer.vippsmobilepay.com/docs/vipps-partner/partner-terms)   |
+| Provide technical documentation for merchants regarding: |
+| - How to apply for Vipps products (a URL, plain text or PDF is preferred)   |
+| -  How to configure and use the module (a URL, plain text or PDF is preferred)   |
+|  - Frequently Asked Questions (FAQs) for merchants (a URL, plain text or PDF is preferred)   |
+|  Provide one pilot customer to verify the integration in the production environment (send organization number and name)   |
+|  Describe how your integration has been set up, with a link to a demo, or provide screenshots (PDF is preferred).    |
+
+
+
 
 When the integration checklist is completed, notify Vipps Integration
 [integration@vipps.no](mailto:integration@vipps.no)
@@ -166,11 +172,11 @@ where the merchants can sign up and select you as their partner.
 
 ### Developer documentation
 
-See: [Developer documentation](https://vippsas.github.io/vipps-developer-docs/docs/vipps-developers).
+See: [Developer documentation](https://developer.vippsmobilepay.com/docs/vipps-developers).
 
 ### Vipps Partner API
 
-See: [Partner API](https://vippsas.github.io/vipps-developer-docs/docs/APIs/partner-api).
+See: [Partner API](https://developer.vippsmobilepay.com/docs/APIs/partner-api).
 
 ### Partner keys
 
@@ -183,7 +189,7 @@ See: [Partner keys](partner-keys.md).
 ### Plugin development
 
 All official plugins are open source, free to use, and available in our
-[plugin section](https://vippsas.github.io/vipps-developer-docs/docs/vipps-plugins), as well as on
+[plugin section](https://developer.vippsmobilepay.com/docs/vipps-plugins), as well as on
 the platforms they are designed for.
 
 We encourage submitting issues and PRs to improve the plugins.
@@ -199,7 +205,7 @@ Partners that have a Norwegian organization number and Norwegian BankID can
 order Vipps Logg Inn on
 [portal.vipps.no](https://portal.vipps.no).
 The requirements for compliance are simpler than other products, since
-[Vipps Login API](https://vippsas.github.io/vipps-developer-docs/docs/APIs/login-api)
+[Vipps Login API](https://developer.vippsmobilepay.com/docs/APIs/login-api)
 does not allow for payments.
 
 **Please note:**
@@ -213,10 +219,10 @@ When the partner's order for Vipps Logg Inn is approved, the partner can log
 in on
 [portal.vipps.no](https://portal.vipps.no)
 and manage their own sales units in the
-[test environment](https://vippsas.github.io/vipps-developer-docs/docs/vipps-developers/test-environment).
+[test environment](https://developer.vippsmobilepay.com/docs/vipps-developers/test-environment).
 
 For information about the test environment, see:
-[Developer resources: Test environment](https://vippsas.github.io/vipps-developer-docs/docs/vipps-developers/test-environment).
+[Developer resources: Test environment](https://developer.vippsmobilepay.com/docs/vipps-developers/test-environment).
 
 **Please note:** Partners can also ask the merchant to create a user for them so
 they get access to the merchant's MSN on
@@ -227,7 +233,7 @@ The user permissions are described (in Norwegian)
 [here](https://vipps.no/hjelp/vipps/kundeforholdet-mitt/hvilke-tilganger-kan-vi-opprette-i-vippsportalen/).
 
 See:
-[Developer resources: Vipps Portal: Permissions and users](https://vippsas.github.io/vipps-developer-docs/docs/vipps-developers/developer-resources/portal#permissions-and-users).
+[Developer resources: Vipps Portal: Permissions and users](https://developer.vippsmobilepay.com/docs/vipps-developers/developer-resources/portal#permissions-and-users).
 
 ## How to sign up new merchants
 
@@ -246,13 +252,13 @@ Merchants that do not use a platform partner must sign up on their own on
 ### Partner API
 
 The
-[Vipps Partner API](https://vippsas.github.io/vipps-developer-docs/docs/APIs/partner-api)
+[Vipps Partner API](https://developer.vippsmobilepay.com/docs/APIs/partner-api)
 lets a partner "prefill" the product order form on
 [portal.vipps.no](https://portal.vipps.no)
 on behalf of a merchant, so the merchant can log in,
 check the data, and submit the product order.
 
-See: [Submit a product order for a merchant](https://vippsas.github.io/vipps-developer-docs/docs/APIs/partner-api/vipps-partner-api#submit-a-product-order-for-a-merchant).
+See: [Submit a product order for a merchant](https://developer.vippsmobilepay.com/docs/APIs/partner-api/vipps-partner-api#submit-a-product-order-for-a-merchant).
 
 **Please note:** A partner that only rarely needs to onboard a new merchant can
 have the merchant order Vipps on
@@ -306,7 +312,7 @@ to both the merchant and the partner with information about:
 * The sales unit's name
 
 The
-[Vipps Partner API](https://vippsas.github.io/vipps-developer-docs/docs/APIs/partner-api)
+[Vipps Partner API](https://developer.vippsmobilepay.com/docs/APIs/partner-api)
 lets a partner look up MSNs based on the merchant's
 organization number, and also retrieve details of a specific sales unit based
 on the sales unit's MSN.
