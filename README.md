@@ -49,7 +49,7 @@ since the partner uses
 [partner keys](#partner-keys).
 
 Partner keys are only available for
-[Vipps Partner Plus and Vipps Partner Premium](https://github.com/vippsas/vipps-partner/blob/main/partner-level-up.md#partner-levels).
+[Vipps Partner Plus and Vipps Partner Premium](https://developer.vippsmobilepay.com/docs/vipps-partner/partner-level-up).
 
 ### Reseller partner
 
@@ -327,7 +327,7 @@ and partners should use the more efficient
 [partner keys](#partner-keys)
 (and the
 [Vipps Partner API](#vipps-partner-api)
-when available).
+when possible).
 
 ## FAQ for partners
 
