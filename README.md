@@ -141,13 +141,16 @@ we will have to ask you again to complete the checklist.
 
 In addition to the checklists mentioned above, all partners are required to complete the following:
 
-- [ ] As a partner, you accept the [Partner terms and conditions](https://developer.vippsmobilepay.com/docs/vipps-partner/partner-terms)
-- [ ] Provide technical documentation for merchants regarding:
-     - [ ] How to apply for Vipps products (a URL, plain text or PDF is preferred)
-     - [ ] How to configure and use the module (a URL, plain text or PDF is preferred)
-     - [ ] Frequently Asked Questions (FAQs) for merchants (a URL, plain text or PDF is preferred)
-- [ ] Provide one pilot customer to verify the integration in the production environment (send organization number and name)
-- [ ] Describe how your integration has been set up, with a link to a demo, or provide screenshots (PDF is preferred).
+|  Required to become a partner   |
+| ----     |
+| As a partner, you accept the [Partner terms and conditions](https://developer.vippsmobilepay.com/docs/vipps-partner/partner-terms)   |
+| Provide technical documentation for merchants regarding: |
+| - How to apply for Vipps products (a URL, plain text or PDF is preferred)   |
+| -  How to configure and use the module (a URL, plain text or PDF is preferred)   |
+|  - Frequently Asked Questions (FAQs) for merchants (a URL, plain text or PDF is preferred)   |
+|  Provide one pilot customer to verify the integration in the production environment (send organization number and name)   |
+|  Describe how your integration has been set up, with a link to a demo, or provide screenshots (PDF is preferred).    |
+
 
 When the integration checklist is completed, notify Vipps Integration
 [integration@vipps.no](mailto:integration@vipps.no)
