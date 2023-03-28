@@ -48,8 +48,8 @@ working to offer different type of partner keys:
 | Name          | Description | Status |
 | ------------- | ----------- | ------ |
 | Partner keys | Gives access to the [Partner API](https://developer.vippsmobilepay.com/docs/APIs/partner-api). Lets the partner initiate payments and move money on behalf of its merchants - with the [ePayment API](https://developer.vippsmobilepay.com/docs/APIs/epayment-api), etc. | Available |
-| Accounting partner keys | Gives access to the [Report API](https://developer.vippsmobilepay.com/docs/APIs/report-api). Can not be used to move money. | In process, no release date yet. |
-| Management partner keys | Gives access to the [Partner API](https://developer.vippsmobilepay.com/docs/APIs/partner-api). Can not be used to move money. |
+| Accounting partner keys | Gives access to the [Report API](https://developer.vippsmobilepay.com/docs/APIs/report-api). Can not be used to move money. | Development in process, no release date. |
+| Management partner keys | Gives access to the [Partner API](https://developer.vippsmobilepay.com/docs/APIs/partner-api). Can not be used to move money. | Planned, not started. |
 
 The _Partner keys_ do not automatically give access to the Report API, since the
 Report API reveals information about prices and fees, and the merchant must
