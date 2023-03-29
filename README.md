@@ -49,7 +49,7 @@ since the partner uses
 [partner keys](#partner-keys).
 
 Partner keys are only available for
-[Vipps Partner Plus and Vipps Partner Premium](https://developer.vippsmobilepay.com/docs/vipps-partner/partner-level-up).
+[Vipps Partner Plus and Vipps Partner Premium](partner-level-up.md).
 
 ### Reseller partner
 
@@ -102,7 +102,7 @@ Other partners must rely on each merchant's individual API keys.
 ## Partner levels
 
 See:
-[Partner levels](./partner-level-up.md).
+[Partner levels](partner-level-up.md).
 
 ## Apply on vipps.no
 
@@ -143,7 +143,7 @@ In addition to the checklists mentioned above, all partners are required to comp
 
 |  Required to become a partner   |
 | ----     |
-| As a partner, you accept the [Partner terms and conditions](https://developer.vippsmobilepay.com/docs/vipps-partner/partner-terms)   |
+| As a partner, you accept the [Partner terms and conditions](partner-terms.md)   |
 | Provide technical documentation for merchants regarding: |
 | - How to apply for Vipps products (a URL, plain text or PDF is preferred)   |
 | -  How to configure and use the module (a URL, plain text or PDF is preferred)   |

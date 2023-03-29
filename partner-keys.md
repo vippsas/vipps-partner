@@ -59,7 +59,7 @@ The _Management partner keys_ will be useful for partners that need the
 Partner API to manage its merchants, but can not use the _Partner keys_
 because they can not be kept secret from the merchants - or the partner is
 not at a
-[level](partner-levels)
+[level](partner-level-up.md)
 where they can make payments on behalf of merchants.
 
 ## Authentication
