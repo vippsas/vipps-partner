@@ -152,8 +152,8 @@ In addition to the checklists mentioned above, all partners are required to comp
 |  Describe how your integration has been set up, with a link to a demo, or provide screenshots (PDF is preferred).    |
 
 
-When the integration checklist is completed, notify Vipps Integration
-[integration@vipps.no](mailto:integration@vipps.no)
+When the integration checklist is completed, notify Vipps MobilePay Integration Service
+[developer@vippsmobilepay.com](mailto:developer@vippsmobilepay.com)
 as described in the checklist, with `orderId` examples from the test environment,
 pilot customer info, and a description of the implemented solution.
 
