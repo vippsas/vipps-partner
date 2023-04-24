@@ -1,4 +1,3 @@
-<!-- START_METADATA
 ---
 title: Manual signup
 sidebar_label: Manual signup
@@ -6,16 +5,8 @@ sidebar_position: 35
 pagination_next: null
 pagination_prev: null
 ---
-END_METADATA -->
 
 # Manual signup
-
-<!-- START_COMMENT -->
-
-ℹ️ Please use the website:
-[Vipps MobilePay Technical Documentation](https://developer.vippsmobilepay.com/docs/vipps-partner).
-
-<!-- END_COMMENT -->
 
 Partners that can, for some reason, not use the Partner API to
 [submit a product order for a merchant](https://developer.vippsmobilepay.com/docs/APIs/partner-api/vipps-partner-api#submit-a-product-order-for-a-merchant)
@@ -28,7 +19,7 @@ must use manual signup: The merchant must fill out the form on its own.
    `https://portal.vipps.no/register/{organisation-number-goes-here}`
 
    There, they need to fill in details for the company, including
-   "reelle rettighetshavere", politically exposed people, etc.
+   real rights holders, politically exposed people, etc.
    This application must be signed with BankID by a person that has
    signatory rights for the company.
 
@@ -44,7 +35,7 @@ must use manual signup: The merchant must fill out the form on its own.
    - Vipps på nett: https://portal.vipps.no/register/vippspaanett
    - Vipps Checkout: https://portal.vipps.no/register/vippscheckout
    - Vipps i kassa: https://portal.vipps.no/register/vippsikasse
-   - Vipps Logg inn: https://portal.vipps.no/register/vippslogginn
+   - Vipps Login: https://portal.vipps.no/register/vippslogginn
 
    It's the partner's responsibility to make sure the merchant has all necessary
    information to fill out the application correctly. The
@@ -54,11 +45,11 @@ must use manual signup: The merchant must fill out the form on its own.
    When the merchant applies for a Vipps product it must select:
    1. The Vipps product (or use a direct link as above)
    2. The partner
-   3. The price package, typically "Pris 1", "Pris 2" or "Pris 3".
+   3. The price package, typically "Price 1", "Price 2" or "Price 3".
       We are aware that it's not ideal to let merchants select the price package,
       but this is needed when not using the Partner API.
 
-4. Vipps processes the application and does customer control (KYC, PEP, AML, etc).
+4. Vipps processes the application and does customer control (KYC, PEP, AML, etc.).
    This may take a few days, depending on the information provided and the workload
    and the quality and completeness of the application.
    See the

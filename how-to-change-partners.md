@@ -1,4 +1,3 @@
-<!-- START_METADATA
 ---
 title: How to change partners
 sidebar_label: How to change partners
@@ -6,16 +5,8 @@ sidebar_position: 25
 pagination_next: null
 pagination_prev: null
 ---
-END_METADATA -->
 
 # How to change partners for a merchant
-
-<!-- START_COMMENT -->
-
-ℹ️ Please use the website:
-[Vipps MobilePay Technical Documentation](https://developer.vippsmobilepay.com/docs/vipps-partner/how-to-change-partners).
-
-<!-- END_COMMENT -->
 
 **Please see:**
 [How to sign up new merchants](README.md#how-to-sign-up-new-merchants)
@@ -26,12 +17,12 @@ merchant is responsible, as _data controller_, for which partner(s) can access t
 merchant's data as _data processor_.
 
 If the merchant changes partners, the merchant's sales unit (identified with MSN,
-the Merchant Serial Number) must be reconfigured so the new partner's
+the Merchant Serial Number) must be reconfigured, so the new partner's
 [partner keys](partner-keys.md)
 can be used for the same MSN.
 
 The new partner will get access to all the payments made to the MSN.
-There is no way Vipps can restrict the new partner's access so it cannot see
+There is no way Vipps can restrict the new partner's access, so it cannot see
 payments made before the partner change.
 
 The MSN can only be used with one set of
@@ -50,9 +41,8 @@ This is the recommended way:
    old partner and the new partner. This ensures that both partners can
    make API calls for the MSN, regardless of each partner's
    [partner keys](partner-keys.md).
-3. The new partner contacts
-  [Partnerbestilling](https://developer.vippsmobilepay.com/docs/vipps-developers/contact#we-help-with-technical-issues)
-   and orders a reconfiguration of the MSN: Link it to the new partner instead
+3. The new partner [contacts the partner support team](README.md#questions)
+   and orders a reconfiguration of the MSN. Link it to the new partner instead
    of the old one.
    When this is done, the MSN has the new partner as partner.
 4. The new partner's

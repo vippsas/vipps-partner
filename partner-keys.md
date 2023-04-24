@@ -1,4 +1,3 @@
-<!-- START_METADATA
 ---
 title: Partner keys
 sidebar_label: Partner keys
@@ -6,16 +5,8 @@ sidebar_position: 20
 pagination_next: null
 pagination_prev: null
 ---
-END_METADATA -->
 
 # Partner keys
-
-<!-- START_COMMENT -->
-
-ℹ️ Please use the website:
-[Vipps MobilePay Technical Documentation](https://developer.vippsmobilepay.com/docs/vipps-partner/partner-keys).
-
-<!-- END_COMMENT -->
 
 As a partner, you manage transactions on behalf of Vipps merchants.
 Vipps provides you with _partner keys_, which allow you to use your own API credentials to
@@ -47,9 +38,9 @@ working to offer different type of partner keys:
 
 | Name          | Description | Status |
 | ------------- | ----------- | ------ |
-| Partner keys | Gives access to the [Partner API](https://developer.vippsmobilepay.com/docs/APIs/partner-api). Lets the partner initiate payments and move money on behalf of its merchants - with the [ePayment API](https://developer.vippsmobilepay.com/docs/APIs/epayment-api), etc. | Available |
-| Accounting partner keys | Gives access to the [Report API](https://developer.vippsmobilepay.com/docs/APIs/report-api). Can not be used to move money. | Development in process, no release date. |
-| Management partner keys | Gives access to the [Partner API](https://developer.vippsmobilepay.com/docs/APIs/partner-api). Can not be used to move money. | Planned, not started. |
+| Partner keys | Give access to the [Partner API](https://developer.vippsmobilepay.com/docs/APIs/partner-api). Let the partner initiate payments and move money on behalf of its merchants - with the [ePayment API](https://developer.vippsmobilepay.com/docs/APIs/epayment-api), etc. | Available |
+| Accounting partner keys | Give access to the [Report API](https://developer.vippsmobilepay.com/docs/APIs/report-api). Cannot be used to move money. | Development in process, no release date. |
+| Management partner keys | Give access to the [Partner API](https://developer.vippsmobilepay.com/docs/APIs/partner-api). Cannot be used to move money. | Planned, not started. |
 
 The _Partner keys_ do not automatically give access to the Report API, since the
 Report API reveals information about prices and fees, and the merchant must
@@ -100,7 +91,7 @@ Vipps-System-Plugin-Version: 4.5.6
 
 _Important:_ The partner keys _must never be shared in any readable way with
 the merchants_, as that will let one merchant perform API calls (including
-making payments, refunds, etc) on behalf of another merchant.
+making payments, refunds, etc.) on behalf of another merchant.
 
 :bomb: **Potential pitfalls:**
 If you answer _YES_ to any of the following questions, partner keys is **_not_** for your solution.
@@ -136,7 +127,7 @@ endpoints for both.
   these keys, you will need to use the merchant keys belonging to one of your
   merchants.
 * Vipps can not send the merchant's API keys to you. You must get them from the
-  merchant in a secure way (if partner keys are not used).
+  merchant securely (if partner keys are not used).
   See:
   [Common topics: API Keys](https://developer.vippsmobilepay.com/docs/vipps-developers/common-topics/api-keys#getting-the-api-keys)
   for more details.
@@ -156,7 +147,7 @@ See:
 
 **Please note:** Vipps payments can only be made to merchants that have a
 customer relationship with Vipps, and that have gone through the required
-compliance checks, etc after ordering Vipps on
+compliance checks, etc. after ordering Vipps on
 [portal.vipps.no](https://portal.vipps.no).
 It is not possible to pay the partner instead of the merchant. See also:
 [Can I create a marketplace with multiple merchants?](https://developer.vippsmobilepay.com/docs/vipps-developers/faqs/users-and-payments-faq#can-i-create-a-marketplace-with-multiple-merchants)

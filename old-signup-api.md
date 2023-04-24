@@ -1,8 +1,6 @@
-<!-- START_METADATA
 ---
 draft: True
 ---
-END_METADATA -->
 
 # Old Signup API
 
