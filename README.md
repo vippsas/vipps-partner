@@ -284,6 +284,22 @@ There are still some common problems that cause delays:
 
 ### How to check if a merchant is signed up with the partner as partner
 
+**Important:** For partners: Vipps has limited capacity to handle partners' requests to
+"just check something", even though it may be trivial. We therefore recommend
+the following priority:
+
+1. Integrate with the
+   [Partner API](https://developer.vippsmobilepay.com/docs/APIs/partner-api/),
+   so the functionality is made available in the partner's own admin interface.
+2. Use the Partner API manually with the Postman collection provided by Vipps.
+3. Ask the merchant to create a user for the partner on portal.vipps.no,
+   so the partner can check on behalf of the merchant:
+   [How to add a user on portal.vipps.no](https://developer.vippsmobilepay.com/docs/vipps-partner/add-portal-user).
+4. See the Vipps FAQ for how to check if a sales unit
+   [has skipLandingPage](https://developer.vippsmobilepay.com/docs/vipps-developers/faqs/reserve-and-capture-faq#how-can-i-check-if-i-have-reserve-capture-or-direct-capture)
+   or
+   [which capture type it has](https://developer.vippsmobilepay.com/docs/vipps-developers/faqs/reserve-and-capture-faq#how-do-i-turn-direct-capture-on-or-off).
+
 **Please note:** Vipps can not share information about the status of a
 merchant's agreement or product orders.
 The partner must always check with the merchant.
