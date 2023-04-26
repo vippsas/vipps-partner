@@ -1,4 +1,3 @@
-<!-- START_METADATA
 ---
 title: How to add a user on the portal
 sidebar_label: How to add a user on the portal
@@ -6,7 +5,6 @@ sidebar_position: 30
 pagination_next: null
 pagination_prev: null
 ---
-END_METADATA -->
 
 # How to add a user on portal.vipps.no
 
@@ -18,32 +16,15 @@ The merchant must retrieve the API keys on
 [portal.vipps.no](https://portal.vipps.no)
 and send them to the partner in a secure way.
 
-If the merchant is unable to provide the API keys to the partner in a secure
-way, the merchant _can_ create a user for the partner, so the partner can
+If the merchant is unable to provide the API keys to the partner securely, the merchant _can_ create a user for the partner, so the partner can
 retrieve the API keys.
 
-This is a step by step guide for that.
+This is a step-by-step guide for that.
 
 **Please note:** Access is provided for individuals.
 It is not possible for a merchant to give access to a company (like its partner),
 only to specific people.
 There is no limit to the number of people that can be given access.
-
-<!-- START_COMMENT -->
-
-ℹ️ Please use the website:
-[Vipps MobilePay Technical Documentation](https://developer.vippsmobilepay.com/docs/vipps-partner/add-portal-user).
-
-# Table of contents
-
-* [1. Log in on portal.vipps.no](#1-log-in-on-portalvippsno)
-* [2. See the list of users](#2-see-the-list-of-users)
-* [3. Enter the new user's phone number](#3-enter-the-new-users-phone-number)
-* [4. Select permissions](#4-select-permissions)
-* [5. Select sales units the new user will get access to](#5-select-sales-units-the-new-user-will-get-access-to)
-* [6. Confirmation](#6-confirmation)
-
-<!-- END_COMMENT -->
 
 # 1. Log in on portal.vipps.no
 
@@ -51,7 +32,7 @@ The merchant logs in with BankID on
 [portal.vipps.no](https://portal.vipps.no)
 and sees the main page.
 
-Click "Brukertilganger" in the left menu:
+Click "Brukertilganger" (*User access*) in the left menu:
 
 ![1](images/portal-add-user-1.png)
 
@@ -59,7 +40,7 @@ Click "Brukertilganger" in the left menu:
 
 The list of users is now shown.
 
-Click "Legg til bruker":
+Click "Legg til bruker" (*Add user*):
 
 ![2](images/portal-add-user-2.png)
 
@@ -71,15 +52,15 @@ Enter the phone number of the new user that will be added.
 
 The name of the person will automatically be displayed.
 
-Click "Neste".
+Click "Neste" (*Next*).
 
 ![3](images/portal-add-user-3.png)
 
 # 4. Select permissions
 
-The partner's user should have "Lese" and "Utvikler" permissions.
+The partner's user should have "Lese" (*Read*) and "Utvikler" (*Developer*) permissions.
 
-Click "Neste".
+Click "Neste" (*Next*).
 
 ![4](images/portal-add-user-4.png)
 
@@ -89,7 +70,7 @@ There merchant may have one or several sales units.
 
 Choose the one(s) that the new user will get access to.
 
-Click "Ferdig".
+Click "Ferdig" (*Finished*).
 
 ![5](images/portal-add-user-5.png)
 

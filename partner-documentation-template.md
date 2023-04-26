@@ -1,4 +1,3 @@
-<!-- START_METADATA
 ---
 title: Partner documentation template
 sidebar_label: Partner documentation template
@@ -6,7 +5,6 @@ sidebar_position: 90
 pagination_next: null
 pagination_prev: null
 ---
-END_METADATA -->
 
 # Vipps partner documentation template
 
@@ -17,13 +15,6 @@ The paragraphs prefixed with "ℹ️" is for the partners, and must not be in th
 finished documentation for the partner's merchants. See
 [Vipps Partners](https://developer.vippsmobilepay.com/docs/vipps-partner)
 for more information.
-
-<!-- START_COMMENT -->
-
-ℹ️ Please use the website:
-[Vipps MobilePay Technical Documentation](https://developer.vippsmobilepay.com/docs/vipps-partner/partner-documentation-template).
-
-<!-- END_COMMENT -->
 
 ## How to order Vipps
 
@@ -65,7 +56,7 @@ or not.
    We, your partner, receive the same email.
    The email contains the "Merchant Serial Number" (MSN),
    a six-digit number identifying your new Vipps sales unit.
-   There is nothing more you need to do, we then have everything we need.""
+   There is nothing more you need to do, we then have everything we need."
 
 2. Explain how to use the Vipps API keys in the partner's solution,
    complete with screenshots with added arrows, text, etc.
@@ -110,7 +101,7 @@ and _not_ on portal.vipps.no.
 
 From the integration checklist:
 
-> Make sure your customer service, etc has all the tools and information they need
+> Make sure your customer service, etc. has all the tools and information they need
 > available in your system, through the APIs listed in the first item in this
 > checklist, and that they do not need to visit portal.vipps.no for normal work.
 
@@ -118,10 +109,10 @@ Topics to cover:
 
 * Order handling
   - How do I capture an order?
-  - How do I partial capture an order?
+  - How do I partially capture an order?
   - How do I cancel an order?
   - How do I refund an order?
-  - How do I partial refund an order?
+  - How do I partially refund an order?
   - How to I find all the details about an order?
   - How do I debug a failed order?
 * Additional info (support)
@@ -137,4 +128,4 @@ Document very clearly that the partner's merchants should _never_ contact Vipps 
 Please contact us, your partner, and we will help as soon as possible.
 We will contact Vipps if needed, so you should not contact Vipps directly.
 
-**ℹ️Please note: Add partner name, address, website, phone, email, etc here.**
+**ℹ️ Please note: Add partner name, address, website, phone, email, etc. here.**
