@@ -38,29 +38,30 @@ working to offer different type of partner keys:
 
 | Name          | Description | Status |
 | ------------- | ----------- | ------ |
-| Partner keys | Give access to the [Partner API](https://developer.vippsmobilepay.com/docs/APIs/partner-api). Let the partner initiate payments and move money on behalf of its merchants - with the [ePayment API](https://developer.vippsmobilepay.com/docs/APIs/epayment-api), etc. | Available |
-| Accounting partner keys | Give access to the [Report API](https://developer.vippsmobilepay.com/docs/APIs/report-api). Cannot be used to move money. | Development in process, no release date. |
-| Management partner keys | Give access to the [Partner API](https://developer.vippsmobilepay.com/docs/APIs/partner-api). Cannot be used to move money. | Planned, not started. |
+| Partner keys | Provide access to the [Partner API](https://developer.vippsmobilepay.com/docs/APIs/partner-api). Allow partners to initiate payments and move money on behalf of their merchants (for example, by using the [ePayment API](https://developer.vippsmobilepay.com/docs/APIs/epayment-api)). | Available |
+| Accounting partner keys | Provide access to the [Report API](https://developer.vippsmobilepay.com/docs/APIs/report-api). Cannot be used to move money. | Development in process, no release date. |
+| Management partner keys | Provide access to the [Partner API](https://developer.vippsmobilepay.com/docs/APIs/partner-api). Cannot be used to move money. | Planned, not started. |
 
-The _Partner keys_ do not automatically give access to the Report API, since the
-Report API reveals information about prices and fees, and the merchant must
-give explicit consent to the partner retrieving that information.
+_Partner keys_ are useful for partners who will make transactions on behalf of their merchants.
+However, since the [Report API](https://developer.vippsmobilepay.com/docs/APIs/report-api) can
+reveal information about a merchant's prices and fees,
+_partner keys_ don't automatically give access to it. The merchant must
+explicitly give consent for the partner to get access to this information.
 
-The _Management partner keys_ will be useful for partners that need the
-Partner API to manage its merchants, but can not use the _Partner keys_
-because they can not be kept secret from the merchants - or the partner is
-not at a
-[level](partner-level-up.md)
-where they can make payments on behalf of merchants.
+_Management partner keys_ are useful for partners who need to manage their merchants,
+but are unable to use _partner keys_. For example, a partner can't use _partner keys_ to make payments on behalf of merchants if:
+
+* the _partner keys_ would be visible to the merchants
+* their [partner level](partner-level-up.md) is not high enough
 
 ## Authentication
 
-With the partner keys you authenticate in the normal way,
+With the partner keys, you authenticate in the normal way,
 using the `client_id`, `client_secret` and `Ocp-Apim-Subscription-Key` that are
 part of your partner keys.
 
-When making API calls on behalf of a merchant:
-You must also send the required `Merchant-Serial-Number` HTTP header to identify
+When making API calls on behalf of a merchant,
+you must also send the required `Merchant-Serial-Number` HTTP header to identify
 which of your merchants you are acting on behalf of (e.g.,
 `Merchant-Serial-Number: 123456`).
 
