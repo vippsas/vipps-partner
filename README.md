@@ -98,7 +98,7 @@ See:
 ## Apply on vipps.no
 
 Please visit the
-[partner page at Vipps.no](https://vipps.no/developer/bli-partner/),
+[partner page at Vipps.no](https://www.vipps.no/developer/become-a-partner/),
 read through our FAQ, and fill out the form.
 
 ## Integrate with the Vipps APIs
@@ -339,7 +339,7 @@ when possible).
 ## FAQ for partners
 
 You may find answers to your questions on our FAQ section on the bottom of the
-[partner page on vipps.no](https://vipps.no/developer/bli-partner/)
+[partner page on vipps.no](https://www.vipps.no/developer/become-a-partner/)
 
 ## Questions
 
