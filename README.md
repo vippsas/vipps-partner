@@ -34,13 +34,13 @@ Vipps Partner Plus and Vipps Partner Premium can and should use partner keys.
 Platform partners on these partner levels use the Vipps APIs _on behalf of_ merchants:
 Initiate payments, do captures, do refunds, etc.
 
-Merchant that use a platform partner with Vipps Partner Plus and Vipps Partner Premium
+Merchants that use a platform partner with Vipps Partner Plus and Vipps Partner Premium
 _never need to see their API keys_,
 since the partner uses
 [partner keys](#partner-keys).
 
-Partner keys are only available for
-[Vipps Partner Plus and Vipps Partner Premium](partner-level-up.md).
+Partner keys can be used with the
+[Partner API](https://developer.vippsmobilepay.com/docs/APIs/partner-api).
 
 ### Reseller partner
 
@@ -137,22 +137,22 @@ In addition to the checklists mentioned above, all partners are required to comp
 | As a partner, you accept the [Partner terms and conditions](partner-terms.md)   |
 | Provide technical documentation for merchants regarding: |
 | - How to apply for Vipps products (a URL, plain text or PDF is preferred)   |
-| -  How to configure and use the module (a URL, plain text or PDF is preferred)   |
-|  - Frequently Asked Questions (FAQs) for merchants (a URL, plain text or PDF is preferred)   |
-|  Provide one pilot customer to verify the integration in the production environment (send organization number and name)   |
-|  Describe how your integration has been set up, with a link to a demo, or provide screenshots (PDF is preferred).    |
-
+| - How to configure and use the module (a URL, plain text or PDF is preferred)   |
+| - Frequently Asked Questions (FAQs) for merchants (a URL, plain text or PDF is preferred)   |
+| Provide one pilot customer to verify the integration in the production environment (send organization number and name)   |
+| Describe how your integration has been set up, with a link to a demo, or provide screenshots (PDF is preferred).    |
 
 When the integration checklist is completed, notify Vipps MobilePay Integration Service
 [developer@vippsmobilepay.com](mailto:developer@vippsmobilepay.com)
 as described in the checklist, with `orderId` examples from the test environment,
 pilot customer info, and a description of the implemented solution.
 
-Vipps Integration will verify the integration and take contact with you.
+Vipps MobilePay Integration Service will verify the integration and contact you.
 
-After checklist is approved, you will receive all necessary information from [partnerbestilling@vipps.no](mailto:partnerbestilling@vipps.no).  
+After the checklist is approved, you will receive all necessary information from
+[partnerbestilling@vipps.no](mailto:partnerbestilling@vipps.no).  
 
-Vipps then adds you to vipps.no, including the signup forms on
+Vipps then adds you to the partnret page(s) on vipps.no, and in thesignup forms on
 [portal.vipps.no](https://portal.vipps.no)
 where the merchants can sign up and select you as their partner.
 
@@ -160,27 +160,35 @@ where the merchants can sign up and select you as their partner.
 
 ### Developer documentation
 
-See: [Developer documentation](https://developer.vippsmobilepay.com/docs/vipps-developers).
+See:
+[Developer documentation](https://developer.vippsmobilepay.com/docs/vipps-developers).
 
 ### Vipps Partner API
 
-See: [Partner API](https://developer.vippsmobilepay.com/docs/APIs/partner-api).
+See:
+[Partner API](https://developer.vippsmobilepay.com/docs/APIs/partner-api).
 
 ### Partner keys
 
 As a partner, you manage transactions on behalf of Vipps merchants.
-Vipps provides you with _partner keys_, which allow you to use your own API credentials to
-make API calls on behalf of your merchants (i.e., the sales units that are connected to you as a partner).
+Vipps provides you with _partner keys_, which allow you to use your own API
+credentials to make API calls on behalf of your merchants (i.e., the sales units
+that are connected to you as a partner).
+
+This means that you don't need to use the merchant's own API keys.
 
 See: [Partner keys](partner-keys.md).
+
+**Please note:** Partner keys are only available for
+[Vipps Partner Plus and Vipps Partner Premium](partner-level-up.md).
 
 ### Plugin development
 
 All official plugins are open source, free to use, and available in our
-[plugin section](https://developer.vippsmobilepay.com/docs/vipps-plugins), as well as on
-the platforms they are designed for.
+[plugin section](https://developer.vippsmobilepay.com/docs/vipps-plugins),
+as well as on the platforms they are designed for.
 
-We encourage submitting issues and PRs to improve the plugins.
+We encourage submitting issues and pull requests to improve the plugins.
 
 If you have developed, or plan to develop, a plugin for Vipps, and you think
 it may be a candidate for becoming an official plugin: See
@@ -241,17 +249,22 @@ Merchants that do not use a platform partner must sign up on their own on
 
 The
 [Vipps Partner API](https://developer.vippsmobilepay.com/docs/APIs/partner-api)
-lets a partner "prefill" the product order form on
+lets a partner "pre-fill" the product order form on
 [portal.vipps.no](https://portal.vipps.no)
 on behalf of a merchant, so the merchant can log in,
 check the data, and submit the product order.
 
-See: [Submit a product order for a merchant](https://developer.vippsmobilepay.com/docs/APIs/partner-api/vipps-partner-api#submit-a-product-order-for-a-merchant).
+See:
+[Submit a product order for a merchant](https://developer.vippsmobilepay.com/docs/APIs/partner-api/vipps-partner-api#submit-a-product-order-for-a-merchant).
 
 **Please note:** A partner that only rarely needs to onboard a new merchant can
 have the merchant order Vipps on
 [portal.vipps.no](https://portal.vipps.no)
 instead of using the Partner API's pre-fill functionality.
+The partner may also log in on
+[portal.vipps.no](https://portal.vipps.no)
+and manually fill in the form, which will be similar to using the
+Partner API's "pre-fill" functionality.
 
 ### Manual signup
 
@@ -303,6 +316,7 @@ the following priority:
 **Please note:** Vipps can not share information about the status of a
 merchant's agreement or product orders.
 The partner must always check with the merchant.
+
 The merchant can check the status on
 [portal.vipps.no](https://portal.vipps.no)
 any time.
@@ -344,8 +358,11 @@ You may find answers to your questions on our FAQ section on the bottom of the
 ## Questions
 
 Please contact your partner manager.
+If you do not have a partner manager, please contact
+[partnerbestilling@vipps.no](mailto:partnerbestilling@vipps.no).
 
 We're always happy to help with code or other questions you might have!
 Please create an [issue](https://github.com/vippsas/vipps-developers/issues),
 a [pull request](https://github.com/vippsas/vipps-developers/pulls),
-or contact us by email: [partnerbestilling@vipps.no](mailto:partnerbestilling@vipps.no).
+or contact us by email:
+[partnerbestilling@vipps.no](mailto:partnerbestilling@vipps.no).
