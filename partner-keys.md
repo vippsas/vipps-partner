@@ -8,7 +8,7 @@ pagination_prev: null
 
 # Partner keys
 
-As a partner, you manage transactions on behalf of Vipps merchants.
+As a Partner Plus or	Partner Premium partner ([see partner levels](https://developer.vippsmobilepay.com/docs/vipps-partner/partner-level-up/)), you manage transactions on behalf of Vipps merchants.
 Vipps provides you with _partner keys_, which allow you to use your own API credentials to
 make API calls on behalf of _all_ your merchants
 (i.e., all the sales units that are linked to you as a partner).
