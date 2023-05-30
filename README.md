@@ -289,6 +289,7 @@ There are still some common problems that cause delays:
 * The merchant has not provided enough information about what they want to use
   Vipps for (_Spesifiser kort hvilke varer/tjenester dere selger_, in English:
   _Briefly specify which goods/services you sell_).
+* If the merchant website is not the distribution channel, the requirements outlined above shall also apply to the partner platform.  
 * Vipps has sent an email requesting additional information, but has not received a reply.
   Merchants should check their "spam" and try to search their email for "vipps".
 * The application has been declined. Vipps only informs the merchant about this,
