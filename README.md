@@ -152,7 +152,7 @@ Vipps MobilePay Integration Service will verify the integration and contact you.
 After the checklist is approved, you will receive all necessary information from
 [partnerbestilling@vipps.no](mailto:partnerbestilling@vipps.no).  
 
-Vipps then adds you to the partnret page(s) on vipps.no, and in thesignup forms on
+Vipps then adds you to the partner page(s) on vipps.no, and in the signup forms on
 [portal.vipps.no](https://portal.vipps.no)
 where the merchants can sign up and select you as their partner.
 
