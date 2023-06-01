@@ -316,6 +316,11 @@ the following priority:
 
 **Please note:** Vipps can not share information about the status of a
 merchant's agreement or product orders.
+This is because we need explicit consent from the merchant to share the
+information with the partner, and the consent must also be possiblew to withdraw.
+We have not been able to prioritize implementing this consent management.
+Also: Some applications may be declined due to too high risk, suspicion of fraud, etc.
+We can not "leak" this information about the merchant.
 The partner must always check with the merchant.
 
 The merchant can check the status on
