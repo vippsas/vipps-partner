@@ -317,7 +317,7 @@ the following priority:
 **Please note:** Vipps can not share information about the status of a
 merchant's agreement or product orders.
 This is because we need explicit consent from the merchant to share the
-information with the partner, and the consent must also be possiblew to withdraw.
+information with the partner, and the consent must also be possible to withdraw.
 We have not been able to prioritize implementing this consent management.
 Also: Some applications may be declined due to too high risk, suspicion of fraud, etc.
 We can not "leak" this information about the merchant.
@@ -327,7 +327,7 @@ The merchant can check the status on
 [portal.vipps.no](https://portal.vipps.no)
 any time.
 
-When a new merchants gets its Vipps application approved, an email is sent
+When a new merchant gets their Vipps application approved, an email is sent
 to both the merchant and the partner with information about:
 
 * The merchant's organization number
