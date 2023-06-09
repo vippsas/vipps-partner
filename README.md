@@ -247,7 +247,6 @@ in addition to the one with the partner.
 
 A merchant that already has a customer relationship with Vipps still needs
 to apply for a new product (sales unit) to use with a new partner.
-See: [How to change partners for a merchant](#how-to-change-partners-for-a-merchant).
 
 Merchants that do not use a platform partner must sign up on their own on
 [portal.vipps.no](https://portal.vipps.no).
@@ -350,7 +349,8 @@ on the sales unit's MSN.
 
 ## How to change partners for a merchant
 
-See: [How to change partners](how-to-change-partners.md).
+It is possible for a merchant to change partners in some cases.
+If this is what you need, please contact your partner manager.
 
 ## The deprecated Vipps Signup API
 
@@ -375,7 +375,6 @@ If you do not have a partner manager, please contact
 [partnerbestilling@vipps.no](mailto:partnerbestilling@vipps.no).
 
 We're always happy to help with code or other questions you might have!
-Please create an [issue](https://github.com/vippsas/vipps-developers/issues),
-a [pull request](https://github.com/vippsas/vipps-developers/pulls),
+Please create an [issue](https://github.com/vippsas/vipps-developers/issues)
 or contact us by email:
 [partnerbestilling@vipps.no](mailto:partnerbestilling@vipps.no).

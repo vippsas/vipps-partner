@@ -1,11 +1,15 @@
+<!-- START_METADATA
 ---
 title: How to change partners
 sidebar_label: How to change partners
 sidebar_position: 25
 pagination_next: null
 pagination_prev: null
+draft: True
 ---
+END_METADATA -->
 
+<!-- Do not show this file.  The partner team prefers not to show it.
 # How to change partners for a merchant
 
 **Please see:**
@@ -79,3 +83,4 @@ longer can be used.
 **Please note:** Vipps has previously handled the above by creating a new MSN to use with the
 new partner. We no longer offer this, as it creates a lot of additional work,
 and it results in a confusing user experience for Vipps users - and partners.
+ -->
