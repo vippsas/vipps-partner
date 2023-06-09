@@ -1,3 +1,4 @@
+<!-- START_METADATA
 ---
 title: Partner documentation template
 sidebar_label: Partner documentation template
@@ -5,8 +6,14 @@ sidebar_position: 90
 pagination_next: null
 pagination_prev: null
 ---
+END_METADATA -->
 
 # Vipps partner documentation template
+
+<!-- START_COMMENT -->
+ℹ️ Please use the website:
+[Vipps MobilePay Technical Documentation](https://developer.vippsmobilepay.com/docs/vipps-partner/).
+<!-- END_COMMENT -->
 
 This document is an example that partners can use for documentation to their
 merchants of how to get started with Vipps.

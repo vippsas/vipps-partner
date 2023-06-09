@@ -1,3 +1,4 @@
+<!-- START_METADATA
 ---
 title: Partner keys
 sidebar_label: Partner keys
@@ -5,10 +6,16 @@ sidebar_position: 20
 pagination_next: null
 pagination_prev: null
 ---
+END_METADATA -->
 
 # Partner keys
 
-As a Partner Plus or	Partner Premium partner ([see partner levels](https://developer.vippsmobilepay.com/docs/vipps-partner/partner-level-up/)), you manage transactions on behalf of Vipps merchants.
+<!-- START_COMMENT -->
+ℹ️ Please use the website:
+[Vipps MobilePay Technical Documentation](https://developer.vippsmobilepay.com/docs/vipps-partner/).
+<!-- END_COMMENT -->
+
+As a Partner Plus or Partner Premium partner ([see partner levels](https://developer.vippsmobilepay.com/docs/vipps-partner/partner-level-up/)), you manage transactions on behalf of Vipps merchants.
 Vipps provides you with _partner keys_, which allow you to use your own API credentials to
 make API calls on behalf of _all_ your merchants
 (i.e., all the sales units that are linked to you as a partner).

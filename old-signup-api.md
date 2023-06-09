@@ -4,6 +4,11 @@ draft: True
 
 # Old Signup API
 
+<!-- START_COMMENT -->
+ℹ️ Please use the website:
+[Vipps MobilePay Technical Documentation](https://developer.vippsmobilepay.com/docs/vipps-partner/).
+<!-- END_COMMENT -->
+
 The deprecated legacy
 [Vipps Signup API](https://github.com/vippsas/vipps-signup-api),
 also called "partial signup", is no longer available,

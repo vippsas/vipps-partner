@@ -1,3 +1,4 @@
+<!-- START_METADATA
 ---
 title: How to add a user on the portal
 sidebar_label: How to add a user on the portal
@@ -5,8 +6,14 @@ sidebar_position: 30
 pagination_next: null
 pagination_prev: null
 ---
+END_METADATA -->
 
 # How to add a user on portal.vipps.no
+
+<!-- START_COMMENT -->
+ℹ️ Please use the website:
+[Vipps MobilePay Technical Documentation](https://developer.vippsmobilepay.com/docs/vipps-partner/).
+<!-- END_COMMENT -->
 
 Partners should use
 [partner keys](https://developer.vippsmobilepay.com/docs/vipps-partner/partner-keys).

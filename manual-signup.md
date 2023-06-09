@@ -1,3 +1,4 @@
+<!-- START_METADATA
 ---
 title: Manual signup
 sidebar_label: Manual signup
@@ -5,8 +6,14 @@ sidebar_position: 35
 pagination_next: null
 pagination_prev: null
 ---
+END_METADATA -->
 
 # Manual signup
+
+<!-- START_COMMENT -->
+ℹ️ Please use the website:
+[Vipps MobilePay Technical Documentation](https://developer.vippsmobilepay.com/docs/vipps-partner/).
+<!-- END_COMMENT -->
 
 Partners that can, for some reason, not use the Partner API to
 [submit a product order for a merchant](https://developer.vippsmobilepay.com/docs/APIs/partner-api/vipps-partner-api#submit-a-product-order-for-a-merchant)

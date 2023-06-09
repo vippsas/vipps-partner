@@ -1,3 +1,4 @@
+<!-- START_METADATA
 ---
 title: Vipps Partners
 sidebar_label: Introduction
@@ -6,8 +7,14 @@ description: Technical information for Vipps partners
 pagination_next: null
 pagination_prev: null
 ---
+END_METADATA -->
 
 # Vipps Partners
+
+<!-- START_COMMENT -->
+ℹ️ Please use the website:
+[Vipps MobilePay Technical Documentation](https://developer.vippsmobilepay.com/docs/vipps-partner/).
+<!-- END_COMMENT -->
 
 Technical information for Vipps partners.
 

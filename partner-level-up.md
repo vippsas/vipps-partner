@@ -1,3 +1,4 @@
+<!-- START_METADATA
 ---
 title: Partner levels
 sidebar_label: Partner levels
@@ -5,8 +6,14 @@ sidebar_position: 10
 pagination_next: null
 pagination_prev: null
 ---
+END_METADATA -->
 
 # Partner levels
+
+<!-- START_COMMENT -->
+ℹ️ Please use the website:
+[Vipps MobilePay Technical Documentation](https://developer.vippsmobilepay.com/docs/vipps-partner/).
+<!-- END_COMMENT -->
 
 This table gives a high-level overview of the partner levels.
 See also:
