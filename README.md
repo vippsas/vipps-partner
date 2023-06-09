@@ -370,11 +370,5 @@ You may find answers to your questions on our FAQ section on the bottom of the
 
 ## Questions
 
-Please contact your partner manager.
-If you do not have a partner manager, please contact
-[partnerbestilling@vipps.no](mailto:partnerbestilling@vipps.no).
-
-We're always happy to help with code or other questions you might have!
-Please create an [issue](https://github.com/vippsas/vipps-developers/issues)
-or contact us by email:
-[partnerbestilling@vipps.no](mailto:partnerbestilling@vipps.no).
+We're always happy to help with any questions you might have!
+Please contact your partner manager or email us at [partnerbestilling@vipps.no](mailto:partnerbestilling@vipps.no).
