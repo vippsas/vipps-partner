@@ -349,7 +349,8 @@ on the sales unit's MSN.
 
 ## How to change partners for a merchant
 
-It is possible for a merchant to change partners in some cases.
+In general, if a merchant needs to change partners, they need to apply for
+a new sales unit, unless there is a special need for a partner change on an active MSN.
 If this is what you need, please contact your partner manager.
 
 ## The deprecated Vipps Signup API
