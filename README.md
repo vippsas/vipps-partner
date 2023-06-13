@@ -128,9 +128,9 @@ The partner only needs access to the test environment to complete an integration
 An integration is considered complete when all the elements of the
 relevant API checklists are done. See the checklists:
 
-- [ ] [Vipps eCom API](https://developer.vippsmobilepay.com/docs/APIs/ecom-api/vipps-ecom-api-checklist)
-- [ ] [Vipps Recurring API](https://developer.vippsmobilepay.com/docs/APIs/recurring-api/vipps-recurring-api-checklist)
-- [ ] [Vipps Login API](https://developer.vippsmobilepay.com/docs/APIs/login-api/vipps-login-api-checklist)
+* [ ] [Vipps eCom API](https://developer.vippsmobilepay.com/docs/APIs/ecom-api/vipps-ecom-api-checklist)
+* [ ] [Vipps Recurring API](https://developer.vippsmobilepay.com/docs/APIs/recurring-api/vipps-recurring-api-checklist)
+* [ ] [Vipps Login API](https://developer.vippsmobilepay.com/docs/APIs/login-api/vipps-login-api-checklist)
 
 **Important:** Please make sure to read and understand the checklist.
 You must provide the required information, such as orderId and the HTTP headers.

@@ -85,9 +85,9 @@ Topics to cover:
 
 * Installation
 * Configuration
-  - Authorization
-  - Short codes
-  - Webhooks
+  * Authorization
+  * Short codes
+  * Webhooks
 * Additional info (support)
 
 Consider linking to the
@@ -115,13 +115,13 @@ From the integration checklist:
 Topics to cover:
 
 * Order handling
-  - How do I capture an order?
-  - How do I partially capture an order?
-  - How do I cancel an order?
-  - How do I refund an order?
-  - How do I partially refund an order?
-  - How to I find all the details about an order?
-  - How do I debug a failed order?
+  * How do I capture an order?
+  * How do I partially capture an order?
+  * How do I cancel an order?
+  * How do I refund an order?
+  * How do I partially refund an order?
+  * How to I find all the details about an order?
+  * How do I debug a failed order?
 * Additional info (support)
 
 ## Support

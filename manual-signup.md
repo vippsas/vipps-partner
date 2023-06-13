@@ -39,10 +39,10 @@ must use manual signup: The merchant must fill out the form on its own.
    [portal.vipps.no](https://portal.vipps.no).
 
    It is possible to give merchants a direct link to the right product:
-   - Vipps på nett: https://portal.vipps.no/register/vippspaanett
-   - Vipps Checkout: https://portal.vipps.no/register/vippscheckout
-   - Vipps i kassa: https://portal.vipps.no/register/vippsikasse
-   - Vipps Login: https://portal.vipps.no/register/vippslogginn
+   * Vipps på nett: https://portal.vipps.no/register/vippspaanett
+   * Vipps Checkout: https://portal.vipps.no/register/vippscheckout
+   * Vipps i kassa: https://portal.vipps.no/register/vippsikasse
+   * Vipps Login: https://portal.vipps.no/register/vippslogginn
 
    It's the partner's responsibility to make sure the merchant has all necessary
    information to fill out the application correctly. The
@@ -78,7 +78,7 @@ and the merchant's new MSN to make Vipps payments.
 
 **Please note:**
 
-- Partners can ask the merchant to create a user for them, so they get access
+* Partners can ask the merchant to create a user for them, so they get access
   to the merchant's MSN on
   [portal.vipps.no](https://portal.vipps.no)
   as described

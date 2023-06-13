@@ -104,9 +104,9 @@ making payments, refunds, etc.) on behalf of another merchant.
 :bomb: **Potential pitfalls:**
 If you answer _YES_ to any of the following questions, partner keys is **_not_** for your solution.
 
-- [ ] Your merchants can see the partner keys (`client_id`, `client_secret`, `Ocp-Apim-Subscription-Key`) in your solution.
-- [ ] Your merchants have the ability to _change_ their MSN (Merchant Serial Number) in your solution.
-- [ ] The keys and secrets are stored on the merchant system's (in a way that allows them to access and see it).
+* [ ] Your merchants can see the partner keys (`client_id`, `client_secret`, `Ocp-Apim-Subscription-Key`) in your solution.
+* [ ] Your merchants have the ability to _change_ their MSN (Merchant Serial Number) in your solution.
+* [ ] The keys and secrets are stored on the merchant system's (in a way that allows them to access and see it).
 
 ## Partner keys for different APIs
 

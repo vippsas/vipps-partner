@@ -253,25 +253,25 @@ dokumentasjon](https://developer.vippsmobilepay.com/docs/vipps-partner).
 
 1. **Partners ansvar**
 
-    - Partner skal være kontaktpunkt for mottak av henvendelser fra
+   * Partner skal være kontaktpunkt for mottak av henvendelser fra
     Partners Brukersteder (1. linje support).
-    - Dersom Partner ikke kan besvare henvendelsen skal Partner benytte
+   * Dersom Partner ikke kan besvare henvendelsen skal Partner benytte
     Selskapets supportressurser (2. linje support).
-    - Partner bør ikke henvise kunder videre til Selskapet, men
+   * Partner bør ikke henvise kunder videre til Selskapet, men
     fortrinnsvis kontakte Selskapet på vegne av Brukerstedet.
-    - Mottar Partner henvendelser som kan innebære omdømmerisiko og/eller
+   * Mottar Partner henvendelser som kan innebære omdømmerisiko og/eller
     negativ medieomtale for Selskapet, skal Selskapet varsles
     umiddelbart.
 
 2. **Selskapets ansvar**
 
-    - Selskapet skal gjøre nødvendig Dokumentasjon tilgjengelig for
+   * Selskapet skal gjøre nødvendig Dokumentasjon tilgjengelig for
     Partner og deres Brukersteder. Dokumentasjonen hentes fra Selskapets
     nettsider.
-    - Selskapet skal videre sørge for at Partner får tilgang til 2. linje
+   * Selskapet skal videre sørge for at Partner får tilgang til 2. linje
     support, slik at Partner kan gi teknisk støtte og support til sine
     Brukersteder.
-    - Ved behov for utvidet support fra Selskapet overfor Partner, eller
+   * Ved behov for utvidet support fra Selskapet overfor Partner, eller
     Partners Brukersteder, utover det som tilbys vederlagsfritt via 2.
     linje support, inngås separat avtale mellom Partene.
 
