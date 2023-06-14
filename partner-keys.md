@@ -88,6 +88,7 @@ You can think about it this way:
 The *partner keys* are the janitor keys: A partner with partner keys can
 act on behalf of all the sales units that has that partner as partner
 (the janitor keys work for all the apartmens in the building that the janitor is janitor for).
+The partner keys can be used both to manage sales units and to make payments.
 
 #### Management keys
 
