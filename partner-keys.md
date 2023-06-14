@@ -89,14 +89,16 @@ The *partner keys* are the janitor keys: A partner with partner keys can
 act on behalf of all the sales units that has that partner as partner
 (the janitor keys work for all the apartmens in the building that the janitor is janitor for).
 
-### Management keys
+#### Management keys
 
 The _management keys_ are similar to partner keys, but they do not allow moving money.
 They can be used to manage sales units, but not to make payments.
+Think of them as the postman's keys that gives access to the entrance where the mailboxes are,
+but not to the apartments.
 
-### Accounting partner keys
+#### Accounting keys
 
-The _acounting partner keys_ only allow access to the
+The _accounting keys_ only allow access to the
 [Report API](https://developer.vippsmobilepay.com/docs/APIs/report-api),
 for retrieval of data about payments that have been made.
 They can be used to manage sales units or to make payments.
