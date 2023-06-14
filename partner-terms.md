@@ -159,7 +159,7 @@ APIer som fungerer for alle sine brukersteder, og det er dermed ikke
 nødvendig med individuelle API-nøkler for hvert
 brukersted. Partnernøkler kan anvendes til å foreta API-kall på vegne av
 Partners brukersteder (dvs. salgsenhetene som er tilknyttet den enkelte
-partner). Partner bruker sin egen "client_id" og "client_secret", og
+partner). Partner bruker sin egen `client_id` og `client_secret`, og
 spesifiserer hvilket brukersted det gjelder ved å bruke brukerstedets
 MSN (merchant serial number).  
 

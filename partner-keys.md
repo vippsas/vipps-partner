@@ -16,8 +16,8 @@ END_METADATA -->
 <!-- END_COMMENT -->
 
 As a Partner Plus or Partner Premium partner ([see partner levels](https://developer.vippsmobilepay.com/docs/vipps-partner/partner-level-up/)), you manage transactions on behalf of Vipps merchants.
-Vipps provides you with _partner keys_, which allow you to use your own API credentials to
-make API calls on behalf of _all_ your merchants
+Vipps provides you with *partner keys*, which allow you to use your own API credentials to
+make API calls on behalf of *all* your merchants
 (i.e., all the sales units that are linked to you as a partner).
 
 The partner keys work for the sales units regardless linked to you as a partner,
@@ -49,16 +49,16 @@ working to offer different type of partner keys:
 | Accounting partner keys | Provide access to the [Report API](https://developer.vippsmobilepay.com/docs/APIs/report-api). Cannot be used to move money. | Planned availability in Q3. |
 | Management partner keys | Provide access to the [Management API](https://developer.vippsmobilepay.com/docs/APIs/management-api/) (and the [Partner API](https://developer.vippsmobilepay.com/docs/APIs/partner-api)). Cannot be used to move money. | Planned availability in Q3. |
 
-_Partner keys_ are useful for partners who will make transactions on behalf of their merchants.
+*Partner keys* are useful for partners who will make transactions on behalf of their merchants.
 However, since the [Report API](https://developer.vippsmobilepay.com/docs/APIs/report-api) can
 reveal information about a merchant's prices and fees,
-_partner keys_ don't automatically give access to it. The merchant must
+*partner keys* don't automatically give access to it. The merchant must
 explicitly give consent for the partner to get access to this information.
 
-_Management partner keys_ are useful for partners who need to manage their merchants,
-but are unable to use _partner keys_. For example, a partner can't use _partner keys_ to make payments on behalf of merchants if:
+*Management partner keys* are useful for partners who need to manage their merchants,
+but are unable to use *partner keys*. For example, a partner can't use *partner keys* to make payments on behalf of merchants if:
 
-* the _partner keys_ would be visible to the merchants
+* the *partner keys* would be visible to the merchants
 * their [partner level](partner-level-up.md) is not high enough
 
 ## Authentication
@@ -97,15 +97,15 @@ Vipps-System-Plugin-Version: 4.5.6
 
 ## Partner keys must be kept secret for merchants
 
-_Important:_ The partner keys _must never be shared in any readable way with
-the merchants_, as that will let one merchant perform API calls (including
+*Important:* The partner keys *must never be shared in any readable way with
+the merchants*, as that will let one merchant perform API calls (including
 making payments, refunds, etc.) on behalf of another merchant.
 
 :bomb: **Potential pitfalls:**
-If you answer _YES_ to any of the following questions, partner keys is **_not_** for your solution.
+If you answer *YES* to any of the following questions, partner keys is **not** for your solution.
 
 * [ ] Your merchants can see the partner keys (`client_id`, `client_secret`, `Ocp-Apim-Subscription-Key`) in your solution.
-* [ ] Your merchants have the ability to _change_ their MSN (Merchant Serial Number) in your solution.
+* [ ] Your merchants have the ability to *change* their MSN (Merchant Serial Number) in your solution.
 * [ ] The keys and secrets are stored on the merchant system's (in a way that allows them to access and see it).
 
 ## Partner keys for different APIs
@@ -123,8 +123,8 @@ endpoints for both.
 **Please note:**
 
 * If you are already using the same, identical API keys for multiple
-  merchants, you are _already_ using partner keys.
-* You _must not_
+  merchants, you are *already* using partner keys.
+* You *must not*
   use partner keys if the merchants can, in any way, see or access the API keys.
   That would be security problem that would make it possible for someone to act
   on behalf of all your merchants.
@@ -140,7 +140,7 @@ endpoints for both.
   [Common topics: API Keys](https://developer.vippsmobilepay.com/docs/vipps-developers/common-topics/api-keys#getting-the-api-keys)
   for more details.
 * If the merchant is unable to provide the API keys to you in a secure
-  way, the merchant _can_ create a user for you,
+  way, the merchant *can* create a user for you,
   [as described in detail with screenshots](add-portal-user.md).
 * Vipps cannot assist a partner in getting the API keys from the merchant,
   other than by improving the documentation for how to do it.

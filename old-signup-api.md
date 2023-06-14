@@ -30,7 +30,7 @@ The Vipps Signup API was phased out because:
 
 * The signup process is now on
   [portal.vipps.no](https://portal.vipps.no)
-  and has _many_ improvements over the old signup form that is used in steps 2
+  and has *many* improvements over the old signup form that is used in steps 2
   and 3 above as part of the Signup API.
 * [Partner keys](./partner-keys.md)
   eliminate the need for merchant-specific API keys, so step 5 is no longer needed.
@@ -52,7 +52,7 @@ continuously improved.
    [Vipps Checkout](https://vipps.no/produkter-og-tjenester/bedrift/ta-betalt-paa-nett/vipps-checkout/),
    can not be ordered using the Signup API.
    The old signup forms will not be updated to support new products.
-4. The signup on portal.vipps.no already contains a _lot_ of improvements over the
+4. The signup on portal.vipps.no already contains a *lot* of improvements over the
    signup used by the Signup API, and is being continuously improved - practically
    every day. The Signup API gets none of these improvements.   
 5. The callbacks to the partner (with API keys and MSN) often fail because of

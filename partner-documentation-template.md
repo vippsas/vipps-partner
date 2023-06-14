@@ -76,7 +76,7 @@ For information about API keys, see
 
 ## Configuration of Vipps on our (the partner) side
 
-ℹ️ Describe _in detail_ how to configure Vipps, with screenshots, etc.
+ℹ️ Describe *in detail* how to configure Vipps, with screenshots, etc.
 Link to
 [Getting Started](https://developer.vippsmobilepay.com/docs/vipps-developers/getting-started)
 if relevant.
@@ -104,7 +104,7 @@ if relevant.
 
 ℹ️ Document everything required for the merchant to manage their orders.
 All order management must be done in the partner's interface, using the Vipps API,
-and _not_ on portal.vipps.no.
+and *not* on portal.vipps.no.
 
 From the integration checklist:
 
@@ -128,7 +128,7 @@ Topics to cover:
 
 ℹ️ All partners must offer all required support for their merchants.
 Explain how to get help, how to use the partner's support system, etc.
-Document very clearly that the partner's merchants should _never_ contact Vipps directly.
+Document very clearly that the partner's merchants should *never* contact Vipps directly.
 
 ## Questions
 

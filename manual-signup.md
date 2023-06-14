@@ -31,7 +31,7 @@ must use manual signup: The merchant must fill out the form on its own.
    signatory rights for the company.
 
    **Please note:** It is possible for the partner, or simply a person helping the merchant,
-   to _fill out_ the form, but the _signing_ of the form must be done
+   to *fill out* the form, but the *signing* of the form must be done
    by a person with signing rights for the merchant.
 
 3. If the merchant already has a customer relationship or the above step has

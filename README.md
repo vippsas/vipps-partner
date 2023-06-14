@@ -38,11 +38,11 @@ do all development and maintenance on their platform,
 and also provide all support for the merchants.
 
 Vipps Partner Plus and Vipps Partner Premium can and should use partner keys.
-Platform partners on these partner levels use the Vipps APIs _on behalf of_ merchants:
+Platform partners on these partner levels use the Vipps APIs *on behalf of* merchants:
 Initiate payments, do captures, do refunds, etc.
 
 Merchants that use a platform partner with Vipps Partner Plus and Vipps Partner Premium
-_never need to see their API keys_,
+*never need to see their API keys*,
 since the partner uses
 [partner keys](#partner-keys).
 
@@ -56,12 +56,12 @@ integration. Typically, a consultancy firm doing development for the merchant.
 A reseller partner does not use the Vipps APIs on behalf of the merchant.
 
 Merchants that use a reseller partner must
-_provide the API keys to the integration partner_.
+*provide the API keys to the integration partner*.
 See [Common topics: API Keys](https://developer.vippsmobilepay.com/docs/vipps-developers/common-topics/api-keys#getting-the-api-keys).
 
 If the reseller partner continues to run, manage, and develop
-_everything_ related to the Vipps integration after it has bee developed,
-and also manage the API credentials _on behalf of_ the merchant, the partner
+*everything* related to the Vipps integration after it has been developed,
+and also manage the API credentials *on behalf of* the merchant, the partner
 is similar to a platform partner and should use
 [partner keys](#partner-keys).
 
@@ -92,7 +92,7 @@ A partner may act as a different type of partner in different situations.
 It is possible for a partner to both develop an official Vipps plugin and
 to be a platform partner.
 
-This document is mainly for platform partners that act _on behalf of_ merchants,
+This document is mainly for platform partners that act *on behalf of* merchants,
 using one set of API keys for all merchants:
 [Partner keys](#partner-keys).
 Other partners must rely on each merchant's individual API keys.
@@ -120,7 +120,7 @@ you can also use the merchant's API keys for the test environment for developmen
 
 **Please note:** Access to the production environment requires thorough
 checks required by law. For most partners this is not relevant, as
-it is the partner's _merchants_ that will need production access.
+it is the partner's *merchants* that will need production access.
 The partner only needs access to the test environment to complete an integration.
 
 ## Finishing the integration and going live
@@ -178,7 +178,7 @@ See:
 ### Partner keys
 
 As a partner, you manage transactions on behalf of Vipps merchants.
-Vipps provides you with _partner keys_, which allow you to use your own API
+Vipps provides you with *partner keys*, which allow you to use your own API
 credentials to make API calls on behalf of your merchants (i.e., the sales units
 that are connected to you as a partner).
 
@@ -227,7 +227,7 @@ and manage their own sales units in the
 For information about the test environment, see:
 [Developer resources: Test environment](https://developer.vippsmobilepay.com/docs/vipps-developers/test-environment).
 
-**Please note:** Partners can also ask the merchant to create a user for them so
+**Please note:** Partners can also ask the merchant to create a user for them, so
 they get access to the merchant's MSN on
 [portal.vipps.no](https://portal.vipps.no)
 as described
@@ -294,8 +294,8 @@ There are still some common problems that cause delays:
   [legally required terms and conditions](https://www.forbrukertilsynet.no/lov-og-rett/veiledninger-og-retningslinjer/standard-salgsbetingelser-for-forbrukerkjop-av-varer-over-internett).
 * The merchant's website does not have the organization number clearly visible.
 * The merchant has not provided enough information about what they want to use
-  Vipps for (_Spesifiser kort hvilke varer/tjenester dere selger_, in English:
-  _Briefly specify which goods/services you sell_).
+  Vipps for (*Spesifiser kort hvilke varer/tjenester dere selger*, in English:
+  *Briefly specify which goods/services you sell*).
 * If the merchant website is not the distribution channel, the requirements outlined above shall also apply to the partner platform.  
 * Vipps has sent an email requesting additional information, but has not received a reply.
   Merchants should check their "spam" and try to search their email for "vipps".

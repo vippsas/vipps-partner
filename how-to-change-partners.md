@@ -1,3 +1,4 @@
+<!-- START_METADATA
 ---
 title: How to change partners
 sidebar_label: How to change partners
@@ -5,6 +6,7 @@ sidebar_position: 25
 pagination_next: null
 pagination_prev: null
 ---
+END_METADATA -->
 
 # How to change partners for a merchant
 
@@ -13,8 +15,8 @@ pagination_prev: null
 for general information about signing up new merchants.
 
 Merchants can change partners. This is always initiated by the merchant. The
-merchant is responsible, as _data controller_, for which partner(s) can access the
-merchant's data as _data processor_.
+merchant is responsible, as *data controller*, for which partner(s) can access the
+merchant's data as *data processor*.
 
 If the merchant changes partners, the merchant's sales unit (identified with MSN,
 the Merchant Serial Number) must be reconfigured, so the new partner's
@@ -37,7 +39,7 @@ This is the recommended way:
    [portal.vipps.no](https://portal.vipps.no)
    and retrieves the API keys for the MSN, as documented in
    [Common topics: API Keys](https://developer.vippsmobilepay.com/docs/vipps-developers/common-topics/api-keys#getting-the-api-keys).
-2. The merchant securely provides the MSN's API keys to _both_ the
+2. The merchant securely provides the MSN's API keys to *both* the
    old partner and the new partner. This ensures that both partners can
    make API calls for the MSN, regardless of each partner's
    [partner keys](partner-keys.md).
@@ -55,7 +57,7 @@ This is the recommended way:
 
 Both partners can use the MSN's own API (from step 2) keys if there are "special"
 API calls to make in the transition period.
-The new partner should _always_ use the partner keys.
+The new partner should *always* use the partner keys.
 Vipps offers a
 [Postman collection](https://developer.vippsmobilepay.com/docs/APIs/recurring-api/vipps-recurring-api-quick-start)
 that can be used to make manual API calls if needed.
@@ -72,7 +74,7 @@ That will make the MSN's old API keys invalid and unusable for both Partners,
 but the new partner's
 [partner keys](partner-keys.md)
 will continue to work.
-This is also the recommended way to manage API keys when _not_ using partner keys:
+This is also the recommended way to manage API keys when *not* using partner keys:
 Generate new API keys for the merchant, so the keys used by the old partner no
 longer can be used.
 

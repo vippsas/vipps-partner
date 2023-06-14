@@ -21,9 +21,9 @@ Partners should use
 If the partner has not implemented partner keys, there will be some manual work:
 The merchant must retrieve the API keys on
 [portal.vipps.no](https://portal.vipps.no)
-and send them to the partner in a secure way.
+and send them to the partner securely.
 
-If the merchant is unable to provide the API keys to the partner securely, the merchant _can_ create a user for the partner, so the partner can
+If the merchant is unable to provide the API keys to the partner securely, the merchant *can* create a user for the partner, so the partner can
 retrieve the API keys.
 
 This is a step-by-step guide for that.
