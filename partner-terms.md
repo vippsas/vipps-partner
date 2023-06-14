@@ -19,7 +19,7 @@ Version: 2.0
 
 These terms are only provided in Norwegian at this time, but will be provided in English in the future.
 For now, if you need a translation, try pasting the text into
-[Google translate](https://translate.google.com/?sl=no&tl=en&op=translate).
+[Google Translate](https://translate.google.com/?sl=no&tl=en&op=translate).
 
 ## VILKÅR FOR PARTNERE
 
