@@ -101,7 +101,7 @@ but not to the apartments.
 The _accounting keys_ only allow access to the
 [Report API](https://developer.vippsmobilepay.com/docs/APIs/report-api),
 for retrieval of data about payments that have been made.
-They can be used to manage sales units or to make payments.
+They cannot be used to manage sales units or to make payments.
 
 ## Authentication
 
