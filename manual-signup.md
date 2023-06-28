@@ -68,7 +68,7 @@ must use manual signup: The merchant must fill out the form on its own.
    If the partner wants to know the status, it must check with the merchant.
 6. Vipps notifies the merchant **and the partner** by email that the application is approved,
    with the new MSN, and that the merchant can now use Vipps.
-   Both thew merchant and the partner receive exactly the same information.
+   Both the merchant and the partner receive exactly the same information.
    **Please note:** If the application is declined, only the merchant is notified,
    as Vipps may not be allowed to share the reason for declining.
 

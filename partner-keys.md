@@ -61,9 +61,9 @@ but are allowed to use *partner keys*. For example, a partner can't use *partner
 to make payments on behalf of merchants if:
 
 * their [partner level](partner-level-up.md) is not high enough
-* the *partner keys* are available (visible) to the merchants (if they are, one merchant can make payments on behalf of another merchhant)
+* the *partner keys* are available (visible) to the merchants (if they are, one merchant can make payments on behalf of another merchant)
 
-On overview of which type of APi keys give access to what:
+On overview of which type of API keys give access to what:
 
 | API keys        | Manage sales units | Make payments | Use the Report API |
 | --------------- | ------------------ | ------------- | ------------------ |
@@ -71,8 +71,8 @@ On overview of which type of APi keys give access to what:
 | Management keys | ✅                 | ❌             | ❌                 |
 | Accounting keys | ❌                 | ❌             | ✅                 |
 
-**Please note:** If a partner is both an accouting partner and a "normal" partner, 
-the partnwe will have two sets of API keys: Accounting keys and either Partner keys
+**Please note:** If a partner is both an accounting partner and a "normal" partner,
+the partner will have two sets of API keys: Accounting keys and either Partner keys
 or Management keys.
 
 ### An explanation for humans
@@ -81,25 +81,25 @@ or Management keys.
 
 You can think about it this way:
 
-- All sales units are apartments in a large building block
-- Every apartment has its own keys to its own door
-- The janitor has special janitor keys that work in the doors of all the apartments
+* All sales units are apartments in a large building block
+* Every apartment has its own keys to its own door
+* The janitor has special janitor keys that work in the doors of all the apartments
 
 The *partner keys* are the janitor keys: A partner with partner keys can
 act on behalf of all the sales units that has that partner as partner
-(the janitor keys work for all the apartmens in the building that the janitor is janitor for).
+(the janitor keys work for all the apartments in the building that the janitor is janitor for).
 The partner keys can be used both to manage sales units and to make payments.
 
 #### Management keys
 
-The _management keys_ are similar to partner keys, but they do not allow moving money.
+The *management keys* are similar to partner keys, but they do not allow moving money.
 They can be used to manage sales units, but not to make payments.
 Think of them as the postman's keys that gives access to the entrance where the mailboxes are,
 but not to the apartments.
 
 #### Accounting keys
 
-The _accounting keys_ only allow access to the
+The *accounting keys* only allow access to the
 [Report API](https://developer.vippsmobilepay.com/docs/APIs/report-api),
 for retrieval of data about payments that have been made.
 They cannot be used to manage sales units or to make payments.

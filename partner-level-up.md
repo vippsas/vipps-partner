@@ -26,7 +26,7 @@ See also:
 | Number of active merchants < 30            | Number of active merchants >= 30           | Number of active merchants >= 60         |
 | Offer one Vipps product                    | Must offer more than one Vipps product     | Must offer more than one Vipps product   |
 | Fixed price only                           | Pricing according to agreement             | Pricing according to agreement           |
-| Must use the merchants' API keys           | Can use [Partner keys](https://developer.vippsmobilepay.com/docs/vipps-partner/partner-keys)                     | [Partner keys](https://developer.vippsmobilepay.com/docs/vipps-partner/partner-keys)                   | 
+| Must use the merchants' API keys           | Can use [Partner keys](https://developer.vippsmobilepay.com/docs/vipps-partner/partner-keys) | [Partner keys](https://developer.vippsmobilepay.com/docs/vipps-partner/partner-keys)                   |
 | Access to the [Management API](https://developer.vippsmobilepay.com/docs/APIs/management-api/)               | Access to the [Management API](https://developer.vippsmobilepay.com/docs/APIs/management-api/)              | Access to the [Management API](https://developer.vippsmobilepay.com/docs/APIs/management-api/)
 | Self-service using the documentation       | Self-service using the documentation       | Self-service using the documentation     |
 | Support by email                           | Support by email                           | Support by email                         |
@@ -35,6 +35,6 @@ See also:
 | -                                          | Presented on the Vipps website             | Presented on the Vipps website           |
 | -                                          | Marketing cooperation possible             | Marketing cooperation possible           |
 | -                                          | -                                          | Priority onboarding of merchants         |
-| -                                          | -                                          | Workshops with Vipps product teams, etc  |
+| -                                          | -                                          | Workshops with Vipps product teams, etc.  |
 | -                                          | -                                          | Commit to quarterly training             |
 | -                                          | -                                          | Will get help with fixing API errors     |

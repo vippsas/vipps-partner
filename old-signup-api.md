@@ -54,14 +54,14 @@ continuously improved.
    The old signup forms will not be updated to support new products.
 4. The signup on portal.vipps.no already contains a *lot* of improvements over the
    signup used by the Signup API, and is being continuously improved - practically
-   every day. The Signup API gets none of these improvements.   
+   every day. The Signup API gets none of these improvements.
 5. The callbacks to the partner (with API keys and MSN) often fail because of
    problems on the partner's side, and Vipps has an unacceptable amount of manual
    work to handle this by manually sending API keys with encrypted Excel files with
    passwords on SMS, etc.
 6. Merchants that already have another Vipps product get a difficult user experience,
    where they have to provide the same information they have already provided
-   (company details, etc), and sign again with BankID.
+   (company details, etc.), and sign again with BankID.
 7. Vipps is making significant changes to the underlying data model for how
    merchants are represented, and we can not continue to maintain both the
    old Signup API and the current signup on portal.vipps.no.
