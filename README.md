@@ -47,7 +47,7 @@ since the partner uses
 [partner keys](#partner-keys).
 
 Partner keys can be used with the
-[Management API](https://developer.vippsmobilepay.com/docs/APIs/management-api/.
+[Management API](https://developer.vippsmobilepay.com/docs/APIs/management-api/).
 
 ### Reseller partner
 
