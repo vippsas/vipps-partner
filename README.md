@@ -274,7 +274,7 @@ See:
 **Please note:** A partner that only rarely needs to onboard a new merchant can
 have the merchant order Vipps on
 [portal.vipps.no](https://portal.vipps.no)
-instead of using the Management API's pre-fill functionality.
+instead of using the Management API's "pre-fill" functionality.
 The partner may also log in on
 [portal.vipps.no](https://portal.vipps.no)
 and manually fill in the form, which will be similar to using the
