@@ -47,7 +47,7 @@ since the partner uses
 [partner keys](#partner-keys).
 
 Partner keys can be used with the
-[Partner API](https://developer.vippsmobilepay.com/docs/APIs/partner-api).
+[Management API](https://developer.vippsmobilepay.com/docs/APIs/management-api/.
 
 ### Reseller partner
 
@@ -177,10 +177,10 @@ where the merchants can sign up and select you as their partner.
 See:
 [Developer documentation](https://developer.vippsmobilepay.com/docs/vipps-developers).
 
-### Vipps Partner API
+### Vipps Management API
 
 See:
-[Partner API](https://developer.vippsmobilepay.com/docs/APIs/partner-api).
+[Management API](https://developer.vippsmobilepay.com/docs/APIs/management-api/).
 
 ### Partner keys
 
@@ -259,26 +259,26 @@ See: [How to change partners for a merchant](#how-to-change-partners-for-a-merch
 Merchants that do not use a platform partner must sign up on their own on
 [portal.vipps.no](https://portal.vipps.no).
 
-### Partner API
+### Management API
 
 The
-[Vipps Partner API](https://developer.vippsmobilepay.com/docs/APIs/partner-api)
-lets a partner "pre-fill" the product order form on
+[Management API](https://developer.vippsmobilepay.com/docs/APIs/management-api/)
+enables a partner to "pre-fill" the product order form on
 [portal.vipps.no](https://portal.vipps.no)
 on behalf of a merchant, so the merchant can log in,
 check the data, and submit the product order.
 
 See:
-[Submit a product order for a merchant](https://developer.vippsmobilepay.com/docs/APIs/partner-api/vipps-partner-api#submit-a-product-order-for-a-merchant).
+[Pre-fill a product order](https://developer.vippsmobilepay.com/docs/APIs/management-api/management-api-guide/#pre-fill-a-product-order).
 
 **Please note:** A partner that only rarely needs to onboard a new merchant can
 have the merchant order Vipps on
 [portal.vipps.no](https://portal.vipps.no)
-instead of using the Partner API's pre-fill functionality.
+instead of using the Management API's pre-fill functionality.
 The partner may also log in on
 [portal.vipps.no](https://portal.vipps.no)
 and manually fill in the form, which will be similar to using the
-Partner API's "pre-fill" functionality.
+Management API's "pre-fill" functionality.
 
 ### Manual signup
 
@@ -317,9 +317,9 @@ There are still some common problems that cause delays:
 the following priority:
 
 1. Integrate with the
-   [Partner API](https://developer.vippsmobilepay.com/docs/APIs/partner-api/),
+   [Management API](https://developer.vippsmobilepay.com/docs/APIs/management-api/),
    so the functionality is made available in the partner's own admin interface.
-2. Use the Partner API manually with the Postman collection provided by Vipps.
+2. Use the Management API manually with the Postman collection.
 3. Ask the merchant to create a user for the partner on portal.vipps.no,
    so the partner can check on behalf of the merchant:
    [How to add a user on portal.vipps.no](https://developer.vippsmobilepay.com/docs/vipps-partner/add-portal-user).
@@ -350,7 +350,7 @@ to both the merchant and the partner with information about:
 * The sales unit's name
 
 The
-[Vipps Partner API](https://developer.vippsmobilepay.com/docs/APIs/partner-api)
+[Management API](https://developer.vippsmobilepay.com/docs/APIs/management-api/)
 lets a partner look up MSNs based on the merchant's
 organization number, and also retrieve details of a specific sales unit based
 on the sales unit's MSN.
@@ -367,7 +367,7 @@ also called "partial signup", is no longer available,
 and partners should use the more efficient
 [partner keys](#partner-keys)
 (and the
-[Vipps Partner API](#vipps-partner-api)
+[Management API](#vipps-partner-api)
 when possible).
 
 ## FAQ for partners
