@@ -15,7 +15,7 @@ also called "partial signup", is no longer available,
 and partners should use the more efficient
 [partner keys](./partner-keys.md)
 (and the
-[Management API](https://developer.vippsmobilepay.com/docs/APIs/management-api/
+[Management API](https://developer.vippsmobilepay.com/docs/APIs/management-api/)
 when available).
 
 The Vipps Signup API in short:
