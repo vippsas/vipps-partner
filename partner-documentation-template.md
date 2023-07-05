@@ -104,13 +104,13 @@ if relevant.
 
 ℹ️ Document everything required for the merchant to manage their orders.
 All order management must be done in the partner's interface, using the Vipps API,
-and *not* on portal.vipps.no.
+and *not* on [portal.vipps.no](https://portal.vipps.no).
 
 From the integration checklist:
 
 > Make sure your customer service, etc. has all the tools and information they need
 > available in your system, through the APIs listed in the first item in this
-> checklist, and that they do not need to visit portal.vipps.no for normal work.
+> checklist, and that they do not need to visit [portal.vipps.no](https://portal.vipps.no) for normal work.
 
 Topics to cover:
 

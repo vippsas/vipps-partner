@@ -164,7 +164,7 @@ pilot customer info, and a description of the implemented solution.
 Vipps MobilePay Integration Service will verify the integration and contact you.
 
 After the checklist is approved, you will receive all necessary information from
-[partner@vippsmobilepay.com](mailto:partner@vippsmobilepay.com).  
+[partner@vippsmobilepay.com](mailto:partner@vippsmobilepay.com).
 
 Vipps then adds you to the partner page(s) on vipps.no, and in the signup forms on
 [portal.vipps.no](https://portal.vipps.no)
@@ -313,7 +313,7 @@ the following priority:
    [Management API](https://developer.vippsmobilepay.com/docs/APIs/management-api/),
    so the functionality is made available in the partner's own admin interface.
 2. Use the Management API manually with the Postman collection.
-3. Ask the merchant to create a user for the partner on portal.vipps.no,
+3. Ask the merchant to create a user for the partner on [portal.vipps.no](https://portal.vipps.no),
    so the partner can check on behalf of the merchant:
    [How to add a user on portal.vipps.no](https://developer.vippsmobilepay.com/docs/vipps-partner/add-portal-user).
 4. See the FAQ for how to check if a sales unit
