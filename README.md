@@ -110,7 +110,7 @@ read through our FAQ, and fill out the form.
 
 ## Integrate with the Vipps APIs
 
-See: [Developer documentation](#developer-documentation).
+See: [Developer documentation](#developer-documentation)
 
 When your application is approved, you will receive an email with details about access to the
 [test environment](https://developer.vippsmobilepay.com/docs/vipps-developers/test-environment).
@@ -172,15 +172,8 @@ where the merchants can sign up and select you as their partner.
 
 ## Technical information for partners
 
-### Developer documentation
-
-See:
-[Developer documentation](https://developer.vippsmobilepay.com/docs/vipps-developers).
-
-### Vipps Management API
-
-See:
-[Management API](https://developer.vippsmobilepay.com/docs/APIs/management-api/).
+* [Developer documentation](https://developer.vippsmobilepay.com/docs/vipps-developers)
+* [Management API](https://developer.vippsmobilepay.com/docs/APIs/management-api/)
 
 ### Partner keys
 
@@ -215,7 +208,7 @@ Partners that have a Norwegian organization number and Norwegian BankID can
 order Vipps Logg Inn on
 [portal.vipps.no](https://portal.vipps.no).
 The requirements for compliance are simpler than other products, since
-[Vipps Login API](https://developer.vippsmobilepay.com/docs/APIs/login-api)
+[Login API](https://developer.vippsmobilepay.com/docs/APIs/login-api)
 does not allow for payments.
 
 **Please note:**
@@ -362,7 +355,7 @@ See: [How to change partners](how-to-change-partners.md).
 ## The deprecated Vipps Signup API
 
 The deprecated legacy
-[Vipps Signup API](https://github.com/vippsas/vipps-signup-api),
+[Signup API](https://github.com/vippsas/vipps-signup-api),
 also called "partial signup", is no longer available,
 and partners should use the more efficient
 [partner keys](#partner-keys)
