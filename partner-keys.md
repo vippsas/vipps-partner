@@ -26,7 +26,7 @@ whether the keys are used in a POS integration, in a webshop, or something else.
 There are two ways to use partner keys:
 
 1. To use the
-   [Partner API](https://developer.vippsmobilepay.com/docs/APIs/partner-api)
+   [Management API](https://developer.vippsmobilepay.com/docs/APIs/management-api/)
    to create and manage your merchants' sales units.
 2. To make API calls to Vipps APIs on behalf of your merchants (including moving money).
 
@@ -121,12 +121,12 @@ for more details.
 
 ## HTTP headers
 
-In the Partner API, you must use your partner keys instead of the merchant's keys.
+In the Management API, you must use your partner keys instead of the merchant's keys.
 In addition, you must send the `Merchant-Serial-Number` header.
 Note that the partner keys must be used to get the access token, sent in the
 `Authorization` header shown above.
 
-The following is an example Partner API request including the `Merchant-Serial-Number` header, partner keys, and the required
+The following is an example Management API request including the `Merchant-Serial-Number` header, partner keys, and the required
 [Vipps HTTP headers](https://developer.vippsmobilepay.com/docs/vipps-developers/common-topics/http-headers).
 
 ```json

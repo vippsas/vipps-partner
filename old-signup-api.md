@@ -15,7 +15,7 @@ also called "partial signup", is no longer available,
 and partners should use the more efficient
 [partner keys](./partner-keys.md)
 (and the
-[Vipps Partner API](https://developer.vippsmobilepay.com/docs/APIs/partner-api)
+[Management API](https://developer.vippsmobilepay.com/docs/APIs/management-api/)
 when available).
 
 The Vipps Signup API in short:
@@ -35,7 +35,7 @@ The Vipps Signup API was phased out because:
 * [Partner keys](./partner-keys.md)
   eliminate the need for merchant-specific API keys, so step 5 is no longer needed.
 * Partners can use the
-  [Vipps Partner API](https://developer.vippsmobilepay.com/docs/APIs/partner-api)
+  [Management API](https://developer.vippsmobilepay.com/docs/APIs/management-api/)
   to "pre-fill" applications for their merchants.
 
 See: [Why was the Signup API phased out?](#why-was-the-signup-api-phased-out).
@@ -74,4 +74,4 @@ See:
 
 ## When will there be a replacement for the Signup API?
 
-Please use the [Vipps Partner API](https://developer.vippsmobilepay.com/docs/APIs/partner-api).
+Please use the [Management API](https://developer.vippsmobilepay.com/docs/APIs/management-api/).

@@ -15,8 +15,8 @@ END_METADATA -->
 [Vipps MobilePay Technical Documentation](https://developer.vippsmobilepay.com/docs/vipps-partner/).
 <!-- END_COMMENT -->
 
-Partners that can, for some reason, not use the Partner API to
-[submit a product order for a merchant](https://developer.vippsmobilepay.com/docs/APIs/partner-api/vipps-partner-api#submit-a-product-order-for-a-merchant)
+Partners that can, for some reason, not use the Management API to
+[Pre-fill a product order](https://developer.vippsmobilepay.com/docs/APIs/management-api/management-api-guide/#pre-fill-a-product-order)
 must use manual signup: The merchant must fill out the form on its own.
 
 1. The merchant logs in to
@@ -46,7 +46,7 @@ must use manual signup: The merchant must fill out the form on its own.
 
    It's the partner's responsibility to make sure the merchant has all necessary
    information to fill out the application correctly. The
-   [Partner API's prefill functionality](https://developer.vippsmobilepay.com/docs/vipps-partner#partners-use-the-partner-api-to-pre-fill-the-signup-form)
+   [Management API's prefill functionality](https://developer.vippsmobilepay.com/docs/APIs/management-api/management-api-guide/#pre-fill-a-product-order)
    eliminates both this and other steps for the merchant.
 
    When the merchant applies for a Vipps product it must select:
@@ -54,7 +54,7 @@ must use manual signup: The merchant must fill out the form on its own.
    2. The partner
    3. The price package, typically "Price 1", "Price 2" or "Price 3".
       We are aware that it's not ideal to let merchants select the price package,
-      but this is needed when not using the Partner API.
+      but this is needed when not using the Management API.
 
 4. Vipps processes the application and does customer control (KYC, PEP, AML, etc.).
    This may take a few days, depending on the information provided and the workload

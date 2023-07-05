@@ -63,7 +63,7 @@ Vipps offers a
 that can be used to make manual API calls if needed.
 
 The new partner should use the
-[Partner API](https://developer.vippsmobilepay.com/docs/APIs/partner-api/vipps-partner-api)
+[Management API](https://developer.vippsmobilepay.com/docs/APIs/management-api/)
 to verify that the MSN is set up correctly.
 
 **Important:** When or if the merchant wants to remove the old partner's access
