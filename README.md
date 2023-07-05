@@ -164,7 +164,7 @@ pilot customer info, and a description of the implemented solution.
 Vipps MobilePay Integration Service will verify the integration and contact you.
 
 After the checklist is approved, you will receive all necessary information from
-[partnerbestilling@vipps.no](mailto:partnerbestilling@vipps.no).  
+[partner@vippsmobilepay.com](mailto:partner@vippsmobilepay.com).  
 
 Vipps then adds you to the partner page(s) on vipps.no, and in the signup forms on
 [portal.vipps.no](https://portal.vipps.no)
@@ -372,10 +372,10 @@ You may find answers to your questions on our FAQ section on the bottom of the
 
 Please contact your partner manager.
 If you do not have a partner manager, please contact
-[partnerbestilling@vipps.no](mailto:partnerbestilling@vipps.no).
+[partner@vippsmobilepay.com](mailto:partner@vippsmobilepay.com).
 
 We're always happy to help with code or other questions you might have!
 Please create an [issue](https://github.com/vippsas/vipps-developers/issues),
 a [pull request](https://github.com/vippsas/vipps-developers/pulls),
 or contact us by email:
-[partnerbestilling@vipps.no](mailto:partnerbestilling@vipps.no).
+[partner@vippsmobilepay.com](mailto:partner@vippsmobilepay.com).
