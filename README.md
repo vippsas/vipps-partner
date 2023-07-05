@@ -205,7 +205,7 @@ and let us know what your plans are.
 ## How to get access to portal.vipps.no
 
 Partners that have a Norwegian organization number and Norwegian BankID can
-order Vipps Logg Inn on
+order Vipps Login on
 [portal.vipps.no](https://portal.vipps.no).
 The requirements for compliance are simpler than other products, since
 [Login API](https://developer.vippsmobilepay.com/docs/APIs/login-api)
@@ -218,7 +218,7 @@ does not allow for payments.
 * The partner must mention in the application that the application is for a
   partner and that it's for access to the API for development.
 
-When the partner's order for Vipps Logg Inn is approved, the partner can log
+When the partner's order for Vipps Login is approved, the partner can log
 in on
 [portal.vipps.no](https://portal.vipps.no)
 and manage their own sales units in the
@@ -316,10 +316,10 @@ the following priority:
 3. Ask the merchant to create a user for the partner on portal.vipps.no,
    so the partner can check on behalf of the merchant:
    [How to add a user on portal.vipps.no](https://developer.vippsmobilepay.com/docs/vipps-partner/add-portal-user).
-4. See the Vipps FAQ for how to check if a sales unit
-   [has skipLandingPage](https://developer.vippsmobilepay.com/docs/vipps-developers/faqs/reserve-and-capture-faq#how-can-i-check-if-i-have-reserve-capture-or-direct-capture)
+4. See the FAQ for how to check if a sales unit
+   [has `skipLandingPage` enabled](https://developer.vippsmobilepay.com/docs/vipps-developers/faqs/reserve-and-capture-faq#how-can-i-check-if-i-have-reserve-capture-or-direct-capture)
    or
-   [which capture type it has](https://developer.vippsmobilepay.com/docs/vipps-developers/faqs/reserve-and-capture-faq#how-do-i-turn-direct-capture-on-or-off).
+   [which capture type it has direct capture turned off](https://developer.vippsmobilepay.com/docs/vipps-developers/faqs/reserve-and-capture-faq#how-do-i-turn-direct-capture-on-or-off).
 
 **Please note:** Vipps can not share information about the status of a
 merchant's agreement or product orders.
@@ -344,7 +344,7 @@ to both the merchant and the partner with information about:
 
 The
 [Management API](https://developer.vippsmobilepay.com/docs/APIs/management-api/)
-lets a partner look up MSNs based on the merchant's
+enables a partner to look up merchant serial numbers based on the merchant's
 organization number, and also retrieve details of a specific sales unit based
 on the sales unit's MSN.
 
