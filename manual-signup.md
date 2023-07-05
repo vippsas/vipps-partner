@@ -39,22 +39,22 @@ must use manual signup: The merchant must fill out the form on its own.
    [portal.vipps.no](https://portal.vipps.no).
 
    It is possible to give merchants a direct link to the right product:
-   * Vipps på nett: https://portal.vipps.no/register/vippspaanett
-   * Vipps Checkout: https://portal.vipps.no/register/vippscheckout
-   * Vipps i kassa: https://portal.vipps.no/register/vippsikasse
-   * Vipps Login: https://portal.vipps.no/register/vippslogginn
+   * [Vipps på nett](https://portal.vipps.no/register/vippspaanett)
+   * [Vipps Checkout](https://portal.vipps.no/register/vippscheckout)
+   * [Vipps i kassa](https://portal.vipps.no/register/vippsikasse)
+   * [Vipps Login](https://portal.vipps.no/register/vippslogginn)
 
    It's the partner's responsibility to make sure the merchant has all necessary
    information to fill out the application correctly. The
-   [Management API's prefill functionality](https://developer.vippsmobilepay.com/docs/APIs/management-api/management-api-guide/#pre-fill-a-product-order)
+   [Management API's pre-fill functionality](https://developer.vippsmobilepay.com/docs/APIs/management-api/management-api-guide/#pre-fill-a-product-order)
    eliminates both this and other steps for the merchant.
 
    When the merchant applies for a Vipps product it must select:
-   1. The Vipps product (or use a direct link as above)
-   2. The partner
-   3. The price package, typically "Price 1", "Price 2" or "Price 3".
-      We are aware that it's not ideal to let merchants select the price package,
-      but this is needed when not using the Management API.
+   * The Vipps product (or use a direct link as above)
+   * The partner
+   * The price package, typically "Price 1", "Price 2" or "Price 3".
+      Although it's not ideal to let merchants select the price package,
+      this is needed when not using the Management API.
 
 4. Vipps processes the application and does customer control (KYC, PEP, AML, etc.).
    This may take a few days, depending on the information provided and the workload

@@ -23,7 +23,7 @@ The Vipps Signup API in short:
 1. Partners sent some basic info about a new merchant to Vipps.
 2. The merchant got a URL to the old, outdated signup form, with a few pre-filled fields.
 3. The merchant completed the form and signed with BankID.
-4. Vipps processed the application and did customer control (KYC, PEP, AML, etc).
+4. Vipps processed the application and did customer control (KYC, PEP, AML, etc.).
 5. Vipps made a callback to the partner's API with the merchant's new API keys.
 
 The Vipps Signup API was phased out because:

@@ -110,7 +110,7 @@ read through our FAQ, and fill out the form.
 
 ## Integrate with the Vipps APIs
 
-See: [Developer documentation](#developer-documentation)
+See [Vipps MobilePay developer documentation](https://developer.vippsmobilepay.com/docs/vipps-developers/getting-started/) for information about how to get started.
 
 When your application is approved, you will receive an email with details about access to the
 [test environment](https://developer.vippsmobilepay.com/docs/vipps-developers/test-environment).
@@ -262,7 +262,7 @@ on behalf of a merchant, so the merchant can log in,
 check the data, and submit the product order.
 
 See:
-[Pre-fill a product order](https://developer.vippsmobilepay.com/docs/APIs/management-api/management-api-guide/#pre-fill-a-product-order).
+[Pre-fill a product order](https://developer.vippsmobilepay.com/docs/APIs/management-api/management-api-guide/#pre-fill-a-product-order)
 
 **Please note:** A partner that only rarely needs to onboard a new merchant can
 have the merchant order Vipps on
@@ -360,7 +360,7 @@ also called "partial signup", is no longer available,
 and partners should use the more efficient
 [partner keys](#partner-keys)
 (and the
-[Management API](#vipps-partner-api)
+[Management API](#management-api)
 when possible).
 
 ## FAQ for partners
