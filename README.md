@@ -32,14 +32,14 @@ Vipps has four types of partners:
 
 ### Platform partner
 
-Provide a "closed" ready-to-use platform for their merchants,
-do all integration with the Vipps APIs,
+Platform partners provide a *closed*, ready-to-use platform for their merchants.
+They do all integration with the API platform,
 do all development and maintenance on their platform,
 and also provide all support for the merchants.
 
-Vipps Partner Plus and Vipps Partner Premium can and should use partner keys.
-Platform partners on these partner levels use the Vipps APIs *on behalf of* merchants:
-Initiate payments, do captures, do refunds, etc.
+Partners with Partner Plus and Vipps Partner Premium can and should use partner keys.
+Platform partners on these partner levels use the API platform *on behalf of* merchants.
+This means that they can initiate payments, captures, refunds, and other relevant transactions.
 
 Merchants that use a platform partner with Vipps Partner Plus and Vipps Partner Premium
 *never need to see their API keys*,
@@ -53,7 +53,7 @@ Partner keys can be used with the
 
 Assist merchants in development of the merchants'
 integration. Typically, a consultancy firm doing development for the merchant.
-A reseller partner does not use the Vipps APIs on behalf of the merchant.
+A reseller partner does not use the API platform on behalf of the merchant.
 
 Merchants that use a reseller partner must
 *provide the API keys to the integration partner*.
@@ -73,7 +73,7 @@ on contract for Vipps.
 
 If a partner uses official Vipps plugins to implement a Vipps integration
 for a merchant, the API credentials for the merchant must be used, and
-the partner uses the Vipps APIs on behalf of the merchant.
+the partner uses the API platform on behalf of the merchant.
 
 ### PSP partner
 
@@ -108,14 +108,14 @@ Please visit the
 [partner page at Vipps.no](https://www.vipps.no/developer/become-a-partner/),
 read through our FAQ, and fill out the form.
 
-## Integrate with the Vipps APIs
+## Integrate with the API platform
 
 See [Vipps MobilePay developer documentation](https://developer.vippsmobilepay.com/docs/vipps-developers/getting-started/) for information about how to get started.
 
 When your application is approved, you will receive an email with details about access to the
 [test environment](https://developer.vippsmobilepay.com/docs/vipps-developers/test-environment).
 
-If you already have a pilot merchant that has access to the Vipps APIs,
+If you already have a pilot merchant that has access to the API platform,
 you can also use the merchant's API keys for the test environment for development.
 
 **Please note:** Access to the production environment requires thorough

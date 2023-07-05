@@ -28,7 +28,7 @@ There are two ways to use partner keys:
 1. To use the
    [Management API](https://developer.vippsmobilepay.com/docs/APIs/management-api/)
    to create and manage your merchants' sales units.
-2. To make API calls to Vipps APIs on behalf of your merchants (including moving money).
+2. To make requests to the API platform on behalf of your merchants (including moving money).
 
 All partners (with a signed contract) can use partner keys for (1),
 but (2) requires more - see the rest of this document.
