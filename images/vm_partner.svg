@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Visueller" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: VippsDisplay-Regular, 'Vipps Display';
+        font-size: 90px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: #ff5b24;
+      }
+
+      .cls-4 {
+        fill: #ff985f;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <circle class="cls-3" cx="540" cy="540" r="527.78"/>
+  <circle class="cls-2" cx="540" cy="540" r="357.54"/>
+  <text class="cls-1" transform="translate(216.96 278.24) rotate(-46.67)"><tspan x="0" y="0">V</tspan></text>
+  <text class="cls-1" transform="translate(260.2 233.8) rotate(-40.77)"><tspan x="0" y="0">i</tspan></text>
+  <text class="cls-1" transform="translate(276.98 218.04) rotate(-35.1)"><tspan x="0" y="0">p</tspan></text>
+  <text class="cls-1" transform="translate(325.06 184.06) rotate(-26.96)"><tspan x="0" y="0">p</tspan></text>
+  <text class="cls-1" transform="translate(377.87 157.55) rotate(-19.69)"><tspan x="0" y="0">s</tspan></text>
+  <text class="cls-1" transform="translate(421.48 142.4) rotate(-14.87)"><tspan x="0" y="0"> </tspan></text>
+  <text class="cls-1" transform="translate(442.78 134.63) rotate(-7.57)"><tspan x="0" y="0">M</tspan></text>
+  <text class="cls-1" transform="translate(524.86 124.69) rotate(1.78)"><tspan x="0" y="0">o</tspan></text>
+  <text class="cls-1" transform="translate(579.96 126.13) rotate(9.66)"><tspan x="0" y="0">b</tspan></text>
+  <text class="cls-1" transform="translate(638.4 136.92) rotate(15.38)"><tspan x="0" y="0">i</tspan></text>
+  <text class="cls-1" transform="translate(661.1 143.15) rotate(18.66)"><tspan x="0" y="0">l</tspan></text>
+  <text class="cls-1" transform="translate(683.2 149.75) rotate(24.07)"><tspan x="0" y="0">e</tspan></text>
+  <text class="cls-1" transform="translate(732.9 171.78) rotate(31.66)"><tspan x="0" y="0">P</tspan></text>
+  <text class="cls-1" transform="translate(778.82 199.66) rotate(39.27)"><tspan x="0" y="0">a</tspan></text>
+  <text class="cls-1" transform="translate(824.42 237.15) rotate(46.78)"><tspan x="0" y="0">y</tspan></text>
+  <text class="cls-1" transform="translate(357.77 973.65) rotate(19.08)"><tspan x="0" y="0">p</tspan></text>
+  <text class="cls-1" transform="translate(420.67 994.99) rotate(10.92)"><tspan x="0" y="0">a</tspan></text>
+  <text class="cls-1" transform="translate(485.02 1006.48) rotate(4.28)"><tspan x="0" y="0">r</tspan></text>
+  <text class="cls-1" transform="translate(527.23 1009.53) rotate(-.93)"><tspan x="0" y="0">t</tspan></text>
+  <text class="cls-1" transform="translate(569.68 1009.24) rotate(-7.09)"><tspan x="0" y="0">n</tspan></text>
+  <text class="cls-1" transform="translate(632.33 1001.05) rotate(-14.72)"><tspan x="0" y="0">e</tspan></text>
+  <text class="cls-1" transform="translate(690.68 984.98) rotate(-21.1)"><tspan x="0" y="0">r</tspan></text>
+  <path class="cls-3" d="m448.32,445.9h235.07v266.84h-235.07v-266.84Z"/>
+  <path class="cls-4" d="m884.56,445.9h-279.85c-.68-23.3,1.02-46.61,5.05-69.57.77-3.59,1.13-7.17,1.13-10.7,0-23.54-16.4-44.69-40.34-49.8-27.54-5.88-54.62,11.68-60.5,39.22-5.05,26.58-7.59,53.57-7.59,80.63,0,3.4.04,6.81.12,10.22h-95.55c-24.56,0-44.47,19.91-44.47,44.47s19.91,44.47,44.47,44.47c-24.56,0-44.47,19.91-44.47,44.48s19.91,44.47,44.47,44.47c-24.56,0-44.47,19.91-44.47,44.47s19.91,44.47,44.47,44.47h80.85c24.56,0,44.47-19.91,44.47-44.47s-19.9-44.46-44.45-44.47c20.88,0,38.96-14.54,43.43-34.95,19.39,45.85,50.94,85.52,91.24,114.74,10.73,7.85,24.11,11.16,37.26,9.22l192.92-.06c28.23-51.23,44.29-110.11,44.29-172.74,0-32.56-4.34-64.11-12.48-94.1Zm-368.44,99.08s-.01-.03-.01-.05c-7.93-6.5-17.85-10.06-28.11-10.06,8.48-.01,16.78-2.45,23.92-7.02,1.23,5.64,2.62,11.34,4.19,17.08h.01v.05Z"/>
+</svg>

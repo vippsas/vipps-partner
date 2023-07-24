@@ -21,20 +21,21 @@ See also:
 
 | Vipps Partner                              | Vipps Partner Plus                         | Vipps Partner Premium                    |
 | ------------------------------------------ | ------------------------------------------ | ---------------------------------------- |
-| ![Vipps Partner](images/vipps-partner.jpg) | ![Vipps Partner Plus](images/vipps-partner-plus.jpg) | ![Vipps Partner Premium](images/vipps-partner-premium.jpg)
-| Annual revenue < 15 MNOK                   | Annual revenue >= 15 MNOK                  | Annual revenue >= 80 MNOK                 |
+| ![Vipps Partner](./images/vm_partner.png) | ![Vipps Partner Plus](./images/vm_partner_plus.png) | ![Vipps Partner Premium](./images/vm_partner_premium.png)
+| ![Vipps Partner](./images/vm_partner_label.png) | ![Vipps Partner Plus](./images/vm_partner_plus_label.png) | ![Vipps Partner Premium](./images/vm_partner_premium_label.png)
+| Annual revenue < 15 MNOK                   | Annual revenue >= 15 MNOK                  | Annual revenue >= 80 MNOK                |
 | Number of active merchants < 30            | Number of active merchants >= 30           | Number of active merchants >= 60         |
 | Offer one Vipps product                    | Must offer more than one Vipps product     | Must offer more than one Vipps product   |
 | Fixed price only                           | Pricing according to agreement             | Pricing according to agreement           |
-| Must use the merchants' API keys           | Can use [Partner keys](https://developer.vippsmobilepay.com/docs/vipps-partner/partner-keys) | [Partner keys](https://developer.vippsmobilepay.com/docs/vipps-partner/partner-keys)                   |
-| Access to the [Management API](https://developer.vippsmobilepay.com/docs/APIs/management-api/)               | Access to the [Management API](https://developer.vippsmobilepay.com/docs/APIs/management-api/)              | Access to the [Management API](https://developer.vippsmobilepay.com/docs/APIs/management-api/)
+| Must use the merchants' API keys           | Can use [Partner keys](https://developer.vippsmobilepay.com/docs/vipps-partner/partner-keys) | [Partner keys](https://developer.vippsmobilepay.com/docs/vipps-partner/partner-keys) |
+| Access to the [Management API](https://developer.vippsmobilepay.com/docs/APIs/management-api/) | Access to the [Management API](https://developer.vippsmobilepay.com/docs/APIs/management-api/) | Access to the [Management API](https://developer.vippsmobilepay.com/docs/APIs/management-api/)
 | Self-service using the documentation       | Self-service using the documentation       | Self-service using the documentation     |
 | Support by email                           | Support by email                           | Support by email                         |
 | -                                          | Support by Slack                           | Support by Slack                         |
-| -                                          | Possibility for commission                 | Possibility for commission               |
+| -                                          | Opportunity for commission                 | Opportunity for commission               |
 | -                                          | Presented on the Vipps website             | Presented on the Vipps website           |
 | -                                          | Marketing cooperation possible             | Marketing cooperation possible           |
 | -                                          | -                                          | Priority onboarding of merchants         |
-| -                                          | -                                          | Workshops with Vipps product teams, etc.  |
+| -                                          | -                                          | Workshops with Vipps product teams, etc. |
 | -                                          | -                                          | Commit to quarterly training             |
 | -                                          | -                                          | Will get help with fixing API errors     |
