@@ -12,7 +12,7 @@ END_METADATA -->
 
 <!-- START_COMMENT -->
 ℹ️ Please use the website:
-[Vipps MobilePay Technical Documentation](https://developer.vippsmobilepay.com/docs/vipps-partner/).
+[Vipps MobilePay Technical Documentation](https://developer.vippsmobilepay.com/docs/partner/).
 <!-- END_COMMENT -->
 
 Version: 2.0
@@ -48,7 +48,7 @@ til Brukerstedet.
 ### 2. PARTNERS FORPLIKTELSER
 
 1. Partner skal ha gjennomgått [API checklist på
-    github](https://developer.vippsmobilepay.com/docs/vipps-partner#finishing-the-integration-and-going-live).
+    github](https://developer.vippsmobilepay.com/docs/partner#finishing-the-integration-and-going-live).
 
 2. Partner får en begrenset, ikke-eksklusiv og gjenkallelig rett til å
     markedsføre og formidle Produktene i sin virksomhet i forbindelse
@@ -118,7 +118,7 @@ installering og integrering for bruk av Produktene.
 
 Partner kan være en **plattformpartner** eller en
 **integrasjonspartner**. Definisjonen av disse finnes i
-[Dokumentasjonen](https://developer.vippsmobilepay.com/docs/vipps-partner/#partner-types).
+[Dokumentasjonen](https://developer.vippsmobilepay.com/docs/partner/#partner-types).
 
 Produktene gjelder alle tilgjengelige i Vipps produkt porteføljen.
 Nærmere informasjon om Produktene er tilgjengelige på Selskapets
@@ -136,10 +136,10 @@ nettsider.
 
 Partner plikter å integrere Produktene i samsvar med de krav og
 retningslinjer Selskapet gir samt den tekniske
-[Dokumentasjonen](https://developer.vippsmobilepay.com/docs/vipps-partner)
+[Dokumentasjonen](https://developer.vippsmobilepay.com/docs/partner)
 Integrasjonen er først ferdig og klar til å gå "live" når Partner har
 gjennomført stegene beskrevet i
-[Dokumentasjonen](https://developer.vippsmobilepay.com/docs/vipps-partner).
+[Dokumentasjonen](https://developer.vippsmobilepay.com/docs/partner).
 Partner har ansvaret for at Produktene integreres og konfigureres
 optimalt hos Brukerstedene. Kostnader knyttet til Partners leveranse
 avtales direkte mellom Partner og Brukersted.
@@ -149,7 +149,7 @@ når det er behov for å hente informasjon om et Brukersted eller en
 salgsenhet.  
 Partner plikter å abonnere på Vipps' tekniske nyhetsbrev til utviklere,
 tilgjengelig på [Vipps' nettsted for teknisk
-dokumentasjon](https://developer.vippsmobilepay.com/docs/vipps-partner).
+dokumentasjon](https://developer.vippsmobilepay.com/docs/partner).
 
 ### 5. PARTNERNØKLER
 
@@ -165,7 +165,7 @@ MSN (merchant serial number).  
 
 Partner kan ikke bruke partnernøkler til andre formål enn det som er
 beskrevet i
-[Dokumentasjonen](https://developer.vippsmobilepay.com/docs/vipps-partner/partner-keys/).
+[Dokumentasjonen](https://developer.vippsmobilepay.com/docs/partner/partner-keys/).
 Partner er selv ansvarlig for å sikre at partnernøklene ikke blir
 publisert eller delt med uautoriserte personer eller med Brukersteder.
 Manglende sikring av partnernøkler øker sannsynligheten for svindel og
@@ -179,13 +179,13 @@ sikkerheten.
 
 Detaljert informasjon om partnernøkler fremkommer av den til enhver tid
 gjeldende tekniske
-[Dokumentasjonen](https://developer.vippsmobilepay.com/docs/vipps-partner/partner-keys/).  
+[Dokumentasjonen](https://developer.vippsmobilepay.com/docs/partner/partner-keys/).  
 
 ### 6. KRAV TIL FORVALTNING AV INTEGRASJON
 
 Teknisk dokumentasjon for Partner er tilgjengelig på [Vipps' nettsted
 for teknisk
-dokumentasjon](https://developer.vippsmobilepay.com/docs/vipps-partner)
+dokumentasjon](https://developer.vippsmobilepay.com/docs/partner)
 under partnersiden.  
 
 1. **Monitorering og retting av feil**
@@ -247,7 +247,7 @@ under partnersiden.  
 
 Partner skal bruke en av Selskapets prefererte metoder for å onboarde
 brukersteder som beskrevet på [Vipps' nettsted for teknisk
-dokumentasjon](https://developer.vippsmobilepay.com/docs/vipps-partner).
+dokumentasjon](https://developer.vippsmobilepay.com/docs/partner).
 
 ### 8. SUPPORT BRUKERSTED
 

@@ -12,7 +12,7 @@ END_METADATA -->
 
 <!-- START_COMMENT -->
 ℹ️ Please use the website:
-[Vipps MobilePay Technical Documentation](https://developer.vippsmobilepay.com/docs/vipps-partner/).
+[Vipps MobilePay Technical Documentation](https://developer.vippsmobilepay.com/docs/partner/).
 <!-- END_COMMENT -->
 
 Partners that can, for some reason, not use the Management API to
@@ -60,7 +60,7 @@ must use manual signup: The merchant must fill out the form on its own.
    This may take a few days, depending on the information provided and the workload
    and the quality and completeness of the application.
    See the
-   [Typical reasons for delays](https://developer.vippsmobilepay.com/docs/vipps-partner#typical-reasons-for-delays).
+   [Typical reasons for delays](https://developer.vippsmobilepay.com/docs/partner#typical-reasons-for-delays).
 5. The merchant can check the status of the application on
    [portal.vipps.no](https://portal.vipps.no)
    at any time.
