@@ -68,17 +68,17 @@ or not.
 2. Explain how to use the Vipps API keys in the partner's solution,
    complete with screenshots with added arrows, text, etc.
    Link to
-   [Developer resources: Vipps portal: How to find the API keys](https://developer.vippsmobilepay.com/docs/vipps-developers/developer-resources/portal),
+   [Developer resources: Vipps portal: How to find the API keys](https://developer.vippsmobilepay.com/docs/developer-resources/portal),
    if relevant.
 
 For information about API keys, see
-[Common topics: API keys](https://developer.vippsmobilepay.com/docs/vipps-developers/common-topics/api-keys).
+[Common topics: API keys](https://developer.vippsmobilepay.com/docs/common-topics/api-keys).
 
 ## Configuration of Vipps on our (the partner) side
 
 ℹ️ Describe *in detail* how to configure Vipps, with screenshots, etc.
 Link to
-[Getting Started](https://developer.vippsmobilepay.com/docs/vipps-developers/getting-started)
+[Getting Started](https://developer.vippsmobilepay.com/docs/getting-started)
 if relevant.
 
 Topics to cover:
@@ -91,13 +91,13 @@ Topics to cover:
 * Additional info (support)
 
 Consider linking to the
-[Vipps FAQs](https://developer.vippsmobilepay.com/docs/vipps-developers/faqs).
+[Vipps FAQs](https://developer.vippsmobilepay.com/docs/faqs).
 
 ## Frequently asked questions
 
 ℹ️ All partners must offer a FAQ for their merchants.
 Link to the
-[Vipps FAQs](https://developer.vippsmobilepay.com/docs/vipps-developers/faqs),
+[Vipps FAQs](https://developer.vippsmobilepay.com/docs/faqs),
 if relevant.
 
 ## Order handling

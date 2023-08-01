@@ -86,4 +86,4 @@ and the merchant's new MSN to make Vipps payments.
   The user permissions are described (in Norwegian)
   [here](https://vipps.no/hjelp/vipps/kundeforholdet-mitt/hvilke-tilganger-kan-vi-opprette-i-vippsportalen/).
   See:
-  [Developer resources: Vipps Portal: Permissions and users](https://developer.vippsmobilepay.com/docs/vipps-developers/developer-resources/portal#permissions-and-users).
+  [Developer resources: Vipps Portal: Permissions and users](https://developer.vippsmobilepay.com/docs/developer-resources/portal#permissions-and-users).

@@ -57,7 +57,7 @@ A reseller partner does not use the API platform on behalf of the merchant.
 
 Merchants that use a reseller partner must
 *provide the API keys to the integration partner*.
-See [Common topics: API Keys](https://developer.vippsmobilepay.com/docs/vipps-developers/common-topics/api-keys#getting-the-api-keys).
+See [Common topics: API Keys](https://developer.vippsmobilepay.com/docs/common-topics/api-keys#getting-the-api-keys).
 
 If the reseller partner continues to run, manage, and develop
 *everything* related to the Vipps integration after it has been developed,
@@ -110,10 +110,10 @@ read through our FAQ, and fill out the form.
 
 ## Integrate with the API platform
 
-See [Vipps MobilePay developer documentation](https://developer.vippsmobilepay.com/docs/vipps-developers/getting-started/) for information about how to get started.
+See [Vipps MobilePay developer documentation](https://developer.vippsmobilepay.com/docs/getting-started/) for information about how to get started.
 
 When your application is approved, you will receive an email with details about access to the
-[test environment](https://developer.vippsmobilepay.com/docs/vipps-developers/test-environment).
+[test environment](https://developer.vippsmobilepay.com/docs/test-environment).
 
 If you already have a pilot merchant that has access to the API platform,
 you can also use the merchant's API keys for the test environment for development.
@@ -137,10 +137,10 @@ relevant API checklists are done. See the checklists:
 
 **Important:** Please make sure to read and understand the checklist.
 You must provide the required information, such as
-[`reference`](https://developer.vippsmobilepay.com/docs/vipps-developers/common-topics/orderid/),
-[`paymentDescription`](https://developer.vippsmobilepay.com/docs/vipps-developers/common-topics/transactiontext/)
+[`reference`](https://developer.vippsmobilepay.com/docs/common-topics/orderid/),
+[`paymentDescription`](https://developer.vippsmobilepay.com/docs/common-topics/transactiontext/)
 and
-[HTTP headers](https://developer.vippsmobilepay.com/docs/vipps-developers/common-topics/http-headers/).
+[HTTP headers](https://developer.vippsmobilepay.com/docs/common-topics/http-headers/).
 If you simply send a copy of the checklist with "OK" for each item,
 we will have to ask you again to complete the checklist.
 
@@ -172,7 +172,7 @@ where the merchants can sign up and select you as their partner.
 
 ## Technical information for partners
 
-* [Developer documentation](https://developer.vippsmobilepay.com/docs/vipps-developers)
+* [Developer documentation](https://developer.vippsmobilepay.com/docs/)
 * [Management API](https://developer.vippsmobilepay.com/docs/APIs/management-api/)
 
 ### Partner keys
@@ -222,10 +222,10 @@ When the partner's order for Vipps Login is approved, the partner can log
 in on
 [portal.vipps.no](https://portal.vipps.no)
 and manage their own sales units in the
-[test environment](https://developer.vippsmobilepay.com/docs/vipps-developers/test-environment).
+[test environment](https://developer.vippsmobilepay.com/docs/test-environment).
 
 For information about the test environment, see:
-[Developer resources: Test environment](https://developer.vippsmobilepay.com/docs/vipps-developers/test-environment).
+[Developer resources: Test environment](https://developer.vippsmobilepay.com/docs/test-environment).
 
 **Please note:** Partners can also ask the merchant to create a user for them, so
 they get access to the merchant's MSN on
@@ -236,7 +236,7 @@ The user permissions are described (in Norwegian)
 [here](https://vipps.no/hjelp/vipps/kundeforholdet-mitt/hvilke-tilganger-kan-vi-opprette-i-vippsportalen/).
 
 See:
-[Developer resources: Vipps Portal: Permissions and users](https://developer.vippsmobilepay.com/docs/vipps-developers/developer-resources/portal#permissions-and-users).
+[Developer resources: Vipps Portal: Permissions and users](https://developer.vippsmobilepay.com/docs/developer-resources/portal#permissions-and-users).
 
 ## How to sign up new merchants
 
@@ -317,9 +317,9 @@ the following priority:
    so the partner can check on behalf of the merchant:
    [How to add a user on portal.vipps.no](https://developer.vippsmobilepay.com/docs/partner/add-portal-user).
 4. See the FAQ for how to check if a sales unit
-   [has `skipLandingPage` enabled](https://developer.vippsmobilepay.com/docs/vipps-developers/faqs/reserve-and-capture-faq#how-can-i-check-if-i-have-reserve-capture-or-direct-capture)
+   [has `skipLandingPage` enabled](https://developer.vippsmobilepay.com/docs/faqs/reserve-and-capture-faq#how-can-i-check-if-i-have-reserve-capture-or-direct-capture)
    or
-   [which capture type it has direct capture turned off](https://developer.vippsmobilepay.com/docs/vipps-developers/faqs/reserve-and-capture-faq#how-do-i-turn-direct-capture-on-or-off).
+   [which capture type it has direct capture turned off](https://developer.vippsmobilepay.com/docs/faqs/reserve-and-capture-faq#how-do-i-turn-direct-capture-on-or-off).
 
 **Please note:** Vipps can not share information about the status of a
 merchant's agreement or product orders.

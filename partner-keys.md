@@ -127,7 +127,7 @@ Note that the partner keys must be used to get the access token, sent in the
 `Authorization` header shown above.
 
 The following is an example Management API request including the `Merchant-Serial-Number` header, partner keys, and the required
-[Vipps HTTP headers](https://developer.vippsmobilepay.com/docs/vipps-developers/common-topics/http-headers).
+[Vipps HTTP headers](https://developer.vippsmobilepay.com/docs/common-topics/http-headers).
 
 ```json
 Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1Ni <snip>
@@ -173,7 +173,7 @@ endpoints for both.
   That would be security problem that would make it possible for someone to act
   on behalf of all your merchants.
 * Partner keys only work in the production environment. In the
-  [test environment](https://developer.vippsmobilepay.com/docs/vipps-developers/test-environment),
+  [test environment](https://developer.vippsmobilepay.com/docs/test-environment),
   you must use the merchant's API keys.
   If you are not a Vipps merchant in the production environment and do not have
   these keys, you will need to use the merchant keys belonging to one of your
@@ -181,7 +181,7 @@ endpoints for both.
 * Vipps can not send the merchant's API keys to you. You must get them from the
   merchant securely (if partner keys are not used).
   See:
-  [Common topics: API Keys](https://developer.vippsmobilepay.com/docs/vipps-developers/common-topics/api-keys#getting-the-api-keys)
+  [Common topics: API Keys](https://developer.vippsmobilepay.com/docs/common-topics/api-keys#getting-the-api-keys)
   for more details.
 * If the merchant is unable to provide the API keys to you securely, the merchant *can* create a user for you,
   [as described in detail with screenshots](add-portal-user.md).
@@ -192,7 +192,7 @@ endpoints for both.
 
 See:
 
-* [Getting started](https://developer.vippsmobilepay.com/docs/vipps-developers/getting-started)
+* [Getting started](https://developer.vippsmobilepay.com/docs/getting-started)
 
 ## Merchant requirements
 
@@ -201,4 +201,4 @@ customer relationship with Vipps, and that have gone through the required
 compliance checks, etc. after ordering Vipps on
 [portal.vipps.no](https://portal.vipps.no).
 It is not possible to pay the partner instead of the merchant. See also:
-[Can I create a marketplace with multiple merchants?](https://developer.vippsmobilepay.com/docs/vipps-developers/faqs/users-and-payments-faq#can-i-create-a-marketplace-with-multiple-merchants)
+[Can I create a marketplace with multiple merchants?](https://developer.vippsmobilepay.com/docs/faqs/users-and-payments-faq#can-i-create-a-marketplace-with-multiple-merchants)
