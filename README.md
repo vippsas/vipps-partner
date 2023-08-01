@@ -68,7 +68,7 @@ is similar to a platform partner and should use
 ### Plugin supplier
 
 Develops Vipps' official
-[open source plugins](https://developer.vippsmobilepay.com/docs/vipps-plugins)
+[open source plugins](https://developer.vippsmobilepay.com/docs/plugins)
 on contract for Vipps.
 
 If a partner uses official Vipps plugins to implement a Vipps integration
@@ -192,7 +192,7 @@ See: [Partner keys](partner-keys.md).
 ### Plugin development
 
 All official plugins are open source, free to use, and available in our
-[plugin section](https://developer.vippsmobilepay.com/docs/vipps-plugins),
+[plugin section](https://developer.vippsmobilepay.com/docs/plugins),
 as well as on the platforms they are designed for.
 
 We encourage submitting issues and pull requests to improve the plugins.

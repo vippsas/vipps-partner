@@ -223,7 +223,7 @@ under partnersiden.  
     Selskapet er kun ansvarlig for løpende vedlikehold og oppgraderinger av
     Selskapets egne plugins/moduler. Gjeldene oversikt over Selskapets
     offisielle plugins moduler finnes
-    [her](https://developer.vippsmobilepay.com/docs/vipps-plugins).
+    [her](https://developer.vippsmobilepay.com/docs/plugins).
     Selskapet vil løpende informere Partner om endringer i eksisterende
     plugins/moduler. Endringer som medfører at Brukerstedet må gjøre
     endringer på sin side, vil varsles til både Partner og Brukerstedet
