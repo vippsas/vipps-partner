@@ -12,12 +12,12 @@ END_METADATA -->
 
 <!-- START_COMMENT -->
 ℹ️ Please use the website:
-[Vipps MobilePay Technical Documentation](https://developer.vippsmobilepay.com/docs/vipps-partner/).
+[Vipps MobilePay Technical Documentation](https://developer.vippsmobilepay.com/docs/partner/).
 <!-- END_COMMENT -->
 
 This table gives a high-level overview of the partner levels.
 See also:
-[Partner types](https://developer.vippsmobilepay.com/docs/vipps-partner#partner-types).
+[Partner types](https://developer.vippsmobilepay.com/docs/partner#partner-types).
 
 | Vipps Partner                              | Vipps Partner Plus                         | Vipps Partner Premium                    |
 | ------------------------------------------ | ------------------------------------------ | ---------------------------------------- |
@@ -27,7 +27,7 @@ See also:
 | Number of active merchants < 30            | Number of active merchants >= 30           | Number of active merchants >= 60         |
 | Offer one Vipps product                    | Must offer more than one Vipps product     | Must offer more than one Vipps product   |
 | Fixed price only                           | Pricing according to agreement             | Pricing according to agreement           |
-| Must use the merchants' API keys           | Can use [Partner keys](https://developer.vippsmobilepay.com/docs/vipps-partner/partner-keys) | [Partner keys](https://developer.vippsmobilepay.com/docs/vipps-partner/partner-keys) |
+| Must use the merchants' API keys           | Can use [Partner keys](https://developer.vippsmobilepay.com/docs/partner/partner-keys) | [Partner keys](https://developer.vippsmobilepay.com/docs/partner/partner-keys) |
 | Access to the [Management API](https://developer.vippsmobilepay.com/docs/APIs/management-api/) | Access to the [Management API](https://developer.vippsmobilepay.com/docs/APIs/management-api/) | Access to the [Management API](https://developer.vippsmobilepay.com/docs/APIs/management-api/)
 | Self-service using the documentation       | Self-service using the documentation       | Self-service using the documentation     |
 | Support by email                           | Support by email                           | Support by email                         |

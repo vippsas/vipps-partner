@@ -12,10 +12,10 @@ END_METADATA -->
 
 <!-- START_COMMENT -->
 ℹ️ Please use the website:
-[Vipps MobilePay Technical Documentation](https://developer.vippsmobilepay.com/docs/vipps-partner/).
+[Vipps MobilePay Technical Documentation](https://developer.vippsmobilepay.com/docs/partner/).
 <!-- END_COMMENT -->
 
-As a Partner Plus or Partner Premium partner ([see partner levels](https://developer.vippsmobilepay.com/docs/vipps-partner/partner-level-up/)), you manage transactions on behalf of Vipps merchants.
+As a Partner Plus or Partner Premium partner ([see partner levels](https://developer.vippsmobilepay.com/docs/partner/partner-level-up/)), you manage transactions on behalf of Vipps merchants.
 Vipps provides you with *partner keys*, which allow you to use your own API credentials to
 make API calls on behalf of *all* your merchants
 (i.e., all the sales units that are linked to you as a partner).
@@ -45,7 +45,7 @@ working to offer different type of partner keys:
 
 | Name          | Description | Status |
 | ------------- | ----------- | ------ |
-| Partner keys | Provide access to the [Management API](https://developer.vippsmobilepay.com/docs/APIs/management-api/) (and the [Partner API](https://developer.vippsmobilepay.com/docs/APIs/partner-api)). Allow partners to initiate payments and move money on behalf of their merchants (for example, by using the [ePayment API](https://developer.vippsmobilepay.com/docs/APIs/epayment-api)). | Available now, see [Partner levels](https://developer.vippsmobilepay.com/docs/vipps-partner/partner-level-up/). |
+| Partner keys | Provide access to the [Management API](https://developer.vippsmobilepay.com/docs/APIs/management-api/) (and the [Partner API](https://developer.vippsmobilepay.com/docs/APIs/partner-api)). Allow partners to initiate payments and move money on behalf of their merchants (for example, by using the [ePayment API](https://developer.vippsmobilepay.com/docs/APIs/epayment-api)). | Available now, see [Partner levels](https://developer.vippsmobilepay.com/docs/partner/partner-level-up/). |
 | Management keys | Provide access to the [Management API](https://developer.vippsmobilepay.com/docs/APIs/management-api/) (and the [Partner API](https://developer.vippsmobilepay.com/docs/APIs/partner-api)). Cannot be used to move money. Both partners and merchants may use management keys. | Planned availability in Q3. |
 | Accounting keys | Provide access to the [Report API](https://developer.vippsmobilepay.com/docs/APIs/report-api). Cannot be used to move money. | Planned availability in Q3. |
 
@@ -127,7 +127,7 @@ Note that the partner keys must be used to get the access token, sent in the
 `Authorization` header shown above.
 
 The following is an example Management API request including the `Merchant-Serial-Number` header, partner keys, and the required
-[Vipps HTTP headers](https://developer.vippsmobilepay.com/docs/vipps-developers/common-topics/http-headers).
+[Vipps HTTP headers](https://developer.vippsmobilepay.com/docs/common-topics/http-headers).
 
 ```json
 Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1Ni <snip>
@@ -173,7 +173,7 @@ endpoints for both.
   That would be security problem that would make it possible for someone to act
   on behalf of all your merchants.
 * Partner keys only work in the production environment. In the
-  [test environment](https://developer.vippsmobilepay.com/docs/vipps-developers/test-environment),
+  [test environment](https://developer.vippsmobilepay.com/docs/test-environment),
   you must use the merchant's API keys.
   If you are not a Vipps merchant in the production environment and do not have
   these keys, you will need to use the merchant keys belonging to one of your
@@ -181,7 +181,7 @@ endpoints for both.
 * Vipps can not send the merchant's API keys to you. You must get them from the
   merchant securely (if partner keys are not used).
   See:
-  [Common topics: API Keys](https://developer.vippsmobilepay.com/docs/vipps-developers/common-topics/api-keys#getting-the-api-keys)
+  [Common topics: API Keys](https://developer.vippsmobilepay.com/docs/common-topics/api-keys#getting-the-api-keys)
   for more details.
 * If the merchant is unable to provide the API keys to you securely, the merchant *can* create a user for you,
   [as described in detail with screenshots](add-portal-user.md).
@@ -192,7 +192,7 @@ endpoints for both.
 
 See:
 
-* [Getting started](https://developer.vippsmobilepay.com/docs/vipps-developers/getting-started)
+* [Getting started](https://developer.vippsmobilepay.com/docs/getting-started)
 
 ## Merchant requirements
 
@@ -201,4 +201,4 @@ customer relationship with Vipps, and that have gone through the required
 compliance checks, etc. after ordering Vipps on
 [portal.vipps.no](https://portal.vipps.no).
 It is not possible to pay the partner instead of the merchant. See also:
-[Can I create a marketplace with multiple merchants?](https://developer.vippsmobilepay.com/docs/vipps-developers/faqs/users-and-payments-faq#can-i-create-a-marketplace-with-multiple-merchants)
+[Can I create a marketplace with multiple merchants?](https://developer.vippsmobilepay.com/docs/faqs/users-and-payments-faq#can-i-create-a-marketplace-with-multiple-merchants)

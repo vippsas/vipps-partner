@@ -12,11 +12,11 @@ END_METADATA -->
 
 <!-- START_COMMENT -->
 ℹ️ Please use the website:
-[Vipps MobilePay Technical Documentation](https://developer.vippsmobilepay.com/docs/vipps-partner/).
+[Vipps MobilePay Technical Documentation](https://developer.vippsmobilepay.com/docs/partner/).
 <!-- END_COMMENT -->
 
 Partners should use
-[partner keys](https://developer.vippsmobilepay.com/docs/vipps-partner/partner-keys).
+[partner keys](https://developer.vippsmobilepay.com/docs/partner/partner-keys).
 
 If the partner has not implemented partner keys, there will be some manual work:
 The merchant must retrieve the API keys on
