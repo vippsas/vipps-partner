@@ -57,7 +57,7 @@ reveal information about a merchant's prices and fees,
  for the accounting partner to get access to this information.
 
 *Management keys* are useful for partners who need to manage their merchants,
-but are allowed to use *partner keys*. For example, a partner can't use *partner keys*
+but are not allowed to use *partner keys*. For example, a partner can't use *partner keys*
 to make payments on behalf of merchants if:
 
 * their [partner level](partner-level-up.md) is not high enough
