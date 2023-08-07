@@ -49,15 +49,15 @@ working to offer different type of partner keys:
 | Management keys | Provide access to the [Management API](https://developer.vippsmobilepay.com/docs/APIs/management-api/) (and the [Partner API](https://developer.vippsmobilepay.com/docs/APIs/partner-api)). Cannot be used to move money. Both partners and merchants may use management keys. | Planned availability in Q3. |
 | Accounting keys | Provide access to the [Report API](https://developer.vippsmobilepay.com/docs/APIs/report-api). Cannot be used to move money. | Planned availability in Q3. |
 
-*Partner keys* For partners who will make payments on behalf of their merchants.
+*Partner keys* are for partners who will make payments on behalf of their merchants.
 However, since the [Report API](https://developer.vippsmobilepay.com/docs/APIs/report-api) can
 reveal information about a merchant's prices and fees,
 *partner keys* don't automatically give access to it. The merchant must
 [explicitly give consent](https://developer.vippsmobilepay.com/docs/APIs/report-api/api-guide/overview/#give-access-to-an-accounting-partner)
  for the accounting partner to get access to this information.
 
-*Management keys* are useful for partners who need to manage their merchants,
-but are allowed to use *partner keys*. For example, a partner can't use *partner keys*
+*Management keys* are useful for partners who need to manage their merchants
+and are not allowed to use *partner keys*. For example, a partner can't use *partner keys*
 to make payments on behalf of merchants if:
 
 * their [partner level](partner-level-up.md) is not high enough
