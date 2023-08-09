@@ -21,8 +21,8 @@ See also:
 
 | Vipps Partner                              | Vipps Partner Plus                         | Vipps Partner Premium                    |
 | ------------------------------------------ | ------------------------------------------ | ---------------------------------------- |
-| ![Vipps Partner](./images/vm_partner.png) | ![Vipps Partner Plus](./images/vm_partner_plus.png) | ![Vipps Partner Premium](./images/vm_partner_premium.png)
-| ![Vipps Partner](./images/vm_partner_label.png) | ![Vipps Partner Plus](./images/vm_partner_plus_label.png) | ![Vipps Partner Premium](./images/vm_partner_premium_label.png)
+| ![Vipps Partner](./images/vm_partner.svg) | ![Vipps Partner Plus](./images/vm_partner_plus.svg) | ![Vipps Partner Premium](./images/vm_partner_premium.svg)
+| ![Vipps Partner](./images/vm_partner-label.svg) | ![Vipps Partner Plus](./images/vm_partner-label-plus.svg) | ![Vipps Partner Premium](./images/vm_partner-label-premium.svg)
 | Annual revenue < 15 MNOK                   | Annual revenue >= 15 MNOK                  | Annual revenue >= 80 MNOK                |
 | Number of active merchants < 30            | Number of active merchants >= 30           | Number of active merchants >= 60         |
 | Offer one Vipps product                    | Must offer more than one Vipps product     | Must offer more than one Vipps product   |
