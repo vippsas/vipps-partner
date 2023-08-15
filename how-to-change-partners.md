@@ -24,7 +24,7 @@ the Merchant Serial Number) must be reconfigured, so the new partner's
 can be used for the same MSN.
 
 The new partner will get access to all the payments made to the MSN.
-There is no way Vipps can restrict the new partner's access, so it cannot see
+There is no way we can restrict the new partner's access, so it cannot see
 payments made before the partner change.
 
 The MSN can only be used with one set of
@@ -58,7 +58,7 @@ This is the recommended way:
 Both partners can use the MSN's own API (from step 2) keys if there are "special"
 API calls to make in the transition period.
 The new partner should *always* use the partner keys.
-Vipps offers a
+We offer a
 [Postman collection](https://developer.vippsmobilepay.com/docs/APIs/recurring-api/vipps-recurring-api-quick-start)
 that can be used to make manual API calls if needed.
 
@@ -78,6 +78,6 @@ This is also the recommended way to manage API keys when *not* using partner key
 Generate new API keys for the merchant, so the keys used by the old partner no
 longer can be used.
 
-**Please note:** Vipps has previously handled the above by creating a new MSN to use with the
+**Please note:** We have previously handled the above by creating a new MSN to use with the
 new partner. We no longer offer this, as it creates a lot of additional work,
-and it results in a confusing user experience for Vipps users - and partners.
+and it results in a confusing user experience for our users - and partners.
