@@ -23,7 +23,7 @@ See also:
 | ------------------------------------------ | -------------------------------------------- | ---------------------------------------- |
 | ![Partner](./images/vm_partner.svg) | ![Partner Plus](./images/vm_partner_plus.svg) | ![Partner Premium](./images/vm_partner_premium.svg)
 | ![Partner](./images/vm_partner-label.svg) | ![Partner Plus](./images/vm_partner-label-plus.svg) | ![Partner Premium](./images/vm_partner-label-premium.svg)
-| Annual revenue < 15 MNOK                   | Annual revenue >= 15 MNOK                    | Annual revenue >= 80 MNOK                |
+| Annual revenue < 15 MNOK / 10 MDKK / €1M    | Annual revenue >= 15 MNOK / 10 MDKK / €1M | Annual revenue >= 80 MNOK / 50 MDKK / €6M |
 | Number of active merchants < 30            | Number of active merchants >= 30             | Number of active merchants >= 60         |
 | Offer one Vipps MobilePay product          | Must offer more than one Vipps MobilePay product | Must offer more than one Vipps MobilePay product   |
 | Fixed price only                           | Pricing according to agreement               | Pricing according to agreement           |
