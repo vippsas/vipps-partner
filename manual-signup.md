@@ -11,14 +11,10 @@ END_METADATA -->
 
 # Manual signup
 
-<!-- START_COMMENT -->
-ℹ️ Please use the website:
-[Vipps MobilePay Technical Documentation](https://developer.vippsmobilepay.com/docs/partner/).
-<!-- END_COMMENT -->
+Partners that cannot use the
+[Management API](https://developer.vippsmobilepay.com/docs/APIs/management-api/management-api-guide/#pre-fill-a-product-order) to pre-fill a product order must use manual signup.
 
-Partners that can, for some reason, not use the Management API to
-[Pre-fill a product order](https://developer.vippsmobilepay.com/docs/APIs/management-api/management-api-guide/#pre-fill-a-product-order)
-must use manual signup: The merchant must fill out the form on its own.
+The merchant must then fill out the form as follows:.
 
 1. The merchant logs in to
    [portal.vipps.no](https://portal.vipps.no) using BankID
