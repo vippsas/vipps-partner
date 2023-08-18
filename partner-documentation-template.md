@@ -2,6 +2,7 @@
 ---
 title: Partner documentation template
 sidebar_label: Partner documentation template
+description: Vipps MobilePay partner documentation template
 sidebar_position: 90
 pagination_next: null
 pagination_prev: null

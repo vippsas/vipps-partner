@@ -2,6 +2,7 @@
 ---
 title: Partner keys
 sidebar_label: Partner keys
+description: Vipps MobilePay partner keys
 sidebar_position: 20
 pagination_next: null
 pagination_prev: null

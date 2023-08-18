@@ -2,6 +2,7 @@
 ---
 title: Partner terms
 sidebar_label: Partner terms
+description: Terms and conditions for Vipps MobilePay partners
 sidebar_position: 85
 pagination_next: null
 pagination_prev: null

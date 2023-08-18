@@ -2,6 +2,7 @@
 ---
 title: How to change partners
 sidebar_label: How to change partners
+description: How to change partners in Vipps MobilePay
 sidebar_position: 25
 pagination_next: null
 pagination_prev: null

@@ -2,6 +2,7 @@
 ---
 title: Manual signup
 sidebar_label: Manual signup
+description: Vipps MobilePay partner manual signup
 sidebar_position: 35
 pagination_next: null
 pagination_prev: null

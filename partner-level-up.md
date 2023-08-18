@@ -2,6 +2,7 @@
 ---
 title: Partner levels
 sidebar_label: Partner levels
+description: Vipps MobilePay partner levels
 sidebar_position: 10
 pagination_next: null
 pagination_prev: null
