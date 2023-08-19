@@ -16,10 +16,6 @@ END_METADATA -->
 [Vipps MobilePay Technical Documentation](https://developer.vippsmobilepay.com/docs/partner/).
 <!-- END_COMMENT -->
 
-Technical information for partners.
-
-## How to become a partner
-
 If you and your merchants have a good volume and great potential, we would like
 to have you on the team as a partner. The goal of the partner program is to
 find areas where we can work closely together and experience good growth - together.
@@ -30,29 +26,41 @@ solutions for our customers.
 
 Vipps MobilePay has four types of partners:
 
+* [Platform partner](#platform-partner)
+* [Reseller partner](#reseller-partner)
+* [Plugin supplier](#plugin-supplier)
+* [PSP partner](#psp-partner)
+
+A partner may act as a different type of partner in different situations.
+For example, it's possible for a partner to develop an official Vipps MobilePay plugin;
+as well, as being a platform partner.
+
+This document is mainly for platform partners that act *on behalf of* merchants,
+using one set of API keys for all merchants:
+[Partner keys](#partner-keys).
+Other partners must rely on each merchant's individual API keys.
+
 ### Platform partner
 
-Platform partners provide a *closed*, ready-to-use platform for their merchants.
+*Platform partners* provide a *closed*, ready-to-use platform for their merchants.
 They do all integration with the API platform,
 do all development and maintenance on their platform,
 and also provide all support for the merchants.
 
-Partners with Partner Plus and Partner Premium can and should use partner keys.
+Partners with *Partner Plus* and *Partner Premium* can and should use [partner keys](#partner-keys).
 Platform partners on these partner levels use the API platform *on behalf of* merchants.
 This means that they can initiate payments, captures, refunds, and other relevant transactions.
 
-Merchants that use a platform partner with Partner Plus and Partner Premium
-*never need to see their API keys*,
-since the partner uses
-[partner keys](#partner-keys).
+Merchants that use a platform partner with *Partner Plus* or *Partner Premium*
+*never need to see their API keys*, since the partner uses partner keys.
 
 Partner keys can be used with the
 [Management API](https://developer.vippsmobilepay.com/docs/APIs/management-api/).
 
 ### Reseller partner
 
-Assist merchants in development of the merchants'
-integration. Typically, a consultancy firm doing development for the merchant.
+*Reseller partners* assist merchants in development of their integration.
+Typically, this is a consultancy firm doing development for the merchant.
 A reseller partner does not use the API platform on behalf of the merchant.
 
 Merchants that use a reseller partner must
@@ -67,9 +75,9 @@ is similar to a platform partner and should use
 
 ### Plugin supplier
 
-Develops Vipps MobilePay official
+*Plugin suppliers* develop official
 [open source plugins](https://developer.vippsmobilepay.com/docs/plugins)
-on contract for Vipps MobilePay.
+on contract from Vipps MobilePay.
 
 If a partner uses official Vipps MobilePay plugins to implement a integration
 for a merchant, the API credentials for the merchant must be used, and
@@ -77,40 +85,25 @@ the partner uses the API platform on behalf of the merchant.
 
 ### PSP partner
 
-Uses the
+*PSP partners* use the
 [PSP API](https://developer.vippsmobilepay.com/docs/APIs/psp-api)
-to offer Vipps MobilePay to its merchants.
-
-Information for PSP (Payment Service Providers) is here:
-[PSP API](https://developer.vippsmobilepay.com/docs/APIs/psp-api),
-including
-[PSP Signup API](https://developer.vippsmobilepay.com/docs/APIs/psp-api/vipps-psp-signup-api).
-
-### More about partner types
-
-A partner may act as a different type of partner in different situations.
-It is possible for a partner to both develop an official Vipps MobilePay plugin and
-to be a platform partner.
-
-This document is mainly for platform partners that act *on behalf of* merchants,
-using one set of API keys for all merchants:
-[Partner keys](#partner-keys).
-Other partners must rely on each merchant's individual API keys.
+to offer Vipps MobilePay to their merchants.
 
 ## Partner levels
 
-See:
+There are three partner levels: *Partner*, *Partner Plus*, and *Partner Premium*.
+For more details about these, see
 [Partner levels](partner-level-up.md).
 
-## Apply on vipps.no
+## How to become a partner
 
 Please visit the
-[partner page at Vipps.no](https://www.vipps.no/developer/become-a-partner/),
+[partner page](https://www.vipps.no/developer/become-a-partner/),
 read through our FAQ, and fill out the form.
 
 ## Integrate with the API platform
 
-See [developer documentation](https://developer.vippsmobilepay.com/docs/getting-started/) for information about how to get started.
+See [developer documentation](https://developer.vippsmobilepay.com/docs/) for information about how to get started.
 
 When your application is approved, you will receive an email with details about access to the
 [test environment](https://developer.vippsmobilepay.com/docs/test-environment).
@@ -169,11 +162,6 @@ After the checklist is approved, you will receive all necessary information from
 We then add you to the partner page(s) on vipps.no, and in the signup forms on
 [portal.vipps.no](https://portal.vipps.no)
 where the merchants can sign up and select you as their partner.
-
-## Technical information for partners
-
-* [Developer documentation](https://developer.vippsmobilepay.com/docs/)
-* [Management API](https://developer.vippsmobilepay.com/docs/APIs/management-api/)
 
 ### Partner keys
 
@@ -275,7 +263,9 @@ Management API's "pre-fill" functionality.
 
 ### Manual signup
 
-See: [Manual signup](manual-signup.md).
+Partners that cannot use the Management API
+to pre-fill a product order must use
+[Manual signup](manual-signup.md).
 
 ### Typical reasons for delays
 
@@ -327,7 +317,7 @@ This is because we need explicit consent from the merchant to share the
 information with the partner, and the consent must also be possible to withdraw.
 We have not been able to prioritize implementing this consent management.
 Also: Some applications may be declined due to too high risk, suspicion of fraud, etc.
-We can not "leak" this information about the merchant.
+We cannot "leak" this information about the merchant.
 The partner must always check with the merchant.
 
 The merchant can check the status on
@@ -356,17 +346,22 @@ See: [How to change partners](how-to-change-partners.md).
 
 The deprecated legacy
 [Signup API](https://github.com/vippsas/vipps-signup-api),
-also called "partial signup", is no longer available,
-and partners should use the more efficient
+also called "partial signup", is no longer available.
+
+Partners should switch to the more efficient
 [partner keys](#partner-keys)
-(and the
-[Management API](#management-api)
-when possible).
+in conjunction with the
+[Management API](#management-api), when possible.
 
 ## FAQ for partners
 
 You may find answers to your questions on our FAQ section on the bottom of the
 [partner page on vipps.no](https://www.vipps.no/developer/become-a-partner/)
+
+## Technical information for partners
+
+* [Developer documentation](https://developer.vippsmobilepay.com/docs/)
+* [Management API](https://developer.vippsmobilepay.com/docs/APIs/management-api/)
 
 ## Questions
 
