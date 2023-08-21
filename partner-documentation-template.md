@@ -27,10 +27,10 @@ for more information.
 ## How to order Vipps MobilePay products
 
 ℹ️ Partners should use the
-[Partner API](https://developer.vippsmobilepay.com/docs/APIs/partner-api)
+[Management API](https://developer.vippsmobilepay.com/docs/APIs/management-api/)
 to pre-fill product orders for merchants,
 and document how the merchant sign up in the partner's interface.
-If the [Partner API](https://developer.vippsmobilepay.com/docs/APIs/partner-api/) is not used, the merchants must order products on
+If the [Management API](https://developer.vippsmobilepay.com/docs/APIs/management-api/) is not used, the merchants must order products on
 [portal.vipps.no](https://portal.vipps.no), as described below:
 
 1. Log in with BankID (everyone with BankID can log in).
@@ -57,7 +57,7 @@ use
 [partner keys](https://developer.vippsmobilepay.com/docs/partner/partner-keys)
 or not.
 
-1. Explain that (since you use the Partner API and partner keys) the merchant
+1. Explain that (since you use the Management API and partner keys) the merchant
    does not have to do anything after ordering Vipps MobilePay in the partner's interface:
 
    "When the application is complete, you will get an email.
