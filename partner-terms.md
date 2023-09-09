@@ -9,7 +9,7 @@ pagination_prev: null
 ---
 END_METADATA -->
 
-# Vipps MobilePay Partner Terms and Conditions
+# Partner Terms and Conditions
 
 <!-- START_COMMENT -->
 ℹ️ Please use the website:
