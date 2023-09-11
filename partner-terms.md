@@ -50,7 +50,7 @@ The following definitions are used in the Partner Terms
 
 **Plugins:** software components as described in the Documentation ([Plugins](https://developer.vippsmobilepay.com/docs/vipps-plugins/)), including SDKs.
 
-**Products:** all payment services and ancillary services provided to Merchants by Vipps MobilePay and included in the product portfolio described at vippsmobilepay.com as amended from time to time by Vipps MobilePay. That notwithstanding, pass-through services where Vipps MobilePay facilitates acceptance of a payment made with a payment instrument issued by a third party (currently Vipps PSP and MobilePay Online) are not included in Products.
+**Products:** all payment services and ancillary services provided to Merchants by Vipps MobilePay and included in the product portfolio described at [vippsmobilepay.com](https://vippsmobilepay.com/) as amended from time to time by Vipps MobilePay. That notwithstanding, pass-through services where Vipps MobilePay facilitates acceptance of a payment made with a payment instrument issued by a third party (currently Vipps PSP and MobilePay Online) are not included in Products.
 
 **Sales Unit** : physical and/or online point of sales capable of receiving payments with a Product, created by a Merchant.
 
