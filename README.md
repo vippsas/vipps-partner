@@ -16,8 +16,6 @@ END_METADATA -->
 [Vipps MobilePay Technical Documentation](https://developer.vippsmobilepay.com/docs/partner/).
 <!-- END_COMMENT -->
 
-💥 Please note: These terms are still under development. 💥
-
 If you and your merchants have a good volume and great potential, we would like
 to have you on the team as a partner. The goal of the partner program is to
 find areas where we can work closely together and experience good growth - together.

@@ -16,7 +16,9 @@ END_METADATA -->
 [Vipps MobilePay Technical Documentation](https://developer.vippsmobilepay.com/docs/partner/).
 <!-- END_COMMENT -->
 
-Version: 1.0
+💥 Please note: These terms are still under development. 💥
+
+Version: 0.0
 
 ## 1. SCOPE
 
