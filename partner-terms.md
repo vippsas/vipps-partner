@@ -400,7 +400,7 @@ The following definitions are used in the Partner Terms
 
 ### 3. PARTNER OBLIGATIONS
 
-1. Partner must have read and comply with the applicable [API checklist](https://vippsas.github.io/vipps-developer-docs/docs/vipps-partner#finishing-the-integration-and-going-live) in the technical [Documentation](https://developer.vippsmobilepay.com/docs/vipps-partner/).
+1. Partner must have read and comply with the applicable API checklist in the technical [Documentation](https://developer.vippsmobilepay.com/docs/vipps-partner/).
 
 1. Partner gets a limited, non-exclusive and revocable right to market, distribute and promote the Products as a reseller, as long as the Partner Terms are valid and in force, and in the context of the Partner's business related to preparation, installment and integration services provided to the Merchants.
 
@@ -434,7 +434,7 @@ If the Partner does not comply with the above-mentioned obligations, Vipps Mobil
 
 Partner can implement support for one or more of the Products based on Plugins or APIs which Vipps MobilePay has made available. The APIs and Plugins, including Documentation, are the sole property of Vipps MobilePay.
 
-1. Partner is obligated to integrate the Products in accordance with the Documentation and the at all time applicable requirements and guidelines provided by Vipps MobilePay and the [Documentation](https://vippsas.github.io/vipps-developer-docs/docs/vipps-partner). The integration is final and ready to go "live" when Partner has completed the checklist, as described in the Documentation ([Partners](https://vippsas.github.io/vipps-developer-docs/docs/vipps-partner)).
+1. Partner is obligated to integrate the Products in accordance with the Documentation and the at all time applicable requirements and guidelines provided by Vipps MobilePay and the [Documentation](README.md). The integration is final and ready to go "live" when Partner has completed the checklist, as described in the Documentation ([Partners](README.md#finishing-the-integration-and-going-live)).
 
 1. Partner bears the responsibility for correct and optimal integration and configuration of the Products with the Merchants.
 
@@ -454,9 +454,7 @@ For avoidance of doubt, costs related to the Partner's integration to the Produc
 
 ### 5. PARTNER KEYS
 
-A Partner who supplies complete solutions to Merchants can get access to Partner Keys by entering into a specific Partner Key Agreement with Vipps MobilePay. Partner thereby gets a set of API keys which works for all the Partner's Merchants. Partner Keys can be used to make API requests on behalf of a Partner's Merchants.
-
-Partner cannot use Partner Keys for other purposes than what is described in the Documentation ([Partner keys](https://vippsas.github.io/vipps-developer-docs/docs/vipps-partner/partner-keys)).
+A Partner who will make payments on behalf of the Partner’s Merchant(s) can get access to Partner Keys by entering into a specific Partner Key Agreement with Vipps MobilePay. Partner thereby gets a set of API keys which work for all the Partner’s Merchants.
 
 ### 6. REQUIREMENTS FOR ADMINISTRATION OF INTEGRATION
 
@@ -480,7 +478,15 @@ Partner cannot use Partner Keys for other purposes than what is described in the
 
     Plugins or integrations that a Partner has developed based on the API may stop functioning when a specific API is phased out, or it is materially changed.
 
-1. Partner is obligated to upgrade to the newest versions of APIs no later than 60 days after they have been made available by Vipps MobilePay. If the Partner does not upgrade in accordance with the before-mentioned, Vipps MobilePay is entitled to terminate the Partner Terms for cause as provided in section Termination.
+1. Partner is obligated to upgrade to the newest versions of APIs after they have been made available by Vipps MobilePay. The updates are described in the API Lifecycle. Partner must update the APIs at the latest:
+
+* "Major version" within xx days.
+
+* "Minor version" within xx days.
+
+* "Patch version" within xx days.
+
+    If the Partner does not upgrade in accordance with the before-mentioned, Vipps MobilePay is entitled to terminate the Partner Terms for cause as provided in section Termination.
 
 1. Partner who has developed own Plugins/integrations must on an ongoing basis maintain and update them in order to support all possibilities and improvements made available in the API.
 
