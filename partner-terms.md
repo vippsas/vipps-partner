@@ -8,9 +8,6 @@ pagination_next: null
 pagination_prev: null
 ---
 
-import ApiSchema from '@theme/ApiSchema';
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
 END_METADATA -->
 
 # Partner terms and conditions
