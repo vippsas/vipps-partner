@@ -1,8 +1,8 @@
 <!-- START_METADATA
 ---
-title: Vipps MobilePay Partner Terms and Conditions
-sidebar_label: Terms and Conditions
-description: Vipps MobilePay Partner Terms and Conditions
+title: Vipps MobilePay Partner terms and conditions
+sidebar_label: Terms and conditions
+description: Vipps MobilePay partner terms and conditions
 sidebar_position: 85
 pagination_next: null
 pagination_prev: null
@@ -13,7 +13,7 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 END_METADATA -->
 
-# Partner Terms and Conditions
+# Partner terms and conditions
 
 <!-- START_COMMENT -->
 ℹ️ Please use the website:
@@ -21,23 +21,11 @@ END_METADATA -->
 <!-- END_COMMENT -->
 
 
-<Tabs
-defaultValue="vipps"
-groupId="brands"
-values={[
-{label: 'Vipps', value: 'vipps'},
-{label: 'Vipps MobilePay', value: 'vmp'},
-]}>
-<TabItem value="vipps">
-
+## Vipps partner terms and conditions (Norwegian)
 
 Version: 2.0
 
-These terms are only provided in Norwegian at this time, but will be provided in English in the future.
-For now, if you need a translation, try pasting the text into
-[Google Translate](https://translate.google.com/?sl=no&tl=en&op=translate).
-
-## VILKÅR FOR PARTNERE
+### VILKÅR FOR PARTNERE
 
 Vilkårene regulerer forpliktelser i forbindelse med Partners
 distribusjon, klargjøring, installering og integrering for bruk av
@@ -369,15 +357,13 @@ forhandlingene ikke fører frem avgjøres saken ved ordinær
 domstolsbehandling. Oslo er verneting.
 
 
-</TabItem>
+## Vipps MobilePay partner terms and conditions
 
-<TabItem value="vmp">
-
-💥 These terms are still under development. 💥
+💥 Under development. 💥
 
 Version: 1.0.0
 
-## 1. SCOPE
+### 1. SCOPE
 
 The Vipps MobilePay Partner Terms and Conditions ("the Partner Terms") is a legally binding contract between Partner and Vipps MobilePay entered into when Partner accepts the Partner Terms.
 
@@ -387,7 +373,7 @@ The Products are dependent on Vipps MobilePay maintaining the required license(s
 
 Vipps MobilePay and the Partner are each referred to as a "Party" and jointly as "Parties".
 
-## 2. DEFINITIONS
+### 2. DEFINITIONS
 
 The following definitions are used in the Partner Terms
 
@@ -415,7 +401,7 @@ The following definitions are used in the Partner Terms
 
 **Vipps MobilePay** : means Vipps MobilePay AS, Postboks 9236 Grønland 0134 Oslo, Org. 918 713 867, including any local branch or group entity. Vipps MobilePay is a Norwegian registered payment service provider ("betalingsforetak") with license from the Ministry of Finance ("Finansdepartementet") and is subject to monitoring from the Financial Authority ("Finanstilsynet") in accordance with Financial Institutions Act ("finansforetaksloven") §§ 2-10 to 2-11.
 
-## 3. PARTNER OBLIGATIONS
+### 3. PARTNER OBLIGATIONS
 
 1. Partner must have read and comply with the applicable [API checklist](https://vippsas.github.io/vipps-developer-docs/docs/vipps-partner#finishing-the-integration-and-going-live) in the technical [Documentation](https://developer.vippsmobilepay.com/docs/vipps-partner/).
 
@@ -447,7 +433,7 @@ The following definitions are used in the Partner Terms
 
 If the Partner does not comply with the above-mentioned obligations, Vipps MobilePay may limit the Partner's right to distribute, prepare, install and/or integrate the use of the Products and/or terminate the Partner Terms in accordance with section "Termination".
 
-## 4. PARTNERS OBLIGATION IN TERMS OF THE INTEGRATION
+### 4. PARTNERS OBLIGATION IN TERMS OF THE INTEGRATION
 
 Partner can implement support for one or more of the Products based on Plugins or APIs which Vipps MobilePay has made available. The APIs and Plugins, including Documentation, are the sole property of Vipps MobilePay.
 
@@ -469,15 +455,15 @@ Partner can implement support for one or more of the Products based on Plugins o
 
 For avoidance of doubt, costs related to the Partner's integration to the Products shall be borne solely by the Partner.
 
-## 5. PARTNER KEYS
+### 5. PARTNER KEYS
 
 A Partner who supplies complete solutions to Merchants can get access to Partner Keys by entering into a specific Partner Key Agreement with Vipps MobilePay. Partner thereby gets a set of API keys which works for all the Partner's Merchants. Partner Keys can be used to make API requests on behalf of a Partner's Merchants.
 
 Partner cannot use Partner Keys for other purposes than what is described in the Documentation ([Partner keys](https://vippsas.github.io/vipps-developer-docs/docs/vipps-partner/partner-keys)).
 
-## 6. REQUIREMENTS FOR ADMINISTRATION OF INTEGRATION
+### 6. REQUIREMENTS FOR ADMINISTRATION OF INTEGRATION
 
-### Plugins
+#### Plugins
 
 1. Vipps MobilePay will on an ongoing basis and in its sole discretion assess what platforms it offers Plugins for and when it is considered beneficial to initiate necessary work to establish official Plugins for a platform. Launch of new official Plugins is informed via the technical newsletter. Partner and Merchants are encouraged to use official Plugins.
 
@@ -489,7 +475,7 @@ Partner cannot use Partner Keys for other purposes than what is described in the
 
 1. Vipps MobilePay will inform Partner if APIs and Plugins will be phased out or deactivated within reasonable time before the phase out/deactivation.
 
-### APIs
+#### APIs
 
 1. Partner is obligated to monitor use of the APIs, including registering any error messages from the APIs in the Partner's solution, and to correct all API errors that are retrieved in the API responses. It is the Partner's responsibility to ensure correct use of the APIs. Partner must correct any erroneous use of the APIs within 30 days after Vipps MobilePay gives the Partner a written notice about unresolved errors. If the errors have not been corrected within 30 days after the written notice, Vipps MobilePay is entitled to terminate the Partner Terms for cause in accordance with section Termination.
 
@@ -503,9 +489,9 @@ Partner cannot use Partner Keys for other purposes than what is described in the
 
 1. In case of significant changes in the Products, for example if an API is phased out and/or Plugins are launched, Partner is encouraged to recommend the Merchant to change to Vipps MobilePay's official Plugins.
 
-## 7. OBLIGATIONS IN TERMS OF MERCHANTS
+### 7. OBLIGATIONS IN TERMS OF MERCHANTS
 
-### Partner's responsibility
+#### Partner's responsibility
 
 1. Partner must onboard Merchants using the [Management API](https://developer.vippsmobilepay.com/docs/APIs/management-api/), as further described in the Documentation ([Partners](https://developer.vippsmobilepay.com/docs/partner)).
 
@@ -517,13 +503,13 @@ Partner cannot use Partner Keys for other purposes than what is described in the
 
 1. Partner must inform Vipps MobilePay immediately if Partner receives inquiries that may involve security, reputational risk and/or negative media coverage regarding Vipps MobilePay.
 
-### Vipps MobilePay's responsibility
+#### Vipps MobilePay's responsibility
 
 1. Vipps MobilePay shall make the necessary documentation available for Partners and Merchants.
 
 1. Vipps MobilePay shall provide second-line support free of charge to Partner, in order for Partner to be able to provide technical and other support to Merchant.
 
-## 8. ACCESSIBILITY
+### 8. ACCESSIBILITY
 
 In the event of planned down-time, besides maintenance windows as defined in the Documentation or Merchant Terms, Vipps MobilePay informs Partner in the status pages in accordance with established routines in reasonable time.
 
@@ -531,7 +517,7 @@ Vipps MobilePay may at any time and without notification apply any security meas
 
 Vipps MobilePay maintains an [operational information](https://vipps.statuspage.io/) website, where status information on current service interruptions is made available.
 
-## 9. TERMINATION
+### 9. TERMINATION
 
 Either Party may terminate the Partner Terms for convenience at any time with three (3) months' written notice.
 
@@ -541,13 +527,13 @@ In the event of a Party's material breach of the Partner Terms, the other Party 
 
 Further, Vipps MobilePay is entitled to terminate the Partner Terms for cause with immediate effect if the Partner enters into bankruptcy, becomes part of a mandatory estate management or similar or is liquidated or removed from the company registry.
 
-## 10. EFFECT OF TERMINATION
+### 10. EFFECT OF TERMINATION
 
 In the event of termination of the Partner Terms, Partner must in collaboration with Vipps MobilePay provide the Merchant with information of termination, what the termination means for the Merchant, and what the Merchant can do in order to continue using the Products. If necessary, Vipps MobilePay can notify the Merchants directly.
 
 After termination of the Partner Terms, Partner shall not present or otherwise market itself as partner of Vipps MobilePay. This includes amongst others that Partner must remove all references to Vipps MobilePay, including names, logos, trademarks and other business marks, from its digital spaces and from marketing material.
 
-## 11. AMENDMENTS
+### 11. AMENDMENTS
 
 Vipps MobilePay reserves the right to change the Vipps MobilePay Partner Terms with 3 months written notice to the Partner.
 
@@ -557,13 +543,13 @@ The Partner will be notified of changes via e-mail. The Partner is obligated to 
 
 Vipps MobilePay reserves the right to change the agreement between Vipps MobilePay and Merchants, including pricing and fees, in accordance with the Merchant Terms.
 
-## 12. REGULATORY COMPLIANCE
+### 12. REGULATORY COMPLIANCE
 
 The Parties agree to comply with the at all time applicable laws as amended from time to time, including but limited to data protection legislation, in connection with its activities under the Partner Terms.
 
 The Parties agree and acknowledge that both Parties act as independent data controllers in respect of personal data processed by them pursuant to the Partner Terms. If one of the Parties shall process personal information on behalf of the other Party, the Parties must enter into a separate data processing agreement.
 
-## 13. CONFIDENTIALITY
+### 13. CONFIDENTIALITY
 
 Each Party must observe strict confidentiality and not disclose Confidential Information to third parties that the Party has received from the other Party in connection with the Partner Terms without prior written approval from the other Party. Confidential Information may only be used to fulfill the obligations under the Partner Terms and may only be disclosed to employees, contractors and consultants on a need-to-know basis. The Parties must impose confidentiality obligations on employees, contractors and consultants which covers the requirements for confidentiality in the Partner Terms.
 
@@ -573,13 +559,13 @@ The Partner shall upon Vipps MobilePay's request and in Vipps MobilePay's sole d
 
 This confidentiality undertaking shall survive any termination of the Partner Terms and shall remain in force during a period of three (3) years thereafter.
 
-## 14. INTELLECTUAL PROPERTY RIGHTS
+### 14. INTELLECTUAL PROPERTY RIGHTS
 
 Vipps MobilePay grants to the Partner a limited, non-exclusive and revocable right to market, distribute and promote the Products, as long as the Partner Terms are valid and in force, in the context of the Partner's business related to preparation, installment and integration services provided to the Merchants.
 
 Vipps MobilePay retains all right, title, and interest in and to the Vipps MobilePay intellectual property rights, including but not limited to name(s), brand(s), logo(s), APIs, Plugins, Documentation and Products, including without limitation the Vipps and/or MobilePay application and all other all software used to provide the products and all graphics, user interfaces, logos, and trademarks reproduced through the system, as well as all content other than the Partner's content.
 
-## 15. LIABILITY AND COMPENSATION
+### 15. LIABILITY AND COMPENSATION
 
 The Partner is responsible and bears the risk for the integration to the Products, APIs etc.
 
@@ -587,15 +573,12 @@ In no event shall a Party be liable for any indirect, special, incidental, or co
 
 Vipps MobilePay's maximum liability under the Partner Terms, including any agreement incorporating the Partner Terms, shall not exceed EUR 100 000.
 
-## 16. ASSIGNMENT
+### 16. ASSIGNMENT
 
 Neither the Partner Terms nor any of the duties or obligations under the Partner Terms may be delegated, transferred or assigned by the Partner without prior written approval of Vipps MobilePay.
 
-## 17. CHOICE OF LAW AND DISPUTE RESOLUTION
+### 17. CHOICE OF LAW AND DISPUTE RESOLUTION
 
 The Partner Terms, and any non-contractual obligations arising out of or in connection herewith, is governed by Norwegian law without regard to international private law regulations or principles leading to the application of other laws than substantial Norwegian law.
 
 Any dispute arising from the Partner Terms must, if possible, be resolved by negotiations between the Parties. If this is not possible, the case will be decided by ordinary court proceedings with Oslo as the venue.
-
-</TabItem>
-</Tabs>
