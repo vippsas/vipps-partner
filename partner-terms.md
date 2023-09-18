@@ -460,7 +460,7 @@ A Partner who will make payments on behalf of the Partner’s Merchant(s) can ge
 
 #### Plugins
 
-1. Vipps MobilePay will on an ongoing basis and in its sole discretion assess what platforms it offers Plugins for and when it is considered beneficial to initiate necessary work to establish official Plugins for a platform. Launch of new official Plugins is informed via the technical newsletter. Partner and Merchants are encouraged to use official Plugins.
+1. Vipps MobilePay will on an ongoing basis and in its sole discretion assess what platforms it offers Plugins for and when it is considered beneficial to initiate necessary work to establish official Plugins for a platform. Launch of new official Plugins is announced via the technical newsletter. Partner and Merchants are encouraged to use official Plugins.
 
 1. Vipps MobilePay is responsible for maintenance and upgrades of the official Plugins, as deemed necessary or beneficial by Vipps MobilePay in its sole discretion.
 
