@@ -480,11 +480,9 @@ A Partner who will make payments on behalf of the Partner’s Merchant(s) can ge
 
 1. Partner is obligated to upgrade to the newest versions of APIs after they have been made available by Vipps MobilePay. The updates are described in the API Lifecycle. Partner must update the APIs at the latest:
 
-* "Major version" within xx days.
-
-* "Minor version" within xx days.
-
-* "Patch version" within xx days.
+    * "Major version" within xx days.
+    * "Minor version" within xx days.
+    * "Patch version" within xx days.
 
     If the Partner does not upgrade in accordance with the before-mentioned, Vipps MobilePay is entitled to terminate the Partner Terms for cause as provided in section Termination.
 
