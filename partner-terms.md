@@ -137,15 +137,11 @@ A Partner who will make payments on behalf of the Partner’s Merchant(s) can ge
 
 1. Partner is obligated to monitor use of the APIs, including registering any error messages from the APIs in the Partner's solution, and to correct all API errors that are retrieved in the API responses. It is the Partner's responsibility to ensure correct use of the APIs. Partner must correct any erroneous use of the APIs within 30 days after Vipps MobilePay gives the Partner a written notice about unresolved errors. If the errors have not been corrected within 30 days after the written notice, Vipps MobilePay is entitled to terminate the Partner Terms for cause in accordance with section Termination.
 
-    If a Partner does not update Partner solution as instructed by Vipps MobilePay, Vipps MobilePay does not guarantee the functionality of the Products. When Vipps MobilePay phases out an API, or a part of an API (an endpoint), the previous version will function for a period of time as described in Documentation ([API Lifecycle](https://developer.vippsmobilepay.com/docs/common-topics/api-lifecycle/)).
+    If a Partner does not update Partner solution as instructed by Vipps MobilePay, Vipps MobilePay does not guarantee the functionality of the Products. When Vipps MobilePay phases out an API, or a part of an API (an endpoint), the previous version will function for a period of time as described in [API Lifecycle](https://developer.vippsmobilepay.com/docs/common-topics/api-lifecycle/).
 
     Plugins or integrations that a Partner has developed based on the API may stop functioning when a specific API is phased out, or it is materially changed.
 
-1. Partner is obligated to upgrade to the newest versions of APIs after they have been made available by Vipps MobilePay. The updates are described in the API Lifecycle. Partner must update the APIs at the latest:
-
-    * "Major version" within xx days.
-    * "Minor version" within xx days.
-    * "Patch version" within xx days.
+1. Partner is obligated to upgrade to the newest versions of APIs after they have been made available by Vipps MobilePay. The updates are described in the [API Lifecycle](https://developer.vippsmobilepay.com/docs/common-topics/api-lifecycle/).
 
     If the Partner does not upgrade in accordance with the before-mentioned, Vipps MobilePay is entitled to terminate the Partner Terms for cause as provided in section Termination.
 
