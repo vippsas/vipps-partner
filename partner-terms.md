@@ -19,9 +19,9 @@ END_METADATA -->
 
 ## Vipps MobilePay partner terms and conditions
 
-💥 These terms are under development and will be valid from 1 September 2023. 💥
-
 Version: 1.0.0
+
+These terms and conditions are valid from 1 September 2023.
 
 ### 1. SCOPE
 
