@@ -243,6 +243,8 @@ The Partner Terms, and any non-contractual obligations arising out of or in conn
 
 Any dispute arising from the Partner Terms must, if possible, be resolved by negotiations between the Parties. If this is not possible, the case will be decided by ordinary court proceedings with Oslo as the venue.
 
+## MobilePay partner terms and conditions
+
 
 ## Vipps partner terms and conditions (Norwegian)
 
