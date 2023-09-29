@@ -16,15 +16,12 @@ END_METADATA -->
 [Vipps MobilePay Technical Documentation](https://developer.vippsmobilepay.com/docs/partner/).
 <!-- END_COMMENT -->
 
-This document is an example that partners can use for documentation to their
-merchants of how to get started with Vipps MobilePay.
+This document provides examples for providing documentation to your merchants.
 
-The paragraphs prefixed with "ℹ️" is for the partners, and must not be in the
-finished documentation for the partner's merchants. See
-[Partners](https://developer.vippsmobilepay.com/docs/partner)
-for more information.
+The paragraphs prefixed with "ℹ️" is for you (the partner), and must not be in the
+finished documentation for the partner's merchants.
 
-## How to order Vipps MobilePay products
+## How to order products
 
 ℹ️ Partners should use the
 [Management API](https://developer.vippsmobilepay.com/docs/APIs/management-api/)
@@ -39,7 +36,7 @@ If the [Management API](https://developer.vippsmobilepay.com/docs/APIs/managemen
    If you need help, please contact
    [customer service](https://vipps.no/kontakt-oss/).
 4. Sign the application with BankID.
-5. Order "Vipps på nett" with the settings required by the partner.
+5. Order *Vipps på nett* with the settings required by the partner.
    Try to avoid the
    [typical reasons for delays](https://developer.vippsmobilepay.com/docs/partner#typical-reasons-for-delays).
 
@@ -57,8 +54,8 @@ use
 [partner keys](https://developer.vippsmobilepay.com/docs/partner/partner-keys)
 or not.
 
-1. Explain that (since you use the Management API and partner keys) the merchant
-   does not have to do anything after ordering Vipps MobilePay in the partner's interface:
+1. As a partner, explain that you are using the Management API and partner keys, so the merchant
+   doesn't have to do anything after ordering products in your interface:
 
    "When the application is complete, you will get an email.
    We, your partner, receive the same email.
@@ -66,20 +63,18 @@ or not.
    a six-digit number identifying your new sales unit.
    There is nothing more you need to do, we then have everything we need."
 
-2. Explain how to use the API keys in the partner's solution,
+2. Explain how to use the API keys in your solution,
    complete with screenshots with added arrows, text, etc.
    Link to
-   [Developer resources: Vipps portal: How to find the API keys](https://developer.vippsmobilepay.com/docs/developer-resources/portal),
+   [Common topics: API keys](https://developer.vippsmobilepay.com/docs/common-topics/api-keys),
    if relevant.
 
-For information about API keys, see
-[Common topics: API keys](https://developer.vippsmobilepay.com/docs/common-topics/api-keys).
 
-## Configuration of Vipps MobilePay on our (the partner) side
+## Configuration of Vipps or MobilePay on your site
 
-ℹ️ Describe *in detail* how to configure Vipps MobilePay, with screenshots, etc.
+ℹ️ Describe *in detail* how to configure Vipps or MobilePay with screenshots and details.
 Link to
-[Getting Started](https://developer.vippsmobilepay.com/docs/getting-started)
+[Getting Started](https://developer.vippsmobilepay.com/docs/getting-started),
 if relevant.
 
 Topics to cover:
@@ -92,26 +87,23 @@ Topics to cover:
 * Additional info (support)
 
 Consider linking to the
-[Vipps MobilePay FAQs](https://developer.vippsmobilepay.com/docs/faqs).
+[FAQs](https://developer.vippsmobilepay.com/docs/faqs).
 
 ## Frequently asked questions
 
 ℹ️ All partners must offer a FAQ for their merchants.
 Link to the
-[Vipps FAQs](https://developer.vippsmobilepay.com/docs/faqs),
+[FAQs](https://developer.vippsmobilepay.com/docs/faqs),
 if relevant.
 
 ## Order handling
 
 ℹ️ Document everything required for the merchant to manage their orders.
-All order management must be done in the partner's interface, using the Vipps MobilePay API platform,
-and *not* on [portal.vipps.no](https://portal.vipps.no).
+All order management must be done in your interface, using our API platform,
+rather than using [portal.vipps.no](https://portal.vipps.no).
 
-From the integration checklist:
-
-> Make sure your customer service, etc. has all the tools and information they need
-> available in your system, through the APIs listed in the first item in this
-> checklist, and that they do not need to visit [portal.vipps.no](https://portal.vipps.no) for normal work.
+Make sure your customer service has all the tools and information they need
+available in your system and that they do not need to visit [portal.vipps.no](https://portal.vipps.no) for normal work.
 
 Topics to cover:
 
@@ -127,13 +119,12 @@ Topics to cover:
 
 ## Support
 
-ℹ️ All partners must offer all required support for their merchants.
-Explain how to get help, how to use the partner's support system, etc.
-Document very clearly that the partner's merchants should *never* contact Vipps MobilePay directly.
+ℹ️ Offer all required support for your merchants.
+Explain how to get help, how to use your support system, and any other necessary details.
+Document very clearly that your merchants should contact you instead of Vipps MobilePay.
 
-## Questions
+For example:
 
-Please contact us, your partner, and we will help as soon as possible.
-We will contact Vipps MobilePay if needed, so you should not contact Vipps MobilePay directly.
-
-**ℹ️ Please note: Add partner name, address, website, phone, email, etc. here.**
+> Please contact us, your partner, and we will help as soon as possible.
+> We will contact Vipps MobilePay if needed, so you should not contact Vipps MobilePay directly.
+> **ℹ️ Please note: Add partner name, address, website, phone, email, etc. here.**

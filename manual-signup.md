@@ -11,18 +11,20 @@ END_METADATA -->
 
 # Manual signup
 
-Partners that cannot use the
-[Management API](https://developer.vippsmobilepay.com/docs/APIs/management-api/management-api-guide/#pre-fill-a-product-order) to pre-fill a product order must use manual signup.
+We recommend that you use the
+[Management API's pre-fill functionality](https://developer.vippsmobilepay.com/docs/APIs/management-api/management-api-guide/#pre-fill-a-product-order) to sign up a new merchant because it is much faster and easier to get all the details correct because you can pre-fill the product order information.
 
-The merchant must then fill out the form as follows:.
+If you aren't able to do this, the merchant manually sign up as follows:
 
 1. The merchant logs in to
-   [portal.vipps.no](https://portal.vipps.no) using BankID
-2. If the merchant does not have an existing customer relationship with Vipps MobilePay,
-   they need to first set this up. They can find the necessary form by going to:
-   `https://portal.vipps.no/register/{organisation-number-goes-here}`
+   [portal.vipps.no](https://portal.vipps.no) using BankID.
 
-   There, they need to fill in details for the company, including
+2. The merchant must have a customer relationship with Vipps MobilePay, if they don't already have this.
+
+    Sign up by going to:
+   [`https://portal.vipps.no/register/{organisation-number-goes-here}`](https://portal.vipps.no)
+
+   There, they can fill in details for the company, including
    real rights holders, politically exposed people, etc.
    This application must be signed with BankID by a person that has
    signatory rights for the company.
@@ -31,8 +33,7 @@ The merchant must then fill out the form as follows:.
    to *fill out* the form, but the *signing* of the form must be done
    by a person with signing rights for the merchant.
 
-3. If the merchant already has a customer relationship or the above step has
-   been done, the merchant then needs to apply for the relevant Vipps MobilePay product(s) on
+3. Once the merchant has a customer relationship with Vipps MobilePay, they can apply for the relevant Vipps MobilePay product(s) on
    [portal.vipps.no](https://portal.vipps.no).
 
    It is possible to give merchants a direct link to the right product:
@@ -42,18 +43,16 @@ The merchant must then fill out the form as follows:.
    * [Vipps Login](https://portal.vipps.no/register/vippslogginn)
 
    It's the partner's responsibility to make sure the merchant has all necessary
-   information to fill out the application correctly. The
-   [Management API's pre-fill functionality](https://developer.vippsmobilepay.com/docs/APIs/management-api/management-api-guide/#pre-fill-a-product-order)
-   eliminates both this and other steps for the merchant.
+   information to fill out the application correctly.
 
-   When the merchant applies for a Vipps MobilePay product it must select:
+   When the merchant applies for a product, they must select:
    * The product (or use a direct link as above)
    * The partner
    * The price package, typically "Price 1", "Price 2" or "Price 3".
       Although it's not ideal to let merchants select the price package,
       this is needed when not using the Management API.
 
-4. Vipps MobilePay processes the application and does customer control (KYC, PEP, AML, etc.).
+4. We process the application and perform customer control (KYC, PEP, AML, etc.).
    This may take a few days, depending on the information provided and the workload
    and the quality and completeness of the application.
    See the
@@ -61,26 +60,22 @@ The merchant must then fill out the form as follows:.
 5. The merchant can check the status of the application on
    [portal.vipps.no](https://portal.vipps.no)
    at any time.
-   Vipps MobilePay does not have the capacity to answer emails with status inquiries.
-   If the partner wants to know the status, it must check with the merchant.
-6. Vipps MobilePay notifies the merchant **and the partner** by email that the application is approved,
-   with the new MSN, and that the merchant can now use Vipps MobilePay.
+   We don't have the capacity to answer emails with status inquiries.
+   If the partner wants to know the status, they can check with the merchant.
+6. We notify the merchant **and the partner** by email that the application is approved,
+   with the new MSN, and that the merchant can now use the Vipps MobilePay products.
    Both the merchant and the partner receive exactly the same information.
    **Please note:** If the application is declined, only the merchant is notified,
-   as Vipps MobilePay may not be allowed to share the reason for declining.
+   as we may not be allowed to share the reason for declining.
 
-The partner can now use their
-[partner keys](./partner-keys.md)
-and the merchant's new MSN to make Vipps MobilePay payments.
+The partner can now use their [partner keys](./partner-keys.md)
+and the merchant's new MSN to make payments.
 
 **Please note:**
 
-* Partners can ask the merchant to create a user for them, so they get access
-  to the merchant's MSN on
-  [portal.vipps.no](https://portal.vipps.no)
-  as described
-  [in detail with screenshots here](add-portal-user.md).
-  The user permissions are described (in Norwegian)
-  [here](https://vipps.no/hjelp/vipps/kundeforholdet-mitt/hvilke-tilganger-kan-vi-opprette-i-vippsportalen/).
-  See:
-  [Developer resources: Vipps Portal: Permissions and users](https://developer.vippsmobilepay.com/docs/developer-resources/portal#permissions-and-users).
+* If the partner doesn't want to use partner keys, the merchant can [create a user for them](add-portal-user.md). Then, they will get access to the merchant's MSN.
+
+  For more about user permissions, see:
+    [I can't log into the portal (in Norwegian)](https://vipps.no/hjelp/vipps/kundeforholdet-mitt/hvilke-tilganger-kan-vi-opprette-i-vippsportalen/) and
+  [Portal: Permissions and users](https://developer.vippsmobilepay.com/docs/developer-resources/portal#permissions-and-users).
+
