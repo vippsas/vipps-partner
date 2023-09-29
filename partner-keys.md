@@ -39,7 +39,7 @@ working to offer different type of partner keys:
 
 | Name          | Description | Status |
 | ------------- | ----------- | ------ |
-| Partner keys | Provide access to the [Management API](https://developer.vippsmobilepay.com/docs/APIs/management-api/) (and the [Partner API](https://developer.vippsmobilepay.com/docs/APIs/partner-api)). Allow partners to initiate payments and move money on behalf of their merchants (for example, by using the [ePayment API](https://developer.vippsmobilepay.com/docs/APIs/epayment-api)). | Available now, see [Partner levels]([level-url]). |
+| Partner keys | Provide access to the [Management API](https://developer.vippsmobilepay.com/docs/APIs/management-api/) (and the [Partner API](https://developer.vippsmobilepay.com/docs/APIs/partner-api)). Allow partners to initiate payments and move money on behalf of their merchants (for example, by using the [ePayment API](https://developer.vippsmobilepay.com/docs/APIs/epayment-api)). | Available now, see [Partner levels][level-url]. |
 | Management keys | Provide access to the [Management API](https://developer.vippsmobilepay.com/docs/APIs/management-api/) (and the [Partner API](https://developer.vippsmobilepay.com/docs/APIs/partner-api)). Cannot be used to move money. Both partners and merchants may use management keys. | Planned availability in Q4. |
 | Accounting keys | Provide access to the [Report API](https://developer.vippsmobilepay.com/docs/APIs/report-api). Cannot be used to move money. | Planned availability in Q4. |
 
