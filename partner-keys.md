@@ -16,27 +16,20 @@ END_METADATA -->
 [Vipps MobilePay Technical Documentation](https://developer.vippsmobilepay.com/docs/partner/).
 <!-- END_COMMENT -->
 
-As a Partner Plus or Partner Premium partner ([see partner levels](https://developer.vippsmobilepay.com/docs/partner/partner-level-up/)), you manage transactions on behalf of Vipps MobilePay merchants.
-We provide you with *partner keys*, which allow you to use your own API credentials to
-make API calls on behalf of *all* your merchants
-(i.e., all the sales units that are linked to you as a partner).
+As a [*Partner Plus*][level-url] or [*Partner Premium*][level-url] partner, you can manage sales units and make transactions for your merchants through *partner keys*.
+These credentials allow you to make API requests on behalf of the sales units linked to you as a partner,
+whether they are Point of Sale (POS) integrations, online stores, apps, or other.
 
-The partner keys work for the sales units regardless linked to you as a partner,
-whether the keys are used in a POS integration, in a webshop, or something else.
+There are two ways of using partner keys:
 
-There are two ways to use partner keys:
-
-1. To use the
+1. Use the
    [Management API](https://developer.vippsmobilepay.com/docs/APIs/management-api/)
-   to manage your merchants' sales units and improve the flow for creating new sale units through pre-filled information.
-2. To make requests to the API platform on behalf of your merchants (including moving money).
-
-All partners (with a signed contract) can use partner keys for (1),
-but (2) requires more - see the rest of this document.
+   to manage your merchants' sales units and improve the flow for creating new sale units through pre-filled information. (*Available for all partners with a signed contract.*)
+2. Make requests to the [main APIs (including moving money)](https://developer.vippsmobilepay.com/docs/APIs/#main-apis) on behalf of your merchants. (*Requires a bit more approvals, see below.*)
 
 For partners making API calls on behalf of merchants:
 
-* The partner uses the partner keys (the partner's own "special" API keys) for all its merchants.
+* The partner uses the partner keys for all its merchants.
 * The partner specifies the MSN of the sales unit its acting on behalf of in the HTTP header.
 
 ## Types of partner keys
@@ -46,7 +39,7 @@ working to offer different type of partner keys:
 
 | Name          | Description | Status |
 | ------------- | ----------- | ------ |
-| Partner keys | Provide access to the [Management API](https://developer.vippsmobilepay.com/docs/APIs/management-api/) (and the [Partner API](https://developer.vippsmobilepay.com/docs/APIs/partner-api)). Allow partners to initiate payments and move money on behalf of their merchants (for example, by using the [ePayment API](https://developer.vippsmobilepay.com/docs/APIs/epayment-api)). | Available now, see [Partner levels](https://developer.vippsmobilepay.com/docs/partner/partner-level-up/). |
+| Partner keys | Provide access to the [Management API](https://developer.vippsmobilepay.com/docs/APIs/management-api/) (and the [Partner API](https://developer.vippsmobilepay.com/docs/APIs/partner-api)). Allow partners to initiate payments and move money on behalf of their merchants (for example, by using the [ePayment API](https://developer.vippsmobilepay.com/docs/APIs/epayment-api)). | Available now, see [Partner levels]([level-url]). |
 | Management keys | Provide access to the [Management API](https://developer.vippsmobilepay.com/docs/APIs/management-api/) (and the [Partner API](https://developer.vippsmobilepay.com/docs/APIs/partner-api)). Cannot be used to move money. Both partners and merchants may use management keys. | Planned availability in Q4. |
 | Accounting keys | Provide access to the [Report API](https://developer.vippsmobilepay.com/docs/APIs/report-api). Cannot be used to move money. | Planned availability in Q4. |
 
@@ -203,3 +196,6 @@ compliance checks, etc. after ordering products on
 [portal.vipps.no](https://portal.vipps.no).
 It is not possible to pay the partner instead of the merchant. See also:
 [Can I create a marketplace with multiple merchants?](https://developer.vippsmobilepay.com/docs/faqs/users-and-payments-faq#can-i-create-a-marketplace-with-multiple-merchants)
+
+
+[level-url]: https://developer.vippsmobilepay.com/docs/partner/partner-level-up/
