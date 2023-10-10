@@ -66,7 +66,7 @@ or not.
 2. Explain how to use the API keys in your solution,
    complete with screenshots with added arrows, text, etc.
    Link to
-   [Common topics: API keys](https://developer.vippsmobilepay.com/docs/common-topics/api-keys),
+   [Knowledge base: API keys](https://developer.vippsmobilepay.com/docs/common-topics/api-keys),
    if relevant.
 
 
