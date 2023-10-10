@@ -175,7 +175,7 @@ endpoints for both.
 * Vipps MobilePay cannot send the merchant's API keys to you. You must get them from the
   merchant securely (if partner keys are not used).
   See:
-  [Common topics: API Keys](https://developer.vippsmobilepay.com/docs/common-topics/api-keys#getting-the-api-keys)
+  [Knowledge base: API Keys](https://developer.vippsmobilepay.com/docs/common-topics/api-keys#getting-the-api-keys)
   for more details.
 * If the merchant is unable to provide the API keys to you securely, the merchant *can* create a user for you,
   [as described in detail with screenshots](add-portal-user.md).

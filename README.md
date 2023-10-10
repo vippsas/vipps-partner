@@ -65,7 +65,7 @@ A reseller partner does not use the API platform on behalf of the merchant.
 
 Merchants that use a reseller partner must
 *provide the API keys to the integration partner*.
-See [Common topics: API Keys](https://developer.vippsmobilepay.com/docs/common-topics/api-keys#getting-the-api-keys).
+See [Knowledge base: API Keys](https://developer.vippsmobilepay.com/docs/common-topics/api-keys#getting-the-api-keys).
 
 If the reseller partner continues to run, manage, and develop
 *everything* related to the Vipps MobilePay integration after it has been developed,
