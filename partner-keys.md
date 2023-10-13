@@ -69,6 +69,8 @@ On overview of which type of API keys give access to what:
 the partner will have two sets of API keys: Accounting keys and either Partner keys
 or Management keys.
 
+![Partner keys venn diagram](./images/partner-keys-venn-diagram.svg)
+
 ### An explanation for humans
 
 #### Partner keys
