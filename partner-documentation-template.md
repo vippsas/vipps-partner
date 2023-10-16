@@ -31,7 +31,7 @@ If the [Management API](https://developer.vippsmobilepay.com/docs/APIs/managemen
 [portal.vipps.no](https://portal.vipps.no), as described below:
 
 1. Log in with BankID (everyone with BankID can log in).
-2. Search for your company's name or organization number.
+2. Search for your business' name or organization number.
 3. Fill in the required information.
    If you need help, please contact
    [customer service](https://vipps.no/kontakt-oss/).
