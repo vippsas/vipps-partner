@@ -278,8 +278,8 @@ There are still some common problems that cause delays:
 * The merchant has signed a merchant agreement, but has not ordered any
   Vipps MobilePay products.
 * The application is not signed by a person that has signatory rights.
-  Merchants can check who can sign at
-  [Brønnøysundregistrene](https://www.brreg.no).
+  Merchants can check who can sign at the
+  [Brønnøysund Register](https://www.brreg.no).
 * The merchant's website does not have the
   [legally required terms and conditions](https://www.forbrukertilsynet.no/lov-og-rett/veiledninger-og-retningslinjer/standard-salgsbetingelser-for-forbrukerkjop-av-varer-over-internett).
 * The merchant's website does not have the organization number clearly visible.
