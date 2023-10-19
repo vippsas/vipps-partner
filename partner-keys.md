@@ -69,7 +69,18 @@ On overview of which type of API keys give access to what:
 the partner will have two sets of API keys: Accounting keys and either Partner keys
 or Management keys.
 
-![Partner keys venn diagram](./images/partner-keys-venn-diagram.svg)
+![Partner keys Venn diagram](./images/partner-keys-venn-diagram.svg)
+
+### Authentication for the different types of API keys
+
+Partner keys use the well-known
+[Access token API](https://developer.vippsmobilepay.com/docs/APIs/access-token-api/)
+and the
+[`POST:/accesstoken/get`](https://developer.vippsmobilepay.com/api/access-token/#tag/Authorization-Service/operation/fetchAuthorizationTokenUsingPost)
+endpoint.
+
+Management keys and Accounting keys use a _new_ token endpoint:
+`POST:/authentication/v1/token`.
 
 ### An explanation for humans
 
@@ -99,6 +110,9 @@ The *accounting keys* only allow access to the
 [Report API](https://developer.vippsmobilepay.com/docs/APIs/report-api),
 for retrieval of data about payments that have been made.
 They cannot be used to manage sales units or to make payments.
+
+A partner that act both as a "normal" partner and as an accounrting partner
+will have both partner keys and accounting keys.
 
 ## Authentication
 
@@ -150,7 +164,7 @@ If you answer *YES* to any of the following questions, partner keys is **not** f
 
 ## Partner keys for different APIs
 
-The same set of partner keys can be used for all your merchants' sales units, for both the
+The same set of partner keys can be used for all your merchants' sales units, such as the
 [ePayment API](https://developer.vippsmobilepay.com/docs/APIs/epayment-api/)
 and the
 [Recurring API](https://developer.vippsmobilepay.com/docs/APIs/recurring-api),
