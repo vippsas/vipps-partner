@@ -302,7 +302,11 @@ the following priority:
 1. Integrate with the
    [Management API](https://developer.vippsmobilepay.com/docs/APIs/management-api/),
    so the functionality is made available in the partner's own admin interface.
-2. Use the Management API manually with the Postman collection.
+   The Management API is designed and develop to enable as much self-service and
+   automation as possible. Our
+   [Partner terms and conditions](https://developer.vippsmobilepay.com/docs/partner/partner-terms/)
+   state that partners are obligated to use the Management API.
+2. Use the Management API manually with Postman.
 3. Ask the merchant to create a user for the partner on [portal.vipps.no](https://portal.vipps.no),
    so the partner can check on behalf of the merchant:
    [How to add a user on portal.vipps.no](https://developer.vippsmobilepay.com/docs/partner/add-portal-user).
