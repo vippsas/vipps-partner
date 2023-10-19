@@ -24,10 +24,10 @@ If you aren't able to do this, the merchant manually sign up as follows:
     Sign up by going to:
    [`https://portal.vipps.no/register/{organisation-number-goes-here}`](https://portal.vipps.no)
 
-   There, they can fill in details for the company, including
+   There, they can fill in details for the business, including
    real rights holders, politically exposed people, etc.
    This application must be signed with BankID by a person that has
-   signatory rights for the company.
+   signatory rights for the business.
 
    **Please note:** It is possible for the partner, or simply a person helping the merchant,
    to *fill out* the form, but the *signing* of the form must be done

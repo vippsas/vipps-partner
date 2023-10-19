@@ -28,11 +28,11 @@ If the merchant is unable to provide the API keys to the partner securely, the m
 This is a step-by-step guide for that.
 
 **Please note:** Access is provided for individuals.
-It is not possible for a merchant to give access to a company (like its partner),
+It is not possible for a merchant to give access to a business (e.g., its partner),
 only to specific people.
 There is no limit to the number of people that can be given access.
 
-1. Log in to [portal.vipps.no](https://portal.vipps.no) with BankID.
+1. Log in to the [merchant portal](https://portal.vipps.no) with BankID.
 
 2. Select *Brukertilganger* (*User access*) in the sidebar to see the list of users.
 
@@ -55,4 +55,4 @@ There is no limit to the number of people that can be given access.
 
     ![5](images/portal-add-user-5.png)
 
-    Click "Ferdig" (*Done*).
+    Click *Ferdig* (*Done*).

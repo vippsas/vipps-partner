@@ -372,8 +372,7 @@ gjennomført stegene beskrevet i
 Partner har ansvaret for at Produktene integreres og konfigureres
 optimalt hos Brukerstedene. Kostnader knyttet til Partners leveranse
 avtales direkte mellom Partner og Brukersted.
-Partner plikter å bruke [Vipps Partner
-API](https://developer.vippsmobilepay.com/docs/APIs/partner-api)
+Partner plikter å bruke Vipps Partner API
 når det er behov for å hente informasjon om et Brukersted eller en
 salgsenhet.  
 Partner plikter å abonnere på Vipps' tekniske nyhetsbrev til utviklere,
