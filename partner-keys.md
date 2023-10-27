@@ -197,7 +197,7 @@ customer relationship with us, and that have gone through the required
 compliance checks, etc. after ordering products on
 [portal.vipps.no](https://portal.vipps.no).
 It is not possible to pay the partner instead of the merchant. See also:
-[Can I create a marketplace with multiple merchants?](https://developer.vippsmobilepay.com/docs/faqs/users-and-payments-faq#can-i-create-a-marketplace-with-multiple-merchants)
+[Can I create a marketplace with multiple merchants?](https://developer.vippsmobilepay.com/docs/common-topics/payments/#can-i-create-a-marketplace-with-multiple-merchants)
 
 
 [level-url]: https://developer.vippsmobilepay.com/docs/partner/partner-level-up/

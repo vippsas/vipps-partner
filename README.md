@@ -307,9 +307,9 @@ the following priority:
    so the partner can check on behalf of the merchant:
    [How to add a user on portal.vipps.no](https://developer.vippsmobilepay.com/docs/partner/add-portal-user).
 4. See the FAQ for how to check if a sales unit
-   [has `skipLandingPage` enabled](https://developer.vippsmobilepay.com/docs/faqs/reserve-and-capture-faq#how-can-i-check-if-i-have-reserve-capture-or-direct-capture)
+   [has `skipLandingPage` enabled](https://developer.vippsmobilepay.com/docs/common-topics/reserve-and-capture/#how-can-i-check-if-i-have-reserve-capture-or-direct-capture)
    or
-   [which capture type it has direct capture turned off](https://developer.vippsmobilepay.com/docs/faqs/reserve-and-capture-faq#how-do-i-turn-direct-capture-on-or-off).
+   [which capture type it has direct capture turned off](https://developer.vippsmobilepay.com/docs/common-topics/reserve-and-capture/#how-do-i-turn-direct-capture-on-or-off).
 
 **Please note:** Vipps MobilePay cannot share information about the status of a
 merchant's agreement or product orders.

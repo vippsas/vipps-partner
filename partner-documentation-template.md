@@ -87,13 +87,13 @@ Topics to cover:
 * Additional info (support)
 
 Consider linking to the
-[FAQs](https://developer.vippsmobilepay.com/docs/faqs).
+[Knowledge base](https://developer.vippsmobilepay.com/docs/common-topics/).
 
 ## Frequently asked questions
 
 ℹ️ All partners must offer a FAQ for their merchants.
 Link to the
-[FAQs](https://developer.vippsmobilepay.com/docs/faqs),
+[Knowledge base](https://developer.vippsmobilepay.com/docs/common-topics/),
 if relevant.
 
 ## Order handling
