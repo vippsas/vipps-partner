@@ -39,7 +39,7 @@ This is the recommended way:
 1. The merchant logs in on
    [portal.vipps.no](https://portal.vipps.no)
    and retrieves the API keys for the MSN, as documented in
-   [Knowledge base: API Keys](https://developer.vippsmobilepay.com/docs/common-topics/api-keys#getting-the-api-keys).
+   [Knowledge base: API Keys](https://developer.vippsmobilepay.com/docs/knowledge-base/api-keys#getting-the-api-keys).
 2. The merchant securely provides the MSN's API keys to *both* the
    old partner and the new partner. This ensures that both partners can
    make API calls for the MSN, regardless of each partner's

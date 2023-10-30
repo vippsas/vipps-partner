@@ -123,7 +123,7 @@ Note that the partner keys must be used to get the access token, sent in the
 `Authorization` header shown above.
 
 The following is an example Management API request including the `Merchant-Serial-Number` header, partner keys, and the required
-[HTTP headers](https://developer.vippsmobilepay.com/docs/common-topics/http-headers).
+[HTTP headers](https://developer.vippsmobilepay.com/docs/knowledge-base/http-headers).
 
 ```json
 Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1Ni <snip>
@@ -177,7 +177,7 @@ endpoints for both.
 * Vipps MobilePay cannot send the merchant's API keys to you. You must get them from the
   merchant securely (if partner keys are not used).
   See:
-  [Knowledge base: API Keys](https://developer.vippsmobilepay.com/docs/common-topics/api-keys#getting-the-api-keys)
+  [Knowledge base: API Keys](https://developer.vippsmobilepay.com/docs/knowledge-base/api-keys#getting-the-api-keys)
   for more details.
 * If the merchant is unable to provide the API keys to you securely, the merchant *can* create a user for you,
   [as described in detail with screenshots](add-portal-user.md).
@@ -197,7 +197,7 @@ customer relationship with us, and that have gone through the required
 compliance checks, etc. after ordering products on
 [portal.vipps.no](https://portal.vipps.no).
 It is not possible to pay the partner instead of the merchant. See also:
-[Can I create a marketplace with multiple merchants?](https://developer.vippsmobilepay.com/docs/common-topics/payments/#can-i-create-a-marketplace-with-multiple-merchants)
+[Can I create a marketplace with multiple merchants?](https://developer.vippsmobilepay.com/docs/knowledge-base/payments/#can-i-create-a-marketplace-with-multiple-merchants)
 
 
 [level-url]: https://developer.vippsmobilepay.com/docs/partner/partner-level-up/

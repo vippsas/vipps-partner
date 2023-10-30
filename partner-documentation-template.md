@@ -66,7 +66,7 @@ or not.
 2. Explain how to use the API keys in your solution,
    complete with screenshots with added arrows, text, etc.
    Link to
-   [Knowledge base: API keys](https://developer.vippsmobilepay.com/docs/common-topics/api-keys),
+   [Knowledge base: API keys](https://developer.vippsmobilepay.com/docs/knowledge-base/api-keys),
    if relevant.
 
 
@@ -87,13 +87,13 @@ Topics to cover:
 * Additional info (support)
 
 Consider linking to the
-[Knowledge base](https://developer.vippsmobilepay.com/docs/common-topics/).
+[Knowledge base](https://developer.vippsmobilepay.com/docs/knowledge-base/).
 
 ## Frequently asked questions
 
 ℹ️ All partners must offer a FAQ for their merchants.
 Link to the
-[Knowledge base](https://developer.vippsmobilepay.com/docs/common-topics/),
+[Knowledge base](https://developer.vippsmobilepay.com/docs/knowledge-base/),
 if relevant.
 
 ## Order handling

@@ -65,7 +65,7 @@ A reseller partner does not use the API platform on behalf of the merchant.
 
 Merchants that use a reseller partner must
 *provide the API keys to the integration partner*.
-See [Knowledge base: API Keys](https://developer.vippsmobilepay.com/docs/common-topics/api-keys#getting-the-api-keys).
+See [Knowledge base: API Keys](https://developer.vippsmobilepay.com/docs/knowledge-base/api-keys#getting-the-api-keys).
 
 If the reseller partner continues to run, manage, and develop
 *everything* related to the Vipps MobilePay integration after it has been developed,
@@ -130,10 +130,10 @@ relevant API checklists are done. See the checklists:
 
 **Important:** Please make sure to read and understand the checklist.
 You must provide the required information, such as
-[`reference`](https://developer.vippsmobilepay.com/docs/common-topics/orderid/),
-[`paymentDescription`](https://developer.vippsmobilepay.com/docs/common-topics/transactiontext/)
+[`reference`](https://developer.vippsmobilepay.com/docs/knowledge-base/orderid/),
+[`paymentDescription`](https://developer.vippsmobilepay.com/docs/knowledge-base/transactiontext/)
 and
-[HTTP headers](https://developer.vippsmobilepay.com/docs/common-topics/http-headers/).
+[HTTP headers](https://developer.vippsmobilepay.com/docs/knowledge-base/http-headers/).
 If you simply send a copy of the checklist with "OK" for each item,
 we will have to ask you again to complete the checklist.
 
@@ -187,7 +187,7 @@ We encourage submitting issues and pull requests to improve the plugins.
 
 If you have developed, or plan to develop, a plugin for Vipps MobilePay, and you think
 it may be a candidate for becoming an official plugin: See
-[How to become a partner](#how-to-become-a-vipps-partner)
+[How to become a partner](#how-to-become-a-partner)
 and let us know what your plans are.
 
 ## How to get access to portal.vipps.no
@@ -307,9 +307,9 @@ the following priority:
    so the partner can check on behalf of the merchant:
    [How to add a user on portal.vipps.no](https://developer.vippsmobilepay.com/docs/partner/add-portal-user).
 4. See the FAQ for how to check if a sales unit
-   [has `skipLandingPage` enabled](https://developer.vippsmobilepay.com/docs/common-topics/reserve-and-capture/#how-can-i-check-if-i-have-reserve-capture-or-direct-capture)
+   [has `skipLandingPage` enabled](https://developer.vippsmobilepay.com/docs/knowledge-base/reserve-and-capture/#how-can-i-check-if-i-have-reserve-capture-or-direct-capture)
    or
-   [which capture type it has direct capture turned off](https://developer.vippsmobilepay.com/docs/common-topics/reserve-and-capture/#how-do-i-turn-direct-capture-on-or-off).
+   [which capture type it has direct capture turned off](https://developer.vippsmobilepay.com/docs/knowledge-base/reserve-and-capture/#how-do-i-turn-direct-capture-on-or-off).
 
 **Please note:** Vipps MobilePay cannot share information about the status of a
 merchant's agreement or product orders.

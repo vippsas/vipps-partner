@@ -49,11 +49,11 @@ The following definitions are used in the Partner Terms
 
 **Merchant Terms:** the at all times applicable terms and conditions applicable to Vipps MobilePay's Products, available at Vipps MobilePay's website.
 
-**Partner:** a legal person, registered in the Norwegian Central Coordinating Register for Legal Entities or an equivalent public register within the EEA-area, who offers preparation, installment and integration of the Products delivered to Merchants who manages transactions on behalf of Merchants. Partner can be a platform partner or a reseller as defined in the Documentation ([Partners](https://developer.vippsmobilepay.com/docs/vipps-partner#partner-types)).
+**Partner:** a legal person, registered in the Norwegian Central Coordinating Register for Legal Entities or an equivalent public register within the EEA-area, who offers preparation, installment and integration of the Products delivered to Merchants who manages transactions on behalf of Merchants. Partner can be a platform partner or a reseller as defined in the Documentation ([Partners](./README.md#partner-types)).
 
-**Partner Keys:** keys that allow Partner to use its own API credentials to manage sales units using the Management API, and to make API requests on behalf of the Partner's Merchants, as described in the Documentation ([Partner Keys](https://developer.vippsmobilepay.com/docs/vipps-partner/partner-keys/)).
+**Partner Keys:** keys that allow Partner to use its own API credentials to manage sales units using the Management API, and to make API requests on behalf of the Partner's Merchants, as described in the Documentation ([Partner Keys](./partner-keys.md)).
 
-**Plugins:** software components as described in the Documentation ([Plugins](https://developer.vippsmobilepay.com/docs/vipps-plugins/)), including SDKs.
+**Plugins:** software components as described in the Documentation ([Plugins](https://developer.vippsmobilepay.com/docs/plugins/)), including SDKs.
 
 **Products:** all payment services and ancillary services provided to Merchants by Vipps MobilePay and included in the product portfolio described at [vippsmobilepay.com](https://vippsmobilepay.com/) as amended from time to time by Vipps MobilePay. That notwithstanding, pass-through services where Vipps MobilePay facilitates acceptance of a payment made with a payment instrument issued by a third party (currently Vipps PSP and MobilePay Online) are not included in Products.
 
@@ -67,7 +67,7 @@ The following definitions are used in the Partner Terms
 
 1. Partner gets a limited, non-exclusive and revocable right to market, distribute and promote the Products as a reseller, as long as the Partner Terms are valid and in force, and in the context of the Partner's business related to preparation, installment and integration services provided to the Merchants.
 
-1. Partner must perform required changes as determined in the Documentation ([API Lifecycle](https://developer.vippsmobilepay.com/docs/common-topics/api-lifecycle/)) before the time limit which is set for production date and performance of changes when Vipps MobilePay notifies of changes to the API in accordance with section "Amendments" of the Partner Terms, and which require changes to the Partner's solution.
+1. Partner must perform required changes as determined in the Documentation ([API Lifecycle](https://developer.vippsmobilepay.com/docs/knowledge-base/api-lifecycle/)) before the time limit which is set for production date and performance of changes when Vipps MobilePay notifies of changes to the API in accordance with section "Amendments" of the Partner Terms, and which require changes to the Partner's solution.
 
 1. Partner may not distribute, integrate or otherwise prepare the Products for Merchants who are not allowed to receive payments with the Products according to Vipps MobilePay's Merchant Terms, for example Merchants offering forbidden products or services.
 
@@ -137,11 +137,11 @@ A Partner who will make payments on behalf of the Partner’s Merchant(s) can ge
 
 1. Partner is obligated to monitor use of the APIs, including registering any error messages from the APIs in the Partner's solution, and to correct all API errors that are retrieved in the API responses. It is the Partner's responsibility to ensure correct use of the APIs. Partner must correct any erroneous use of the APIs within 30 days after Vipps MobilePay gives the Partner a written notice about unresolved errors. If the errors have not been corrected within 30 days after the written notice, Vipps MobilePay is entitled to terminate the Partner Terms for cause in accordance with section Termination.
 
-    If a Partner does not update Partner solution as instructed by Vipps MobilePay, Vipps MobilePay does not guarantee the functionality of the Products. When Vipps MobilePay phases out an API, or a part of an API (an endpoint), the previous version will function for a period of time as described in [API Lifecycle](https://developer.vippsmobilepay.com/docs/common-topics/api-lifecycle/).
+    If a Partner does not update Partner solution as instructed by Vipps MobilePay, Vipps MobilePay does not guarantee the functionality of the Products. When Vipps MobilePay phases out an API, or a part of an API (an endpoint), the previous version will function for a period of time as described in [API Lifecycle](https://developer.vippsmobilepay.com/docs/knowledge-base/api-lifecycle/).
 
     Plugins or integrations that a Partner has developed based on the API may stop functioning when a specific API is phased out, or it is materially changed.
 
-1. Partner is obligated to upgrade to the newest versions of APIs after they have been made available by Vipps MobilePay. The updates are described in the [API Lifecycle](https://developer.vippsmobilepay.com/docs/common-topics/api-lifecycle/).
+1. Partner is obligated to upgrade to the newest versions of APIs after they have been made available by Vipps MobilePay. The updates are described in the [API Lifecycle](https://developer.vippsmobilepay.com/docs/knowledge-base/api-lifecycle/).
 
     If the Partner does not upgrade in accordance with the before-mentioned, Vipps MobilePay is entitled to terminate the Partner Terms for cause as provided in section Termination.
 
