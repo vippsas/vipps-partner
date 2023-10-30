@@ -49,11 +49,11 @@ The following definitions are used in the Partner Terms
 
 **Merchant Terms:** the at all times applicable terms and conditions applicable to Vipps MobilePay's Products, available at Vipps MobilePay's website.
 
-**Partner:** a legal person, registered in the Norwegian Central Coordinating Register for Legal Entities or an equivalent public register within the EEA-area, who offers preparation, installment and integration of the Products delivered to Merchants who manages transactions on behalf of Merchants. Partner can be a platform partner or a reseller as defined in the Documentation ([Partners](https://developer.vippsmobilepay.com/docs/vipps-partner#partner-types)).
+**Partner:** a legal person, registered in the Norwegian Central Coordinating Register for Legal Entities or an equivalent public register within the EEA-area, who offers preparation, installment and integration of the Products delivered to Merchants who manages transactions on behalf of Merchants. Partner can be a platform partner or a reseller as defined in the Documentation ([Partners](./README.md#partner-types)).
 
-**Partner Keys:** keys that allow Partner to use its own API credentials to manage sales units using the Management API, and to make API requests on behalf of the Partner's Merchants, as described in the Documentation ([Partner Keys](https://developer.vippsmobilepay.com/docs/vipps-partner/partner-keys/)).
+**Partner Keys:** keys that allow Partner to use its own API credentials to manage sales units using the Management API, and to make API requests on behalf of the Partner's Merchants, as described in the Documentation ([Partner Keys](./partner-keys.md)).
 
-**Plugins:** software components as described in the Documentation ([Plugins](https://developer.vippsmobilepay.com/docs/vipps-plugins/)), including SDKs.
+**Plugins:** software components as described in the Documentation ([Plugins](https://developer.vippsmobilepay.com/docs/plugins/)), including SDKs.
 
 **Products:** all payment services and ancillary services provided to Merchants by Vipps MobilePay and included in the product portfolio described at [vippsmobilepay.com](https://vippsmobilepay.com/) as amended from time to time by Vipps MobilePay. That notwithstanding, pass-through services where Vipps MobilePay facilitates acceptance of a payment made with a payment instrument issued by a third party (currently Vipps PSP and MobilePay Online) are not included in Products.
 

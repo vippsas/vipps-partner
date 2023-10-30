@@ -187,7 +187,7 @@ We encourage submitting issues and pull requests to improve the plugins.
 
 If you have developed, or plan to develop, a plugin for Vipps MobilePay, and you think
 it may be a candidate for becoming an official plugin: See
-[How to become a partner](#how-to-become-a-vipps-partner)
+[How to become a partner](#how-to-become-a-partner)
 and let us know what your plans are.
 
 ## How to get access to portal.vipps.no
