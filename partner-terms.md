@@ -67,7 +67,7 @@ The following definitions are used in the Partner Terms
 
 1. Partner gets a limited, non-exclusive and revocable right to market, distribute and promote the Products as a reseller, as long as the Partner Terms are valid and in force, and in the context of the Partner's business related to preparation, installment and integration services provided to the Merchants.
 
-1. Partner must perform required changes as determined in the Documentation ([API Lifecycle](https://developer.vippsmobilepay.com/docs/common-topics/api-lifecycle/)) before the time limit which is set for production date and performance of changes when Vipps MobilePay notifies of changes to the API in accordance with section "Amendments" of the Partner Terms, and which require changes to the Partner's solution.
+1. Partner must perform required changes as determined in the Documentation ([API Lifecycle](https://developer.vippsmobilepay.com/docs/knowledge-base/api-lifecycle/)) before the time limit which is set for production date and performance of changes when Vipps MobilePay notifies of changes to the API in accordance with section "Amendments" of the Partner Terms, and which require changes to the Partner's solution.
 
 1. Partner may not distribute, integrate or otherwise prepare the Products for Merchants who are not allowed to receive payments with the Products according to Vipps MobilePay's Merchant Terms, for example Merchants offering forbidden products or services.
 
@@ -137,11 +137,11 @@ A Partner who will make payments on behalf of the Partner’s Merchant(s) can ge
 
 1. Partner is obligated to monitor use of the APIs, including registering any error messages from the APIs in the Partner's solution, and to correct all API errors that are retrieved in the API responses. It is the Partner's responsibility to ensure correct use of the APIs. Partner must correct any erroneous use of the APIs within 30 days after Vipps MobilePay gives the Partner a written notice about unresolved errors. If the errors have not been corrected within 30 days after the written notice, Vipps MobilePay is entitled to terminate the Partner Terms for cause in accordance with section Termination.
 
-    If a Partner does not update Partner solution as instructed by Vipps MobilePay, Vipps MobilePay does not guarantee the functionality of the Products. When Vipps MobilePay phases out an API, or a part of an API (an endpoint), the previous version will function for a period of time as described in [API Lifecycle](https://developer.vippsmobilepay.com/docs/common-topics/api-lifecycle/).
+    If a Partner does not update Partner solution as instructed by Vipps MobilePay, Vipps MobilePay does not guarantee the functionality of the Products. When Vipps MobilePay phases out an API, or a part of an API (an endpoint), the previous version will function for a period of time as described in [API Lifecycle](https://developer.vippsmobilepay.com/docs/knowledge-base/api-lifecycle/).
 
     Plugins or integrations that a Partner has developed based on the API may stop functioning when a specific API is phased out, or it is materially changed.
 
-1. Partner is obligated to upgrade to the newest versions of APIs after they have been made available by Vipps MobilePay. The updates are described in the [API Lifecycle](https://developer.vippsmobilepay.com/docs/common-topics/api-lifecycle/).
+1. Partner is obligated to upgrade to the newest versions of APIs after they have been made available by Vipps MobilePay. The updates are described in the [API Lifecycle](https://developer.vippsmobilepay.com/docs/knowledge-base/api-lifecycle/).
 
     If the Partner does not upgrade in accordance with the before-mentioned, Vipps MobilePay is entitled to terminate the Partner Terms for cause as provided in section Termination.
 
