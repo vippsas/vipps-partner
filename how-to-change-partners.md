@@ -60,7 +60,7 @@ Both partners can use the MSN's own API (from step 2) keys if there are "special
 API calls to make in the transition period.
 The new partner should *always* use the partner keys.
 We offer a
-[Postman collection](https://developer.vippsmobilepay.com/docs/APIs/recurring-api/vipps-recurring-api-quick-start)
+[Postman collection](https://developer.vippsmobilepay.com/docs/APIs/recurring-api/recurring-api-quick-start)
 that can be used to make manual API calls if needed.
 
 The new partner should use the
