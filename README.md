@@ -125,7 +125,7 @@ relevant API checklists are done. See the checklists:
   (the [ePayment API](https://developer.vippsmobilepay.com/docs/APIs/epayment-api/)
   supersedes the
   [eCom API](https://developer.vippsmobilepay.com/docs/APIs/ecom-api/))
-* [ ] [Recurring API](https://developer.vippsmobilepay.com/docs/APIs/recurring-api/vipps-recurring-api-checklist)
+* [ ] [Recurring API](https://developer.vippsmobilepay.com/docs/APIs/recurring-api/recurring-api-checklist)
 * [ ] [Login API](https://developer.vippsmobilepay.com/docs/APIs/login-api/login-api-checklist)
 
 **Important:** Please make sure to read and understand the checklist.
