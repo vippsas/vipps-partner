@@ -16,21 +16,26 @@ END_METADATA -->
 [Vipps MobilePay Technical Documentation](https://developer.vippsmobilepay.com/docs/partner/).
 <!-- END_COMMENT -->
 
-As a [*Partner Plus*][level-url] or [*Partner Premium*][level-url] partner, you can manage sales units and make transactions for your merchants through *partner keys*.
-These credentials allow you to make API requests on behalf of the sales units linked to you as a partner,
+As a [*Partner Plus*][level-url] or [*Partner Premium*][level-url] partner, you can manage
+sales units and make transactions for your merchants through *partner keys*.
+These credentials allow you to make API requests on behalf of the sales units connected to you as a partner,
 whether they are Point of Sale (POS) integrations, online stores, apps, or other.
 
 There are two ways of using partner keys:
 
 1. Use the
    [Management API](https://developer.vippsmobilepay.com/docs/APIs/management-api/)
-   to manage your merchants' sales units and improve the flow for creating new sale units through pre-filled information. (*Available for all partners with a signed contract.*)
-2. Make requests to the [main APIs (including moving money)](https://developer.vippsmobilepay.com/docs/APIs/#main-apis) on behalf of your merchants. (*Requires a bit more approvals, see below.*)
+   to manage your merchants' sales units and improve the flow for creating new sale units
+   through pre-filled information. (*Available for all partners with a signed contract.*)
+2. Make requests to the
+   [main APIs (including moving money)](https://developer.vippsmobilepay.com/docs/APIs/#main-apis)
+   on behalf of your merchants. (*Requires a bit more approvals, see below.*)
 
 For partners making API calls on behalf of merchants:
 
 * The partner uses the partner keys for all its merchants.
-* The partner specifies the MSN of the sales unit its acting on behalf of in the HTTP header.
+* The partner specifies the MSN of the sales unit its acting on behalf of in the
+  `Merchant-Serial-Number` HTTP header.
 
 ## Types of partner keys
 
@@ -142,11 +147,11 @@ the merchants*, as that will let one merchant perform API calls (including
 making payments, refunds, etc.) on behalf of another merchant.
 
 :bomb: **Potential pitfalls:**
-If you answer *YES* to any of the following questions, partner keys is **not** for your solution.
+If your answer is *yes* to any of the following questions, partner keys is **not** for your solution.
 
-* [ ] Your merchants can see the partner keys (`client_id`, `client_secret`, `Ocp-Apim-Subscription-Key`) in your solution.
-* [ ] Your merchants have the ability to *change* their MSN (Merchant Serial Number) in your solution.
-* [ ] The keys and secrets are stored on the merchant system's (in a way that allows them to access and see it).
+* Your merchants can see the partner keys (`client_id`, `client_secret`, `Ocp-Apim-Subscription-Key`) in your solution.
+* Your merchants have the ability to *change* their MSN (Merchant Serial Number) in your solution.
+* The keys and secrets are stored on the merchant system's (in a way that allows them to access and see it).
 
 ## Partner keys for different APIs
 
@@ -156,7 +161,8 @@ and the
 [Recurring API](https://developer.vippsmobilepay.com/docs/APIs/recurring-api),
 including the
 [Userinfo](https://developer.vippsmobilepay.com/docs/APIs/userinfo-api)
-endpoints for both.
+endpoints for both, and also the
+[Login API](https://developer.vippsmobilepay.com/docs/APIs/login-api/).
 
 ## Important information
 
