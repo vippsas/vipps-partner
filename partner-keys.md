@@ -85,7 +85,7 @@ and the
 endpoint.
 
 Management keys and Accounting keys use a _new_ token endpoint:
-`POST:/authentication/v1/token`.
+`POST:/miami/v1/token`.
 
 ### An explanation for humans
 
