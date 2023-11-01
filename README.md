@@ -302,7 +302,7 @@ the following priority:
 1. Integrate with the
    [Management API](https://developer.vippsmobilepay.com/docs/APIs/management-api/),
    so the functionality is made available in the partner's own admin interface.
-   The Management API is designed and develop to enable as much self-service and
+   The Management API is designed and developed to enable as much self-service and
    automation as possible. Our
    [Partner terms and conditions](https://developer.vippsmobilepay.com/docs/partner/partner-terms/)
    state that partners are obligated to use the Management API.
