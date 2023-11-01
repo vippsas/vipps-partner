@@ -116,8 +116,7 @@ The *accounting keys* only allow access to the
 for retrieval of data about payments that have been made.
 They cannot be used to manage sales units or to make payments.
 
-A partner that act both as a "normal" partner and as an accounrting partner
-will have both partner keys and accounting keys.
+Accounting keys are separate and do not have overlapping functionality with the other types of partner keys. Partners who have either *partner keys* or *management keys* will need a separate set of *accounting keys* to access the Report API
 
 ## Authentication
 
