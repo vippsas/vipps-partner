@@ -46,7 +46,7 @@ working to offer different type of partner keys:
 | ------------- | ----------- | ------ |
 | Partner keys | Provide access to the [Management API](https://developer.vippsmobilepay.com/docs/APIs/management-api/). Allow partners to initiate payments and move money on behalf of their merchants (for example, by using the [ePayment API](https://developer.vippsmobilepay.com/docs/APIs/epayment-api)). | Available now, see [Partner levels][level-url]. |
 | Management keys | Provide access to the [Management API](https://developer.vippsmobilepay.com/docs/APIs/management-api/). Cannot be used to move money. Both partners and merchants may use management keys. | Planned availability in Q4, aiming for late November. |
-| Accounting keys | Provide access to the [Report API](https://developer.vippsmobilepay.com/docs/APIs/report-api). Cannot be used to move money. | Planned availability in Q4, aiming for late November. |
+| Accounting keys | Provide access to the [Report API](https://developer.vippsmobilepay.com/docs/APIs/report-api). Cannot be used to move money. | Available now. |
 
 *Partner keys* are for partners who will make payments on behalf of their merchants.
 However, since the [Report API](https://developer.vippsmobilepay.com/docs/APIs/report-api) can
@@ -84,8 +84,11 @@ and the
 [`POST:/accesstoken/get`](https://developer.vippsmobilepay.com/api/access-token/#tag/Authorization-Service/operation/fetchAuthorizationTokenUsingPost)
 endpoint.
 
-Management keys and Accounting keys use a _new_ token endpoint:
+Partners using Management keys and Accounting keys use a _new_ token endpoint:
 [`POST:/miami/v1/token`](https://developer.vippsmobilepay.com/api/access-token/#tag/Token-endpoint).
+
+See:
+[Access token API: Two endpoints](https://developer.vippsmobilepay.com/docs/APIs/access-token-api/#two-endpoints).
 
 ### An explanation for humans
 
