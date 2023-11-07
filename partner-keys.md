@@ -85,7 +85,7 @@ and the
 endpoint.
 
 Management keys and Accounting keys use a _new_ token endpoint:
-`POST:/miami/v1/token`.
+[`POST:/miami/v1/token`](https://developer.vippsmobilepay.com/api/access-token/#tag/Token-endpoint).
 
 ### An explanation for humans
 
