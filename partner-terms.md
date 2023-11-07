@@ -63,7 +63,7 @@ The following definitions are used in the Partner Terms
 
 ### 3. PARTNER OBLIGATIONS
 
-1. Partner must have read and comply with the applicable API checklist in the technical [Documentation](https://developer.vippsmobilepay.com/docs/vipps-partner/).
+1. Partner must have read and comply with the applicable API checklist in the technical [Documentation](https://developer.vippsmobilepay.com/docs/partner/).
 
 1. Partner gets a limited, non-exclusive and revocable right to market, distribute and promote the Products as a reseller, as long as the Partner Terms are valid and in force, and in the context of the Partner's business related to preparation, installment and integration services provided to the Merchants.
 
